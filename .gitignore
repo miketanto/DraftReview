@@ -26,3 +26,5 @@ dist-ssr
 
 # SQLite database
 server/reviews.db
+server/reviews.db-shm
+server/reviews.db-wal
