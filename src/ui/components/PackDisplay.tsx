@@ -14,7 +14,7 @@ export function PackDisplay({
   cards,
   pickedCardName,
   cardSignals,
-  wheeledCards,
+  wheeledCards: _wheeledCards,
   onCardClick,
 }: PackDisplayProps) {
   const signalsByCard = new Map<string, PickSignal[]>();

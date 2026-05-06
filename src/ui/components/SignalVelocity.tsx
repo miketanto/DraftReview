@@ -25,7 +25,7 @@ export function SignalVelocity({ metrics }: SignalVelocityProps) {
       <div style={{ color: '#888', marginBottom: 6, fontWeight: 700 }}>
         SIGNAL VELOCITY
       </div>
-      {metrics.trending.map(({ archetype, velocity, direction }) => {
+      {metrics.trending.map(({ archetype, velocity: _velocity, direction }) => {
         const color = ARCHETYPE_COLORS[archetype];
         const windowed = metrics.windowedScores[archetype];
         const barWidth = (windowed / maxWindowed) * 100;

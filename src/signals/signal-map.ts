@@ -1,6 +1,6 @@
 import type { ArchetypeId } from '../shared/types';
 import type { CachedCardData } from '../data/types';
-import type { CardSignalEntry, SignalMap, SignalTier } from './types';
+import type { SignalMap, SignalTier } from './types';
 import {
   COLOR_TO_ARCHETYPE,
   TWO_COLOR_KEYS,

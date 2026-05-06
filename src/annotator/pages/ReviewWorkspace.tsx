@@ -13,7 +13,7 @@ import { LayerToggle } from '../components/LayerToggle';
 import { UserIdentityModal } from '../components/UserIdentityModal';
 import { DraftSummaryPanel } from '../components/DraftSummaryPanel';
 import { PickNavigator } from '../../ui/components/PickNavigator';
-import type { Timeline, Divergence, AnnotationLayer, PickAnnotation, DraftSummary } from '../types';
+import type { Divergence, PickAnnotation } from '../types';
 
 export function ReviewWorkspace() {
   const { id } = useParams<{ id: string }>();

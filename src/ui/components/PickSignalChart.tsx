@@ -3,7 +3,6 @@ import type { ArchetypeId } from '../../shared/types';
 import {
   ARCHETYPE_ABBREV,
   ARCHETYPE_COLORS,
-  ARCHETYPES,
 } from '../../shared/constants';
 
 const ARCHETYPE_ORDER: ArchetypeId[] = [
