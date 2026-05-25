@@ -250,7 +250,7 @@ export function ReviewWorkspace() {
               textDecoration: 'none',
             }}
           >
-            Buy me a coffee
+            Leave a tip
           </a>
         </div>
       </div>
@@ -272,8 +272,8 @@ export function ReviewWorkspace() {
       </div>
 
       <PickNavigator
-        packNumber={showSummary ? 0 : pick!.pack_number}
-        pickNumber={showSummary ? 0 : pick!.pick_number}
+        packNumber={showSummary ? 0 : pick!.pack_number + 1}
+        pickNumber={showSummary ? 0 : pick!.pick_number + 1}
         currentIndex={pickIndex}
         totalPicks={picks.length + 1}
         onPrev={goToPrev}

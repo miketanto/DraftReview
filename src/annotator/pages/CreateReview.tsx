@@ -54,7 +54,7 @@ export function CreateReview() {
             textDecoration: 'none',
           }}
         >
-          Buy me a coffee
+          Leave a tip
         </a>
       </div>
       <div
