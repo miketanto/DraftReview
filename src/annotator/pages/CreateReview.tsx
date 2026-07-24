@@ -54,13 +54,14 @@ export function CreateReview() {
           rel="noopener noreferrer"
           style={{
             padding: '4px 10px',
-            backgroundColor: 'transparent',
-            color: T.ink2,
-            border: `1px solid ${T.line1}`,
+            backgroundColor: '#FFDD00',
+            color: '#1A1400',
+            border: '1px solid #FFDD00',
+            borderBottom: '2px solid #C9AE00',
             borderRadius: T.radius.m,
             fontFamily: T.mono,
             fontSize: T.fs.t1,
-            fontWeight: 600,
+            fontWeight: 700,
             letterSpacing: '0.08em',
             textTransform: 'uppercase',
             textDecoration: 'none',

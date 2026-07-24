@@ -451,7 +451,15 @@ function WorkspaceInner({
             href="https://buymeacoffee.com/miketanto"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ ...btnStyle(), textDecoration: 'none', color: T.ink2 }}
+            style={{
+              ...btnStyle(),
+              textDecoration: 'none',
+              backgroundColor: '#FFDD00',
+              color: '#1A1400',
+              border: '1px solid #FFDD00',
+              borderBottom: '2px solid #C9AE00',
+              fontWeight: 700,
+            }}
           >
             Leave a tip
           </a>
