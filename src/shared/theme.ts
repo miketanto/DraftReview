@@ -24,7 +24,8 @@ export const T = {
 
   // Semantic
   picked: '#3FB950',
-  pickedGlow: '0 0 0 1px #3FB950, 0 0 14px rgba(63,185,80,0.35)',
+  pickedGlow:
+    '0 0 0 2.5px #3FB950, 0 0 22px rgba(63,185,80,0.65), 0 0 44px rgba(63,185,80,0.25)',
   amber: '#E0A33B', // timeline / ALT — the only amber
   amberGlow: '0 0 0 1px #E0A33B, 0 0 10px rgba(224,163,59,0.30)',
   sel: '#4D9FFF', // selection / focus

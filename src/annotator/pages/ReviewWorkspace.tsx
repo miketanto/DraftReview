@@ -657,19 +657,37 @@ function WorkspaceInner({
                     </div>
                   )}
 
-                  {/* ALT chip */}
+                  {/* PICKED / ALT chips */}
+                  {isPicked && (
+                    <div style={{
+                      position: 'absolute',
+                      bottom: 8,
+                      left: 5,
+                      padding: '2px 6px',
+                      borderRadius: T.radius.s,
+                      backgroundColor: T.picked,
+                      color: '#04120A',
+                      fontSize: 9,
+                      fontWeight: 700,
+                      letterSpacing: '0.08em',
+                      boxShadow: '0 2px 6px rgba(0,0,0,0.6)',
+                    }}>
+                      PICKED
+                    </div>
+                  )}
                   {isAltPick && (
                     <div style={{
                       position: 'absolute',
                       bottom: 8,
                       left: 5,
-                      padding: '1px 5px',
+                      padding: '2px 6px',
                       borderRadius: T.radius.s,
                       backgroundColor: T.amber,
                       color: '#1A1103',
                       fontSize: 9,
                       fontWeight: 700,
-                      letterSpacing: '0.06em',
+                      letterSpacing: '0.08em',
+                      boxShadow: '0 2px 6px rgba(0,0,0,0.6)',
                     }}>
                       ALT
                     </div>
