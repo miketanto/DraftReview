@@ -21,7 +21,7 @@ export function computePool(
         pool.push(altCard);
       } else {
         console.warn(
-          `Divergence card "${divergence.altPick}" not found in pack ${pick.pack_number} pick ${pick.pick_number}, using actual pick`,
+          `Divergence card "${divergence.altPick}" not found in pack ${pick.pack_number + 1} pick ${pick.pick_number + 1}, using actual pick`,
         );
         pool.push(pick.pick);
       }

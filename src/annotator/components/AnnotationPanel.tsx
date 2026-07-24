@@ -43,7 +43,7 @@ export function AnnotationPanel({
     >
       <div>
         <div style={{ color: '#888', marginBottom: 4 }}>
-          Pick note — P{pick.pack_number}P{pick.pick_number}
+          Pick note — P{pick.pack_number + 1}P{pick.pick_number + 1}
         </div>
         <textarea
           value={annotation?.note ?? ''}
