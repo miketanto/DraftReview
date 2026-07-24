@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { extractDraftId, fetchDraftLog } from '../../data/fetcher';
 import { createReview } from '../api';
+import { SET_REGISTRY } from '../../shared/sets';
+import { T, label } from '../../shared/theme';
 
 export function CreateReview() {
   const navigate = useNavigate();
@@ -10,6 +12,7 @@ export function CreateReview() {
   const [error, setError] = useState<string | null>(null);
 
   const isValid = /17lands\.com\/draft\/[a-f0-9]+/.test(url);
+  const showHint = url.length > 0 && !isValid;
 
   const handleSubmit = async () => {
     const draftId = extractDraftId(url);
@@ -37,11 +40,13 @@ export function CreateReview() {
     }
   };
 
+  const supported = Object.keys(SET_REGISTRY).join(', ');
+
   return (
-    <>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', margin: '0 0 8px' }}>
-        <h1 style={{ color: '#fff', fontSize: 18, margin: 0 }}>
-          DraftRewind
+    <div style={{ maxWidth: 640, margin: '0 auto', paddingTop: '10vh', fontFamily: T.mono }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 }}>
+        <h1 style={{ color: T.ink0, fontSize: 22, margin: 0, letterSpacing: '0.06em' }}>
+          DRAFTREWIND_<span className="dr-cursor" />
         </h1>
         <a
           href="https://buymeacoffee.com/miketanto"
@@ -49,45 +54,54 @@ export function CreateReview() {
           rel="noopener noreferrer"
           style={{
             padding: '4px 10px',
-            backgroundColor: '#FFDD00',
-            color: '#000',
-            borderRadius: 4,
-            fontFamily: 'monospace',
-            fontSize: 11,
-            fontWeight: 700,
+            backgroundColor: 'transparent',
+            color: T.ink2,
+            border: `1px solid ${T.line1}`,
+            borderRadius: T.radius.m,
+            fontFamily: T.mono,
+            fontSize: T.fs.t1,
+            fontWeight: 600,
+            letterSpacing: '0.08em',
+            textTransform: 'uppercase',
             textDecoration: 'none',
           }}
         >
           Leave a tip
         </a>
       </div>
+      <div style={{ color: T.ink1, fontSize: T.fs.t4, marginBottom: 24, lineHeight: 1.5 }}>
+        Walk through your draft pick by pick with 17Lands signal data —
+        annotate it, branch what-if timelines, and review it live with friends.
+      </div>
+
       <div
         style={{
-          padding: '16px 12px',
-          backgroundColor: '#111',
-          borderRadius: 6,
-          marginBottom: 8,
-          fontFamily: 'monospace',
+          padding: '16px 14px',
+          backgroundColor: T.bg1,
+          border: `1px solid ${T.line0}`,
+          borderRadius: T.radius.l,
+          marginBottom: 12,
+          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.04)',
         }}
       >
-        <div style={{ color: '#888', fontSize: 12, marginBottom: 8 }}>
-          Paste a 17Lands draft URL to create a new annotated review.
+        <div style={{ ...label, marginBottom: 8 }}>
+          Paste a 17Lands draft URL
         </div>
         <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
           <input
             type="text"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
-            placeholder="https://www.17lands.com/draft/..."
+            placeholder="https://www.17lands.com/draft/…"
             style={{
               flex: 1,
-              padding: '8px 12px',
-              backgroundColor: '#222',
-              color: '#fff',
-              border: '1px solid #333',
-              borderRadius: 4,
-              fontFamily: 'monospace',
-              fontSize: 13,
+              padding: '9px 12px',
+              backgroundColor: T.bg3,
+              color: T.ink0,
+              border: `1px solid ${showHint ? T.amber : T.line1}`,
+              borderRadius: T.radius.m,
+              fontFamily: T.mono,
+              fontSize: T.fs.t4,
             }}
             onKeyDown={(e) => {
               if (e.key === 'Enter' && isValid && !loading) handleSubmit();
@@ -97,37 +111,47 @@ export function CreateReview() {
             onClick={handleSubmit}
             disabled={!isValid || loading}
             style={{
-              padding: '8px 20px',
-              backgroundColor: isValid ? '#4CAF50' : '#333',
-              color: '#fff',
+              padding: '9px 20px',
+              backgroundColor: isValid ? T.picked : T.bg3,
+              color: isValid ? '#04120A' : T.ink3,
               border: 'none',
-              borderRadius: 4,
+              borderRadius: T.radius.m,
               cursor: isValid && !loading ? 'pointer' : 'not-allowed',
-              fontFamily: 'monospace',
+              fontFamily: T.mono,
               fontWeight: 700,
+              fontSize: T.fs.t3,
+              letterSpacing: '0.06em',
             }}
           >
-            {loading ? 'Creating...' : 'Create Review'}
+            {loading ? 'CREATING…' : 'CREATE REVIEW'}
           </button>
         </div>
+        {showHint && (
+          <div style={{ color: T.amber, marginTop: 6, fontSize: T.fs.t2 }}>
+            Expected a 17lands.com/draft/… URL — open a draft on 17Lands and copy the address bar.
+          </div>
+        )}
         {error && (
-          <div style={{ color: '#f44336', marginTop: 6, fontSize: 12 }}>
+          <div style={{ color: T.danger, marginTop: 6, fontSize: T.fs.t2 }}>
             {error}
           </div>
         )}
-        <div style={{ marginTop: 10, fontSize: 11 }}>
-          <span style={{ color: '#666' }}>
-            Signals (stats, archetype openness, hover data) light up
-            automatically for supported sets: SOS, MSH, DSK, OTJ, ECL.
-            Other sets work as a plain annotator.
-          </span>
+        <div style={{ marginTop: 12, fontSize: T.fs.t2, color: T.ink2, lineHeight: 1.5 }}>
+          Signals (stats, archetype openness, hover data) light up
+          automatically for supported sets: {supported}. Any other set works
+          as a plain annotator.
         </div>
       </div>
-      <div style={{ fontSize: 11 }}>
-        <Link to="/signal-review" style={{ color: '#888' }}>
-          solo signal scan (no annotations) →
+
+      <div style={{ fontSize: T.fs.t2, display: 'flex', justifyContent: 'space-between' }}>
+        <span style={{ color: T.ink3 }}>
+          New to 17Lands? Install their tracker, draft on Arena, then find
+          your draft under My Decks.
+        </span>
+        <Link to="/signal-review" style={{ color: T.ink2, flexShrink: 0, marginLeft: 16 }}>
+          solo signal scan →
         </Link>
       </div>
-    </>
+    </div>
   );
 }

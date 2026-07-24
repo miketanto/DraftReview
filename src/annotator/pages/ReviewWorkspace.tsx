@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 import { useReview } from '../hooks/useReview';
 import { useTimeline } from '../hooks/useTimeline';
@@ -13,18 +13,48 @@ import { LayerToggle } from '../components/LayerToggle';
 import { UserIdentityModal } from '../components/UserIdentityModal';
 import { DraftSummaryPanel } from '../components/DraftSummaryPanel';
 import { CardHoverCard } from '../components/CardHoverCard';
-import { PickNavigator } from '../../ui/components/PickNavigator';
+import { PickScrubber } from '../components/PickScrubber';
+import { GlossaryPopover } from '../components/GlossaryPopover';
+import { Toast } from '../components/Toast';
+import type { ToastState } from '../components/Toast';
 import { SignalBadge } from '../../ui/components/SignalBadge';
 import { SignalProvider, useSignals } from '../SignalContext';
+import { ARCHETYPE_COLORS } from '../../shared/constants';
+import { T, label } from '../../shared/theme';
 import type { Divergence, PickAnnotation } from '../types';
-import type { RawDraftCard, RawDraftPick } from '../../data/types';
+import type { RawDraftCard } from '../../data/types';
 
 export function ReviewWorkspace() {
   const { id } = useParams<{ id: string }>();
+  const reviewState = useReview(id!);
+
+  if (reviewState.loading) {
+    return <div style={{ color: T.ink2, padding: 12 }}>Loading review…</div>;
+  }
+  if (reviewState.error || !reviewState.review) {
+    return (
+      <div style={{ color: T.danger, padding: 12 }}>
+        {reviewState.error ?? 'Review not found'}
+      </div>
+    );
+  }
+
+  return (
+    <SignalProvider review={reviewState.review}>
+      <WorkspaceInner id={id!} reviewState={reviewState} />
+    </SignalProvider>
+  );
+}
+
+function WorkspaceInner({
+  id,
+  reviewState,
+}: {
+  id: string;
+  reviewState: ReturnType<typeof useReview>;
+}) {
   const {
     review,
-    loading,
-    error,
     isEditable,
     saveStatus,
     setTimelines,
@@ -32,16 +62,42 @@ export function ReviewWorkspace() {
     updatePickNote,
     updateCardNote,
     updateCardRank,
-  } = useReview(id!);
+  } = reviewState;
 
-  const { user: collabUser, needsSetup: needsIdentity, saveUser } = useCollabUser();
-  const { remoteLayers, myLayerAnnotations, presence, connected, sendAnnotationUpdate, sendCursorMove } = useCollabSocket(id!, collabUser);
+  const signals = useSignals();
+  const { user: collabUser, saveUser } = useCollabUser();
+  const {
+    remoteLayers,
+    myLayerAnnotations,
+    presence,
+    cursors,
+    connected,
+    sendAnnotationUpdate,
+    sendCursorMove,
+  } = useCollabSocket(id, collabUser);
 
   const [pickIndex, setPickIndex] = useState(0);
   const [selectedCard, setSelectedCard] = useState<string | null>(null);
   const [activeTimelineId, setActiveTimelineId] = useState<string | null>(null);
   const [visibleLayerIds, setVisibleLayerIds] = useState<Set<string>>(new Set());
   const [collabAnnotations, setCollabAnnotations] = useState<PickAnnotation[]>([]);
+  const [joinPrompt, setJoinPrompt] = useState(false);
+  const [glossaryOpen, setGlossaryOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const [toast, setToast] = useState<ToastState | null>(null);
+  const toastTimer = useRef<number | null>(null);
+
+  const showToast = useCallback((t: ToastState) => {
+    if (toastTimer.current) window.clearTimeout(toastTimer.current);
+    setToast(t);
+    toastTimer.current = window.setTimeout(() => setToast(null), 4000);
+  }, []);
+
+  // Owners get a silent default identity — never ambush the creator with
+  // a modal on their own review.
+  useEffect(() => {
+    if (isEditable && !collabUser) saveUser('Creator', T.picked);
+  }, [isEditable, collabUser, saveUser]);
 
   // Card hover-stats popover: 150ms open intent, 60ms close grace,
   // instant retarget when already open
@@ -89,13 +145,14 @@ export function ReviewWorkspace() {
     pickIndex + 1,
   );
 
-  const picks = review?.draftLog ?? [];
+  const picks = useMemo(() => review?.draftLog ?? [], [review?.draftLog]);
   const pick = picks[pickIndex] ?? null;
 
   const handleAltPick = useCallback((cardName: string) => {
     if (!review || !pick || !activeTimeline || !isEditable) return;
     const packNumber = pick.pack_number;
     const pickNumber = pick.pick_number;
+    const prevTimelines = review.timelines;
 
     const updatedTimelines = review.timelines.map((t) => {
       if (t.id !== activeTimelineId) return t;
@@ -116,7 +173,18 @@ export function ReviewWorkspace() {
       return { ...t, divergences };
     });
     setTimelines(updatedTimelines);
-  }, [activeTimeline, activeTimelineId, isEditable, pick, review, setTimelines]);
+
+    if (cardName !== pick.pick.name) {
+      showToast({
+        message: `ALT SET: ${cardName}`,
+        actionLabel: 'UNDO',
+        onAction: () => {
+          setTimelines(prevTimelines);
+          setToast(null);
+        },
+      });
+    }
+  }, [activeTimeline, activeTimelineId, isEditable, pick, review, setTimelines, showToast]);
 
   // Load saved collab annotations from server
   useEffect(() => {
@@ -126,8 +194,10 @@ export function ReviewWorkspace() {
   }, [myLayerAnnotations]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const canAnnotate = isEditable || !!collabUser;
-
-  const myAnnotations = isEditable ? (review?.annotations ?? []) : collabAnnotations;
+  const myAnnotations = useMemo(
+    () => (isEditable ? review?.annotations ?? [] : collabAnnotations),
+    [isEditable, review?.annotations, collabAnnotations]
+  );
 
   const broadcastCollabAnnotations = useCallback((annotations: PickAnnotation[]) => {
     sendAnnotationUpdate(annotations);
@@ -139,8 +209,14 @@ export function ReviewWorkspace() {
     }
   }, [isEditable, review, sendAnnotationUpdate]);
 
+  const requireIdentity = useCallback((): boolean => {
+    if (isEditable || collabUser) return false;
+    setJoinPrompt(true);
+    return true;
+  }, [isEditable, collabUser]);
+
   const handlePickNoteChange = useCallback((note: string) => {
-    if (!pick) return;
+    if (!pick || requireIdentity()) return;
     if (isEditable) {
       updatePickNote(pick.pack_number, pick.pick_number, note);
       broadcastMyAnnotations();
@@ -149,10 +225,10 @@ export function ReviewWorkspace() {
       setCollabAnnotations(updated);
       broadcastCollabAnnotations(updated);
     }
-  }, [pick, isEditable, updatePickNote, broadcastMyAnnotations, collabAnnotations, broadcastCollabAnnotations]);
+  }, [pick, isEditable, updatePickNote, broadcastMyAnnotations, collabAnnotations, broadcastCollabAnnotations, requireIdentity]);
 
   const handleCardNoteChange = useCallback((cardName: string, note: string) => {
-    if (!pick) return;
+    if (!pick || requireIdentity()) return;
     if (isEditable) {
       updateCardNote(pick.pack_number, pick.pick_number, cardName, note);
       broadcastMyAnnotations();
@@ -163,10 +239,10 @@ export function ReviewWorkspace() {
       setCollabAnnotations(updated);
       broadcastCollabAnnotations(updated);
     }
-  }, [pick, isEditable, updateCardNote, broadcastMyAnnotations, collabAnnotations, broadcastCollabAnnotations]);
+  }, [pick, isEditable, updateCardNote, broadcastMyAnnotations, collabAnnotations, broadcastCollabAnnotations, requireIdentity]);
 
   const handleCardRankChange = useCallback((cardName: string, rank: number | null) => {
-    if (!pick) return;
+    if (!pick || requireIdentity()) return;
     if (isEditable) {
       updateCardRank(pick.pack_number, pick.pick_number, cardName, rank);
       broadcastMyAnnotations();
@@ -180,7 +256,7 @@ export function ReviewWorkspace() {
       setCollabAnnotations(updated);
       broadcastCollabAnnotations(updated);
     }
-  }, [pick, isEditable, updateCardRank, broadcastMyAnnotations, collabAnnotations, broadcastCollabAnnotations]);
+  }, [pick, isEditable, updateCardRank, broadcastMyAnnotations, collabAnnotations, broadcastCollabAnnotations, requireIdentity]);
 
   // Broadcast cursor position when pick changes
   useEffect(() => {
@@ -205,28 +281,94 @@ export function ReviewWorkspace() {
     });
   }, []);
 
-  const goToNext = useCallback(() => {
-    setPickIndex((i) => i + 1);
-    setSelectedCard(null);
-    dismissHover();
-  }, [dismissHover]);
-  const goToPrev = useCallback(() => {
-    setPickIndex((i) => i - 1);
+  const jumpTo = useCallback((i: number) => {
+    setPickIndex(i);
     setSelectedCard(null);
     dismissHover();
   }, [dismissHover]);
 
-  if (loading) {
-    return <div style={{ color: '#888', padding: 12 }}>Loading review...</div>;
-  }
+  // Keyboard: arrows navigate, Esc backs out, ? opens the glossary
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement;
+      if (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable) return;
+      if (e.key === 'ArrowLeft' && pickIndex > 0) {
+        e.preventDefault();
+        jumpTo(pickIndex - 1);
+      } else if (e.key === 'ArrowRight' && pickIndex < picks.length) {
+        e.preventDefault();
+        jumpTo(pickIndex + 1);
+      } else if (e.key === 'Escape') {
+        if (glossaryOpen) setGlossaryOpen(false);
+        else if (activeTimelineId) setActiveTimelineId(null);
+        else setSelectedCard(null);
+      } else if (e.key === '?') {
+        setGlossaryOpen((v) => !v);
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [pickIndex, picks.length, jumpTo, glossaryOpen, activeTimelineId]);
 
-  if (error || !review) {
-    return (
-      <div style={{ color: '#f44336', padding: 12 }}>
-        {error ?? 'Review not found'}
-      </div>
-    );
-  }
+  const copyShareLink = useCallback(() => {
+    navigator.clipboard.writeText(`${window.location.origin}/review/${review!.id}`);
+    setCopied(true);
+    window.setTimeout(() => setCopied(false), 1800);
+  }, [review]);
+
+  // --- Scrubber data (set-aware: colors only when signals are ready) ---
+  const cellColors = useMemo(() => {
+    return picks.map((p) => {
+      if (signals.status !== 'ready' || !signals.signalMap) return null;
+      const arch = signals.signalMap[p.pick.name]?.primaryArchetype;
+      return arch ? ARCHETYPE_COLORS[arch] ?? null : null;
+    });
+  }, [picks, signals.status, signals.signalMap]);
+
+  const visibleRemoteLayers = remoteLayers.filter((l) => visibleLayerIds.has(l.id));
+
+  const noteTicks = useMemo(() => {
+    const ticks: Record<number, string[]> = {};
+    const add = (packNumber: number, pickNumber: number, color: string) => {
+      const idx = picks.findIndex(
+        (p) => p.pack_number === packNumber && p.pick_number === pickNumber,
+      );
+      if (idx < 0) return;
+      (ticks[idx] ??= []).push(color);
+    };
+    const hasContent = (a: PickAnnotation) =>
+      !!a.note || Object.keys(a.cardNotes).length > 0;
+
+    for (const a of myAnnotations) if (hasContent(a)) add(a.packNumber, a.pickNumber, T.amber);
+    if (!isEditable && review) {
+      for (const a of review.annotations) if (hasContent(a)) add(a.packNumber, a.pickNumber, T.picked);
+    }
+    for (const l of visibleRemoteLayers) {
+      for (const a of l.annotations) if (hasContent(a)) add(a.packNumber, a.pickNumber, l.userColor);
+    }
+    return ticks;
+  }, [picks, myAnnotations, isEditable, review, visibleRemoteLayers]);
+
+  const scrubberCursors = useMemo(() => {
+    return cursors
+      .filter((c) => c.userId !== collabUser?.id)
+      .map((c) => {
+        const idx = picks.findIndex(
+          (p) => p.pack_number === c.packNumber && p.pick_number === c.pickNumber,
+        );
+        const u = presence.find((p) => p.id === c.userId);
+        return idx >= 0 && u ? { index: idx, color: u.color, name: u.name } : null;
+      })
+      .filter((x): x is { index: number; color: string; name: string } => x !== null);
+  }, [cursors, picks, presence, collabUser]);
+
+  const packBreaks = useMemo(() => {
+    const breaks: number[] = [];
+    for (let i = 0; i < picks.length - 1; i++) {
+      if (picks[i + 1].pack_number !== picks[i].pack_number) breaks.push(i);
+    }
+    return breaks;
+  }, [picks]);
 
   const showSummary = pickIndex >= picks.length;
 
@@ -234,70 +376,85 @@ export function ReviewWorkspace() {
     (a) => a.packNumber === pick.pack_number && a.pickNumber === pick.pick_number,
   ) : undefined;
 
+  const creatorAnnotation = (!isEditable && review && pick)
+    ? review.annotations.find(
+        (a) => a.packNumber === pick.pack_number && a.pickNumber === pick.pick_number,
+      )
+    : undefined;
+
   const currentDivergence = pick ? activeTimeline?.divergences.find(
     (d) => d.packNumber === pick.pack_number && d.pickNumber === pick.pick_number,
   ) : undefined;
 
-  const shareUrl = `${window.location.origin}/review/${review.id}`;
-
-  const visibleRemoteLayers = remoteLayers.filter((l) => visibleLayerIds.has(l.id));
+  const altMode = !!(activeTimeline && isEditable);
+  const pa = signals.analysis?.picks[pickIndex] ?? null;
 
   return (
-    <SignalProvider review={review}>
-    <div style={{ display: 'flex', flexDirection: 'column', height: 'calc(100vh - 40px)' }}>
-      {needsIdentity && <UserIdentityModal onSave={saveUser} />}
+    <div style={{ display: 'flex', flexDirection: 'column', height: 'calc(100vh - 24px)', fontFamily: T.mono }}>
+      {joinPrompt && (
+        <UserIdentityModal
+          onSave={(name, color) => { saveUser(name, color); setJoinPrompt(false); }}
+          onCancel={() => setJoinPrompt(false)}
+        />
+      )}
+
+      {/* HEADER */}
       <div
         style={{
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'space-between',
+          gap: 10,
+          padding: '6px 0',
+          borderBottom: `1px solid ${T.line0}`,
           marginBottom: 6,
         }}
       >
-        <h1 style={{ color: '#fff', fontSize: 18, margin: 0 }}>
-          DraftRewind
-          <span style={{ color: '#666', fontSize: 12, marginLeft: 8 }}>
-            {isEditable ? 'editing' : 'read-only'}
-          </span>
-          <SetStatusChip />
-        </h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+        <span style={{ color: T.ink0, fontSize: T.fs.t5, fontWeight: 700, letterSpacing: '0.06em' }}>
+          DRAFTREWIND_<span className="dr-cursor" />
+        </span>
+        <SetChip />
+        <span
+          style={{
+            ...label,
+            color: isEditable ? T.ink0 : T.ink2,
+            border: `1px solid ${T.line1}`,
+            borderRadius: T.radius.m,
+            padding: '3px 8px',
+          }}
+        >
+          {isEditable ? 'Your review' : collabUser ? `Viewing as ${collabUser.name}` : 'Viewing'}
+        </span>
+        <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 10 }}>
           <PresenceBar users={presence} connected={connected} />
           <SaveIndicator status={saveStatus} />
+          {!canAnnotate && (
+            <button onClick={() => setJoinPrompt(true)} style={btnStyle(T.sel)}>
+              JOIN
+            </button>
+          )}
           <button
-            onClick={() => navigator.clipboard.writeText(shareUrl)}
-            style={{
-              padding: '4px 12px',
-              backgroundColor: '#222',
-              color: '#aaa',
-              border: '1px solid #333',
-              borderRadius: 4,
-              cursor: 'pointer',
-              fontFamily: 'monospace',
-              fontSize: 11,
-            }}
+            onClick={copyShareLink}
+            style={btnStyle(copied ? T.picked : undefined)}
           >
-            Copy share link
+            {copied ? 'COPIED ✓' : 'COPY SHARE LINK'}
+          </button>
+          <button onClick={() => setGlossaryOpen((v) => !v)} title="Glossary (?)" style={btnStyle()}>
+            ?
           </button>
           <a
             href="https://buymeacoffee.com/miketanto"
             target="_blank"
             rel="noopener noreferrer"
-            style={{
-              padding: '4px 10px',
-              backgroundColor: '#FFDD00',
-              color: '#000',
-              borderRadius: 4,
-              fontFamily: 'monospace',
-              fontSize: 11,
-              fontWeight: 700,
-              textDecoration: 'none',
-            }}
+            style={{ ...btnStyle(), textDecoration: 'none', color: T.ink2 }}
           >
             Leave a tip
           </a>
         </div>
       </div>
+
+      {glossaryOpen && (
+        <GlossaryPopover config={signals.config} onClose={() => setGlossaryOpen(false)} />
+      )}
 
       {remoteLayers.length > 0 && (
         <div style={{ marginBottom: 4 }}>
@@ -305,75 +462,120 @@ export function ReviewWorkspace() {
         </div>
       )}
 
-      <div style={{ marginBottom: 4 }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 4 }}>
         <TimelineSwitcher
-          timelines={review.timelines}
+          timelines={review!.timelines}
           activeTimelineId={activeTimelineId}
           isEditable={isEditable}
           onSwitch={setActiveTimelineId}
           onTimelinesChange={setTimelines}
         />
+        <span style={{ marginLeft: 'auto', ...label }}>
+          Pick{' '}
+          <span style={{ color: T.ink0, fontSize: T.fs.t3 }}>
+            {showSummary ? 'Σ' : `P${pick!.pack_number + 1}P${pick!.pick_number + 1}`}
+          </span>{' '}
+          <span style={{ color: T.ink3 }}>· {Math.min(pickIndex + 1, picks.length)} / {picks.length}</span>
+        </span>
       </div>
 
-      <PickNavigator
-        packNumber={showSummary ? 0 : pick!.pack_number + 1}
-        pickNumber={showSummary ? 0 : pick!.pick_number + 1}
-        currentIndex={pickIndex}
-        totalPicks={picks.length + 1}
-        onPrev={goToPrev}
-        onNext={goToNext}
-        label={showSummary ? 'Summary' : undefined}
-      />
+      {/* ALT-PICK MODE STRIP — the click-semantics switch made visible */}
+      {altMode && (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            backgroundColor: 'rgba(224,163,59,0.10)',
+            border: `1px solid ${T.amber}`,
+            borderRadius: T.radius.m,
+            color: T.amber,
+            fontSize: T.fs.t1,
+            fontWeight: 700,
+            letterSpacing: '0.08em',
+            textTransform: 'uppercase',
+            padding: '4px 10px',
+            marginBottom: 4,
+          }}
+        >
+          <span>
+            Timeline: {activeTimeline!.name} — click a card to set the alt pick · right-click to note
+          </span>
+          <span style={{ opacity: 0.7 }}>[ESC exits]</span>
+        </div>
+      )}
 
       {showSummary ? (
         <div style={{ flex: 1, overflow: 'auto', marginTop: 6 }}>
           <DraftSummaryPanel
-            summary={review.summary}
+            summary={review!.summary}
             isEditable={canAnnotate}
             onChange={(s) => {
-              if (isEditable) {
-                setSummary(s);
-              }
+              if (isEditable) setSummary(s);
             }}
           />
         </div>
       ) : (
-      <div style={{ display: 'flex', gap: 8, flex: 1, minHeight: 0, maxHeight: '80vh', marginTop: 6 }}>
+      <div style={{ display: 'flex', gap: 10, flex: 1, minHeight: 0, marginTop: 2 }}>
         {/* Pack cards */}
         <div
           style={{
             flex: 1,
             minWidth: 0,
             overflow: 'auto',
+            border: altMode ? `1px solid ${T.amber}` : `1px solid transparent`,
+            borderRadius: T.radius.l,
+            transition: `border-color ${T.fast} ${T.ease}`,
           }}
         >
           <div
             style={{
               display: 'grid',
               gridTemplateColumns: 'repeat(5, 1fr)',
-              gap: 4,
-              padding: 4,
+              gap: 8,
+              padding: 6,
             }}
           >
-            {pick.available.map((card, i) => {
-              const isPicked = card.name === pick.pick.name;
+            {pick!.available.map((card, i) => {
+              const isPicked = card.name === pick!.pick.name;
               const isAltPick = currentDivergence?.altPick === card.name;
-              const hasNote = !!(annotation?.cardNotes[card.name]);
+              const hasMyNote = !!(annotation?.cardNotes[card.name]);
+              const hasCreatorNote = !!(creatorAnnotation?.cardNotes[card.name]);
               const isSelected = selectedCard === card.name;
               const rank = annotation?.cardRanks?.[card.name];
               const remoteColors = visibleRemoteLayers
                 .filter((l) => {
                   const ann = l.annotations.find(
-                    (a) => a.packNumber === pick.pack_number && a.pickNumber === pick.pick_number,
+                    (a) => a.packNumber === pick!.pack_number && a.pickNumber === pick!.pick_number,
                   );
                   return ann?.cardNotes[card.name];
                 })
                 .map((l) => l.userColor);
+
+              const entry = signals.status === 'ready' ? signals.signalMap?.[card.name] : undefined;
+              const archColor = entry?.primaryArchetype
+                ? ARCHETYPE_COLORS[entry.primaryArchetype] ?? null
+                : null;
+              const isWheel = pa?.wheelDetections.includes(card.name) ?? false;
+              const showBadge = !!entry?.primaryArchetype &&
+                (entry.signalTier === 'staple' || entry.signalTier === 'strong' || isWheel);
+
+              const ring = isAltPick
+                ? T.amberGlow
+                : isPicked
+                  ? T.pickedGlow
+                  : isSelected
+                    ? T.selGlow
+                    : entry?.signalTier === 'staple'
+                      ? T.goldGlow
+                      : 'none';
+
               return (
                 <div
                   key={`${card.name}-${i}`}
+                  className="dr-card"
                   onClick={() => {
-                    if (activeTimelineId && isEditable) {
+                    if (altMode) {
                       handleAltPick(card.name);
                     } else {
                       setSelectedCard(isSelected ? null : card.name);
@@ -390,16 +592,11 @@ export function ReviewWorkspace() {
                   style={{
                     position: 'relative',
                     cursor: 'pointer',
-                    border: isAltPick
-                      ? '3px solid #ffb74d'
-                      : isPicked
-                        ? '3px solid #4CAF50'
-                        : isSelected
-                          ? '2px solid #64B5F6'
-                          : '1px solid #333',
-                    borderRadius: 6,
+                    border: `1px solid ${T.line1}`,
+                    boxShadow: ring,
+                    borderRadius: T.radius.l,
                     overflow: 'hidden',
-                    backgroundColor: '#1a1a1a',
+                    backgroundColor: T.bg2,
                     minHeight: 0,
                   }}
                 >
@@ -409,86 +606,82 @@ export function ReviewWorkspace() {
                     style={{ width: '100%', display: 'block' }}
                     loading="lazy"
                   />
+
+                  {/* rank chip — small, top-left */}
                   {rank != null && (
                     <div style={{
                       position: 'absolute',
-                      top: 6,
-                      left: 6,
-                      minWidth: 26,
-                      height: 26,
-                      borderRadius: 5,
-                      backgroundColor: '#64B5F6',
-                      color: '#000',
-                      fontSize: 13,
+                      top: 5,
+                      left: 5,
+                      minWidth: 18,
+                      height: 18,
+                      borderRadius: T.radius.s,
+                      backgroundColor: T.bg3,
+                      border: `1px solid ${T.sel}`,
+                      color: T.sel,
+                      fontSize: 10,
                       fontWeight: 700,
-                      fontFamily: 'monospace',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      padding: '0 5px',
-                      boxShadow: '0 2px 4px rgba(0,0,0,0.6)',
+                      padding: '0 4px',
                     }}>
                       #{rank}
                     </div>
                   )}
+
+                  {/* ALT chip */}
                   {isAltPick && (
                     <div style={{
                       position: 'absolute',
-                      bottom: 6,
-                      left: 6,
-                      padding: '2px 6px',
-                      borderRadius: 3,
-                      backgroundColor: '#ffb74d',
-                      color: '#000',
+                      bottom: 8,
+                      left: 5,
+                      padding: '1px 5px',
+                      borderRadius: T.radius.s,
+                      backgroundColor: T.amber,
+                      color: '#1A1103',
                       fontSize: 9,
                       fontWeight: 700,
-                      fontFamily: 'monospace',
-                      boxShadow: '0 2px 4px rgba(0,0,0,0.6)',
+                      letterSpacing: '0.06em',
                     }}>
                       ALT
                     </div>
                   )}
-                  {hasNote && (
-                    <div style={{
-                      position: 'absolute',
-                      top: 6,
-                      right: 6,
-                      width: 28,
-                      height: 28,
-                      borderRadius: '50%',
-                      backgroundColor: '#ffb74d',
-                      color: '#000',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      boxShadow: '0 2px 4px rgba(0,0,0,0.6)',
-                    }}>
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-                      </svg>
+
+                  {/* note dots — mine amber, creator green, remote per-user */}
+                  <div style={{ position: 'absolute', top: 7, right: 6, display: 'flex', gap: 3 }}>
+                    {hasMyNote && <NoteDot color={T.amber} title="Your note" />}
+                    {hasCreatorNote && <NoteDot color={T.picked} title="Creator's note" />}
+                    {remoteColors.map((c, ci) => (
+                      <NoteDot key={ci} color={c} title="Collaborator note" />
+                    ))}
+                  </div>
+
+                  {/* signal tier badge */}
+                  {showBadge && entry?.primaryArchetype && (
+                    <div style={{ position: 'absolute', bottom: 8, right: 5 }}>
+                      <SignalBadge
+                        archetype={entry.primaryArchetype}
+                        tier={entry.signalTier}
+                        isWheel={isWheel}
+                      />
                     </div>
                   )}
-                  {remoteColors.map((color, ci) => (
-                    <div key={`remote-${ci}`} style={{
-                      position: 'absolute',
-                      top: 6,
-                      right: (hasNote ? 1 : 0) * 32 + 6 + ci * 32,
-                      width: 28,
-                      height: 28,
-                      borderRadius: '50%',
-                      backgroundColor: color,
-                      color: '#000',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      boxShadow: '0 2px 4px rgba(0,0,0,0.6)',
-                    }}>
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-                      </svg>
-                    </div>
-                  ))}
-                  <TileSignalBadge cardName={card.name} pickIndex={pickIndex} />
+
+                  {/* archetype rail — the signal IS the chrome */}
+                  {archColor && (
+                    <div
+                      style={{
+                        position: 'absolute',
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
+                        height: 3,
+                        backgroundColor: archColor,
+                        opacity: 0.9,
+                      }}
+                    />
+                  )}
                 </div>
               );
             })}
@@ -496,7 +689,7 @@ export function ReviewWorkspace() {
         </div>
 
         {/* Annotation panel */}
-        <div style={{ width: 340, flexShrink: 0, overflow: 'auto' }}>
+        <div style={{ width: 'clamp(280px, 26vw, 380px)', flexShrink: 0, overflow: 'auto' }}>
           <AnnotationPanel
             pick={pick!}
             annotation={annotation}
@@ -507,10 +700,23 @@ export function ReviewWorkspace() {
             selectedCard={selectedCard}
             onSelectCard={setSelectedCard}
             remoteLayers={visibleRemoteLayers}
+            creatorAnnotation={creatorAnnotation}
+            onRequestJoin={!canAnnotate ? () => setJoinPrompt(true) : undefined}
           />
         </div>
       </div>
       )}
+
+      {/* SCRUBBER — the draft's color story as navigation */}
+      <PickScrubber
+        totalPicks={picks.length}
+        currentIndex={pickIndex}
+        onJump={jumpTo}
+        cellColors={cellColors}
+        noteTicks={noteTicks}
+        cursors={scrubberCursors}
+        packBreaks={packBreaks}
+      />
 
       <ResizablePool>
         <PoolComparison
@@ -519,88 +725,92 @@ export function ReviewWorkspace() {
         />
       </ResizablePool>
 
-      <WorkspaceHoverCard hover={hoverCard} pick={pick} pickIndex={pickIndex} />
+      {hoverCard && pick && signals.status === 'ready' && signals.config && (
+        <CardHoverCard
+          card={hoverCard.card}
+          anchorRect={hoverCard.rect}
+          signalEntry={signals.signalMap?.[hoverCard.card.name] ?? null}
+          pickSignal={pa?.cardSignals.find((s) => s.cardName === hoverCard.card.name) ?? null}
+          isWheel={pa?.wheelDetections.includes(hoverCard.card.name) ?? false}
+          config={signals.config}
+          packNumber={pick.pack_number}
+          pickNumber={pick.pick_number}
+        />
+      )}
+
+      <Toast toast={toast} />
     </div>
-    </SignalProvider>
   );
 }
 
 /** Header chip reporting the detected set + signal availability */
-function SetStatusChip() {
+function SetChip() {
   const { status, setCode, config } = useSignals();
-  const base = { fontSize: 11, marginLeft: 8 };
+  const base: React.CSSProperties = {
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: 6,
+    border: `1px solid ${T.line1}`,
+    borderRadius: T.radius.m,
+    padding: '3px 8px',
+    fontSize: T.fs.t1,
+    fontWeight: 600,
+    letterSpacing: '0.08em',
+    textTransform: 'uppercase',
+  };
   if (status === 'ready' && config) {
     return (
-      <span style={{ ...base, color: '#4CAF50' }}>
+      <span style={{ ...base, color: T.ink1 }}>
+        <span style={{ width: 6, height: 6, borderRadius: '50%', backgroundColor: T.picked }} />
         {config.code} · signals on
       </span>
     );
   }
   if (status === 'unsupported') {
     return (
-      <span style={{ ...base, color: '#666' }}>
-        {setCode ? `${setCode} — ` : ''}no signal data · annotator only
+      <span style={{ ...base, color: T.ink2 }}>
+        {setCode ? `${setCode} · ` : ''}annotator only
       </span>
     );
   }
   if (status === 'error') {
-    return (
-      <span style={{ ...base, color: '#f44336' }}>signal data failed to load</span>
-    );
+    return <span style={{ ...base, color: T.danger }}>signal data failed</span>;
   }
-  return <span style={{ ...base, color: '#555' }}>loading signals…</span>;
+  return <span style={{ ...base, color: T.ink3 }}>loading signals…</span>;
 }
 
-/** Staple/strong tier badge (and wheel marker) on a pack card tile */
-function TileSignalBadge({ cardName, pickIndex }: { cardName: string; pickIndex: number }) {
-  const { status, signalMap, analysis } = useSignals();
-  if (status !== 'ready' || !signalMap) return null;
-  const entry = signalMap[cardName];
-  if (!entry || !entry.primaryArchetype) return null;
-  const isWheel =
-    analysis?.picks[pickIndex]?.wheelDetections.includes(cardName) ?? false;
-  const topTier = entry.signalTier === 'staple' || entry.signalTier === 'strong';
-  if (!topTier && !isWheel) return null;
+function NoteDot({ color, title }: { color: string; title: string }) {
   return (
-    <div style={{ position: 'absolute', bottom: 6, right: 6 }}>
-      <SignalBadge
-        archetype={entry.primaryArchetype}
-        tier={entry.signalTier}
-        isWheel={isWheel}
-      />
-    </div>
-  );
-}
-
-/** The single mounted hover popover; renders only when signals are ready */
-function WorkspaceHoverCard({
-  hover,
-  pick,
-  pickIndex,
-}: {
-  hover: { card: RawDraftCard; rect: DOMRect } | null;
-  pick: RawDraftPick | null;
-  pickIndex: number;
-}) {
-  const { status, signalMap, analysis, config } = useSignals();
-  if (!hover || !pick || status !== 'ready' || !config) return null;
-  const entry = signalMap?.[hover.card.name] ?? null;
-  const pa = analysis?.picks[pickIndex] ?? null;
-  const pickSignal =
-    pa?.cardSignals.find((s) => s.cardName === hover.card.name) ?? null;
-  const isWheel = pa?.wheelDetections.includes(hover.card.name) ?? false;
-  return (
-    <CardHoverCard
-      card={hover.card}
-      anchorRect={hover.rect}
-      signalEntry={entry}
-      pickSignal={pickSignal}
-      isWheel={isWheel}
-      config={config}
-      packNumber={pick.pack_number}
-      pickNumber={pick.pick_number}
+    <span
+      title={title}
+      style={{
+        width: 10,
+        height: 10,
+        borderRadius: '50%',
+        backgroundColor: color,
+        border: '1px solid rgba(0,0,0,0.5)',
+        boxShadow: '0 1px 4px rgba(0,0,0,0.6)',
+        display: 'inline-block',
+      }}
     />
   );
+}
+
+function btnStyle(accent?: string): React.CSSProperties {
+  return {
+    padding: '4px 10px',
+    backgroundColor: T.bg3,
+    color: accent ?? T.ink1,
+    border: `1px solid ${accent ?? T.line1}`,
+    borderBottom: `2px solid ${accent ?? T.line2}`,
+    borderRadius: T.radius.m,
+    cursor: 'pointer',
+    fontFamily: T.mono,
+    fontSize: T.fs.t1,
+    fontWeight: 600,
+    letterSpacing: '0.08em',
+    textTransform: 'uppercase',
+  };
 }
 
 function upsertCollab(
@@ -638,7 +848,8 @@ function ResizablePool({ children }: { children: React.ReactNode }) {
   const onPointerMove = (e: React.PointerEvent) => {
     if (!dragging.current) return;
     const delta = startY.current - e.clientY;
-    setHeight(Math.max(80, Math.min(500, startH.current + delta)));
+    const cap = Math.min(500, Math.round(window.innerHeight * 0.4));
+    setHeight(Math.max(80, Math.min(cap, startH.current + delta)));
   };
 
   const onPointerUp = () => {
@@ -646,7 +857,7 @@ function ResizablePool({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <div style={{ flexShrink: 0, borderTop: '1px solid #333', marginTop: 4 }}>
+    <div style={{ flexShrink: 0, borderTop: `1px solid ${T.line0}` }}>
       <div
         onPointerDown={collapsed ? undefined : onPointerDown}
         onPointerMove={collapsed ? undefined : onPointerMove}
@@ -660,25 +871,25 @@ function ResizablePool({ children }: { children: React.ReactNode }) {
           gap: 6,
         }}
       >
-        {!collapsed && <div style={{ width: 30, height: 3, borderRadius: 2, backgroundColor: '#555' }} />}
+        {!collapsed && <div style={{ width: 30, height: 3, borderRadius: 2, backgroundColor: T.line2 }} />}
         <button
           onClick={() => setCollapsed(!collapsed)}
           onPointerDown={(e) => e.stopPropagation()}
           style={{
             padding: '2px 10px',
-            backgroundColor: '#2a2a2a',
-            color: '#aaa',
-            border: '1px solid #444',
-            borderRadius: 3,
+            backgroundColor: T.bg3,
+            color: T.ink1,
+            border: `1px solid ${T.line1}`,
+            borderRadius: T.radius.s,
             cursor: 'pointer',
-            fontFamily: 'monospace',
+            fontFamily: T.mono,
             fontSize: 10,
             lineHeight: 1,
           }}
         >
           {collapsed ? 'Pool ^' : 'Pool v'}
         </button>
-        {!collapsed && <div style={{ width: 30, height: 3, borderRadius: 2, backgroundColor: '#555' }} />}
+        {!collapsed && <div style={{ width: 30, height: 3, borderRadius: 2, backgroundColor: T.line2 }} />}
       </div>
       {!collapsed && (
         <div style={{ height, overflow: 'auto' }}>

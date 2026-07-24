@@ -2,6 +2,7 @@ import type { RawDraftCard } from '../../data/types';
 import type { CardSignalEntry, PickSignal } from '../../signals/types';
 import type { SetConfig } from '../../shared/sets';
 import { ARCHETYPE_ABBREV, ARCHETYPE_COLORS } from '../../shared/constants';
+// (glass surface + rim color come from the token system; see index.css)
 
 const WIDTH = 300;
 const MARGIN = 8;
@@ -12,10 +13,10 @@ const BAR_MAX = 0.65;
 
 const TIER_STYLE: Record<string, { label: string; color: string }> = {
   staple: { label: 'STAPLE', color: '#FFD700' },
-  strong: { label: 'STRONG', color: '#4CAF50' },
-  moderate: { label: 'MODERATE', color: '#aaa' },
-  weak: { label: 'WEAK', color: '#555' },
-  fixing: { label: 'FIXING', color: '#D4A843' },
+  strong: { label: 'STRONG', color: '#3FB950' },
+  moderate: { label: 'MODERATE', color: '#A9B2BC' },
+  weak: { label: 'WEAK', color: '#444D57' },
+  fixing: { label: 'FIXING', color: '#A9B2BC' },
 };
 
 interface CardHoverCardProps {
@@ -64,8 +65,13 @@ export function CardHoverCard({
 
   const tier = signalEntry ? TIER_STYLE[signalEntry.signalTier] : null;
 
+  const rimColor = signalEntry?.primaryArchetype
+    ? ARCHETYPE_COLORS[signalEntry.primaryArchetype] ?? '#414A54'
+    : '#414A54';
+
   return (
     <div
+      className="glass"
       style={{
         position: 'fixed',
         left,
@@ -73,14 +79,13 @@ export function CardHoverCard({
         width: WIDTH,
         zIndex: 1000,
         pointerEvents: 'none',
-        backgroundColor: '#111',
-        border: '1px solid #444',
-        borderRadius: 4,
-        padding: '8px 10px',
+        border: `1px solid ${rimColor}`,
+        borderRadius: 6,
+        padding: '9px 11px',
         fontFamily: 'monospace',
         fontSize: 11,
-        color: '#ccc',
-        boxShadow: '0 4px 16px rgba(0,0,0,0.8)',
+        color: '#A9B2BC',
+        boxShadow: '0 8px 24px rgba(0,0,0,0.7)',
       }}
     >
       {/* Name + tier chip */}

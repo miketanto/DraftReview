@@ -1,5 +1,6 @@
 import type { PickAnnotation, AnnotationLayer } from '../types';
 import type { RawDraftPick } from '../../data/types';
+import { T, label } from '../../shared/theme';
 
 interface AnnotationPanelProps {
   pick: RawDraftPick;
@@ -11,7 +12,28 @@ interface AnnotationPanelProps {
   selectedCard: string | null;
   onSelectCard: (name: string | null) => void;
   remoteLayers?: AnnotationLayer[];
+  /**
+   * The creator's canonical annotations, shown read-only as the BASE
+   * layer to everyone who is not the creator — the shared review must
+   * never look empty just because the owner is offline.
+   */
+  creatorAnnotation?: PickAnnotation;
+  /** Present when browsing without an identity; renders the join nudge */
+  onRequestJoin?: () => void;
 }
+
+const inputStyle: React.CSSProperties = {
+  width: '100%',
+  padding: 8,
+  backgroundColor: T.bg3,
+  color: T.ink0,
+  border: `1px solid ${T.line1}`,
+  borderRadius: T.radius.m,
+  fontFamily: T.mono,
+  fontSize: T.fs.t3,
+  resize: 'vertical',
+  lineHeight: 1.45,
+};
 
 export function AnnotationPanel({
   pick,
@@ -23,6 +45,8 @@ export function AnnotationPanel({
   selectedCard,
   onSelectCard,
   remoteLayers = [],
+  creatorAnnotation,
+  onRequestJoin,
 }: AnnotationPanelProps) {
   const cardNote = selectedCard ? (annotation?.cardNotes[selectedCard] ?? '') : '';
   const cardRank = selectedCard ? (annotation?.cardRanks?.[selectedCard] ?? null) : null;
@@ -32,105 +56,120 @@ export function AnnotationPanel({
       style={{
         display: 'flex',
         flexDirection: 'column',
-        gap: 8,
-        padding: 8,
-        backgroundColor: '#111',
-        borderRadius: 6,
-        fontFamily: 'monospace',
-        fontSize: 12,
+        gap: 10,
+        padding: 10,
+        backgroundColor: T.bg1,
+        border: `1px solid ${T.line0}`,
+        borderRadius: T.radius.l,
+        fontFamily: T.mono,
+        fontSize: T.fs.t3,
         height: '100%',
+        boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.04)',
       }}
     >
-      <div>
-        <div style={{ color: '#888', marginBottom: 4 }}>
-          Pick note — P{pick.pack_number + 1}P{pick.pick_number + 1}
-        </div>
-        <textarea
-          value={annotation?.note ?? ''}
-          onChange={(e) => onPickNoteChange(e.target.value)}
-          readOnly={!isEditable}
-          placeholder={isEditable ? 'What were you thinking here?' : '(no note)'}
+      <div style={{ ...label, color: T.ink0 }}>
+        P{pick.pack_number + 1}P{pick.pick_number + 1} · Annotations
+      </div>
+
+      {/* Creator base layer — read-only, always visible to non-creators */}
+      {creatorAnnotation && (creatorAnnotation.note || Object.keys(creatorAnnotation.cardNotes).length > 0) && (
+        <div
           style={{
-            width: '100%',
-            minHeight: 80,
-            padding: 8,
-            backgroundColor: '#1a1a1a',
-            color: '#ccc',
-            border: '1px solid #333',
-            borderRadius: 4,
-            fontFamily: 'monospace',
-            fontSize: 12,
-            resize: 'vertical',
-            boxSizing: 'border-box',
+            paddingLeft: 8,
+            borderLeft: `3px solid ${T.picked}`,
           }}
-        />
+        >
+          <div style={{ ...label, color: T.picked, marginBottom: 3 }}>
+            Creator · base
+          </div>
+          {creatorAnnotation.note && (
+            <div style={{ color: T.ink0, lineHeight: 1.45, marginBottom: 4 }}>
+              {creatorAnnotation.note}
+            </div>
+          )}
+          {selectedCard && creatorAnnotation.cardNotes[selectedCard] && (
+            <div style={{ color: T.ink1, fontSize: T.fs.t2, fontStyle: 'italic' }}>
+              {selectedCard}: {creatorAnnotation.cardNotes[selectedCard]}
+            </div>
+          )}
+        </div>
+      )}
+
+      <div>
+        <div style={{ ...label, marginBottom: 4 }}>
+          {isEditable ? 'Pick note' : 'Your pick note'}
+        </div>
+        {isEditable || annotation?.note ? (
+          <textarea
+            value={annotation?.note ?? ''}
+            onChange={(e) => onPickNoteChange(e.target.value)}
+            readOnly={!isEditable}
+            placeholder={
+              isEditable ? 'What were you thinking here?' : '(no note)'
+            }
+            style={{ ...inputStyle, minHeight: 72 }}
+          />
+        ) : onRequestJoin ? (
+          <button
+            onClick={onRequestJoin}
+            style={{
+              width: '100%',
+              padding: '10px 8px',
+              backgroundColor: 'transparent',
+              color: T.ink2,
+              border: `1px dashed ${T.line1}`,
+              borderRadius: T.radius.m,
+              cursor: 'pointer',
+              fontFamily: T.mono,
+              fontSize: T.fs.t2,
+              textAlign: 'left',
+              lineHeight: 1.45,
+            }}
+          >
+            Viewing only — <span style={{ color: T.sel }}>join</span> to add
+            your own notes in your own color.
+          </button>
+        ) : (
+          <div style={{ color: T.ink3, fontSize: T.fs.t2 }}>
+            No notes on this pick yet.
+          </div>
+        )}
       </div>
 
       <div style={{ flex: 1, minHeight: 0 }}>
-        <div style={{ color: '#888', marginBottom: 4 }}>Card notes</div>
-        <div
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            gap: 2,
-            marginBottom: 6,
-          }}
-        >
+        <div style={{ ...label, marginBottom: 4 }}>Card notes</div>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 3, marginBottom: 6 }}>
           {pick.available.map((card) => {
-            const hasNote = !!(annotation?.cardNotes[card.name]);
+            const hasNote = !!(annotation?.cardNotes[card.name]) ||
+              !!(creatorAnnotation?.cardNotes[card.name]);
             const isSelected = selectedCard === card.name;
             const isPicked = card.name === pick.pick.name;
             const rank = annotation?.cardRanks?.[card.name];
-            const noteCount = (hasNote ? 1 : 0) + (annotation?.note && isPicked ? 1 : 0);
             return (
               <button
                 key={card.name}
                 onClick={() => onSelectCard(isSelected ? null : card.name)}
                 style={{
-                  position: 'relative',
-                  padding: '4px 8px',
-                  paddingRight: noteCount > 0 || rank ? 22 : 8,
-                  backgroundColor: isSelected ? '#333' : '#1a1a1a',
-                  color: isPicked ? '#4CAF50' : hasNote ? '#ffb74d' : '#666',
-                  border: `1px solid ${isSelected ? '#555' : '#2a2a2a'}`,
-                  borderRadius: 4,
+                  padding: '3px 7px',
+                  backgroundColor: isSelected ? T.bg3 : T.bg2,
+                  color: isPicked ? T.picked : hasNote ? T.amber : T.ink2,
+                  border: `1px solid ${isSelected ? T.line2 : T.line0}`,
+                  borderRadius: T.radius.s,
                   cursor: 'pointer',
-                  fontFamily: 'monospace',
-                  fontSize: 12,
+                  fontFamily: T.mono,
+                  fontSize: T.fs.t2,
                   fontWeight: isPicked ? 700 : 400,
+                  transition: `border-color ${T.fast} ${T.ease}`,
                 }}
                 title={card.name}
               >
                 {rank != null && (
-                  <span style={{
-                    color: '#64B5F6',
-                    marginRight: 3,
-                    fontWeight: 700,
-                  }}>
+                  <span style={{ color: T.sel, marginRight: 3, fontWeight: 700 }}>
                     #{rank}
                   </span>
                 )}
                 {truncateName(card.name)}
-                {noteCount > 0 && (
-                  <span style={{
-                    position: 'absolute',
-                    top: -5,
-                    right: -5,
-                    minWidth: 18,
-                    height: 18,
-                    borderRadius: 9,
-                    backgroundColor: '#ffb74d',
-                    color: '#000',
-                    fontSize: 11,
-                    fontWeight: 700,
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    lineHeight: 1,
-                  }}>
-                    {noteCount}
-                  </span>
-                )}
+                {hasNote && <span style={{ marginLeft: 3, color: T.amber }}>●</span>}
               </button>
             );
           })}
@@ -138,32 +177,44 @@ export function AnnotationPanel({
 
         {selectedCard && (
           <div>
-            <div style={{ color: '#aaa', marginBottom: 6, fontSize: 13, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-              <span>
+            <div
+              style={{
+                color: T.ink1,
+                marginBottom: 6,
+                fontSize: T.fs.t4,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+              }}
+            >
+              <span style={{ color: T.ink0 }}>
                 {selectedCard}
                 {selectedCard === pick.pick.name && (
-                  <span style={{ color: '#4CAF50', marginLeft: 6 }}>(picked)</span>
+                  <span style={{ color: T.picked, marginLeft: 6, fontSize: T.fs.t1 }}>
+                    PICKED
+                  </span>
                 )}
               </span>
               {isEditable && (
                 <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
-                  <span style={{ color: '#666', fontSize: 11 }}>Rank</span>
+                  <span style={{ ...label }}>Rank</span>
                   {[1, 2, 3, 4, 5].map((r) => (
                     <button
                       key={r}
                       onClick={() => onCardRankChange(selectedCard, cardRank === r ? null : r)}
                       style={{
-                        width: 24,
-                        height: 24,
+                        width: 22,
+                        height: 22,
                         padding: 0,
-                        backgroundColor: cardRank === r ? '#64B5F6' : '#222',
-                        color: cardRank === r ? '#000' : '#666',
-                        border: `1px solid ${cardRank === r ? '#64B5F6' : '#333'}`,
-                        borderRadius: 4,
+                        backgroundColor: cardRank === r ? T.sel : T.bg3,
+                        color: cardRank === r ? '#00121F' : T.ink2,
+                        border: `1px solid ${cardRank === r ? T.sel : T.line1}`,
+                        borderRadius: T.radius.s,
                         cursor: 'pointer',
-                        fontFamily: 'monospace',
-                        fontSize: 12,
+                        fontFamily: T.mono,
+                        fontSize: T.fs.t2,
                         fontWeight: 700,
+                        transition: `background-color ${T.fast} ${T.ease}`,
                       }}
                     >
                       {r}
@@ -172,7 +223,7 @@ export function AnnotationPanel({
                 </span>
               )}
               {!isEditable && cardRank != null && (
-                <span style={{ color: '#64B5F6', fontSize: 12, fontWeight: 700 }}>
+                <span style={{ color: T.sel, fontSize: T.fs.t3, fontWeight: 700 }}>
                   Rank #{cardRank}
                 </span>
               )}
@@ -181,21 +232,14 @@ export function AnnotationPanel({
               value={cardNote}
               onChange={(e) => onCardNoteChange(selectedCard, e.target.value)}
               readOnly={!isEditable}
-              placeholder={isEditable ? 'Note on this card...' : '(no note)'}
-              style={{
-                width: '100%',
-                minHeight: 70,
-                padding: 8,
-                backgroundColor: '#1a1a1a',
-                color: '#ccc',
-                border: '1px solid #333',
-                borderRadius: 4,
-                fontFamily: 'monospace',
-                fontSize: 13,
-                resize: 'vertical',
-                boxSizing: 'border-box',
-              }}
+              placeholder={isEditable ? 'Note on this card…' : '(no note)'}
+              style={{ ...inputStyle, minHeight: 64 }}
             />
+          </div>
+        )}
+        {!selectedCard && isEditable && (
+          <div style={{ color: T.ink3, fontSize: T.fs.t2, lineHeight: 1.5 }}>
+            Click a card in the pack (or a chip above) to note or rank it.
           </div>
         )}
       </div>
@@ -242,29 +286,23 @@ function RemoteAnnotations({
   if (remoteNotes.length === 0) return null;
 
   return (
-    <div style={{ borderTop: '1px solid #333', paddingTop: 6, marginTop: 6 }}>
-      <div style={{ color: '#666', fontSize: 10, marginBottom: 4, fontFamily: 'monospace' }}>
-        Others' notes
-      </div>
+    <div style={{ borderTop: `1px solid ${T.line0}`, paddingTop: 6, marginTop: 6 }}>
+      <div style={{ ...label, marginBottom: 4 }}>Others' notes</div>
       {remoteNotes.map((r, i) => (
         <div
           key={i}
-          style={{
-            marginBottom: 6,
-            paddingLeft: 8,
-            borderLeft: `3px solid ${r.userColor}`,
-          }}
+          style={{ marginBottom: 6, paddingLeft: 8, borderLeft: `3px solid ${r.userColor}` }}
         >
-          <div style={{ color: r.userColor, fontSize: 10, fontFamily: 'monospace', marginBottom: 2 }}>
-            {r.userName}
+          <div style={{ color: r.userColor, fontSize: T.fs.t1, fontWeight: 700, marginBottom: 2 }}>
+            {r.userName.toUpperCase()}
           </div>
           {r.note && (
-            <div style={{ color: '#aaa', fontSize: 12, fontFamily: 'monospace', marginBottom: 2 }}>
+            <div style={{ color: T.ink1, fontSize: T.fs.t3, marginBottom: 2, lineHeight: 1.45 }}>
               {r.note}
             </div>
           )}
           {r.cardNote && (
-            <div style={{ color: '#888', fontSize: 11, fontFamily: 'monospace', fontStyle: 'italic' }}>
+            <div style={{ color: T.ink2, fontSize: T.fs.t2, fontStyle: 'italic' }}>
               {selectedCard}: {r.cardNote}
             </div>
           )}

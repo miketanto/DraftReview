@@ -103,7 +103,8 @@ export const ARCHETYPE_ABBREV: Record<ArchetypeId, string> = {
   lorehold: 'LH',
   prismari: 'PR',
   quandrix: 'QX',
-  witherbloom: 'WB',
+  // 'WI' not 'WB' — avoids colliding with Orzhov's white-black pair letters
+  witherbloom: 'WI',
   converge: 'CV',
   // Guild archetypes use their color-pair letters — clearest for drafters
   azorius: 'WU',
