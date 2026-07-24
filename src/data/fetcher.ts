@@ -11,13 +11,22 @@ export function extractDraftId(url: string): string | null {
   return match ? match[1] : null;
 }
 
-export async function fetchDraftLog(draftId: string): Promise<RawDraftPick[]> {
+export interface DraftLogResult {
+  /** 17Lands expansion code (e.g. 'SOS', 'MSH'), null for legacy payloads */
+  expansion: string | null;
+  picks: RawDraftPick[];
+}
+
+export async function fetchDraftLog(draftId: string): Promise<DraftLogResult> {
   const res = await fetch(
     `${PROXY_BASE}/data/draft?draft_id=${encodeURIComponent(draftId)}`
   );
   if (!res.ok) throw new Error(`Draft fetch failed: ${res.status}`);
   const data = await res.json();
-  return data.picks ?? data;
+  return {
+    expansion: typeof data.expansion === 'string' ? data.expansion : null,
+    picks: data.picks ?? data,
+  };
 }
 
 export async function fetchCardRatings(

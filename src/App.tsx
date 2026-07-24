@@ -18,9 +18,9 @@ function App() {
     >
       <Routes>
         <Route path="/signal-review" element={<SignalReview />} />
-        <Route path="/annotate" element={<CreateReview />} />
+        <Route path="/annotate" element={<Navigate to="/" replace />} />
         <Route path="/review/:id" element={<ReviewWorkspace />} />
-        <Route path="/" element={<Navigate to="/signal-review" replace />} />
+        <Route path="/" element={<CreateReview />} />
       </Routes>
     </div>
   );

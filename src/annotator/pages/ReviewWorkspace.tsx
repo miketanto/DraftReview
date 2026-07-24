@@ -12,8 +12,12 @@ import { PresenceBar } from '../components/PresenceBar';
 import { LayerToggle } from '../components/LayerToggle';
 import { UserIdentityModal } from '../components/UserIdentityModal';
 import { DraftSummaryPanel } from '../components/DraftSummaryPanel';
+import { CardHoverCard } from '../components/CardHoverCard';
 import { PickNavigator } from '../../ui/components/PickNavigator';
+import { SignalBadge } from '../../ui/components/SignalBadge';
+import { SignalProvider, useSignals } from '../SignalContext';
 import type { Divergence, PickAnnotation } from '../types';
+import type { RawDraftCard, RawDraftPick } from '../../data/types';
 
 export function ReviewWorkspace() {
   const { id } = useParams<{ id: string }>();
@@ -38,6 +42,42 @@ export function ReviewWorkspace() {
   const [activeTimelineId, setActiveTimelineId] = useState<string | null>(null);
   const [visibleLayerIds, setVisibleLayerIds] = useState<Set<string>>(new Set());
   const [collabAnnotations, setCollabAnnotations] = useState<PickAnnotation[]>([]);
+
+  // Card hover-stats popover: 150ms open intent, 60ms close grace,
+  // instant retarget when already open
+  const [hoverCard, setHoverCard] = useState<{ card: RawDraftCard; rect: DOMRect } | null>(null);
+  const hoverOpenRef = useRef(false);
+  const openTimer = useRef<number | null>(null);
+  const closeTimer = useRef<number | null>(null);
+
+  const handleCardEnter = useCallback((card: RawDraftCard, el: HTMLElement) => {
+    if (closeTimer.current) { window.clearTimeout(closeTimer.current); closeTimer.current = null; }
+    if (openTimer.current) { window.clearTimeout(openTimer.current); openTimer.current = null; }
+    const rect = el.getBoundingClientRect();
+    if (hoverOpenRef.current) {
+      setHoverCard({ card, rect });
+    } else {
+      openTimer.current = window.setTimeout(() => {
+        hoverOpenRef.current = true;
+        setHoverCard({ card, rect });
+      }, 150);
+    }
+  }, []);
+
+  const handleCardLeave = useCallback(() => {
+    if (openTimer.current) { window.clearTimeout(openTimer.current); openTimer.current = null; }
+    closeTimer.current = window.setTimeout(() => {
+      hoverOpenRef.current = false;
+      setHoverCard(null);
+    }, 60);
+  }, []);
+
+  const dismissHover = useCallback(() => {
+    if (openTimer.current) { window.clearTimeout(openTimer.current); openTimer.current = null; }
+    if (closeTimer.current) { window.clearTimeout(closeTimer.current); closeTimer.current = null; }
+    hoverOpenRef.current = false;
+    setHoverCard(null);
+  }, []);
 
   const activeTimeline = (review && activeTimelineId)
     ? review.timelines.find((t) => t.id === activeTimelineId) ?? null
@@ -168,11 +208,13 @@ export function ReviewWorkspace() {
   const goToNext = useCallback(() => {
     setPickIndex((i) => i + 1);
     setSelectedCard(null);
-  }, []);
+    dismissHover();
+  }, [dismissHover]);
   const goToPrev = useCallback(() => {
     setPickIndex((i) => i - 1);
     setSelectedCard(null);
-  }, []);
+    dismissHover();
+  }, [dismissHover]);
 
   if (loading) {
     return <div style={{ color: '#888', padding: 12 }}>Loading review...</div>;
@@ -201,6 +243,7 @@ export function ReviewWorkspace() {
   const visibleRemoteLayers = remoteLayers.filter((l) => visibleLayerIds.has(l.id));
 
   return (
+    <SignalProvider review={review}>
     <div style={{ display: 'flex', flexDirection: 'column', height: 'calc(100vh - 40px)' }}>
       {needsIdentity && <UserIdentityModal onSave={saveUser} />}
       <div
@@ -216,6 +259,7 @@ export function ReviewWorkspace() {
           <span style={{ color: '#666', fontSize: 12, marginLeft: 8 }}>
             {isEditable ? 'editing' : 'read-only'}
           </span>
+          <SetStatusChip />
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
           <PresenceBar users={presence} connected={connected} />
@@ -341,6 +385,8 @@ export function ReviewWorkspace() {
                       setSelectedCard(isSelected ? null : card.name);
                     }
                   }}
+                  onMouseEnter={(e) => handleCardEnter(card, e.currentTarget)}
+                  onMouseLeave={handleCardLeave}
                   style={{
                     position: 'relative',
                     cursor: 'pointer',
@@ -442,6 +488,7 @@ export function ReviewWorkspace() {
                       </svg>
                     </div>
                   ))}
+                  <TileSignalBadge cardName={card.name} pickIndex={pickIndex} />
                 </div>
               );
             })}
@@ -471,7 +518,88 @@ export function ReviewWorkspace() {
           alternatePool={activeTimeline && activeTimeline.divergences.length > 0 ? alternatePool : null}
         />
       </ResizablePool>
+
+      <WorkspaceHoverCard hover={hoverCard} pick={pick} pickIndex={pickIndex} />
     </div>
+    </SignalProvider>
+  );
+}
+
+/** Header chip reporting the detected set + signal availability */
+function SetStatusChip() {
+  const { status, setCode, config } = useSignals();
+  const base = { fontSize: 11, marginLeft: 8 };
+  if (status === 'ready' && config) {
+    return (
+      <span style={{ ...base, color: '#4CAF50' }}>
+        {config.code} · signals on
+      </span>
+    );
+  }
+  if (status === 'unsupported') {
+    return (
+      <span style={{ ...base, color: '#666' }}>
+        {setCode ? `${setCode} — ` : ''}no signal data · annotator only
+      </span>
+    );
+  }
+  if (status === 'error') {
+    return (
+      <span style={{ ...base, color: '#f44336' }}>signal data failed to load</span>
+    );
+  }
+  return <span style={{ ...base, color: '#555' }}>loading signals…</span>;
+}
+
+/** Staple/strong tier badge (and wheel marker) on a pack card tile */
+function TileSignalBadge({ cardName, pickIndex }: { cardName: string; pickIndex: number }) {
+  const { status, signalMap, analysis } = useSignals();
+  if (status !== 'ready' || !signalMap) return null;
+  const entry = signalMap[cardName];
+  if (!entry || !entry.primaryArchetype) return null;
+  const isWheel =
+    analysis?.picks[pickIndex]?.wheelDetections.includes(cardName) ?? false;
+  const topTier = entry.signalTier === 'staple' || entry.signalTier === 'strong';
+  if (!topTier && !isWheel) return null;
+  return (
+    <div style={{ position: 'absolute', bottom: 6, right: 6 }}>
+      <SignalBadge
+        archetype={entry.primaryArchetype}
+        tier={entry.signalTier}
+        isWheel={isWheel}
+      />
+    </div>
+  );
+}
+
+/** The single mounted hover popover; renders only when signals are ready */
+function WorkspaceHoverCard({
+  hover,
+  pick,
+  pickIndex,
+}: {
+  hover: { card: RawDraftCard; rect: DOMRect } | null;
+  pick: RawDraftPick | null;
+  pickIndex: number;
+}) {
+  const { status, signalMap, analysis, config } = useSignals();
+  if (!hover || !pick || status !== 'ready' || !config) return null;
+  const entry = signalMap?.[hover.card.name] ?? null;
+  const pa = analysis?.picks[pickIndex] ?? null;
+  const pickSignal =
+    pa?.cardSignals.find((s) => s.cardName === hover.card.name) ?? null;
+  const isWheel = pa?.wheelDetections.includes(hover.card.name) ?? false;
+  return (
+    <CardHoverCard
+      card={hover.card}
+      anchorRect={hover.rect}
+      signalEntry={entry}
+      pickSignal={pickSignal}
+      isWheel={isWheel}
+      config={config}
+      packNumber={pick.pack_number}
+      pickNumber={pick.pick_number}
+    />
   );
 }
 

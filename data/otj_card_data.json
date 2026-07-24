@@ -1,0 +1,6611 @@
+[
+  {
+    "name": "Another Round",
+    "mtgaId": 90347,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Archangel of Tithes",
+    "mtgaId": 90348,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Angel"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 40,
+    "everDrawnGameCount": 12,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Armored Armadillo",
+    "mtgaId": 90349,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Armadillo"
+    ],
+    "alsa": 4.3619329,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 42,
+    "everDrawnGameCount": 13,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Aven Interrupter",
+    "mtgaId": 90350,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Creature - Bird Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 61,
+    "everDrawnGameCount": 19,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bounding Felidar",
+    "mtgaId": 90351,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Cat Beast Mount"
+    ],
+    "alsa": 7.040293,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 612,
+    "everDrawnGameCount": 272,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bovine Intervention",
+    "mtgaId": 90352,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.4214559,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 92,
+    "everDrawnGameCount": 41,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bridled Bighorn",
+    "mtgaId": 90353,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Sheep Mount"
+    ],
+    "alsa": 6.2448166,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 692,
+    "everDrawnGameCount": 234,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Claim Jumper",
+    "mtgaId": 90354,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Creature - Rabbit Mercenary"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 74,
+    "everDrawnGameCount": 23,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dust Animus",
+    "mtgaId": 90355,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Creature - Spirit"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 190,
+    "everDrawnGameCount": 84,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Eriette's Lullaby",
+    "mtgaId": 90356,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 3.5995526,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 298,
+    "everDrawnGameCount": 136,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Final Showdown",
+    "mtgaId": 90357,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 68,
+    "everDrawnGameCount": 23,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fortune, Loyal Steed",
+    "mtgaId": 90358,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Beast Mount"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 122,
+    "everDrawnGameCount": 43,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Frontier Seeker",
+    "mtgaId": 90359,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Scout"
+    ],
+    "alsa": 3.0325733,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 426,
+    "everDrawnGameCount": 162,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Getaway Glamer",
+    "mtgaId": 90360,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.2732558,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 376,
+    "everDrawnGameCount": 133,
+    "archetypeStats": {}
+  },
+  {
+    "name": "High Noon",
+    "mtgaId": 90361,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 6,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Holy Cow",
+    "mtgaId": 90362,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Ox Angel"
+    ],
+    "alsa": 3.026738,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 325,
+    "everDrawnGameCount": 139,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Inventive Wingsmith",
+    "mtgaId": 90363,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Dwarf Artificer"
+    ],
+    "alsa": 6.2645462,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 76,
+    "everDrawnGameCount": 23,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lassoed by the Law",
+    "mtgaId": 90364,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 3.4835165,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 1172,
+    "everDrawnGameCount": 471,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mystical Tether",
+    "mtgaId": 90365,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 3.1303155,
+    "ata": 3.6618357,
+    "overallGihwr": 0,
+    "gameCount": 1139,
+    "everDrawnGameCount": 470,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Nurturing Pixie",
+    "mtgaId": 90366,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Faerie Rogue"
+    ],
+    "alsa": 4.2166247,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 124,
+    "everDrawnGameCount": 54,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Omenport Vigilante",
+    "mtgaId": 90367,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Mercenary"
+    ],
+    "alsa": 3.6077348,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 139,
+    "everDrawnGameCount": 61,
+    "archetypeStats": {}
+  },
+  {
+    "name": "One Last Job",
+    "mtgaId": 90368,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 15,
+    "everDrawnGameCount": 5,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Outlaw Medic",
+    "mtgaId": 90369,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": 7.4294432,
+    "ata": 9.4565217,
+    "overallGihwr": 0,
+    "gameCount": 867,
+    "everDrawnGameCount": 382,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Prairie Dog",
+    "mtgaId": 90370,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Squirrel"
+    ],
+    "alsa": 2.9621451,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 435,
+    "everDrawnGameCount": 177,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Prosperity Tycoon",
+    "mtgaId": 90371,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Noble"
+    ],
+    "alsa": 4.395122,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 380,
+    "everDrawnGameCount": 157,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Requisition Raid",
+    "mtgaId": 90372,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 7.5638298,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 171,
+    "everDrawnGameCount": 67,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rustler Rampage",
+    "mtgaId": 90373,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.8220641,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 38,
+    "everDrawnGameCount": 19,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Shepherd of the Clouds",
+    "mtgaId": 90374,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Pegasus"
+    ],
+    "alsa": 4.2084309,
+    "ata": 4.4656863,
+    "overallGihwr": 0,
+    "gameCount": 1125,
+    "everDrawnGameCount": 470,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sheriff of Safe Passage",
+    "mtgaId": 90375,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Knight"
+    ],
+    "alsa": 7.6556169,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 187,
+    "everDrawnGameCount": 76,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Stagecoach Security",
+    "mtgaId": 90376,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Soldier"
+    ],
+    "alsa": 7.576,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 338,
+    "everDrawnGameCount": 134,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Steer Clear",
+    "mtgaId": 90377,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 8.4643939,
+    "ata": 10.241486,
+    "overallGihwr": 0,
+    "gameCount": 916,
+    "everDrawnGameCount": 389,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sterling Keykeeper",
+    "mtgaId": 90378,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Mercenary"
+    ],
+    "alsa": 5.3538462,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 459,
+    "everDrawnGameCount": 185,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sterling Supplier",
+    "mtgaId": 90379,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Bird Soldier"
+    ],
+    "alsa": 7.3868066,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 427,
+    "everDrawnGameCount": 187,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Take Up the Shield",
+    "mtgaId": 90380,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 5.2327899,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 979,
+    "everDrawnGameCount": 381,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thunder Lasso",
+    "mtgaId": 90381,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": 7.5679702,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 167,
+    "everDrawnGameCount": 52,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Trained Arynx",
+    "mtgaId": 90382,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Cat Beast Mount"
+    ],
+    "alsa": 5.1152513,
+    "ata": 6.0943396,
+    "overallGihwr": 0.61867089,
+    "gameCount": 1531,
+    "everDrawnGameCount": 632,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1531,
+        "everDrawnGameCount": 632,
+        "gihwr": 0.61867089
+      },
+      "WB": {
+        "gameCount": 1531,
+        "everDrawnGameCount": 632,
+        "gihwr": 0.61867089
+      },
+      "WR": {
+        "gameCount": 1531,
+        "everDrawnGameCount": 632,
+        "gihwr": 0.61867089
+      },
+      "WG": {
+        "gameCount": 1531,
+        "everDrawnGameCount": 632,
+        "gihwr": 0.61867089
+      },
+      "UB": {
+        "gameCount": 1531,
+        "everDrawnGameCount": 632,
+        "gihwr": 0.61867089
+      },
+      "UR": {
+        "gameCount": 1531,
+        "everDrawnGameCount": 632,
+        "gihwr": 0.61867089
+      },
+      "UG": {
+        "gameCount": 1531,
+        "everDrawnGameCount": 632,
+        "gihwr": 0.61867089
+      },
+      "BR": {
+        "gameCount": 1531,
+        "everDrawnGameCount": 632,
+        "gihwr": 0.61867089
+      },
+      "BG": {
+        "gameCount": 1531,
+        "everDrawnGameCount": 632,
+        "gihwr": 0.61867089
+      },
+      "RG": {
+        "gameCount": 1531,
+        "everDrawnGameCount": 632,
+        "gihwr": 0.61867089
+      }
+    }
+  },
+  {
+    "name": "Vengeful Townsfolk",
+    "mtgaId": 90383,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Citizen"
+    ],
+    "alsa": 4.3648791,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 148,
+    "everDrawnGameCount": 53,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wanted Griffin",
+    "mtgaId": 90384,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Griffin"
+    ],
+    "alsa": 6.4477612,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 177,
+    "everDrawnGameCount": 70,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Archmage's Newt",
+    "mtgaId": 90385,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Creature - Salamander Mount"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 10,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Canyon Crab",
+    "mtgaId": 90386,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Crab"
+    ],
+    "alsa": 6.3970037,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 213,
+    "everDrawnGameCount": 88,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Daring Thunder-Thief",
+    "mtgaId": 90387,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Turtle Rogue"
+    ],
+    "alsa": 4.4743326,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 12,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Deepmuck Desperado",
+    "mtgaId": 90388,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Homarid Mercenary"
+    ],
+    "alsa": 6.1945946,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 453,
+    "everDrawnGameCount": 175,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Djinn of Fool's Fall",
+    "mtgaId": 90389,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Djinn"
+    ],
+    "alsa": 7.5981735,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 82,
+    "everDrawnGameCount": 28,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Double Down",
+    "mtgaId": 90390,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 30,
+    "everDrawnGameCount": 17,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Duelist of the Mind",
+    "mtgaId": 90391,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Creature - Human Advisor"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 39,
+    "everDrawnGameCount": 18,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Emergent Haunting",
+    "mtgaId": 90392,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 5.4867257,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 93,
+    "everDrawnGameCount": 40,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Failed Fording",
+    "mtgaId": 90393,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.4943225,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 377,
+    "everDrawnGameCount": 168,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fblthp, Lost on the Range",
+    "mtgaId": 90394,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Homunculus"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 30,
+    "everDrawnGameCount": 15,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fleeting Reflection",
+    "mtgaId": 90395,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.8386492,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 15,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Geralf, the Fleshwright",
+    "mtgaId": 90396,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 53,
+    "everDrawnGameCount": 18,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Geyser Drake",
+    "mtgaId": 90397,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Drake"
+    ],
+    "alsa": 3.7581454,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 75,
+    "everDrawnGameCount": 33,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Harrier Strix",
+    "mtgaId": 90398,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Bird"
+    ],
+    "alsa": 4.3767258,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 138,
+    "everDrawnGameCount": 77,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Jailbreak Scheme",
+    "mtgaId": 90399,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 3.0863214,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 42,
+    "everDrawnGameCount": 17,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Key to the Vault",
+    "mtgaId": 90400,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Legendary Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 16,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Loan Shark",
+    "mtgaId": 90401,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Shark Rogue"
+    ],
+    "alsa": 6.5252202,
+    "ata": 9.038835,
+    "overallGihwr": 0,
+    "gameCount": 735,
+    "everDrawnGameCount": 321,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Marauding Sphinx",
+    "mtgaId": 90402,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Sphinx Rogue"
+    ],
+    "alsa": 4.1795511,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 370,
+    "everDrawnGameCount": 153,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Metamorphic Blast",
+    "mtgaId": 90403,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.7146814,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 101,
+    "everDrawnGameCount": 54,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Nimble Brigand",
+    "mtgaId": 90404,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": 3.7777778,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 281,
+    "everDrawnGameCount": 128,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Outlaw Stitcher",
+    "mtgaId": 90405,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Warlock"
+    ],
+    "alsa": 5.2633833,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 360,
+    "everDrawnGameCount": 161,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Peerless Ropemaster",
+    "mtgaId": 90406,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": 6.5245902,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 141,
+    "everDrawnGameCount": 57,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Phantom Interference",
+    "mtgaId": 90407,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 4.3825911,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 371,
+    "everDrawnGameCount": 166,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Plan the Heist",
+    "mtgaId": 90408,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 4.4752941,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 141,
+    "everDrawnGameCount": 62,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Razzle-Dazzler",
+    "mtgaId": 90409,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Wizard"
+    ],
+    "alsa": 7.6519791,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 252,
+    "everDrawnGameCount": 107,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Seize the Secrets",
+    "mtgaId": 90410,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.5884354,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 345,
+    "everDrawnGameCount": 177,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Shackle Slinger",
+    "mtgaId": 90411,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Soldier"
+    ],
+    "alsa": 7.7267951,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 90,
+    "everDrawnGameCount": 44,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Shifting Grift",
+    "mtgaId": 90412,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 9.0073665,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Slickshot Lockpicker",
+    "mtgaId": 90413,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": 5.1474654,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 462,
+    "everDrawnGameCount": 208,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Slickshot Vault-Buster",
+    "mtgaId": 90414,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": 8.5007353,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 47,
+    "everDrawnGameCount": 19,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Spring Splasher",
+    "mtgaId": 90415,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Frog Beast"
+    ],
+    "alsa": 7.7571099,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 145,
+    "everDrawnGameCount": 64,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Step Between Worlds",
+    "mtgaId": 90416,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Stoic Sphinx",
+    "mtgaId": 90417,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Creature - Sphinx"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 75,
+    "everDrawnGameCount": 42,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Stop Cold",
+    "mtgaId": 90418,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": 5.4947917,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 342,
+    "everDrawnGameCount": 162,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Take the Fall",
+    "mtgaId": 90419,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.4954819,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 406,
+    "everDrawnGameCount": 180,
+    "archetypeStats": {}
+  },
+  {
+    "name": "This Town Ain't Big Enough",
+    "mtgaId": 90420,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 8.5868373,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 422,
+    "everDrawnGameCount": 211,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Three Steps Ahead",
+    "mtgaId": 90421,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 101,
+    "everDrawnGameCount": 43,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Visage Bandit",
+    "mtgaId": 90422,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Shapeshifter Rogue"
+    ],
+    "alsa": 8.3745645,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 423,
+    "everDrawnGameCount": 181,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ambush Gigapede",
+    "mtgaId": 90423,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Insect"
+    ],
+    "alsa": 8.154679,
+    "ata": 9.8443114,
+    "overallGihwr": 0,
+    "gameCount": 1112,
+    "everDrawnGameCount": 468,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Binding Negotiation",
+    "mtgaId": 90424,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.2646465,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 304,
+    "everDrawnGameCount": 137,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Blacksnag Buzzard",
+    "mtgaId": 90425,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Bird"
+    ],
+    "alsa": 5.2989691,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 100,
+    "everDrawnGameCount": 38,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Blood Hustler",
+    "mtgaId": 90426,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Vampire Rogue"
+    ],
+    "alsa": 4.9736264,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 939,
+    "everDrawnGameCount": 421,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Boneyard Desecrator",
+    "mtgaId": 90427,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Zombie Mercenary"
+    ],
+    "alsa": 6.2019078,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 165,
+    "everDrawnGameCount": 68,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Caustic Bronco",
+    "mtgaId": 90428,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Creature - Snake Horse Mount"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 184,
+    "everDrawnGameCount": 72,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Consuming Ashes",
+    "mtgaId": 90429,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.2634961,
+    "ata": 3.9763033,
+    "overallGihwr": 0.61748634,
+    "gameCount": 1276,
+    "everDrawnGameCount": 549,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1276,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.61748634
+      },
+      "WB": {
+        "gameCount": 1276,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.61748634
+      },
+      "WR": {
+        "gameCount": 1276,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.61748634
+      },
+      "WG": {
+        "gameCount": 1276,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.61748634
+      },
+      "UB": {
+        "gameCount": 1276,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.61748634
+      },
+      "UR": {
+        "gameCount": 1276,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.61748634
+      },
+      "UG": {
+        "gameCount": 1276,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.61748634
+      },
+      "BR": {
+        "gameCount": 1276,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.61748634
+      },
+      "BG": {
+        "gameCount": 1276,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.61748634
+      },
+      "RG": {
+        "gameCount": 1276,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.61748634
+      }
+    }
+  },
+  {
+    "name": "Corrupted Conviction",
+    "mtgaId": 90430,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 8.404384,
+    "ata": 11.70936,
+    "overallGihwr": 0,
+    "gameCount": 212,
+    "everDrawnGameCount": 99,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Desert's Due",
+    "mtgaId": 90431,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 2.9350829,
+    "ata": 3.5774648,
+    "overallGihwr": 0.63427562,
+    "gameCount": 1232,
+    "everDrawnGameCount": 566,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1232,
+        "everDrawnGameCount": 566,
+        "gihwr": 0.63427562
+      },
+      "WB": {
+        "gameCount": 1232,
+        "everDrawnGameCount": 566,
+        "gihwr": 0.63427562
+      },
+      "WR": {
+        "gameCount": 1232,
+        "everDrawnGameCount": 566,
+        "gihwr": 0.63427562
+      },
+      "WG": {
+        "gameCount": 1232,
+        "everDrawnGameCount": 566,
+        "gihwr": 0.63427562
+      },
+      "UB": {
+        "gameCount": 1232,
+        "everDrawnGameCount": 566,
+        "gihwr": 0.63427562
+      },
+      "UR": {
+        "gameCount": 1232,
+        "everDrawnGameCount": 566,
+        "gihwr": 0.63427562
+      },
+      "UG": {
+        "gameCount": 1232,
+        "everDrawnGameCount": 566,
+        "gihwr": 0.63427562
+      },
+      "BR": {
+        "gameCount": 1232,
+        "everDrawnGameCount": 566,
+        "gihwr": 0.63427562
+      },
+      "BG": {
+        "gameCount": 1232,
+        "everDrawnGameCount": 566,
+        "gihwr": 0.63427562
+      },
+      "RG": {
+        "gameCount": 1232,
+        "everDrawnGameCount": 566,
+        "gihwr": 0.63427562
+      }
+    }
+  },
+  {
+    "name": "Desperate Bloodseeker",
+    "mtgaId": 90432,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Vampire"
+    ],
+    "alsa": 3.944385,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 795,
+    "everDrawnGameCount": 362,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fake Your Own Death",
+    "mtgaId": 90433,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.5097733,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 393,
+    "everDrawnGameCount": 163,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Forsaken Miner",
+    "mtgaId": 90434,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Skeleton Rogue"
+    ],
+    "alsa": 3.189911,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 125,
+    "everDrawnGameCount": 54,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gisa, the Hellraiser",
+    "mtgaId": 90435,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 95,
+    "everDrawnGameCount": 36,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hollow Marauder",
+    "mtgaId": 90436,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Specter Rogue"
+    ],
+    "alsa": 5.0173913,
+    "ata": 5.2294372,
+    "overallGihwr": 0.63874346,
+    "gameCount": 1337,
+    "everDrawnGameCount": 573,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1337,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.63874346
+      },
+      "WB": {
+        "gameCount": 1337,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.63874346
+      },
+      "WR": {
+        "gameCount": 1337,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.63874346
+      },
+      "WG": {
+        "gameCount": 1337,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.63874346
+      },
+      "UB": {
+        "gameCount": 1337,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.63874346
+      },
+      "UR": {
+        "gameCount": 1337,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.63874346
+      },
+      "UG": {
+        "gameCount": 1337,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.63874346
+      },
+      "BR": {
+        "gameCount": 1337,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.63874346
+      },
+      "BG": {
+        "gameCount": 1337,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.63874346
+      },
+      "RG": {
+        "gameCount": 1337,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.63874346
+      }
+    }
+  },
+  {
+    "name": "Insatiable Avarice",
+    "mtgaId": 90437,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 29,
+    "everDrawnGameCount": 16,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kaervek, the Punisher",
+    "mtgaId": 90438,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 48,
+    "everDrawnGameCount": 14,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lively Dirge",
+    "mtgaId": 90439,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 8.1515152,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 417,
+    "everDrawnGameCount": 182,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mourner's Surprise",
+    "mtgaId": 90440,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.3382014,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 643,
+    "everDrawnGameCount": 281,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Neutralize the Guards",
+    "mtgaId": 90441,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 5.384778,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 31,
+    "everDrawnGameCount": 13,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Nezumi Linkbreaker",
+    "mtgaId": 90442,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Rat Warlock"
+    ],
+    "alsa": 4.0031447,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 163,
+    "everDrawnGameCount": 78,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Overzealous Muscle",
+    "mtgaId": 90443,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Ogre Mercenary"
+    ],
+    "alsa": 8.1751983,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 294,
+    "everDrawnGameCount": 129,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pitiless Carnage",
+    "mtgaId": 90444,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rakish Crew",
+    "mtgaId": 90445,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 6.1712598,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 192,
+    "everDrawnGameCount": 73,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rattleback Apothecary",
+    "mtgaId": 90446,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Gorgon Warlock"
+    ],
+    "alsa": 5.2321429,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 494,
+    "everDrawnGameCount": 213,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Raven of Fell Omens",
+    "mtgaId": 90447,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Bird"
+    ],
+    "alsa": 4.3376623,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 555,
+    "everDrawnGameCount": 235,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rictus Robber",
+    "mtgaId": 90448,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Zombie Rogue"
+    ],
+    "alsa": 2.9792388,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 105,
+    "everDrawnGameCount": 42,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rooftop Assassin",
+    "mtgaId": 90449,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Vampire Assassin"
+    ],
+    "alsa": 4.063358,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 310,
+    "everDrawnGameCount": 134,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rush of Dread",
+    "mtgaId": 90450,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 115,
+    "everDrawnGameCount": 49,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Servant of the Stinger",
+    "mtgaId": 90451,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Warlock"
+    ],
+    "alsa": 3.1424332,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 519,
+    "everDrawnGameCount": 227,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Shoot the Sheriff",
+    "mtgaId": 90452,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 2.9968847,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 760,
+    "everDrawnGameCount": 332,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Skulduggery",
+    "mtgaId": 90453,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 4.3993933,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 251,
+    "everDrawnGameCount": 99,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tinybones Joins Up",
+    "mtgaId": 90454,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Legendary Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 32,
+    "everDrawnGameCount": 12,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tinybones, the Pickpocket",
+    "mtgaId": 90455,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Skeleton Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 20,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Treasure Dredger",
+    "mtgaId": 90456,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": 6.4051565,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 536,
+    "everDrawnGameCount": 221,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Unfortunate Accident",
+    "mtgaId": 90457,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.2879257,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 560,
+    "everDrawnGameCount": 242,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Unscrupulous Contractor",
+    "mtgaId": 90458,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Assassin"
+    ],
+    "alsa": 3.0181269,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 152,
+    "everDrawnGameCount": 61,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vadmir, New Blood",
+    "mtgaId": 90459,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Vampire Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 112,
+    "everDrawnGameCount": 50,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vault Plunderer",
+    "mtgaId": 90460,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": 3.9459746,
+    "ata": 5.0672269,
+    "overallGihwr": 0.63757116,
+    "gameCount": 1288,
+    "everDrawnGameCount": 527,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1288,
+        "everDrawnGameCount": 527,
+        "gihwr": 0.63757116
+      },
+      "WB": {
+        "gameCount": 1288,
+        "everDrawnGameCount": 527,
+        "gihwr": 0.63757116
+      },
+      "WR": {
+        "gameCount": 1288,
+        "everDrawnGameCount": 527,
+        "gihwr": 0.63757116
+      },
+      "WG": {
+        "gameCount": 1288,
+        "everDrawnGameCount": 527,
+        "gihwr": 0.63757116
+      },
+      "UB": {
+        "gameCount": 1288,
+        "everDrawnGameCount": 527,
+        "gihwr": 0.63757116
+      },
+      "UR": {
+        "gameCount": 1288,
+        "everDrawnGameCount": 527,
+        "gihwr": 0.63757116
+      },
+      "UG": {
+        "gameCount": 1288,
+        "everDrawnGameCount": 527,
+        "gihwr": 0.63757116
+      },
+      "BR": {
+        "gameCount": 1288,
+        "everDrawnGameCount": 527,
+        "gihwr": 0.63757116
+      },
+      "BG": {
+        "gameCount": 1288,
+        "everDrawnGameCount": 527,
+        "gihwr": 0.63757116
+      },
+      "RG": {
+        "gameCount": 1288,
+        "everDrawnGameCount": 527,
+        "gihwr": 0.63757116
+      }
+    }
+  },
+  {
+    "name": "Brimstone Roundup",
+    "mtgaId": 90461,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 7.2685026,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 33,
+    "everDrawnGameCount": 15,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Calamity, Galloping Inferno",
+    "mtgaId": 90462,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Horse Mount"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 108,
+    "everDrawnGameCount": 41,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Caught in the Crossfire",
+    "mtgaId": 90463,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 4.5660377,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 34,
+    "everDrawnGameCount": 14,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Cunning Coyote",
+    "mtgaId": 90464,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Coyote"
+    ],
+    "alsa": 3.5153374,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 126,
+    "everDrawnGameCount": 60,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Deadeye Duelist",
+    "mtgaId": 90465,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Assassin"
+    ],
+    "alsa": 8.2610322,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 372,
+    "everDrawnGameCount": 166,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Demonic Ruckus",
+    "mtgaId": 90466,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": 6.4810379,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 120,
+    "everDrawnGameCount": 40,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Discerning Peddler",
+    "mtgaId": 90467,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": 4.3767967,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 132,
+    "everDrawnGameCount": 54,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Explosive Derailment",
+    "mtgaId": 90468,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.0643777,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 224,
+    "everDrawnGameCount": 88,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ferocification",
+    "mtgaId": 90469,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 7.6065574,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 43,
+    "everDrawnGameCount": 17,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gila Courser",
+    "mtgaId": 90470,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Lizard Mount"
+    ],
+    "alsa": 7.3864407,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 300,
+    "everDrawnGameCount": 142,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Great Train Heist",
+    "mtgaId": 90471,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 40,
+    "everDrawnGameCount": 20,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hell to Pay",
+    "mtgaId": 90472,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 30,
+    "everDrawnGameCount": 19,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hellspur Brute",
+    "mtgaId": 90473,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Minotaur Mercenary"
+    ],
+    "alsa": 4.1412742,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 114,
+    "everDrawnGameCount": 47,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hellspur Posse Boss",
+    "mtgaId": 90474,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Creature - Lizard Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 39,
+    "everDrawnGameCount": 20,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Highway Robbery",
+    "mtgaId": 90475,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 7.6134969,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 133,
+    "everDrawnGameCount": 65,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Irascible Wolverine",
+    "mtgaId": 90476,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Wolverine"
+    ],
+    "alsa": 7.4666172,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 319,
+    "everDrawnGameCount": 126,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Iron-Fist Pulverizer",
+    "mtgaId": 90477,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Giant Warrior"
+    ],
+    "alsa": 4.4621762,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 31,
+    "everDrawnGameCount": 12,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Longhorn Sharpshooter",
+    "mtgaId": 90478,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Minotaur Rogue"
+    ],
+    "alsa": 3.4471299,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 261,
+    "everDrawnGameCount": 122,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Magda, the Hoardmaster",
+    "mtgaId": 90479,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Dwarf Berserker"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 58,
+    "everDrawnGameCount": 23,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Magebane Lizard",
+    "mtgaId": 90480,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Lizard"
+    ],
+    "alsa": 6.7074074,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 25,
+    "everDrawnGameCount": 11,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mine Raider",
+    "mtgaId": 90481,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": 4.8127854,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 159,
+    "everDrawnGameCount": 75,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Outlaws' Fury",
+    "mtgaId": 90482,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.5363296,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 50,
+    "everDrawnGameCount": 21,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Prickly Pair",
+    "mtgaId": 90483,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Plant Mercenary"
+    ],
+    "alsa": 3.8548571,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 114,
+    "everDrawnGameCount": 51,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Quick Draw",
+    "mtgaId": 90484,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 8.4022059,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 34,
+    "everDrawnGameCount": 16,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Quilled Charger",
+    "mtgaId": 90485,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Porcupine Mount"
+    ],
+    "alsa": 7.5346097,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 101,
+    "everDrawnGameCount": 43,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Reckless Lackey",
+    "mtgaId": 90486,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Goblin Pirate"
+    ],
+    "alsa": 3.4134276,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 68,
+    "everDrawnGameCount": 24,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Resilient Roadrunner",
+    "mtgaId": 90487,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Bird"
+    ],
+    "alsa": 5.5666667,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 111,
+    "everDrawnGameCount": 48,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Return the Favor",
+    "mtgaId": 90488,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 6.4636872,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 26,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rodeo Pyromancers",
+    "mtgaId": 90489,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Mercenary"
+    ],
+    "alsa": 7.5453858,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 65,
+    "everDrawnGameCount": 26,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Scalestorm Summoner",
+    "mtgaId": 90490,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Warlock"
+    ],
+    "alsa": 4.2907268,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 108,
+    "everDrawnGameCount": 46,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Scorching Shot",
+    "mtgaId": 90491,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 2.9448276,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 109,
+    "everDrawnGameCount": 56,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Slickshot Show-Off",
+    "mtgaId": 90492,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Creature - Bird Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 42,
+    "everDrawnGameCount": 18,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Stingerback Terror",
+    "mtgaId": 90493,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Creature - Scorpion Dragon"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 76,
+    "everDrawnGameCount": 28,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Take for a Ride",
+    "mtgaId": 90494,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 5.1503417,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 60,
+    "everDrawnGameCount": 23,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Terror of the Peaks",
+    "mtgaId": 90495,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Dragon"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 53,
+    "everDrawnGameCount": 21,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thunder Salvo",
+    "mtgaId": 90496,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.7694064,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 195,
+    "everDrawnGameCount": 86,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Trick Shot",
+    "mtgaId": 90497,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 5.4209091,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 135,
+    "everDrawnGameCount": 58,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Aloe Alchemist",
+    "mtgaId": 90498,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Plant Warlock"
+    ],
+    "alsa": 3.0289389,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 585,
+    "everDrawnGameCount": 233,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ankle Biter",
+    "mtgaId": 90499,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Snake"
+    ],
+    "alsa": 6.5048387,
+    "ata": 8.5648855,
+    "overallGihwr": 0,
+    "gameCount": 1063,
+    "everDrawnGameCount": 453,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Beastbond Outcaster",
+    "mtgaId": 90500,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Druid"
+    ],
+    "alsa": 3.929385,
+    "ata": 4.2196262,
+    "overallGihwr": 0.606,
+    "gameCount": 1227,
+    "everDrawnGameCount": 500,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 500,
+        "gihwr": 0.606
+      },
+      "WB": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 500,
+        "gihwr": 0.606
+      },
+      "WR": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 500,
+        "gihwr": 0.606
+      },
+      "WG": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 500,
+        "gihwr": 0.606
+      },
+      "UB": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 500,
+        "gihwr": 0.606
+      },
+      "UR": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 500,
+        "gihwr": 0.606
+      },
+      "UG": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 500,
+        "gihwr": 0.606
+      },
+      "BR": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 500,
+        "gihwr": 0.606
+      },
+      "BG": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 500,
+        "gihwr": 0.606
+      },
+      "RG": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 500,
+        "gihwr": 0.606
+      }
+    }
+  },
+  {
+    "name": "Betrayal at the Vault",
+    "mtgaId": 90501,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 6.8851852,
+    "ata": 7.4038462,
+    "overallGihwr": 0,
+    "gameCount": 918,
+    "everDrawnGameCount": 381,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bristlepack Sentry",
+    "mtgaId": 90502,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Plant Wolf"
+    ],
+    "alsa": 5.3902012,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 481,
+    "everDrawnGameCount": 208,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bristly Bill, Spine Sower",
+    "mtgaId": 90503,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Plant Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 117,
+    "everDrawnGameCount": 56,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Cactarantula",
+    "mtgaId": 90504,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Plant Spider"
+    ],
+    "alsa": 6.0154346,
+    "ata": 6.888664,
+    "overallGihwr": 0.61794635,
+    "gameCount": 2592,
+    "everDrawnGameCount": 1081,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2592,
+        "everDrawnGameCount": 1081,
+        "gihwr": 0.61794635
+      },
+      "WB": {
+        "gameCount": 2592,
+        "everDrawnGameCount": 1081,
+        "gihwr": 0.61794635
+      },
+      "WR": {
+        "gameCount": 2592,
+        "everDrawnGameCount": 1081,
+        "gihwr": 0.61794635
+      },
+      "WG": {
+        "gameCount": 2592,
+        "everDrawnGameCount": 1081,
+        "gihwr": 0.61794635
+      },
+      "UB": {
+        "gameCount": 2592,
+        "everDrawnGameCount": 1081,
+        "gihwr": 0.61794635
+      },
+      "UR": {
+        "gameCount": 2592,
+        "everDrawnGameCount": 1081,
+        "gihwr": 0.61794635
+      },
+      "UG": {
+        "gameCount": 2592,
+        "everDrawnGameCount": 1081,
+        "gihwr": 0.61794635
+      },
+      "BR": {
+        "gameCount": 2592,
+        "everDrawnGameCount": 1081,
+        "gihwr": 0.61794635
+      },
+      "BG": {
+        "gameCount": 2592,
+        "everDrawnGameCount": 1081,
+        "gihwr": 0.61794635
+      },
+      "RG": {
+        "gameCount": 2592,
+        "everDrawnGameCount": 1081,
+        "gihwr": 0.61794635
+      }
+    }
+  },
+  {
+    "name": "Colossal Rattlewurm",
+    "mtgaId": 90505,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Wurm"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 191,
+    "everDrawnGameCount": 79,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dance of the Tumbleweeds",
+    "mtgaId": 90506,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.9585614,
+    "ata": 7.597582,
+    "overallGihwr": 0.61812298,
+    "gameCount": 2941,
+    "everDrawnGameCount": 1236,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2941,
+        "everDrawnGameCount": 1236,
+        "gihwr": 0.61812298
+      },
+      "WB": {
+        "gameCount": 2941,
+        "everDrawnGameCount": 1236,
+        "gihwr": 0.61812298
+      },
+      "WR": {
+        "gameCount": 2941,
+        "everDrawnGameCount": 1236,
+        "gihwr": 0.61812298
+      },
+      "WG": {
+        "gameCount": 2941,
+        "everDrawnGameCount": 1236,
+        "gihwr": 0.61812298
+      },
+      "UB": {
+        "gameCount": 2941,
+        "everDrawnGameCount": 1236,
+        "gihwr": 0.61812298
+      },
+      "UR": {
+        "gameCount": 2941,
+        "everDrawnGameCount": 1236,
+        "gihwr": 0.61812298
+      },
+      "UG": {
+        "gameCount": 2941,
+        "everDrawnGameCount": 1236,
+        "gihwr": 0.61812298
+      },
+      "BR": {
+        "gameCount": 2941,
+        "everDrawnGameCount": 1236,
+        "gihwr": 0.61812298
+      },
+      "BG": {
+        "gameCount": 2941,
+        "everDrawnGameCount": 1236,
+        "gihwr": 0.61812298
+      },
+      "RG": {
+        "gameCount": 2941,
+        "everDrawnGameCount": 1236,
+        "gihwr": 0.61812298
+      }
+    }
+  },
+  {
+    "name": "Drover Grizzly",
+    "mtgaId": 90507,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Bear Mount"
+    ],
+    "alsa": 8.0295203,
+    "ata": 9.2591171,
+    "overallGihwr": 0.59649123,
+    "gameCount": 2339,
+    "everDrawnGameCount": 912,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2339,
+        "everDrawnGameCount": 912,
+        "gihwr": 0.59649123
+      },
+      "WB": {
+        "gameCount": 2339,
+        "everDrawnGameCount": 912,
+        "gihwr": 0.59649123
+      },
+      "WR": {
+        "gameCount": 2339,
+        "everDrawnGameCount": 912,
+        "gihwr": 0.59649123
+      },
+      "WG": {
+        "gameCount": 2339,
+        "everDrawnGameCount": 912,
+        "gihwr": 0.59649123
+      },
+      "UB": {
+        "gameCount": 2339,
+        "everDrawnGameCount": 912,
+        "gihwr": 0.59649123
+      },
+      "UR": {
+        "gameCount": 2339,
+        "everDrawnGameCount": 912,
+        "gihwr": 0.59649123
+      },
+      "UG": {
+        "gameCount": 2339,
+        "everDrawnGameCount": 912,
+        "gihwr": 0.59649123
+      },
+      "BR": {
+        "gameCount": 2339,
+        "everDrawnGameCount": 912,
+        "gihwr": 0.59649123
+      },
+      "BG": {
+        "gameCount": 2339,
+        "everDrawnGameCount": 912,
+        "gihwr": 0.59649123
+      },
+      "RG": {
+        "gameCount": 2339,
+        "everDrawnGameCount": 912,
+        "gihwr": 0.59649123
+      }
+    }
+  },
+  {
+    "name": "Freestrider Commando",
+    "mtgaId": 90508,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Centaur Mercenary"
+    ],
+    "alsa": 6.2608696,
+    "ata": 8.9405941,
+    "overallGihwr": 0,
+    "gameCount": 649,
+    "everDrawnGameCount": 249,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Freestrider Lookout",
+    "mtgaId": 90509,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 132,
+    "everDrawnGameCount": 47,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Full Steam Ahead",
+    "mtgaId": 90510,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 5.4115308,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 61,
+    "everDrawnGameCount": 21,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Giant Beaver",
+    "mtgaId": 90511,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Beaver Mount"
+    ],
+    "alsa": 3.9739854,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 937,
+    "everDrawnGameCount": 367,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gold Rush",
+    "mtgaId": 90512,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 5.0715789,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 92,
+    "everDrawnGameCount": 50,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Goldvein Hydra",
+    "mtgaId": 90513,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Hydra"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 114,
+    "everDrawnGameCount": 43,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hardbristle Bandit",
+    "mtgaId": 90514,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Plant Rogue"
+    ],
+    "alsa": 3.4971098,
+    "ata": 4.2517483,
+    "overallGihwr": 0.63648834,
+    "gameCount": 1775,
+    "everDrawnGameCount": 729,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1775,
+        "everDrawnGameCount": 729,
+        "gihwr": 0.63648834
+      },
+      "WB": {
+        "gameCount": 1775,
+        "everDrawnGameCount": 729,
+        "gihwr": 0.63648834
+      },
+      "WR": {
+        "gameCount": 1775,
+        "everDrawnGameCount": 729,
+        "gihwr": 0.63648834
+      },
+      "WG": {
+        "gameCount": 1775,
+        "everDrawnGameCount": 729,
+        "gihwr": 0.63648834
+      },
+      "UB": {
+        "gameCount": 1775,
+        "everDrawnGameCount": 729,
+        "gihwr": 0.63648834
+      },
+      "UR": {
+        "gameCount": 1775,
+        "everDrawnGameCount": 729,
+        "gihwr": 0.63648834
+      },
+      "UG": {
+        "gameCount": 1775,
+        "everDrawnGameCount": 729,
+        "gihwr": 0.63648834
+      },
+      "BR": {
+        "gameCount": 1775,
+        "everDrawnGameCount": 729,
+        "gihwr": 0.63648834
+      },
+      "BG": {
+        "gameCount": 1775,
+        "everDrawnGameCount": 729,
+        "gihwr": 0.63648834
+      },
+      "RG": {
+        "gameCount": 1775,
+        "everDrawnGameCount": 729,
+        "gihwr": 0.63648834
+      }
+    }
+  },
+  {
+    "name": "Intrepid Stablemaster",
+    "mtgaId": 90515,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Scout"
+    ],
+    "alsa": 3.1212121,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 583,
+    "everDrawnGameCount": 238,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Map the Frontier",
+    "mtgaId": 90516,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.5733591,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 217,
+    "everDrawnGameCount": 76,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ornery Tumblewagg",
+    "mtgaId": 90517,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Brushwagg Mount"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 230,
+    "everDrawnGameCount": 98,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Outcaster Greenblade",
+    "mtgaId": 90518,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Mercenary"
+    ],
+    "alsa": 2.7165354,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 1028,
+    "everDrawnGameCount": 430,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Outcaster Trailblazer",
+    "mtgaId": 90519,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Human Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 200,
+    "everDrawnGameCount": 87,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Patient Naturalist",
+    "mtgaId": 90520,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Scout"
+    ],
+    "alsa": 2.9758179,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 471,
+    "everDrawnGameCount": 203,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Railway Brawler",
+    "mtgaId": 90521,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Rhino Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 130,
+    "everDrawnGameCount": 45,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rambling Possum",
+    "mtgaId": 90522,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Possum Mount"
+    ],
+    "alsa": 5.2773109,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 655,
+    "everDrawnGameCount": 256,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Raucous Entertainer",
+    "mtgaId": 90523,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Plant Bard"
+    ],
+    "alsa": 4.0735695,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 185,
+    "everDrawnGameCount": 87,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Reach for the Sky",
+    "mtgaId": 90524,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": 6.3304,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 263,
+    "everDrawnGameCount": 105,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rise of the Varmints",
+    "mtgaId": 90525,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.5449219,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 77,
+    "everDrawnGameCount": 29,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Smuggler's Surprise",
+    "mtgaId": 90526,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 72,
+    "everDrawnGameCount": 23,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Snakeskin Veil",
+    "mtgaId": 90527,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 6.2319749,
+    "ata": 7.859944,
+    "overallGihwr": 0.5787037,
+    "gameCount": 1550,
+    "everDrawnGameCount": 648,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 648,
+        "gihwr": 0.5787037
+      },
+      "WB": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 648,
+        "gihwr": 0.5787037
+      },
+      "WR": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 648,
+        "gihwr": 0.5787037
+      },
+      "WG": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 648,
+        "gihwr": 0.5787037
+      },
+      "UB": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 648,
+        "gihwr": 0.5787037
+      },
+      "UR": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 648,
+        "gihwr": 0.5787037
+      },
+      "UG": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 648,
+        "gihwr": 0.5787037
+      },
+      "BR": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 648,
+        "gihwr": 0.5787037
+      },
+      "BG": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 648,
+        "gihwr": 0.5787037
+      },
+      "RG": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 648,
+        "gihwr": 0.5787037
+      }
+    }
+  },
+  {
+    "name": "Spinewoods Armadillo",
+    "mtgaId": 90528,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Armadillo"
+    ],
+    "alsa": 4.4139651,
+    "ata": 4.6744186,
+    "overallGihwr": 0.65549598,
+    "gameCount": 1772,
+    "everDrawnGameCount": 746,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1772,
+        "everDrawnGameCount": 746,
+        "gihwr": 0.65549598
+      },
+      "WB": {
+        "gameCount": 1772,
+        "everDrawnGameCount": 746,
+        "gihwr": 0.65549598
+      },
+      "WR": {
+        "gameCount": 1772,
+        "everDrawnGameCount": 746,
+        "gihwr": 0.65549598
+      },
+      "WG": {
+        "gameCount": 1772,
+        "everDrawnGameCount": 746,
+        "gihwr": 0.65549598
+      },
+      "UB": {
+        "gameCount": 1772,
+        "everDrawnGameCount": 746,
+        "gihwr": 0.65549598
+      },
+      "UR": {
+        "gameCount": 1772,
+        "everDrawnGameCount": 746,
+        "gihwr": 0.65549598
+      },
+      "UG": {
+        "gameCount": 1772,
+        "everDrawnGameCount": 746,
+        "gihwr": 0.65549598
+      },
+      "BR": {
+        "gameCount": 1772,
+        "everDrawnGameCount": 746,
+        "gihwr": 0.65549598
+      },
+      "BG": {
+        "gameCount": 1772,
+        "everDrawnGameCount": 746,
+        "gihwr": 0.65549598
+      },
+      "RG": {
+        "gameCount": 1772,
+        "everDrawnGameCount": 746,
+        "gihwr": 0.65549598
+      }
+    }
+  },
+  {
+    "name": "Spinewoods Paladin",
+    "mtgaId": 90529,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Knight"
+    ],
+    "alsa": 4.0477273,
+    "ata": 5.2453704,
+    "overallGihwr": 0.64612326,
+    "gameCount": 1252,
+    "everDrawnGameCount": 503,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1252,
+        "everDrawnGameCount": 503,
+        "gihwr": 0.64612326
+      },
+      "WB": {
+        "gameCount": 1252,
+        "everDrawnGameCount": 503,
+        "gihwr": 0.64612326
+      },
+      "WR": {
+        "gameCount": 1252,
+        "everDrawnGameCount": 503,
+        "gihwr": 0.64612326
+      },
+      "WG": {
+        "gameCount": 1252,
+        "everDrawnGameCount": 503,
+        "gihwr": 0.64612326
+      },
+      "UB": {
+        "gameCount": 1252,
+        "everDrawnGameCount": 503,
+        "gihwr": 0.64612326
+      },
+      "UR": {
+        "gameCount": 1252,
+        "everDrawnGameCount": 503,
+        "gihwr": 0.64612326
+      },
+      "UG": {
+        "gameCount": 1252,
+        "everDrawnGameCount": 503,
+        "gihwr": 0.64612326
+      },
+      "BR": {
+        "gameCount": 1252,
+        "everDrawnGameCount": 503,
+        "gihwr": 0.64612326
+      },
+      "BG": {
+        "gameCount": 1252,
+        "everDrawnGameCount": 503,
+        "gihwr": 0.64612326
+      },
+      "RG": {
+        "gameCount": 1252,
+        "everDrawnGameCount": 503,
+        "gihwr": 0.64612326
+      }
+    }
+  },
+  {
+    "name": "Stubborn Burrowfiend",
+    "mtgaId": 90530,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Badger Beast Mount"
+    ],
+    "alsa": 4.3421053,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 921,
+    "everDrawnGameCount": 374,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Throw from the Saddle",
+    "mtgaId": 90531,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 2.8901252,
+    "ata": 3.3471074,
+    "overallGihwr": 0.64207221,
+    "gameCount": 1498,
+    "everDrawnGameCount": 637,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1498,
+        "everDrawnGameCount": 637,
+        "gihwr": 0.64207221
+      },
+      "WB": {
+        "gameCount": 1498,
+        "everDrawnGameCount": 637,
+        "gihwr": 0.64207221
+      },
+      "WR": {
+        "gameCount": 1498,
+        "everDrawnGameCount": 637,
+        "gihwr": 0.64207221
+      },
+      "WG": {
+        "gameCount": 1498,
+        "everDrawnGameCount": 637,
+        "gihwr": 0.64207221
+      },
+      "UB": {
+        "gameCount": 1498,
+        "everDrawnGameCount": 637,
+        "gihwr": 0.64207221
+      },
+      "UR": {
+        "gameCount": 1498,
+        "everDrawnGameCount": 637,
+        "gihwr": 0.64207221
+      },
+      "UG": {
+        "gameCount": 1498,
+        "everDrawnGameCount": 637,
+        "gihwr": 0.64207221
+      },
+      "BR": {
+        "gameCount": 1498,
+        "everDrawnGameCount": 637,
+        "gihwr": 0.64207221
+      },
+      "BG": {
+        "gameCount": 1498,
+        "everDrawnGameCount": 637,
+        "gihwr": 0.64207221
+      },
+      "RG": {
+        "gameCount": 1498,
+        "everDrawnGameCount": 637,
+        "gihwr": 0.64207221
+      }
+    }
+  },
+  {
+    "name": "Trash the Town",
+    "mtgaId": 90532,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.5783476,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 542,
+    "everDrawnGameCount": 227,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tumbleweed Rising",
+    "mtgaId": 90533,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.31255,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 486,
+    "everDrawnGameCount": 205,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Voracious Varmint",
+    "mtgaId": 90534,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Varmint"
+    ],
+    "alsa": 4.0246914,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 535,
+    "everDrawnGameCount": 209,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Akul the Unrepentant",
+    "mtgaId": 90535,
+    "color": "BR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Scorpion Dragon Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 18,
+    "everDrawnGameCount": 8,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Annie Flash, the Veteran",
+    "mtgaId": 90536,
+    "color": "WRG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 111,
+    "everDrawnGameCount": 45,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Annie Joins Up",
+    "mtgaId": 90537,
+    "color": "WRG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 33,
+    "everDrawnGameCount": 11,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Assimilation Aegis",
+    "mtgaId": 90538,
+    "color": "WU",
+    "rarity": "mythic",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 55,
+    "everDrawnGameCount": 22,
+    "archetypeStats": {}
+  },
+  {
+    "name": "At Knifepoint",
+    "mtgaId": 90539,
+    "color": "BR",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 4.4470046,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 166,
+    "everDrawnGameCount": 72,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Badlands Revival",
+    "mtgaId": 90540,
+    "color": "BG",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 5.0130152,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 940,
+    "everDrawnGameCount": 360,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Baron Bertram Graywater",
+    "mtgaId": 90541,
+    "color": "WB",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Vampire Noble"
+    ],
+    "alsa": 7.587156,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 270,
+    "everDrawnGameCount": 121,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bonny Pall, Clearcutter",
+    "mtgaId": 90542,
+    "color": "UG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Giant Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 231,
+    "everDrawnGameCount": 103,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Breeches, the Blastmaker",
+    "mtgaId": 90543,
+    "color": "UR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Goblin Pirate"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 4,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bruse Tarl, Roving Rancher",
+    "mtgaId": 90544,
+    "color": "WR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 97,
+    "everDrawnGameCount": 29,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Cactusfolk Sureshot",
+    "mtgaId": 90545,
+    "color": "RG",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Plant Mercenary"
+    ],
+    "alsa": 3.6623711,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 346,
+    "everDrawnGameCount": 143,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Congregation Gryff",
+    "mtgaId": 90546,
+    "color": "WG",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Hippogriff Mount"
+    ],
+    "alsa": 4.4327354,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 959,
+    "everDrawnGameCount": 378,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Doc Aurlock, Grizzled Genius",
+    "mtgaId": 90547,
+    "color": "UG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Bear Druid"
+    ],
+    "alsa": 3.7182045,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 99,
+    "everDrawnGameCount": 43,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Eriette, the Beguiler",
+    "mtgaId": 90548,
+    "color": "WUB",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ertha Jo, Frontier Mentor",
+    "mtgaId": 90549,
+    "color": "WR",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Kor Advisor"
+    ],
+    "alsa": 3.2994505,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 78,
+    "everDrawnGameCount": 31,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Form a Posse",
+    "mtgaId": 90550,
+    "color": "WR",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 5.0293501,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 117,
+    "everDrawnGameCount": 55,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ghired, Mirror of the Wilds",
+    "mtgaId": 90551,
+    "color": "WRG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Shaman"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 4,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Gitrog, Ravenous Ride",
+    "mtgaId": 90552,
+    "color": "BG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Frog Horror Mount"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 87,
+    "everDrawnGameCount": 41,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Honest Rutstein",
+    "mtgaId": 90553,
+    "color": "BG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Warlock"
+    ],
+    "alsa": 4.3211207,
+    "ata": 4.4594595,
+    "overallGihwr": 0.61374795,
+    "gameCount": 1384,
+    "everDrawnGameCount": 611,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1384,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.61374795
+      },
+      "WB": {
+        "gameCount": 1384,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.61374795
+      },
+      "WR": {
+        "gameCount": 1384,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.61374795
+      },
+      "WG": {
+        "gameCount": 1384,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.61374795
+      },
+      "UB": {
+        "gameCount": 1384,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.61374795
+      },
+      "UR": {
+        "gameCount": 1384,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.61374795
+      },
+      "UG": {
+        "gameCount": 1384,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.61374795
+      },
+      "BR": {
+        "gameCount": 1384,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.61374795
+      },
+      "BG": {
+        "gameCount": 1384,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.61374795
+      },
+      "RG": {
+        "gameCount": 1384,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.61374795
+      }
+    }
+  },
+  {
+    "name": "Intimidation Campaign",
+    "mtgaId": 90554,
+    "color": "UB",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 4.0273632,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 365,
+    "everDrawnGameCount": 180,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Jem Lightfoote, Sky Explorer",
+    "mtgaId": 90555,
+    "color": "WU",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Scout"
+    ],
+    "alsa": 3.4558824,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 76,
+    "everDrawnGameCount": 29,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Jolene, Plundering Pugilist",
+    "mtgaId": 90556,
+    "color": "RG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Mercenary"
+    ],
+    "alsa": 4.3014019,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 293,
+    "everDrawnGameCount": 133,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kambal, Profiteering Mayor",
+    "mtgaId": 90557,
+    "color": "WB",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Advisor"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 19,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kellan Joins Up",
+    "mtgaId": 90558,
+    "color": "WUG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 17,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kellan, the Kid",
+    "mtgaId": 90559,
+    "color": "WUG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Faerie Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 9,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kraum, Violent Cacophony",
+    "mtgaId": 90560,
+    "color": "UR",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Zombie Horror"
+    ],
+    "alsa": 5.0533881,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 182,
+    "everDrawnGameCount": 80,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Laughing Jasper Flint",
+    "mtgaId": 90561,
+    "color": "BR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Lizard Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 133,
+    "everDrawnGameCount": 54,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lazav, Familiar Stranger",
+    "mtgaId": 90562,
+    "color": "UB",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Shapeshifter"
+    ],
+    "alsa": 6.1929134,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 413,
+    "everDrawnGameCount": 161,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lilah, Undefeated Slickshot",
+    "mtgaId": 90563,
+    "color": "UR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 8,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Make Your Own Luck",
+    "mtgaId": 90564,
+    "color": "UG",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.1893382,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 584,
+    "everDrawnGameCount": 260,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Malcolm, the Eyes",
+    "mtgaId": 90565,
+    "color": "UR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Siren Pirate"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 32,
+    "everDrawnGameCount": 13,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Marchesa, Dealer of Death",
+    "mtgaId": 90566,
+    "color": "UBR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 12,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Miriam, Herd Whisperer",
+    "mtgaId": 90567,
+    "color": "WG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Druid"
+    ],
+    "alsa": 4.0958904,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 965,
+    "everDrawnGameCount": 400,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Obeka, Splitter of Seconds",
+    "mtgaId": 90568,
+    "color": "UBR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Ogre Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Oko, the Ringleader",
+    "mtgaId": 90569,
+    "color": "UG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Planeswalker - Oko"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 87,
+    "everDrawnGameCount": 35,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pillage the Bog",
+    "mtgaId": 90570,
+    "color": "BG",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 27,
+    "everDrawnGameCount": 9,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rakdos Joins Up",
+    "mtgaId": 90571,
+    "color": "BR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 18,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rakdos, the Muscle",
+    "mtgaId": 90572,
+    "color": "BR",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Demon Mercenary"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 95,
+    "everDrawnGameCount": 40,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Riku of Many Paths",
+    "mtgaId": 90573,
+    "color": "URG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 3,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Roxanne, Starfall Savant",
+    "mtgaId": 90574,
+    "color": "RG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Cat Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 211,
+    "everDrawnGameCount": 79,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ruthless Lawbringer",
+    "mtgaId": 90575,
+    "color": "WB",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Vampire Assassin"
+    ],
+    "alsa": 3.30721,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 305,
+    "everDrawnGameCount": 130,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Satoru, the Infiltrator",
+    "mtgaId": 90576,
+    "color": "UB",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Ninja Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 22,
+    "everDrawnGameCount": 12,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Selvala, Eager Trailblazer",
+    "mtgaId": 90577,
+    "color": "WG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Elf Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 88,
+    "everDrawnGameCount": 34,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Seraphic Steed",
+    "mtgaId": 90578,
+    "color": "WG",
+    "rarity": "rare",
+    "types": [
+      "Creature - Unicorn Mount"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 154,
+    "everDrawnGameCount": 64,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Slick Sequence",
+    "mtgaId": 90579,
+    "color": "UR",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 4.0769231,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 86,
+    "everDrawnGameCount": 36,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Taii Wakeen, Perfect Shot",
+    "mtgaId": 90580,
+    "color": "WR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Mercenary"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vial Smasher, Gleeful Grenadier",
+    "mtgaId": 90581,
+    "color": "BR",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Goblin Mercenary"
+    ],
+    "alsa": 5.6983547,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 259,
+    "everDrawnGameCount": 96,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vraska Joins Up",
+    "mtgaId": 90582,
+    "color": "BG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 10,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vraska, the Silencer",
+    "mtgaId": 90583,
+    "color": "BG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Gorgon Assassin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 41,
+    "everDrawnGameCount": 16,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wrangler of the Damned",
+    "mtgaId": 90584,
+    "color": "WU",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Human Soldier"
+    ],
+    "alsa": 7.4923339,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 193,
+    "everDrawnGameCount": 83,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wylie Duke, Atiin Hero",
+    "mtgaId": 90585,
+    "color": "WG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Ranger"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 140,
+    "everDrawnGameCount": 59,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bandit's Haul",
+    "mtgaId": 90586,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": 5.677551,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 378,
+    "everDrawnGameCount": 168,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Boom Box",
+    "mtgaId": 90587,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": 4.3899522,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 40,
+    "everDrawnGameCount": 16,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gold Pan",
+    "mtgaId": 90588,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": 4.8813247,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 110,
+    "everDrawnGameCount": 53,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lavaspur Boots",
+    "mtgaId": 90589,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": 8.0470383,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 71,
+    "everDrawnGameCount": 30,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Luxurious Locomotive",
+    "mtgaId": 90590,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact - Vehicle"
+    ],
+    "alsa": 6.8133333,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 31,
+    "everDrawnGameCount": 12,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mobile Homestead",
+    "mtgaId": 90591,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact - Vehicle"
+    ],
+    "alsa": 4.820296,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 429,
+    "everDrawnGameCount": 182,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Oasis Gardener",
+    "mtgaId": 90592,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Scarecrow"
+    ],
+    "alsa": 5.6932806,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 447,
+    "everDrawnGameCount": 194,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Redrock Sentinel",
+    "mtgaId": 90593,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact Creature - Golem"
+    ],
+    "alsa": 7.88,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 201,
+    "everDrawnGameCount": 89,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Silver Deputy",
+    "mtgaId": 90594,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Mercenary"
+    ],
+    "alsa": 7.0561883,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 401,
+    "everDrawnGameCount": 168,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sterling Hound",
+    "mtgaId": 90595,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Dog"
+    ],
+    "alsa": 6.8755725,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 152,
+    "everDrawnGameCount": 75,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tomb Trawler",
+    "mtgaId": 90596,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact Creature - Golem"
+    ],
+    "alsa": 6.9591837,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 71,
+    "everDrawnGameCount": 32,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Abraded Bluffs",
+    "mtgaId": 90597,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 6.9108781,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 612,
+    "everDrawnGameCount": 219,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Arid Archway",
+    "mtgaId": 90598,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 5.7936803,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 182,
+    "everDrawnGameCount": 68,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bristling Backwoods",
+    "mtgaId": 90599,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 6.662234,
+    "ata": 7.9104478,
+    "overallGihwr": 0,
+    "gameCount": 977,
+    "everDrawnGameCount": 392,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Conduit Pylons",
+    "mtgaId": 90600,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 7.5867052,
+    "ata": 9.0697211,
+    "overallGihwr": 0.61721068,
+    "gameCount": 2518,
+    "everDrawnGameCount": 1011,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2518,
+        "everDrawnGameCount": 1011,
+        "gihwr": 0.61721068
+      },
+      "WB": {
+        "gameCount": 2518,
+        "everDrawnGameCount": 1011,
+        "gihwr": 0.61721068
+      },
+      "WR": {
+        "gameCount": 2518,
+        "everDrawnGameCount": 1011,
+        "gihwr": 0.61721068
+      },
+      "WG": {
+        "gameCount": 2518,
+        "everDrawnGameCount": 1011,
+        "gihwr": 0.61721068
+      },
+      "UB": {
+        "gameCount": 2518,
+        "everDrawnGameCount": 1011,
+        "gihwr": 0.61721068
+      },
+      "UR": {
+        "gameCount": 2518,
+        "everDrawnGameCount": 1011,
+        "gihwr": 0.61721068
+      },
+      "UG": {
+        "gameCount": 2518,
+        "everDrawnGameCount": 1011,
+        "gihwr": 0.61721068
+      },
+      "BR": {
+        "gameCount": 2518,
+        "everDrawnGameCount": 1011,
+        "gihwr": 0.61721068
+      },
+      "BG": {
+        "gameCount": 2518,
+        "everDrawnGameCount": 1011,
+        "gihwr": 0.61721068
+      },
+      "RG": {
+        "gameCount": 2518,
+        "everDrawnGameCount": 1011,
+        "gihwr": 0.61721068
+      }
+    }
+  },
+  {
+    "name": "Creosote Heath",
+    "mtgaId": 90601,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 4.8841941,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 867,
+    "everDrawnGameCount": 341,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Eroded Canyon",
+    "mtgaId": 90602,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 6.9197861,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 591,
+    "everDrawnGameCount": 264,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Festering Gulch",
+    "mtgaId": 90603,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 6.6343949,
+    "ata": 7.6412698,
+    "overallGihwr": 0.62415197,
+    "gameCount": 1782,
+    "everDrawnGameCount": 737,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1782,
+        "everDrawnGameCount": 737,
+        "gihwr": 0.62415197
+      },
+      "WB": {
+        "gameCount": 1782,
+        "everDrawnGameCount": 737,
+        "gihwr": 0.62415197
+      },
+      "WR": {
+        "gameCount": 1782,
+        "everDrawnGameCount": 737,
+        "gihwr": 0.62415197
+      },
+      "WG": {
+        "gameCount": 1782,
+        "everDrawnGameCount": 737,
+        "gihwr": 0.62415197
+      },
+      "UB": {
+        "gameCount": 1782,
+        "everDrawnGameCount": 737,
+        "gihwr": 0.62415197
+      },
+      "UR": {
+        "gameCount": 1782,
+        "everDrawnGameCount": 737,
+        "gihwr": 0.62415197
+      },
+      "UG": {
+        "gameCount": 1782,
+        "everDrawnGameCount": 737,
+        "gihwr": 0.62415197
+      },
+      "BR": {
+        "gameCount": 1782,
+        "everDrawnGameCount": 737,
+        "gihwr": 0.62415197
+      },
+      "BG": {
+        "gameCount": 1782,
+        "everDrawnGameCount": 737,
+        "gihwr": 0.62415197
+      },
+      "RG": {
+        "gameCount": 1782,
+        "everDrawnGameCount": 737,
+        "gihwr": 0.62415197
+      }
+    }
+  },
+  {
+    "name": "Forlorn Flats",
+    "mtgaId": 90604,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 6.5795007,
+    "ata": 8.004386,
+    "overallGihwr": 0,
+    "gameCount": 1131,
+    "everDrawnGameCount": 427,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Jagged Barrens",
+    "mtgaId": 90605,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 6.647139,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 845,
+    "everDrawnGameCount": 335,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lonely Arroyo",
+    "mtgaId": 90606,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 6.9310793,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 668,
+    "everDrawnGameCount": 259,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lush Oasis",
+    "mtgaId": 90607,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 6.5697523,
+    "ata": 7.7191489,
+    "overallGihwr": 0,
+    "gameCount": 1045,
+    "everDrawnGameCount": 428,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mirage Mesa",
+    "mtgaId": 90608,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 4.5241865,
+    "ata": 6.5180723,
+    "overallGihwr": 0.59468439,
+    "gameCount": 1489,
+    "everDrawnGameCount": 602,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1489,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.59468439
+      },
+      "WB": {
+        "gameCount": 1489,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.59468439
+      },
+      "WR": {
+        "gameCount": 1489,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.59468439
+      },
+      "WG": {
+        "gameCount": 1489,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.59468439
+      },
+      "UB": {
+        "gameCount": 1489,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.59468439
+      },
+      "UR": {
+        "gameCount": 1489,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.59468439
+      },
+      "UG": {
+        "gameCount": 1489,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.59468439
+      },
+      "BR": {
+        "gameCount": 1489,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.59468439
+      },
+      "BG": {
+        "gameCount": 1489,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.59468439
+      },
+      "RG": {
+        "gameCount": 1489,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.59468439
+      }
+    }
+  },
+  {
+    "name": "Sandstorm Verge",
+    "mtgaId": 90609,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 5.5452632,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 90,
+    "everDrawnGameCount": 37,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Soured Springs",
+    "mtgaId": 90610,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 6.7919897,
+    "ata": 7.9404255,
+    "overallGihwr": 0,
+    "gameCount": 1091,
+    "everDrawnGameCount": 479,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Jace Reawakened",
+    "mtgaId": 90611,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Planeswalker - Jace"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 10,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bucolic Ranch",
+    "mtgaId": 90612,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": 5.400722,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 346,
+    "everDrawnGameCount": 132,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Blooming Marsh",
+    "mtgaId": 90613,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 34,
+    "everDrawnGameCount": 18,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Botanical Sanctum",
+    "mtgaId": 90614,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 19,
+    "everDrawnGameCount": 8,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Concealed Courtyard",
+    "mtgaId": 90615,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 10,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Inspiring Vantage",
+    "mtgaId": 90616,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 7,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Spirebluff Canal",
+    "mtgaId": 90617,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 8,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Stoneforge Mystic",
+    "mtgaId": 90651,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Kor Artificer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 1,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Brazen Borrower",
+    "mtgaId": 90652,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Faerie Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 7,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Desertion",
+    "mtgaId": 90654,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 5,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Morbid Opportunist",
+    "mtgaId": 90655,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 17,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Port Razer",
+    "mtgaId": 90656,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Orc Pirate"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 2,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Scapeshift",
+    "mtgaId": 90657,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mystic Snake",
+    "mtgaId": 90658,
+    "color": "UG",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Snake"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Notion Thief",
+    "mtgaId": 90659,
+    "color": "UB",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 15,
+    "everDrawnGameCount": 8,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Desert",
+    "mtgaId": 90660,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Land - Desert"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 5,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Prismatic Vista",
+    "mtgaId": 90661,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 13,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Collector's Cage",
+    "mtgaId": 90662,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 72,
+    "everDrawnGameCount": 18,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Grand Abolisher",
+    "mtgaId": 90663,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Human Cleric"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Oltec Matterweaver",
+    "mtgaId": 90664,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Human Artificer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 28,
+    "everDrawnGameCount": 13,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rest in Peace",
+    "mtgaId": 90665,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Esoteric Duplicator",
+    "mtgaId": 90666,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Artifact - Clue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Simulacrum Synthesizer",
+    "mtgaId": 90667,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 2,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Worldwalker Helm",
+    "mtgaId": 90668,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 1,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Greed's Gambit",
+    "mtgaId": 90669,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 5,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Harvester of Misery",
+    "mtgaId": 90670,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Spirit"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 58,
+    "everDrawnGameCount": 25,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hostile Investigator",
+    "mtgaId": 90671,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Ogre Rogue Detective"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 94,
+    "everDrawnGameCount": 32,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Generous Plunderer",
+    "mtgaId": 90672,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Human Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 3,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Legion Extruder",
+    "mtgaId": 90673,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 8,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Memory Vessel",
+    "mtgaId": 90674,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Molten Duplication",
+    "mtgaId": 90675,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Territory Forge",
+    "mtgaId": 90676,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ancient Cornucopia",
+    "mtgaId": 90677,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 3,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bristlebud Farmer",
+    "mtgaId": 90678,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Plant Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 61,
+    "everDrawnGameCount": 29,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Omenpath Journey",
+    "mtgaId": 90679,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 9,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sandstorm Salvager",
+    "mtgaId": 90680,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Human Artificer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 88,
+    "everDrawnGameCount": 35,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vaultborn Tyrant",
+    "mtgaId": 90681,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Dinosaur"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 68,
+    "everDrawnGameCount": 30,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Loot, the Key to Everything",
+    "mtgaId": 90682,
+    "color": "URG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Beast Noble"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 3,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pest Control",
+    "mtgaId": 90683,
+    "color": "WB",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 5,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lost Jitte",
+    "mtgaId": 90684,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 59,
+    "everDrawnGameCount": 26,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lotus Ring",
+    "mtgaId": 90685,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 20,
+    "everDrawnGameCount": 9,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Nexus of Becoming",
+    "mtgaId": 90686,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 50,
+    "everDrawnGameCount": 20,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sword of Wealth and Power",
+    "mtgaId": 90687,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 19,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Torpor Orb",
+    "mtgaId": 90688,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 9,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Transmutation Font",
+    "mtgaId": 90689,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 6,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fomori Vault",
+    "mtgaId": 90690,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tarnation Vista",
+    "mtgaId": 90691,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 13,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fell the Mighty",
+    "mtgaId": 90699,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 40,
+    "everDrawnGameCount": 13,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fierce Retribution",
+    "mtgaId": 90700,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 5.1325843,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 570,
+    "everDrawnGameCount": 235,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Journey to Nowhere",
+    "mtgaId": 90701,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 2.4125561,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 451,
+    "everDrawnGameCount": 193,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Leyline Binding",
+    "mtgaId": 90702,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 4,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pariah",
+    "mtgaId": 90703,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 6,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Path to Exile",
+    "mtgaId": 90704,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 52,
+    "everDrawnGameCount": 22,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Archive Trap",
+    "mtgaId": 90705,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Instant - Trap"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 39,
+    "everDrawnGameCount": 20,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Archmage's Charm",
+    "mtgaId": 90706,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 3,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Commandeer",
+    "mtgaId": 90707,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Essence Capture",
+    "mtgaId": 90708,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.7346154,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 246,
+    "everDrawnGameCount": 110,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mana Drain",
+    "mtgaId": 90709,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 7,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mindbreak Trap",
+    "mtgaId": 90710,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Instant - Trap"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 6,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Repulse",
+    "mtgaId": 90711,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 2.5638767,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 214,
+    "everDrawnGameCount": 80,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Heartless Pillage",
+    "mtgaId": 90712,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 7.5838041,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 342,
+    "everDrawnGameCount": 157,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Imp's Mischief",
+    "mtgaId": 90713,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 6,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Murder",
+    "mtgaId": 90714,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.3575758,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 591,
+    "everDrawnGameCount": 242,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Overwhelming Forces",
+    "mtgaId": 90715,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 38,
+    "everDrawnGameCount": 20,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Reanimate",
+    "mtgaId": 90716,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 42,
+    "everDrawnGameCount": 16,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Surgical Extraction",
+    "mtgaId": 90717,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thoughtseize",
+    "mtgaId": 90718,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 7,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Collective Defiance",
+    "mtgaId": 90719,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 35,
+    "everDrawnGameCount": 18,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Crackle with Power",
+    "mtgaId": 90720,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 38,
+    "everDrawnGameCount": 20,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Electrodominance",
+    "mtgaId": 90721,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 38,
+    "everDrawnGameCount": 18,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fling",
+    "mtgaId": 90722,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 8.5733083,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 104,
+    "everDrawnGameCount": 43,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Indomitable Creativity",
+    "mtgaId": 90723,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Skewer the Critics",
+    "mtgaId": 90724,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 5.454343,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 264,
+    "everDrawnGameCount": 119,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Skullcrack",
+    "mtgaId": 90725,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 9,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Clear Shot",
+    "mtgaId": 90726,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.1608392,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 729,
+    "everDrawnGameCount": 295,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Force of Vigor",
+    "mtgaId": 90727,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pest Infestation",
+    "mtgaId": 90728,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 54,
+    "everDrawnGameCount": 22,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Primal Command",
+    "mtgaId": 90729,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 45,
+    "everDrawnGameCount": 13,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Primal Might",
+    "mtgaId": 90730,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 94,
+    "everDrawnGameCount": 45,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thornado",
+    "mtgaId": 90731,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.4290909,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 117,
+    "everDrawnGameCount": 47,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Abrupt Decay",
+    "mtgaId": 90732,
+    "color": "BG",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 37,
+    "everDrawnGameCount": 9,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Anguished Unmaking",
+    "mtgaId": 90733,
+    "color": "WB",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 14,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Back for More",
+    "mtgaId": 90734,
+    "color": "BG",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 5.965587,
+    "ata": 6.18107,
+    "overallGihwr": 0.6259542,
+    "gameCount": 1233,
+    "everDrawnGameCount": 524,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1233,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.6259542
+      },
+      "WB": {
+        "gameCount": 1233,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.6259542
+      },
+      "WR": {
+        "gameCount": 1233,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.6259542
+      },
+      "WG": {
+        "gameCount": 1233,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.6259542
+      },
+      "UB": {
+        "gameCount": 1233,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.6259542
+      },
+      "UR": {
+        "gameCount": 1233,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.6259542
+      },
+      "UG": {
+        "gameCount": 1233,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.6259542
+      },
+      "BR": {
+        "gameCount": 1233,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.6259542
+      },
+      "BG": {
+        "gameCount": 1233,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.6259542
+      },
+      "RG": {
+        "gameCount": 1233,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.6259542
+      }
+    }
+  },
+  {
+    "name": "Bedevil",
+    "mtgaId": 90735,
+    "color": "BR",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 23,
+    "everDrawnGameCount": 12,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Buried in the Garden",
+    "mtgaId": 90736,
+    "color": "WG",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": 3.1590106,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 756,
+    "everDrawnGameCount": 299,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Crime // Punishment",
+    "mtgaId": 90737,
+    "color": "WBG",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 10,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Cruel Ultimatum",
+    "mtgaId": 90740,
+    "color": "UBR",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 70,
+    "everDrawnGameCount": 39,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Decimate",
+    "mtgaId": 90741,
+    "color": "RG",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Decisive Denial",
+    "mtgaId": 90742,
+    "color": "UG",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 8.499044,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 201,
+    "everDrawnGameCount": 92,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Detention Sphere",
+    "mtgaId": 90743,
+    "color": "WU",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 20,
+    "everDrawnGameCount": 10,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Endless Detour",
+    "mtgaId": 90744,
+    "color": "WUG",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 5,
+    "everDrawnGameCount": 5,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fractured Identity",
+    "mtgaId": 90745,
+    "color": "WU",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 11,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hindering Light",
+    "mtgaId": 90746,
+    "color": "WU",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 9.155477,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 43,
+    "everDrawnGameCount": 16,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Humiliate",
+    "mtgaId": 90747,
+    "color": "WB",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 8.2637571,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 210,
+    "everDrawnGameCount": 82,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hypothesizzle",
+    "mtgaId": 90748,
+    "color": "UR",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 5.211499,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 177,
+    "everDrawnGameCount": 82,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ionize",
+    "mtgaId": 90749,
+    "color": "UR",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 3,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Oko, Thief of Crowns",
+    "mtgaId": 90750,
+    "color": "UG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Planeswalker - Oko"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 67,
+    "everDrawnGameCount": 28,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Outlaws' Merriment",
+    "mtgaId": 90751,
+    "color": "WR",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 37,
+    "everDrawnGameCount": 16,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ride Down",
+    "mtgaId": 90752,
+    "color": "WR",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.1238671,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 19,
+    "everDrawnGameCount": 10,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Savage Smash",
+    "mtgaId": 90753,
+    "color": "RG",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 3.089404,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 53,
+    "everDrawnGameCount": 14,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Siphon Insight",
+    "mtgaId": 90754,
+    "color": "UB",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 31,
+    "everDrawnGameCount": 20,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Terminal Agony",
+    "mtgaId": 90755,
+    "color": "BR",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 7.5437956,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 265,
+    "everDrawnGameCount": 120,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tyrant's Scorn",
+    "mtgaId": 90756,
+    "color": "UB",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.0833333,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 194,
+    "everDrawnGameCount": 80,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vanishing Verse",
+    "mtgaId": 90757,
+    "color": "WB",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 34,
+    "everDrawnGameCount": 13,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Villainous Wealth",
+    "mtgaId": 90758,
+    "color": "UBG",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 54,
+    "everDrawnGameCount": 26,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Void Rend",
+    "mtgaId": 90759,
+    "color": "WUB",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 10,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Voidslime",
+    "mtgaId": 90760,
+    "color": "UG",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Contagion Engine",
+    "mtgaId": 90761,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 7,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Grindstone",
+    "mtgaId": 90762,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mindslaver",
+    "mtgaId": 90763,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 6,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Unlicensed Hearse",
+    "mtgaId": 90764,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Artifact - Vehicle"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 11,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dust Bowl",
+    "mtgaId": 90765,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  }
+]

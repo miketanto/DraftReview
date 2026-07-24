@@ -1,0 +1,8837 @@
+[
+  {
+    "name": "Agent 13, Sharon Carter",
+    "mtgaId": 104892,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Spy Hero"
+    ],
+    "alsa": 2.4878049,
+    "ata": 2.8305785,
+    "overallGihwr": 0.5929078,
+    "gameCount": 1550,
+    "everDrawnGameCount": 705,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 705,
+        "gihwr": 0.5929078
+      },
+      "WB": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 705,
+        "gihwr": 0.5929078
+      },
+      "WR": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 705,
+        "gihwr": 0.5929078
+      },
+      "WG": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 705,
+        "gihwr": 0.5929078
+      },
+      "UB": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 705,
+        "gihwr": 0.5929078
+      },
+      "UR": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 705,
+        "gihwr": 0.5929078
+      },
+      "UG": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 705,
+        "gihwr": 0.5929078
+      },
+      "BR": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 705,
+        "gihwr": 0.5929078
+      },
+      "BG": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 705,
+        "gihwr": 0.5929078
+      },
+      "RG": {
+        "gameCount": 1550,
+        "everDrawnGameCount": 705,
+        "gihwr": 0.5929078
+      }
+    }
+  },
+  {
+    "name": "Agent Maria Hill",
+    "mtgaId": 104893,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Spy Hero"
+    ],
+    "alsa": 3.3164062,
+    "ata": 3.9914163,
+    "overallGihwr": 0.58458647,
+    "gameCount": 1241,
+    "everDrawnGameCount": 532,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1241,
+        "everDrawnGameCount": 532,
+        "gihwr": 0.58458647
+      },
+      "WB": {
+        "gameCount": 1241,
+        "everDrawnGameCount": 532,
+        "gihwr": 0.58458647
+      },
+      "WR": {
+        "gameCount": 1241,
+        "everDrawnGameCount": 532,
+        "gihwr": 0.58458647
+      },
+      "WG": {
+        "gameCount": 1241,
+        "everDrawnGameCount": 532,
+        "gihwr": 0.58458647
+      },
+      "UB": {
+        "gameCount": 1241,
+        "everDrawnGameCount": 532,
+        "gihwr": 0.58458647
+      },
+      "UR": {
+        "gameCount": 1241,
+        "everDrawnGameCount": 532,
+        "gihwr": 0.58458647
+      },
+      "UG": {
+        "gameCount": 1241,
+        "everDrawnGameCount": 532,
+        "gihwr": 0.58458647
+      },
+      "BR": {
+        "gameCount": 1241,
+        "everDrawnGameCount": 532,
+        "gihwr": 0.58458647
+      },
+      "BG": {
+        "gameCount": 1241,
+        "everDrawnGameCount": 532,
+        "gihwr": 0.58458647
+      },
+      "RG": {
+        "gameCount": 1241,
+        "everDrawnGameCount": 532,
+        "gihwr": 0.58458647
+      }
+    }
+  },
+  {
+    "name": "Agent of Atlas",
+    "mtgaId": 104894,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Spy Hero"
+    ],
+    "alsa": 5.6105055,
+    "ata": 7.9943609,
+    "overallGihwr": 0.57298908,
+    "gameCount": 2389,
+    "everDrawnGameCount": 1007,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2389,
+        "everDrawnGameCount": 1007,
+        "gihwr": 0.57298908
+      },
+      "WB": {
+        "gameCount": 2389,
+        "everDrawnGameCount": 1007,
+        "gihwr": 0.57298908
+      },
+      "WR": {
+        "gameCount": 2389,
+        "everDrawnGameCount": 1007,
+        "gihwr": 0.57298908
+      },
+      "WG": {
+        "gameCount": 2389,
+        "everDrawnGameCount": 1007,
+        "gihwr": 0.57298908
+      },
+      "UB": {
+        "gameCount": 2389,
+        "everDrawnGameCount": 1007,
+        "gihwr": 0.57298908
+      },
+      "UR": {
+        "gameCount": 2389,
+        "everDrawnGameCount": 1007,
+        "gihwr": 0.57298908
+      },
+      "UG": {
+        "gameCount": 2389,
+        "everDrawnGameCount": 1007,
+        "gihwr": 0.57298908
+      },
+      "BR": {
+        "gameCount": 2389,
+        "everDrawnGameCount": 1007,
+        "gihwr": 0.57298908
+      },
+      "BG": {
+        "gameCount": 2389,
+        "everDrawnGameCount": 1007,
+        "gihwr": 0.57298908
+      },
+      "RG": {
+        "gameCount": 2389,
+        "everDrawnGameCount": 1007,
+        "gihwr": 0.57298908
+      }
+    }
+  },
+  {
+    "name": "Agent Phil Coulson",
+    "mtgaId": 104895,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Spy Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 510,
+    "everDrawnGameCount": 218,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Agents of S.H.I.E.L.D.",
+    "mtgaId": 104896,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Spy Hero"
+    ],
+    "alsa": 5.3925328,
+    "ata": 7.9620253,
+    "overallGihwr": 0.54634146,
+    "gameCount": 1965,
+    "everDrawnGameCount": 820,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1965,
+        "everDrawnGameCount": 820,
+        "gihwr": 0.54634146
+      },
+      "WB": {
+        "gameCount": 1965,
+        "everDrawnGameCount": 820,
+        "gihwr": 0.54634146
+      },
+      "WR": {
+        "gameCount": 1965,
+        "everDrawnGameCount": 820,
+        "gihwr": 0.54634146
+      },
+      "WG": {
+        "gameCount": 1965,
+        "everDrawnGameCount": 820,
+        "gihwr": 0.54634146
+      },
+      "UB": {
+        "gameCount": 1965,
+        "everDrawnGameCount": 820,
+        "gihwr": 0.54634146
+      },
+      "UR": {
+        "gameCount": 1965,
+        "everDrawnGameCount": 820,
+        "gihwr": 0.54634146
+      },
+      "UG": {
+        "gameCount": 1965,
+        "everDrawnGameCount": 820,
+        "gihwr": 0.54634146
+      },
+      "BR": {
+        "gameCount": 1965,
+        "everDrawnGameCount": 820,
+        "gihwr": 0.54634146
+      },
+      "BG": {
+        "gameCount": 1965,
+        "everDrawnGameCount": 820,
+        "gihwr": 0.54634146
+      },
+      "RG": {
+        "gameCount": 1965,
+        "everDrawnGameCount": 820,
+        "gihwr": 0.54634146
+      }
+    }
+  },
+  {
+    "name": "Avengers Assemble!",
+    "mtgaId": 104897,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 265,
+    "everDrawnGameCount": 105,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Borough Backup",
+    "mtgaId": 104898,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 3.9425982,
+    "ata": 5.2050473,
+    "overallGihwr": 0.56800479,
+    "gameCount": 3642,
+    "everDrawnGameCount": 1669,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3642,
+        "everDrawnGameCount": 1669,
+        "gihwr": 0.56800479
+      },
+      "WB": {
+        "gameCount": 3642,
+        "everDrawnGameCount": 1669,
+        "gihwr": 0.56800479
+      },
+      "WR": {
+        "gameCount": 3642,
+        "everDrawnGameCount": 1669,
+        "gihwr": 0.56800479
+      },
+      "WG": {
+        "gameCount": 3642,
+        "everDrawnGameCount": 1669,
+        "gihwr": 0.56800479
+      },
+      "UB": {
+        "gameCount": 3642,
+        "everDrawnGameCount": 1669,
+        "gihwr": 0.56800479
+      },
+      "UR": {
+        "gameCount": 3642,
+        "everDrawnGameCount": 1669,
+        "gihwr": 0.56800479
+      },
+      "UG": {
+        "gameCount": 3642,
+        "everDrawnGameCount": 1669,
+        "gihwr": 0.56800479
+      },
+      "BR": {
+        "gameCount": 3642,
+        "everDrawnGameCount": 1669,
+        "gihwr": 0.56800479
+      },
+      "BG": {
+        "gameCount": 3642,
+        "everDrawnGameCount": 1669,
+        "gihwr": 0.56800479
+      },
+      "RG": {
+        "gameCount": 3642,
+        "everDrawnGameCount": 1669,
+        "gihwr": 0.56800479
+      }
+    }
+  },
+  {
+    "name": "Brave Brawler",
+    "mtgaId": 104899,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Warrior Hero"
+    ],
+    "alsa": 3.862181,
+    "ata": 5.1196429,
+    "overallGihwr": 0.58271605,
+    "gameCount": 3572,
+    "everDrawnGameCount": 1620,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3572,
+        "everDrawnGameCount": 1620,
+        "gihwr": 0.58271605
+      },
+      "WB": {
+        "gameCount": 3572,
+        "everDrawnGameCount": 1620,
+        "gihwr": 0.58271605
+      },
+      "WR": {
+        "gameCount": 3572,
+        "everDrawnGameCount": 1620,
+        "gihwr": 0.58271605
+      },
+      "WG": {
+        "gameCount": 3572,
+        "everDrawnGameCount": 1620,
+        "gihwr": 0.58271605
+      },
+      "UB": {
+        "gameCount": 3572,
+        "everDrawnGameCount": 1620,
+        "gihwr": 0.58271605
+      },
+      "UR": {
+        "gameCount": 3572,
+        "everDrawnGameCount": 1620,
+        "gihwr": 0.58271605
+      },
+      "UG": {
+        "gameCount": 3572,
+        "everDrawnGameCount": 1620,
+        "gihwr": 0.58271605
+      },
+      "BR": {
+        "gameCount": 3572,
+        "everDrawnGameCount": 1620,
+        "gihwr": 0.58271605
+      },
+      "BG": {
+        "gameCount": 3572,
+        "everDrawnGameCount": 1620,
+        "gihwr": 0.58271605
+      },
+      "RG": {
+        "gameCount": 3572,
+        "everDrawnGameCount": 1620,
+        "gihwr": 0.58271605
+      }
+    }
+  },
+  {
+    "name": "Captain America, Super-Soldier",
+    "mtgaId": 104900,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Soldier Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 283,
+    "everDrawnGameCount": 132,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Captain America, Wings of Freedom",
+    "mtgaId": 104901,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Soldier Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 572,
+    "everDrawnGameCount": 269,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Captain Marvel, Earth's Protector",
+    "mtgaId": 104902,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Kree Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 207,
+    "everDrawnGameCount": 101,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Captain Mar-Vell, Space-Born",
+    "mtgaId": 104903,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Kree Soldier Hero"
+    ],
+    "alsa": 4.7130518,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 477,
+    "everDrawnGameCount": 225,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Colleen Wing, Street Samurai",
+    "mtgaId": 104904,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Samurai Hero"
+    ],
+    "alsa": 4.7092803,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 670,
+    "everDrawnGameCount": 283,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Crowd of True Believers",
+    "mtgaId": 104905,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Citizen"
+    ],
+    "alsa": 6.8199327,
+    "ata": 9.7309322,
+    "overallGihwr": 0,
+    "gameCount": 1162,
+    "everDrawnGameCount": 459,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Helicarrier Strike",
+    "mtgaId": 104906,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 4.0034144,
+    "ata": 5.4684874,
+    "overallGihwr": 0.56706827,
+    "gameCount": 2774,
+    "everDrawnGameCount": 1245,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2774,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.56706827
+      },
+      "WB": {
+        "gameCount": 2774,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.56706827
+      },
+      "WR": {
+        "gameCount": 2774,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.56706827
+      },
+      "WG": {
+        "gameCount": 2774,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.56706827
+      },
+      "UB": {
+        "gameCount": 2774,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.56706827
+      },
+      "UR": {
+        "gameCount": 2774,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.56706827
+      },
+      "UG": {
+        "gameCount": 2774,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.56706827
+      },
+      "BR": {
+        "gameCount": 2774,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.56706827
+      },
+      "BG": {
+        "gameCount": 2774,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.56706827
+      },
+      "RG": {
+        "gameCount": 2774,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.56706827
+      }
+    }
+  },
+  {
+    "name": "Hero in Training",
+    "mtgaId": 104907,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Hero"
+    ],
+    "alsa": 2.7009836,
+    "ata": 3.0926966,
+    "overallGihwr": 0.60009766,
+    "gameCount": 4499,
+    "everDrawnGameCount": 2048,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 4499,
+        "everDrawnGameCount": 2048,
+        "gihwr": 0.60009766
+      },
+      "WB": {
+        "gameCount": 4499,
+        "everDrawnGameCount": 2048,
+        "gihwr": 0.60009766
+      },
+      "WR": {
+        "gameCount": 4499,
+        "everDrawnGameCount": 2048,
+        "gihwr": 0.60009766
+      },
+      "WG": {
+        "gameCount": 4499,
+        "everDrawnGameCount": 2048,
+        "gihwr": 0.60009766
+      },
+      "UB": {
+        "gameCount": 4499,
+        "everDrawnGameCount": 2048,
+        "gihwr": 0.60009766
+      },
+      "UR": {
+        "gameCount": 4499,
+        "everDrawnGameCount": 2048,
+        "gihwr": 0.60009766
+      },
+      "UG": {
+        "gameCount": 4499,
+        "everDrawnGameCount": 2048,
+        "gihwr": 0.60009766
+      },
+      "BR": {
+        "gameCount": 4499,
+        "everDrawnGameCount": 2048,
+        "gihwr": 0.60009766
+      },
+      "BG": {
+        "gameCount": 4499,
+        "everDrawnGameCount": 2048,
+        "gihwr": 0.60009766
+      },
+      "RG": {
+        "gameCount": 4499,
+        "everDrawnGameCount": 2048,
+        "gihwr": 0.60009766
+      }
+    }
+  },
+  {
+    "name": "Invisible Woman, Sue Storm",
+    "mtgaId": 104908,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 6.0514469,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 155,
+    "everDrawnGameCount": 57,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Jennifer Walters",
+    "mtgaId": 104909,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Advisor Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 282,
+    "everDrawnGameCount": 136,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kree Commandos",
+    "mtgaId": 104911,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Kree Soldier Villain"
+    ],
+    "alsa": 7.2904748,
+    "ata": 11.066474,
+    "overallGihwr": 0,
+    "gameCount": 347,
+    "everDrawnGameCount": 153,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Luke Cage, Power Man",
+    "mtgaId": 104912,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 5.7969543,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 237,
+    "everDrawnGameCount": 113,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Mind Stone",
+    "mtgaId": 104913,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Artifact - Infinity Stone"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 217,
+    "everDrawnGameCount": 103,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mockingbird, Ace Agent",
+    "mtgaId": 104914,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Spy Hero"
+    ],
+    "alsa": 5.5436123,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 219,
+    "everDrawnGameCount": 82,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Monica Rambeau",
+    "mtgaId": 104915,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 373,
+    "everDrawnGameCount": 163,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Murdock's Crusade",
+    "mtgaId": 104917,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 3.1803189,
+    "ata": 3.9428571,
+    "overallGihwr": 0.576,
+    "gameCount": 3396,
+    "everDrawnGameCount": 1500,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3396,
+        "everDrawnGameCount": 1500,
+        "gihwr": 0.576
+      },
+      "WB": {
+        "gameCount": 3396,
+        "everDrawnGameCount": 1500,
+        "gihwr": 0.576
+      },
+      "WR": {
+        "gameCount": 3396,
+        "everDrawnGameCount": 1500,
+        "gihwr": 0.576
+      },
+      "WG": {
+        "gameCount": 3396,
+        "everDrawnGameCount": 1500,
+        "gihwr": 0.576
+      },
+      "UB": {
+        "gameCount": 3396,
+        "everDrawnGameCount": 1500,
+        "gihwr": 0.576
+      },
+      "UR": {
+        "gameCount": 3396,
+        "everDrawnGameCount": 1500,
+        "gihwr": 0.576
+      },
+      "UG": {
+        "gameCount": 3396,
+        "everDrawnGameCount": 1500,
+        "gihwr": 0.576
+      },
+      "BR": {
+        "gameCount": 3396,
+        "everDrawnGameCount": 1500,
+        "gihwr": 0.576
+      },
+      "BG": {
+        "gameCount": 3396,
+        "everDrawnGameCount": 1500,
+        "gihwr": 0.576
+      },
+      "RG": {
+        "gameCount": 3396,
+        "everDrawnGameCount": 1500,
+        "gihwr": 0.576
+      }
+    }
+  },
+  {
+    "name": "Nick Fury, Agent of S.H.I.E.L.D.",
+    "mtgaId": 104918,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Spy Hero"
+    ],
+    "alsa": 4.2024096,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 342,
+    "everDrawnGameCount": 142,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Night Nurse, Healer of Heroes",
+    "mtgaId": 104919,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Doctor Hero"
+    ],
+    "alsa": 2.6970228,
+    "ata": 3.0502283,
+    "overallGihwr": 0.54833597,
+    "gameCount": 1394,
+    "everDrawnGameCount": 631,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1394,
+        "everDrawnGameCount": 631,
+        "gihwr": 0.54833597
+      },
+      "WB": {
+        "gameCount": 1394,
+        "everDrawnGameCount": 631,
+        "gihwr": 0.54833597
+      },
+      "WR": {
+        "gameCount": 1394,
+        "everDrawnGameCount": 631,
+        "gihwr": 0.54833597
+      },
+      "WG": {
+        "gameCount": 1394,
+        "everDrawnGameCount": 631,
+        "gihwr": 0.54833597
+      },
+      "UB": {
+        "gameCount": 1394,
+        "everDrawnGameCount": 631,
+        "gihwr": 0.54833597
+      },
+      "UR": {
+        "gameCount": 1394,
+        "everDrawnGameCount": 631,
+        "gihwr": 0.54833597
+      },
+      "UG": {
+        "gameCount": 1394,
+        "everDrawnGameCount": 631,
+        "gihwr": 0.54833597
+      },
+      "BR": {
+        "gameCount": 1394,
+        "everDrawnGameCount": 631,
+        "gihwr": 0.54833597
+      },
+      "BG": {
+        "gameCount": 1394,
+        "everDrawnGameCount": 631,
+        "gihwr": 0.54833597
+      },
+      "RG": {
+        "gameCount": 1394,
+        "everDrawnGameCount": 631,
+        "gihwr": 0.54833597
+      }
+    }
+  },
+  {
+    "name": "Okoye, Dora Milaje Leader",
+    "mtgaId": 104920,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Warrior Hero"
+    ],
+    "alsa": 3.2014184,
+    "ata": 3.9047619,
+    "overallGihwr": 0.5721562,
+    "gameCount": 1294,
+    "everDrawnGameCount": 589,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 589,
+        "gihwr": 0.5721562
+      },
+      "WB": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 589,
+        "gihwr": 0.5721562
+      },
+      "WR": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 589,
+        "gihwr": 0.5721562
+      },
+      "WG": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 589,
+        "gihwr": 0.5721562
+      },
+      "UB": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 589,
+        "gihwr": 0.5721562
+      },
+      "UR": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 589,
+        "gihwr": 0.5721562
+      },
+      "UG": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 589,
+        "gihwr": 0.5721562
+      },
+      "BR": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 589,
+        "gihwr": 0.5721562
+      },
+      "BG": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 589,
+        "gihwr": 0.5721562
+      },
+      "RG": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 589,
+        "gihwr": 0.5721562
+      }
+    }
+  },
+  {
+    "name": "Origin of the Avengers",
+    "mtgaId": 104921,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Enchantment - Saga"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 539,
+    "everDrawnGameCount": 246,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Panther Pounce",
+    "mtgaId": 104922,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 6.9263542,
+    "ata": 10.171946,
+    "overallGihwr": 0,
+    "gameCount": 765,
+    "everDrawnGameCount": 315,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Patriot, Shield Wielder",
+    "mtgaId": 104923,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 3.4405405,
+    "ata": null,
+    "overallGihwr": 0.58203125,
+    "gameCount": 1120,
+    "everDrawnGameCount": 512,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1120,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.58203125
+      },
+      "WB": {
+        "gameCount": 1120,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.58203125
+      },
+      "WR": {
+        "gameCount": 1120,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.58203125
+      },
+      "WG": {
+        "gameCount": 1120,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.58203125
+      },
+      "UB": {
+        "gameCount": 1120,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.58203125
+      },
+      "UR": {
+        "gameCount": 1120,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.58203125
+      },
+      "UG": {
+        "gameCount": 1120,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.58203125
+      },
+      "BR": {
+        "gameCount": 1120,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.58203125
+      },
+      "BG": {
+        "gameCount": 1120,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.58203125
+      },
+      "RG": {
+        "gameCount": 1120,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.58203125
+      }
+    }
+  },
+  {
+    "name": "Political Triumph",
+    "mtgaId": 104924,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Plan"
+    ],
+    "alsa": 2.9116203,
+    "ata": 3.2533937,
+    "overallGihwr": 0.6010929,
+    "gameCount": 1240,
+    "everDrawnGameCount": 549,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1240,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.6010929
+      },
+      "WB": {
+        "gameCount": 1240,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.6010929
+      },
+      "WR": {
+        "gameCount": 1240,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.6010929
+      },
+      "WG": {
+        "gameCount": 1240,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.6010929
+      },
+      "UB": {
+        "gameCount": 1240,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.6010929
+      },
+      "UR": {
+        "gameCount": 1240,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.6010929
+      },
+      "UG": {
+        "gameCount": 1240,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.6010929
+      },
+      "BR": {
+        "gameCount": 1240,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.6010929
+      },
+      "BG": {
+        "gameCount": 1240,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.6010929
+      },
+      "RG": {
+        "gameCount": 1240,
+        "everDrawnGameCount": 549,
+        "gihwr": 0.6010929
+      }
+    }
+  },
+  {
+    "name": "Quake, Agent of S.H.I.E.L.D.",
+    "mtgaId": 104925,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Inhuman Spy Hero"
+    ],
+    "alsa": 4.7724913,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 727,
+    "everDrawnGameCount": 340,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Raft Security Officer",
+    "mtgaId": 104926,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Soldier"
+    ],
+    "alsa": 3.9901035,
+    "ata": 5.2585895,
+    "overallGihwr": 0.57828115,
+    "gameCount": 3419,
+    "everDrawnGameCount": 1501,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3419,
+        "everDrawnGameCount": 1501,
+        "gihwr": 0.57828115
+      },
+      "WB": {
+        "gameCount": 3419,
+        "everDrawnGameCount": 1501,
+        "gihwr": 0.57828115
+      },
+      "WR": {
+        "gameCount": 3419,
+        "everDrawnGameCount": 1501,
+        "gihwr": 0.57828115
+      },
+      "WG": {
+        "gameCount": 3419,
+        "everDrawnGameCount": 1501,
+        "gihwr": 0.57828115
+      },
+      "UB": {
+        "gameCount": 3419,
+        "everDrawnGameCount": 1501,
+        "gihwr": 0.57828115
+      },
+      "UR": {
+        "gameCount": 3419,
+        "everDrawnGameCount": 1501,
+        "gihwr": 0.57828115
+      },
+      "UG": {
+        "gameCount": 3419,
+        "everDrawnGameCount": 1501,
+        "gihwr": 0.57828115
+      },
+      "BR": {
+        "gameCount": 3419,
+        "everDrawnGameCount": 1501,
+        "gihwr": 0.57828115
+      },
+      "BG": {
+        "gameCount": 3419,
+        "everDrawnGameCount": 1501,
+        "gihwr": 0.57828115
+      },
+      "RG": {
+        "gameCount": 3419,
+        "everDrawnGameCount": 1501,
+        "gihwr": 0.57828115
+      }
+    }
+  },
+  {
+    "name": "Red Guardian, Super-Soldier",
+    "mtgaId": 104927,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Soldier Villain"
+    ],
+    "alsa": 2.5561404,
+    "ata": 3.0707547,
+    "overallGihwr": 0.57648953,
+    "gameCount": 1410,
+    "everDrawnGameCount": 621,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1410,
+        "everDrawnGameCount": 621,
+        "gihwr": 0.57648953
+      },
+      "WB": {
+        "gameCount": 1410,
+        "everDrawnGameCount": 621,
+        "gihwr": 0.57648953
+      },
+      "WR": {
+        "gameCount": 1410,
+        "everDrawnGameCount": 621,
+        "gihwr": 0.57648953
+      },
+      "WG": {
+        "gameCount": 1410,
+        "everDrawnGameCount": 621,
+        "gihwr": 0.57648953
+      },
+      "UB": {
+        "gameCount": 1410,
+        "everDrawnGameCount": 621,
+        "gihwr": 0.57648953
+      },
+      "UR": {
+        "gameCount": 1410,
+        "everDrawnGameCount": 621,
+        "gihwr": 0.57648953
+      },
+      "UG": {
+        "gameCount": 1410,
+        "everDrawnGameCount": 621,
+        "gihwr": 0.57648953
+      },
+      "BR": {
+        "gameCount": 1410,
+        "everDrawnGameCount": 621,
+        "gihwr": 0.57648953
+      },
+      "BG": {
+        "gameCount": 1410,
+        "everDrawnGameCount": 621,
+        "gihwr": 0.57648953
+      },
+      "RG": {
+        "gameCount": 1410,
+        "everDrawnGameCount": 621,
+        "gihwr": 0.57648953
+      }
+    }
+  },
+  {
+    "name": "The Sentry, Golden Guardian",
+    "mtgaId": 104928,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 2.4780488,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 258,
+    "everDrawnGameCount": 108,
+    "archetypeStats": {}
+  },
+  {
+    "name": "S.H.I.E.L.D. Spy Kit",
+    "mtgaId": 104929,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": 4.2077151,
+    "ata": 5.5344828,
+    "overallGihwr": 0.58718626,
+    "gameCount": 3398,
+    "everDrawnGameCount": 1514,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3398,
+        "everDrawnGameCount": 1514,
+        "gihwr": 0.58718626
+      },
+      "WB": {
+        "gameCount": 3398,
+        "everDrawnGameCount": 1514,
+        "gihwr": 0.58718626
+      },
+      "WR": {
+        "gameCount": 3398,
+        "everDrawnGameCount": 1514,
+        "gihwr": 0.58718626
+      },
+      "WG": {
+        "gameCount": 3398,
+        "everDrawnGameCount": 1514,
+        "gihwr": 0.58718626
+      },
+      "UB": {
+        "gameCount": 3398,
+        "everDrawnGameCount": 1514,
+        "gihwr": 0.58718626
+      },
+      "UR": {
+        "gameCount": 3398,
+        "everDrawnGameCount": 1514,
+        "gihwr": 0.58718626
+      },
+      "UG": {
+        "gameCount": 3398,
+        "everDrawnGameCount": 1514,
+        "gihwr": 0.58718626
+      },
+      "BR": {
+        "gameCount": 3398,
+        "everDrawnGameCount": 1514,
+        "gihwr": 0.58718626
+      },
+      "BG": {
+        "gameCount": 3398,
+        "everDrawnGameCount": 1514,
+        "gihwr": 0.58718626
+      },
+      "RG": {
+        "gameCount": 3398,
+        "everDrawnGameCount": 1514,
+        "gihwr": 0.58718626
+      }
+    }
+  },
+  {
+    "name": "Super Villain Lockup",
+    "mtgaId": 104930,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 2.7863894,
+    "ata": null,
+    "overallGihwr": 0.60546875,
+    "gameCount": 1127,
+    "everDrawnGameCount": 512,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1127,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.60546875
+      },
+      "WB": {
+        "gameCount": 1127,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.60546875
+      },
+      "WR": {
+        "gameCount": 1127,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.60546875
+      },
+      "WG": {
+        "gameCount": 1127,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.60546875
+      },
+      "UB": {
+        "gameCount": 1127,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.60546875
+      },
+      "UR": {
+        "gameCount": 1127,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.60546875
+      },
+      "UG": {
+        "gameCount": 1127,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.60546875
+      },
+      "BR": {
+        "gameCount": 1127,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.60546875
+      },
+      "BG": {
+        "gameCount": 1127,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.60546875
+      },
+      "RG": {
+        "gameCount": 1127,
+        "everDrawnGameCount": 512,
+        "gihwr": 0.60546875
+      }
+    }
+  },
+  {
+    "name": "Super-Soldier Serum",
+    "mtgaId": 104931,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": 3.3229167,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 183,
+    "everDrawnGameCount": 81,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Take Up the Shield",
+    "mtgaId": 104932,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.9336824,
+    "ata": 5.4725898,
+    "overallGihwr": 0.56254856,
+    "gameCount": 2943,
+    "everDrawnGameCount": 1287,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2943,
+        "everDrawnGameCount": 1287,
+        "gihwr": 0.56254856
+      },
+      "WB": {
+        "gameCount": 2943,
+        "everDrawnGameCount": 1287,
+        "gihwr": 0.56254856
+      },
+      "WR": {
+        "gameCount": 2943,
+        "everDrawnGameCount": 1287,
+        "gihwr": 0.56254856
+      },
+      "WG": {
+        "gameCount": 2943,
+        "everDrawnGameCount": 1287,
+        "gihwr": 0.56254856
+      },
+      "UB": {
+        "gameCount": 2943,
+        "everDrawnGameCount": 1287,
+        "gihwr": 0.56254856
+      },
+      "UR": {
+        "gameCount": 2943,
+        "everDrawnGameCount": 1287,
+        "gihwr": 0.56254856
+      },
+      "UG": {
+        "gameCount": 2943,
+        "everDrawnGameCount": 1287,
+        "gihwr": 0.56254856
+      },
+      "BR": {
+        "gameCount": 2943,
+        "everDrawnGameCount": 1287,
+        "gihwr": 0.56254856
+      },
+      "BG": {
+        "gameCount": 2943,
+        "everDrawnGameCount": 1287,
+        "gihwr": 0.56254856
+      },
+      "RG": {
+        "gameCount": 2943,
+        "everDrawnGameCount": 1287,
+        "gihwr": 0.56254856
+      }
+    }
+  },
+  {
+    "name": "Wakandan Drone Flock",
+    "mtgaId": 104933,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Robot"
+    ],
+    "alsa": 5.4459459,
+    "ata": 7.7642586,
+    "overallGihwr": 0.58969466,
+    "gameCount": 2338,
+    "everDrawnGameCount": 1048,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2338,
+        "everDrawnGameCount": 1048,
+        "gihwr": 0.58969466
+      },
+      "WB": {
+        "gameCount": 2338,
+        "everDrawnGameCount": 1048,
+        "gihwr": 0.58969466
+      },
+      "WR": {
+        "gameCount": 2338,
+        "everDrawnGameCount": 1048,
+        "gihwr": 0.58969466
+      },
+      "WG": {
+        "gameCount": 2338,
+        "everDrawnGameCount": 1048,
+        "gihwr": 0.58969466
+      },
+      "UB": {
+        "gameCount": 2338,
+        "everDrawnGameCount": 1048,
+        "gihwr": 0.58969466
+      },
+      "UR": {
+        "gameCount": 2338,
+        "everDrawnGameCount": 1048,
+        "gihwr": 0.58969466
+      },
+      "UG": {
+        "gameCount": 2338,
+        "everDrawnGameCount": 1048,
+        "gihwr": 0.58969466
+      },
+      "BR": {
+        "gameCount": 2338,
+        "everDrawnGameCount": 1048,
+        "gihwr": 0.58969466
+      },
+      "BG": {
+        "gameCount": 2338,
+        "everDrawnGameCount": 1048,
+        "gihwr": 0.58969466
+      },
+      "RG": {
+        "gameCount": 2338,
+        "everDrawnGameCount": 1048,
+        "gihwr": 0.58969466
+      }
+    }
+  },
+  {
+    "name": "Web Up",
+    "mtgaId": 104934,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 2.1954128,
+    "ata": 2.4943396,
+    "overallGihwr": 0.58442408,
+    "gameCount": 3407,
+    "everDrawnGameCount": 1528,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3407,
+        "everDrawnGameCount": 1528,
+        "gihwr": 0.58442408
+      },
+      "WB": {
+        "gameCount": 3407,
+        "everDrawnGameCount": 1528,
+        "gihwr": 0.58442408
+      },
+      "WR": {
+        "gameCount": 3407,
+        "everDrawnGameCount": 1528,
+        "gihwr": 0.58442408
+      },
+      "WG": {
+        "gameCount": 3407,
+        "everDrawnGameCount": 1528,
+        "gihwr": 0.58442408
+      },
+      "UB": {
+        "gameCount": 3407,
+        "everDrawnGameCount": 1528,
+        "gihwr": 0.58442408
+      },
+      "UR": {
+        "gameCount": 3407,
+        "everDrawnGameCount": 1528,
+        "gihwr": 0.58442408
+      },
+      "UG": {
+        "gameCount": 3407,
+        "everDrawnGameCount": 1528,
+        "gihwr": 0.58442408
+      },
+      "BR": {
+        "gameCount": 3407,
+        "everDrawnGameCount": 1528,
+        "gihwr": 0.58442408
+      },
+      "BG": {
+        "gameCount": 3407,
+        "everDrawnGameCount": 1528,
+        "gihwr": 0.58442408
+      },
+      "RG": {
+        "gameCount": 3407,
+        "everDrawnGameCount": 1528,
+        "gihwr": 0.58442408
+      }
+    }
+  },
+  {
+    "name": "White Widow, Free Agent",
+    "mtgaId": 104935,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero Villain"
+    ],
+    "alsa": 3.5518044,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 894,
+    "everDrawnGameCount": 421,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Aerial Doombot",
+    "mtgaId": 104936,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Robot Villain"
+    ],
+    "alsa": 4.8700906,
+    "ata": 6.7620751,
+    "overallGihwr": 0.58043478,
+    "gameCount": 3095,
+    "everDrawnGameCount": 1380,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3095,
+        "everDrawnGameCount": 1380,
+        "gihwr": 0.58043478
+      },
+      "WB": {
+        "gameCount": 3095,
+        "everDrawnGameCount": 1380,
+        "gihwr": 0.58043478
+      },
+      "WR": {
+        "gameCount": 3095,
+        "everDrawnGameCount": 1380,
+        "gihwr": 0.58043478
+      },
+      "WG": {
+        "gameCount": 3095,
+        "everDrawnGameCount": 1380,
+        "gihwr": 0.58043478
+      },
+      "UB": {
+        "gameCount": 3095,
+        "everDrawnGameCount": 1380,
+        "gihwr": 0.58043478
+      },
+      "UR": {
+        "gameCount": 3095,
+        "everDrawnGameCount": 1380,
+        "gihwr": 0.58043478
+      },
+      "UG": {
+        "gameCount": 3095,
+        "everDrawnGameCount": 1380,
+        "gihwr": 0.58043478
+      },
+      "BR": {
+        "gameCount": 3095,
+        "everDrawnGameCount": 1380,
+        "gihwr": 0.58043478
+      },
+      "BG": {
+        "gameCount": 3095,
+        "everDrawnGameCount": 1380,
+        "gihwr": 0.58043478
+      },
+      "RG": {
+        "gameCount": 3095,
+        "everDrawnGameCount": 1380,
+        "gihwr": 0.58043478
+      }
+    }
+  },
+  {
+    "name": "A.I.M. Scientists",
+    "mtgaId": 104937,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Scientist Villain"
+    ],
+    "alsa": 5.2466871,
+    "ata": 7.5098039,
+    "overallGihwr": 0.56456693,
+    "gameCount": 2801,
+    "everDrawnGameCount": 1270,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2801,
+        "everDrawnGameCount": 1270,
+        "gihwr": 0.56456693
+      },
+      "WB": {
+        "gameCount": 2801,
+        "everDrawnGameCount": 1270,
+        "gihwr": 0.56456693
+      },
+      "WR": {
+        "gameCount": 2801,
+        "everDrawnGameCount": 1270,
+        "gihwr": 0.56456693
+      },
+      "WG": {
+        "gameCount": 2801,
+        "everDrawnGameCount": 1270,
+        "gihwr": 0.56456693
+      },
+      "UB": {
+        "gameCount": 2801,
+        "everDrawnGameCount": 1270,
+        "gihwr": 0.56456693
+      },
+      "UR": {
+        "gameCount": 2801,
+        "everDrawnGameCount": 1270,
+        "gihwr": 0.56456693
+      },
+      "UG": {
+        "gameCount": 2801,
+        "everDrawnGameCount": 1270,
+        "gihwr": 0.56456693
+      },
+      "BR": {
+        "gameCount": 2801,
+        "everDrawnGameCount": 1270,
+        "gihwr": 0.56456693
+      },
+      "BG": {
+        "gameCount": 2801,
+        "everDrawnGameCount": 1270,
+        "gihwr": 0.56456693
+      },
+      "RG": {
+        "gameCount": 2801,
+        "everDrawnGameCount": 1270,
+        "gihwr": 0.56456693
+      }
+    }
+  },
+  {
+    "name": "Atlantean Cavalry",
+    "mtgaId": 104938,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Merfolk Soldier"
+    ],
+    "alsa": 7.0442022,
+    "ata": 10.445727,
+    "overallGihwr": 0,
+    "gameCount": 739,
+    "everDrawnGameCount": 348,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Atlantis Attacks",
+    "mtgaId": 104939,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 5.6489685,
+    "ata": 8.0415094,
+    "overallGihwr": 0.55567118,
+    "gameCount": 2179,
+    "everDrawnGameCount": 961,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2179,
+        "everDrawnGameCount": 961,
+        "gihwr": 0.55567118
+      },
+      "WB": {
+        "gameCount": 2179,
+        "everDrawnGameCount": 961,
+        "gihwr": 0.55567118
+      },
+      "WR": {
+        "gameCount": 2179,
+        "everDrawnGameCount": 961,
+        "gihwr": 0.55567118
+      },
+      "WG": {
+        "gameCount": 2179,
+        "everDrawnGameCount": 961,
+        "gihwr": 0.55567118
+      },
+      "UB": {
+        "gameCount": 2179,
+        "everDrawnGameCount": 961,
+        "gihwr": 0.55567118
+      },
+      "UR": {
+        "gameCount": 2179,
+        "everDrawnGameCount": 961,
+        "gihwr": 0.55567118
+      },
+      "UG": {
+        "gameCount": 2179,
+        "everDrawnGameCount": 961,
+        "gihwr": 0.55567118
+      },
+      "BR": {
+        "gameCount": 2179,
+        "everDrawnGameCount": 961,
+        "gihwr": 0.55567118
+      },
+      "BG": {
+        "gameCount": 2179,
+        "everDrawnGameCount": 961,
+        "gihwr": 0.55567118
+      },
+      "RG": {
+        "gameCount": 2179,
+        "everDrawnGameCount": 961,
+        "gihwr": 0.55567118
+      }
+    }
+  },
+  {
+    "name": "Attuma, Atlantean Warlord",
+    "mtgaId": 104940,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Merfolk Warrior Villain"
+    ],
+    "alsa": 5.8355705,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 402,
+    "everDrawnGameCount": 191,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bold Biochemist",
+    "mtgaId": 104941,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Scientist"
+    ],
+    "alsa": 5.1437722,
+    "ata": 6.9822866,
+    "overallGihwr": 0.57049608,
+    "gameCount": 3330,
+    "everDrawnGameCount": 1532,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3330,
+        "everDrawnGameCount": 1532,
+        "gihwr": 0.57049608
+      },
+      "WB": {
+        "gameCount": 3330,
+        "everDrawnGameCount": 1532,
+        "gihwr": 0.57049608
+      },
+      "WR": {
+        "gameCount": 3330,
+        "everDrawnGameCount": 1532,
+        "gihwr": 0.57049608
+      },
+      "WG": {
+        "gameCount": 3330,
+        "everDrawnGameCount": 1532,
+        "gihwr": 0.57049608
+      },
+      "UB": {
+        "gameCount": 3330,
+        "everDrawnGameCount": 1532,
+        "gihwr": 0.57049608
+      },
+      "UR": {
+        "gameCount": 3330,
+        "everDrawnGameCount": 1532,
+        "gihwr": 0.57049608
+      },
+      "UG": {
+        "gameCount": 3330,
+        "everDrawnGameCount": 1532,
+        "gihwr": 0.57049608
+      },
+      "BR": {
+        "gameCount": 3330,
+        "everDrawnGameCount": 1532,
+        "gihwr": 0.57049608
+      },
+      "BG": {
+        "gameCount": 3330,
+        "everDrawnGameCount": 1532,
+        "gihwr": 0.57049608
+      },
+      "RG": {
+        "gameCount": 3330,
+        "everDrawnGameCount": 1532,
+        "gihwr": 0.57049608
+      }
+    }
+  },
+  {
+    "name": "Bruce Banner",
+    "mtgaId": 104942,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Scientist Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 307,
+    "everDrawnGameCount": 139,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Depower",
+    "mtgaId": 104944,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 6.8186466,
+    "ata": 9.8306773,
+    "overallGihwr": 0.57225434,
+    "gameCount": 1151,
+    "everDrawnGameCount": 519,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1151,
+        "everDrawnGameCount": 519,
+        "gihwr": 0.57225434
+      },
+      "WB": {
+        "gameCount": 1151,
+        "everDrawnGameCount": 519,
+        "gihwr": 0.57225434
+      },
+      "WR": {
+        "gameCount": 1151,
+        "everDrawnGameCount": 519,
+        "gihwr": 0.57225434
+      },
+      "WG": {
+        "gameCount": 1151,
+        "everDrawnGameCount": 519,
+        "gihwr": 0.57225434
+      },
+      "UB": {
+        "gameCount": 1151,
+        "everDrawnGameCount": 519,
+        "gihwr": 0.57225434
+      },
+      "UR": {
+        "gameCount": 1151,
+        "everDrawnGameCount": 519,
+        "gihwr": 0.57225434
+      },
+      "UG": {
+        "gameCount": 1151,
+        "everDrawnGameCount": 519,
+        "gihwr": 0.57225434
+      },
+      "BR": {
+        "gameCount": 1151,
+        "everDrawnGameCount": 519,
+        "gihwr": 0.57225434
+      },
+      "BG": {
+        "gameCount": 1151,
+        "everDrawnGameCount": 519,
+        "gihwr": 0.57225434
+      },
+      "RG": {
+        "gameCount": 1151,
+        "everDrawnGameCount": 519,
+        "gihwr": 0.57225434
+      }
+    }
+  },
+  {
+    "name": "Echo, Perceptive Prodigy",
+    "mtgaId": 104945,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 5.1591536,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 854,
+    "everDrawnGameCount": 384,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Falcon, Winged Wonder",
+    "mtgaId": 104946,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 3.315508,
+    "ata": 3.7295082,
+    "overallGihwr": 0.57276368,
+    "gameCount": 1609,
+    "everDrawnGameCount": 749,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1609,
+        "everDrawnGameCount": 749,
+        "gihwr": 0.57276368
+      },
+      "WB": {
+        "gameCount": 1609,
+        "everDrawnGameCount": 749,
+        "gihwr": 0.57276368
+      },
+      "WR": {
+        "gameCount": 1609,
+        "everDrawnGameCount": 749,
+        "gihwr": 0.57276368
+      },
+      "WG": {
+        "gameCount": 1609,
+        "everDrawnGameCount": 749,
+        "gihwr": 0.57276368
+      },
+      "UB": {
+        "gameCount": 1609,
+        "everDrawnGameCount": 749,
+        "gihwr": 0.57276368
+      },
+      "UR": {
+        "gameCount": 1609,
+        "everDrawnGameCount": 749,
+        "gihwr": 0.57276368
+      },
+      "UG": {
+        "gameCount": 1609,
+        "everDrawnGameCount": 749,
+        "gihwr": 0.57276368
+      },
+      "BR": {
+        "gameCount": 1609,
+        "everDrawnGameCount": 749,
+        "gihwr": 0.57276368
+      },
+      "BG": {
+        "gameCount": 1609,
+        "everDrawnGameCount": 749,
+        "gihwr": 0.57276368
+      },
+      "RG": {
+        "gameCount": 1609,
+        "everDrawnGameCount": 749,
+        "gihwr": 0.57276368
+      }
+    }
+  },
+  {
+    "name": "Falcon's Wing Harness",
+    "mtgaId": 104947,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": 4.299285,
+    "ata": 5.8780488,
+    "overallGihwr": 0,
+    "gameCount": 993,
+    "everDrawnGameCount": 438,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Frozen in Ice",
+    "mtgaId": 104948,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": 3.3466523,
+    "ata": 4.3005566,
+    "overallGihwr": 0.58082575,
+    "gameCount": 3143,
+    "everDrawnGameCount": 1429,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3143,
+        "everDrawnGameCount": 1429,
+        "gihwr": 0.58082575
+      },
+      "WB": {
+        "gameCount": 3143,
+        "everDrawnGameCount": 1429,
+        "gihwr": 0.58082575
+      },
+      "WR": {
+        "gameCount": 3143,
+        "everDrawnGameCount": 1429,
+        "gihwr": 0.58082575
+      },
+      "WG": {
+        "gameCount": 3143,
+        "everDrawnGameCount": 1429,
+        "gihwr": 0.58082575
+      },
+      "UB": {
+        "gameCount": 3143,
+        "everDrawnGameCount": 1429,
+        "gihwr": 0.58082575
+      },
+      "UR": {
+        "gameCount": 3143,
+        "everDrawnGameCount": 1429,
+        "gihwr": 0.58082575
+      },
+      "UG": {
+        "gameCount": 3143,
+        "everDrawnGameCount": 1429,
+        "gihwr": 0.58082575
+      },
+      "BR": {
+        "gameCount": 3143,
+        "everDrawnGameCount": 1429,
+        "gihwr": 0.58082575
+      },
+      "BG": {
+        "gameCount": 3143,
+        "everDrawnGameCount": 1429,
+        "gihwr": 0.58082575
+      },
+      "RG": {
+        "gameCount": 3143,
+        "everDrawnGameCount": 1429,
+        "gihwr": 0.58082575
+      }
+    }
+  },
+  {
+    "name": "Futurist Forge",
+    "mtgaId": 104949,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": 5.2375135,
+    "ata": 7.344086,
+    "overallGihwr": 0.58978583,
+    "gameCount": 2759,
+    "everDrawnGameCount": 1214,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2759,
+        "everDrawnGameCount": 1214,
+        "gihwr": 0.58978583
+      },
+      "WB": {
+        "gameCount": 2759,
+        "everDrawnGameCount": 1214,
+        "gihwr": 0.58978583
+      },
+      "WR": {
+        "gameCount": 2759,
+        "everDrawnGameCount": 1214,
+        "gihwr": 0.58978583
+      },
+      "WG": {
+        "gameCount": 2759,
+        "everDrawnGameCount": 1214,
+        "gihwr": 0.58978583
+      },
+      "UB": {
+        "gameCount": 2759,
+        "everDrawnGameCount": 1214,
+        "gihwr": 0.58978583
+      },
+      "UR": {
+        "gameCount": 2759,
+        "everDrawnGameCount": 1214,
+        "gihwr": 0.58978583
+      },
+      "UG": {
+        "gameCount": 2759,
+        "everDrawnGameCount": 1214,
+        "gihwr": 0.58978583
+      },
+      "BR": {
+        "gameCount": 2759,
+        "everDrawnGameCount": 1214,
+        "gihwr": 0.58978583
+      },
+      "BG": {
+        "gameCount": 2759,
+        "everDrawnGameCount": 1214,
+        "gihwr": 0.58978583
+      },
+      "RG": {
+        "gameCount": 2759,
+        "everDrawnGameCount": 1214,
+        "gihwr": 0.58978583
+      }
+    }
+  },
+  {
+    "name": "Giant-Sized Flying Ant",
+    "mtgaId": 104950,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Insect"
+    ],
+    "alsa": 5.8979133,
+    "ata": 8.1574675,
+    "overallGihwr": 0.58232932,
+    "gameCount": 2668,
+    "everDrawnGameCount": 1245,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2668,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.58232932
+      },
+      "WB": {
+        "gameCount": 2668,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.58232932
+      },
+      "WR": {
+        "gameCount": 2668,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.58232932
+      },
+      "WG": {
+        "gameCount": 2668,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.58232932
+      },
+      "UB": {
+        "gameCount": 2668,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.58232932
+      },
+      "UR": {
+        "gameCount": 2668,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.58232932
+      },
+      "UG": {
+        "gameCount": 2668,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.58232932
+      },
+      "BR": {
+        "gameCount": 2668,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.58232932
+      },
+      "BG": {
+        "gameCount": 2668,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.58232932
+      },
+      "RG": {
+        "gameCount": 2668,
+        "everDrawnGameCount": 1245,
+        "gihwr": 0.58232932
+      }
+    }
+  },
+  {
+    "name": "Hydraulic Helper",
+    "mtgaId": 104951,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Robot"
+    ],
+    "alsa": 7.2573814,
+    "ata": 10.397778,
+    "overallGihwr": 0,
+    "gameCount": 989,
+    "everDrawnGameCount": 444,
+    "archetypeStats": {}
+  },
+  {
+    "name": "I Am Iron Man",
+    "mtgaId": 104952,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 6.9142091,
+    "ata": 10.100427,
+    "overallGihwr": 0,
+    "gameCount": 1084,
+    "everDrawnGameCount": 492,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Iron Lad, Diverging Destiny",
+    "mtgaId": 104953,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Artifact Creature - Human Hero"
+    ],
+    "alsa": 4.5064677,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 840,
+    "everDrawnGameCount": 381,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ironheart, Clever Champion",
+    "mtgaId": 104954,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Legendary Artifact Creature - Human Hero"
+    ],
+    "alsa": 4.3973684,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 254,
+    "everDrawnGameCount": 122,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Justice, Vance Astrovik",
+    "mtgaId": 104955,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Mutant Hero"
+    ],
+    "alsa": 2.4558824,
+    "ata": 2.7121771,
+    "overallGihwr": 0.62409639,
+    "gameCount": 1753,
+    "everDrawnGameCount": 830,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1753,
+        "everDrawnGameCount": 830,
+        "gihwr": 0.62409639
+      },
+      "WB": {
+        "gameCount": 1753,
+        "everDrawnGameCount": 830,
+        "gihwr": 0.62409639
+      },
+      "WR": {
+        "gameCount": 1753,
+        "everDrawnGameCount": 830,
+        "gihwr": 0.62409639
+      },
+      "WG": {
+        "gameCount": 1753,
+        "everDrawnGameCount": 830,
+        "gihwr": 0.62409639
+      },
+      "UB": {
+        "gameCount": 1753,
+        "everDrawnGameCount": 830,
+        "gihwr": 0.62409639
+      },
+      "UR": {
+        "gameCount": 1753,
+        "everDrawnGameCount": 830,
+        "gihwr": 0.62409639
+      },
+      "UG": {
+        "gameCount": 1753,
+        "everDrawnGameCount": 830,
+        "gihwr": 0.62409639
+      },
+      "BR": {
+        "gameCount": 1753,
+        "everDrawnGameCount": 830,
+        "gihwr": 0.62409639
+      },
+      "BG": {
+        "gameCount": 1753,
+        "everDrawnGameCount": 830,
+        "gihwr": 0.62409639
+      },
+      "RG": {
+        "gameCount": 1753,
+        "everDrawnGameCount": 830,
+        "gihwr": 0.62409639
+      }
+    }
+  },
+  {
+    "name": "Kang the Conqueror",
+    "mtgaId": 104956,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 286,
+    "everDrawnGameCount": 146,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kid Loki",
+    "mtgaId": 104957,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - God Hero Villain"
+    ],
+    "alsa": 5.5473684,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 548,
+    "everDrawnGameCount": 264,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Leader, Super-Genius",
+    "mtgaId": 104958,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Gamma Scientist Villain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 797,
+    "everDrawnGameCount": 366,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Loki, God of Mischief",
+    "mtgaId": 104959,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - God Sorcerer Villain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 558,
+    "everDrawnGameCount": 240,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mister Fantastic, Reed Richards",
+    "mtgaId": 104960,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Scientist Hero"
+    ],
+    "alsa": 6.242671,
+    "ata": 8.855,
+    "overallGihwr": 0,
+    "gameCount": 420,
+    "everDrawnGameCount": 179,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ms. Marvel, Kamala Khan",
+    "mtgaId": 104961,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Mutant Inhuman Hero"
+    ],
+    "alsa": 3.877095,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 193,
+    "everDrawnGameCount": 82,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Multiversal Incursion",
+    "mtgaId": 104962,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 113,
+    "everDrawnGameCount": 42,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Namor the Sub-Mariner",
+    "mtgaId": 104963,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Mutant Merfolk Villain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 211,
+    "everDrawnGameCount": 90,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pym Particles",
+    "mtgaId": 104964,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.3795082,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 299,
+    "everDrawnGameCount": 135,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rewrite History",
+    "mtgaId": 104965,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Plan"
+    ],
+    "alsa": 7.3203527,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 64,
+    "everDrawnGameCount": 33,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Secret Invasion",
+    "mtgaId": 104966,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": 2.3349754,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 727,
+    "everDrawnGameCount": 315,
+    "archetypeStats": {}
+  },
+  {
+    "name": "S.H.I.E.L.D. Deployment Drone",
+    "mtgaId": 104967,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Robot"
+    ],
+    "alsa": 3.4565435,
+    "ata": 4.3051095,
+    "overallGihwr": 0.58265139,
+    "gameCount": 4158,
+    "everDrawnGameCount": 1833,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 4158,
+        "everDrawnGameCount": 1833,
+        "gihwr": 0.58265139
+      },
+      "WB": {
+        "gameCount": 4158,
+        "everDrawnGameCount": 1833,
+        "gihwr": 0.58265139
+      },
+      "WR": {
+        "gameCount": 4158,
+        "everDrawnGameCount": 1833,
+        "gihwr": 0.58265139
+      },
+      "WG": {
+        "gameCount": 4158,
+        "everDrawnGameCount": 1833,
+        "gihwr": 0.58265139
+      },
+      "UB": {
+        "gameCount": 4158,
+        "everDrawnGameCount": 1833,
+        "gihwr": 0.58265139
+      },
+      "UR": {
+        "gameCount": 4158,
+        "everDrawnGameCount": 1833,
+        "gihwr": 0.58265139
+      },
+      "UG": {
+        "gameCount": 4158,
+        "everDrawnGameCount": 1833,
+        "gihwr": 0.58265139
+      },
+      "BR": {
+        "gameCount": 4158,
+        "everDrawnGameCount": 1833,
+        "gihwr": 0.58265139
+      },
+      "BG": {
+        "gameCount": 4158,
+        "everDrawnGameCount": 1833,
+        "gihwr": 0.58265139
+      },
+      "RG": {
+        "gameCount": 4158,
+        "everDrawnGameCount": 1833,
+        "gihwr": 0.58265139
+      }
+    }
+  },
+  {
+    "name": "S.H.I.E.L.D. Flying Car",
+    "mtgaId": 104968,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Artifact - Vehicle"
+    ],
+    "alsa": 2.2714932,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 638,
+    "everDrawnGameCount": 288,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Shuri, Wakandan Inventor",
+    "mtgaId": 104969,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Artificer Hero"
+    ],
+    "alsa": 5.4787415,
+    "ata": 7.4497608,
+    "overallGihwr": 0,
+    "gameCount": 778,
+    "everDrawnGameCount": 349,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Stature, Size Shifter",
+    "mtgaId": 104970,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 3.5912162,
+    "ata": 4.3019608,
+    "overallGihwr": 0.5802139,
+    "gameCount": 1586,
+    "everDrawnGameCount": 748,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1586,
+        "everDrawnGameCount": 748,
+        "gihwr": 0.5802139
+      },
+      "WB": {
+        "gameCount": 1586,
+        "everDrawnGameCount": 748,
+        "gihwr": 0.5802139
+      },
+      "WR": {
+        "gameCount": 1586,
+        "everDrawnGameCount": 748,
+        "gihwr": 0.5802139
+      },
+      "WG": {
+        "gameCount": 1586,
+        "everDrawnGameCount": 748,
+        "gihwr": 0.5802139
+      },
+      "UB": {
+        "gameCount": 1586,
+        "everDrawnGameCount": 748,
+        "gihwr": 0.5802139
+      },
+      "UR": {
+        "gameCount": 1586,
+        "everDrawnGameCount": 748,
+        "gihwr": 0.5802139
+      },
+      "UG": {
+        "gameCount": 1586,
+        "everDrawnGameCount": 748,
+        "gihwr": 0.5802139
+      },
+      "BR": {
+        "gameCount": 1586,
+        "everDrawnGameCount": 748,
+        "gihwr": 0.5802139
+      },
+      "BG": {
+        "gameCount": 1586,
+        "everDrawnGameCount": 748,
+        "gihwr": 0.5802139
+      },
+      "RG": {
+        "gameCount": 1586,
+        "everDrawnGameCount": 748,
+        "gihwr": 0.5802139
+      }
+    }
+  },
+  {
+    "name": "Super Intelligence",
+    "mtgaId": 104971,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": 5.260355,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 331,
+    "everDrawnGameCount": 136,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Super Suit",
+    "mtgaId": 104972,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": 6.8687933,
+    "ata": 10.088729,
+    "overallGihwr": 0.58349705,
+    "gameCount": 1100,
+    "everDrawnGameCount": 509,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1100,
+        "everDrawnGameCount": 509,
+        "gihwr": 0.58349705
+      },
+      "WB": {
+        "gameCount": 1100,
+        "everDrawnGameCount": 509,
+        "gihwr": 0.58349705
+      },
+      "WR": {
+        "gameCount": 1100,
+        "everDrawnGameCount": 509,
+        "gihwr": 0.58349705
+      },
+      "WG": {
+        "gameCount": 1100,
+        "everDrawnGameCount": 509,
+        "gihwr": 0.58349705
+      },
+      "UB": {
+        "gameCount": 1100,
+        "everDrawnGameCount": 509,
+        "gihwr": 0.58349705
+      },
+      "UR": {
+        "gameCount": 1100,
+        "everDrawnGameCount": 509,
+        "gihwr": 0.58349705
+      },
+      "UG": {
+        "gameCount": 1100,
+        "everDrawnGameCount": 509,
+        "gihwr": 0.58349705
+      },
+      "BR": {
+        "gameCount": 1100,
+        "everDrawnGameCount": 509,
+        "gihwr": 0.58349705
+      },
+      "BG": {
+        "gameCount": 1100,
+        "everDrawnGameCount": 509,
+        "gihwr": 0.58349705
+      },
+      "RG": {
+        "gameCount": 1100,
+        "everDrawnGameCount": 509,
+        "gihwr": 0.58349705
+      }
+    }
+  },
+  {
+    "name": "Thirst for Knowledge",
+    "mtgaId": 104973,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 6.8763961,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 170,
+    "everDrawnGameCount": 75,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tony Stark",
+    "mtgaId": 104974,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Artificer Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 312,
+    "everDrawnGameCount": 151,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Trickster's Stratagem",
+    "mtgaId": 104976,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 3.8044639,
+    "ata": 4.6918845,
+    "overallGihwr": 0.60355649,
+    "gameCount": 4308,
+    "everDrawnGameCount": 1912,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 4308,
+        "everDrawnGameCount": 1912,
+        "gihwr": 0.60355649
+      },
+      "WB": {
+        "gameCount": 4308,
+        "everDrawnGameCount": 1912,
+        "gihwr": 0.60355649
+      },
+      "WR": {
+        "gameCount": 4308,
+        "everDrawnGameCount": 1912,
+        "gihwr": 0.60355649
+      },
+      "WG": {
+        "gameCount": 4308,
+        "everDrawnGameCount": 1912,
+        "gihwr": 0.60355649
+      },
+      "UB": {
+        "gameCount": 4308,
+        "everDrawnGameCount": 1912,
+        "gihwr": 0.60355649
+      },
+      "UR": {
+        "gameCount": 4308,
+        "everDrawnGameCount": 1912,
+        "gihwr": 0.60355649
+      },
+      "UG": {
+        "gameCount": 4308,
+        "everDrawnGameCount": 1912,
+        "gihwr": 0.60355649
+      },
+      "BR": {
+        "gameCount": 4308,
+        "everDrawnGameCount": 1912,
+        "gihwr": 0.60355649
+      },
+      "BG": {
+        "gameCount": 4308,
+        "everDrawnGameCount": 1912,
+        "gihwr": 0.60355649
+      },
+      "RG": {
+        "gameCount": 4308,
+        "everDrawnGameCount": 1912,
+        "gihwr": 0.60355649
+      }
+    }
+  },
+  {
+    "name": "We Say Thee Nay!",
+    "mtgaId": 104977,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Instant - Arcane"
+    ],
+    "alsa": 4.1851233,
+    "ata": 5.373065,
+    "overallGihwr": 0.56948551,
+    "gameCount": 3688,
+    "everDrawnGameCount": 1691,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3688,
+        "everDrawnGameCount": 1691,
+        "gihwr": 0.56948551
+      },
+      "WB": {
+        "gameCount": 3688,
+        "everDrawnGameCount": 1691,
+        "gihwr": 0.56948551
+      },
+      "WR": {
+        "gameCount": 3688,
+        "everDrawnGameCount": 1691,
+        "gihwr": 0.56948551
+      },
+      "WG": {
+        "gameCount": 3688,
+        "everDrawnGameCount": 1691,
+        "gihwr": 0.56948551
+      },
+      "UB": {
+        "gameCount": 3688,
+        "everDrawnGameCount": 1691,
+        "gihwr": 0.56948551
+      },
+      "UR": {
+        "gameCount": 3688,
+        "everDrawnGameCount": 1691,
+        "gihwr": 0.56948551
+      },
+      "UG": {
+        "gameCount": 3688,
+        "everDrawnGameCount": 1691,
+        "gihwr": 0.56948551
+      },
+      "BR": {
+        "gameCount": 3688,
+        "everDrawnGameCount": 1691,
+        "gihwr": 0.56948551
+      },
+      "BG": {
+        "gameCount": 3688,
+        "everDrawnGameCount": 1691,
+        "gihwr": 0.56948551
+      },
+      "RG": {
+        "gameCount": 3688,
+        "everDrawnGameCount": 1691,
+        "gihwr": 0.56948551
+      }
+    }
+  },
+  {
+    "name": "Wiccan, Rising Magician",
+    "mtgaId": 104978,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Mutant Warlock Hero"
+    ],
+    "alsa": 4.6613953,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 859,
+    "everDrawnGameCount": 401,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Wondrous Wasp",
+    "mtgaId": 104979,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 757,
+    "everDrawnGameCount": 352,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Agents of HYDRA",
+    "mtgaId": 104980,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Spy Villain"
+    ],
+    "alsa": 6.7243948,
+    "ata": 9.7771883,
+    "overallGihwr": 0,
+    "gameCount": 1023,
+    "everDrawnGameCount": 440,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Arnim Zola, Bio-Fanatic",
+    "mtgaId": 104981,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Artifact Creature - Scientist Villain"
+    ],
+    "alsa": 5.3873626,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 365,
+    "everDrawnGameCount": 170,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Baron Helmut Zemo",
+    "mtgaId": 104982,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Noble Villain"
+    ],
+    "alsa": 4.6432039,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 140,
+    "everDrawnGameCount": 62,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Baron Strucker, HYDRA Overlord",
+    "mtgaId": 104983,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 3.8,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 924,
+    "everDrawnGameCount": 407,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Black Widow, Super Spy",
+    "mtgaId": 104984,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Spy Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 262,
+    "everDrawnGameCount": 124,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Construct a Cosmic Cube",
+    "mtgaId": 104985,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Enchantment - Plan"
+    ],
+    "alsa": 4.3434903,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 133,
+    "everDrawnGameCount": 66,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Crossbones, Malicious Mercenary",
+    "mtgaId": 104986,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Mercenary Villain"
+    ],
+    "alsa": 4.3151308,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 636,
+    "everDrawnGameCount": 289,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Cruel Alliance",
+    "mtgaId": 104987,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 3.1034693,
+    "ata": 3.7956204,
+    "overallGihwr": 0.58480326,
+    "gameCount": 3204,
+    "everDrawnGameCount": 1474,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3204,
+        "everDrawnGameCount": 1474,
+        "gihwr": 0.58480326
+      },
+      "WB": {
+        "gameCount": 3204,
+        "everDrawnGameCount": 1474,
+        "gihwr": 0.58480326
+      },
+      "WR": {
+        "gameCount": 3204,
+        "everDrawnGameCount": 1474,
+        "gihwr": 0.58480326
+      },
+      "WG": {
+        "gameCount": 3204,
+        "everDrawnGameCount": 1474,
+        "gihwr": 0.58480326
+      },
+      "UB": {
+        "gameCount": 3204,
+        "everDrawnGameCount": 1474,
+        "gihwr": 0.58480326
+      },
+      "UR": {
+        "gameCount": 3204,
+        "everDrawnGameCount": 1474,
+        "gihwr": 0.58480326
+      },
+      "UG": {
+        "gameCount": 3204,
+        "everDrawnGameCount": 1474,
+        "gihwr": 0.58480326
+      },
+      "BR": {
+        "gameCount": 3204,
+        "everDrawnGameCount": 1474,
+        "gihwr": 0.58480326
+      },
+      "BG": {
+        "gameCount": 3204,
+        "everDrawnGameCount": 1474,
+        "gihwr": 0.58480326
+      },
+      "RG": {
+        "gameCount": 3204,
+        "everDrawnGameCount": 1474,
+        "gihwr": 0.58480326
+      }
+    }
+  },
+  {
+    "name": "Dark Deed",
+    "mtgaId": 104988,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 2.3671128,
+    "ata": 2.7931034,
+    "overallGihwr": 0.56801471,
+    "gameCount": 1261,
+    "everDrawnGameCount": 544,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1261,
+        "everDrawnGameCount": 544,
+        "gihwr": 0.56801471
+      },
+      "WB": {
+        "gameCount": 1261,
+        "everDrawnGameCount": 544,
+        "gihwr": 0.56801471
+      },
+      "WR": {
+        "gameCount": 1261,
+        "everDrawnGameCount": 544,
+        "gihwr": 0.56801471
+      },
+      "WG": {
+        "gameCount": 1261,
+        "everDrawnGameCount": 544,
+        "gihwr": 0.56801471
+      },
+      "UB": {
+        "gameCount": 1261,
+        "everDrawnGameCount": 544,
+        "gihwr": 0.56801471
+      },
+      "UR": {
+        "gameCount": 1261,
+        "everDrawnGameCount": 544,
+        "gihwr": 0.56801471
+      },
+      "UG": {
+        "gameCount": 1261,
+        "everDrawnGameCount": 544,
+        "gihwr": 0.56801471
+      },
+      "BR": {
+        "gameCount": 1261,
+        "everDrawnGameCount": 544,
+        "gihwr": 0.56801471
+      },
+      "BG": {
+        "gameCount": 1261,
+        "everDrawnGameCount": 544,
+        "gihwr": 0.56801471
+      },
+      "RG": {
+        "gameCount": 1261,
+        "everDrawnGameCount": 544,
+        "gihwr": 0.56801471
+      }
+    }
+  },
+  {
+    "name": "Decoy Ploy",
+    "mtgaId": 104989,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.6446208,
+    "ata": 10.977064,
+    "overallGihwr": 0,
+    "gameCount": 613,
+    "everDrawnGameCount": 286,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Doctor Doom",
+    "mtgaId": 104990,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Scientist Villain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 220,
+    "everDrawnGameCount": 103,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Doom Reigns Supreme",
+    "mtgaId": 104991,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Enchantment - Plan"
+    ],
+    "alsa": 3.1700405,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 251,
+    "everDrawnGameCount": 118,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Elektra, Daughter of the Hand",
+    "mtgaId": 104992,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Ninja Villain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 536,
+    "everDrawnGameCount": 226,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Grim Reaper, Lethal Legionnaire",
+    "mtgaId": 104993,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 5.9712838,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 241,
+    "everDrawnGameCount": 100,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hour of Defeat",
+    "mtgaId": 104994,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.2347594,
+    "ata": 4.1973392,
+    "overallGihwr": 0.57597454,
+    "gameCount": 2670,
+    "everDrawnGameCount": 1257,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2670,
+        "everDrawnGameCount": 1257,
+        "gihwr": 0.57597454
+      },
+      "WB": {
+        "gameCount": 2670,
+        "everDrawnGameCount": 1257,
+        "gihwr": 0.57597454
+      },
+      "WR": {
+        "gameCount": 2670,
+        "everDrawnGameCount": 1257,
+        "gihwr": 0.57597454
+      },
+      "WG": {
+        "gameCount": 2670,
+        "everDrawnGameCount": 1257,
+        "gihwr": 0.57597454
+      },
+      "UB": {
+        "gameCount": 2670,
+        "everDrawnGameCount": 1257,
+        "gihwr": 0.57597454
+      },
+      "UR": {
+        "gameCount": 2670,
+        "everDrawnGameCount": 1257,
+        "gihwr": 0.57597454
+      },
+      "UG": {
+        "gameCount": 2670,
+        "everDrawnGameCount": 1257,
+        "gihwr": 0.57597454
+      },
+      "BR": {
+        "gameCount": 2670,
+        "everDrawnGameCount": 1257,
+        "gihwr": 0.57597454
+      },
+      "BG": {
+        "gameCount": 2670,
+        "everDrawnGameCount": 1257,
+        "gihwr": 0.57597454
+      },
+      "RG": {
+        "gameCount": 2670,
+        "everDrawnGameCount": 1257,
+        "gihwr": 0.57597454
+      }
+    }
+  },
+  {
+    "name": "HYDRA Infiltration",
+    "mtgaId": 104995,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 7.2072804,
+    "ata": 10.45987,
+    "overallGihwr": 0,
+    "gameCount": 1041,
+    "everDrawnGameCount": 451,
+    "archetypeStats": {}
+  },
+  {
+    "name": "HYDRA Troopers",
+    "mtgaId": 104996,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Soldier Villain"
+    ],
+    "alsa": 6.9509537,
+    "ata": 10.111421,
+    "overallGihwr": 0,
+    "gameCount": 883,
+    "everDrawnGameCount": 381,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kingpin's Enforcers",
+    "mtgaId": 104997,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Villain"
+    ],
+    "alsa": 6.8987572,
+    "ata": 10.151741,
+    "overallGihwr": 0,
+    "gameCount": 937,
+    "everDrawnGameCount": 426,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Klaw, Sonic Subjugator",
+    "mtgaId": 104998,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Rogue Villain"
+    ],
+    "alsa": 4.0662461,
+    "ata": 5.4347826,
+    "overallGihwr": 0,
+    "gameCount": 1110,
+    "everDrawnGameCount": 471,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Madame Masque",
+    "mtgaId": 104999,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 3.449235,
+    "ata": 4.3823529,
+    "overallGihwr": 0.54624782,
+    "gameCount": 1239,
+    "everDrawnGameCount": 573,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1239,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.54624782
+      },
+      "WB": {
+        "gameCount": 1239,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.54624782
+      },
+      "WR": {
+        "gameCount": 1239,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.54624782
+      },
+      "WG": {
+        "gameCount": 1239,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.54624782
+      },
+      "UB": {
+        "gameCount": 1239,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.54624782
+      },
+      "UR": {
+        "gameCount": 1239,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.54624782
+      },
+      "UG": {
+        "gameCount": 1239,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.54624782
+      },
+      "BR": {
+        "gameCount": 1239,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.54624782
+      },
+      "BG": {
+        "gameCount": 1239,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.54624782
+      },
+      "RG": {
+        "gameCount": 1239,
+        "everDrawnGameCount": 573,
+        "gihwr": 0.54624782
+      }
+    }
+  },
+  {
+    "name": "The Masters of Evil",
+    "mtgaId": 105000,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 4.5174897,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 730,
+    "everDrawnGameCount": 335,
+    "archetypeStats": {}
+  },
+  {
+    "name": "M.O.D.O.K.",
+    "mtgaId": 105001,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Artifact Creature - Villain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 320,
+    "everDrawnGameCount": 158,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Moonstone, Harsh Mistress",
+    "mtgaId": 105002,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Doctor Villain"
+    ],
+    "alsa": 5.8689236,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 376,
+    "everDrawnGameCount": 157,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ninja of the Hand",
+    "mtgaId": 105003,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Ninja Villain"
+    ],
+    "alsa": 6.3224401,
+    "ata": 9.3073048,
+    "overallGihwr": 0.5892575,
+    "gameCount": 1455,
+    "everDrawnGameCount": 633,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1455,
+        "everDrawnGameCount": 633,
+        "gihwr": 0.5892575
+      },
+      "WB": {
+        "gameCount": 1455,
+        "everDrawnGameCount": 633,
+        "gihwr": 0.5892575
+      },
+      "WR": {
+        "gameCount": 1455,
+        "everDrawnGameCount": 633,
+        "gihwr": 0.5892575
+      },
+      "WG": {
+        "gameCount": 1455,
+        "everDrawnGameCount": 633,
+        "gihwr": 0.5892575
+      },
+      "UB": {
+        "gameCount": 1455,
+        "everDrawnGameCount": 633,
+        "gihwr": 0.5892575
+      },
+      "UR": {
+        "gameCount": 1455,
+        "everDrawnGameCount": 633,
+        "gihwr": 0.5892575
+      },
+      "UG": {
+        "gameCount": 1455,
+        "everDrawnGameCount": 633,
+        "gihwr": 0.5892575
+      },
+      "BR": {
+        "gameCount": 1455,
+        "everDrawnGameCount": 633,
+        "gihwr": 0.5892575
+      },
+      "BG": {
+        "gameCount": 1455,
+        "everDrawnGameCount": 633,
+        "gihwr": 0.5892575
+      },
+      "RG": {
+        "gameCount": 1455,
+        "everDrawnGameCount": 633,
+        "gihwr": 0.5892575
+      }
+    }
+  },
+  {
+    "name": "Project Deathlok Soldier",
+    "mtgaId": 105004,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Zombie Soldier"
+    ],
+    "alsa": 7.9301349,
+    "ata": 11.548209,
+    "overallGihwr": 0,
+    "gameCount": 406,
+    "everDrawnGameCount": 178,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Red Room Recruit",
+    "mtgaId": 105005,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Spy Villain"
+    ],
+    "alsa": 5.4739639,
+    "ata": 7.6817102,
+    "overallGihwr": 0.55753138,
+    "gameCount": 2186,
+    "everDrawnGameCount": 956,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2186,
+        "everDrawnGameCount": 956,
+        "gihwr": 0.55753138
+      },
+      "WB": {
+        "gameCount": 2186,
+        "everDrawnGameCount": 956,
+        "gihwr": 0.55753138
+      },
+      "WR": {
+        "gameCount": 2186,
+        "everDrawnGameCount": 956,
+        "gihwr": 0.55753138
+      },
+      "WG": {
+        "gameCount": 2186,
+        "everDrawnGameCount": 956,
+        "gihwr": 0.55753138
+      },
+      "UB": {
+        "gameCount": 2186,
+        "everDrawnGameCount": 956,
+        "gihwr": 0.55753138
+      },
+      "UR": {
+        "gameCount": 2186,
+        "everDrawnGameCount": 956,
+        "gihwr": 0.55753138
+      },
+      "UG": {
+        "gameCount": 2186,
+        "everDrawnGameCount": 956,
+        "gihwr": 0.55753138
+      },
+      "BR": {
+        "gameCount": 2186,
+        "everDrawnGameCount": 956,
+        "gihwr": 0.55753138
+      },
+      "BG": {
+        "gameCount": 2186,
+        "everDrawnGameCount": 956,
+        "gihwr": 0.55753138
+      },
+      "RG": {
+        "gameCount": 2186,
+        "everDrawnGameCount": 956,
+        "gihwr": 0.55753138
+      }
+    }
+  },
+  {
+    "name": "Robot Domination",
+    "mtgaId": 105006,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Plan"
+    ],
+    "alsa": 6.3801653,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 159,
+    "everDrawnGameCount": 68,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ronin, Shadow Stalker",
+    "mtgaId": 105007,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Rogue Hero"
+    ],
+    "alsa": 6.5067946,
+    "ata": 9.182243,
+    "overallGihwr": 0,
+    "gameCount": 445,
+    "everDrawnGameCount": 188,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Roxxon Brutes",
+    "mtgaId": 105008,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Berserker Villain"
+    ],
+    "alsa": 5.8172185,
+    "ata": 8.4394904,
+    "overallGihwr": 0.57337526,
+    "gameCount": 2086,
+    "everDrawnGameCount": 954,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2086,
+        "everDrawnGameCount": 954,
+        "gihwr": 0.57337526
+      },
+      "WB": {
+        "gameCount": 2086,
+        "everDrawnGameCount": 954,
+        "gihwr": 0.57337526
+      },
+      "WR": {
+        "gameCount": 2086,
+        "everDrawnGameCount": 954,
+        "gihwr": 0.57337526
+      },
+      "WG": {
+        "gameCount": 2086,
+        "everDrawnGameCount": 954,
+        "gihwr": 0.57337526
+      },
+      "UB": {
+        "gameCount": 2086,
+        "everDrawnGameCount": 954,
+        "gihwr": 0.57337526
+      },
+      "UR": {
+        "gameCount": 2086,
+        "everDrawnGameCount": 954,
+        "gihwr": 0.57337526
+      },
+      "UG": {
+        "gameCount": 2086,
+        "everDrawnGameCount": 954,
+        "gihwr": 0.57337526
+      },
+      "BR": {
+        "gameCount": 2086,
+        "everDrawnGameCount": 954,
+        "gihwr": 0.57337526
+      },
+      "BG": {
+        "gameCount": 2086,
+        "everDrawnGameCount": 954,
+        "gihwr": 0.57337526
+      },
+      "RG": {
+        "gameCount": 2086,
+        "everDrawnGameCount": 954,
+        "gihwr": 0.57337526
+      }
+    }
+  },
+  {
+    "name": "Stolen Stark Tech",
+    "mtgaId": 105009,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": 6.7543471,
+    "ata": 9.7086093,
+    "overallGihwr": 0.54173486,
+    "gameCount": 1335,
+    "everDrawnGameCount": 611,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1335,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.54173486
+      },
+      "WB": {
+        "gameCount": 1335,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.54173486
+      },
+      "WR": {
+        "gameCount": 1335,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.54173486
+      },
+      "WG": {
+        "gameCount": 1335,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.54173486
+      },
+      "UB": {
+        "gameCount": 1335,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.54173486
+      },
+      "UR": {
+        "gameCount": 1335,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.54173486
+      },
+      "UG": {
+        "gameCount": 1335,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.54173486
+      },
+      "BR": {
+        "gameCount": 1335,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.54173486
+      },
+      "BG": {
+        "gameCount": 1335,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.54173486
+      },
+      "RG": {
+        "gameCount": 1335,
+        "everDrawnGameCount": 611,
+        "gihwr": 0.54173486
+      }
+    }
+  },
+  {
+    "name": "Super-Skrull",
+    "mtgaId": 105010,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Skrull Shapeshifter Villain"
+    ],
+    "alsa": 2.2736318,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 502,
+    "everDrawnGameCount": 230,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Swordsman, Sharp Scoundrel",
+    "mtgaId": 105011,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero Villain"
+    ],
+    "alsa": 5.7036705,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 530,
+    "everDrawnGameCount": 242,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thunderbolts Conspiracy",
+    "mtgaId": 105012,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 4.3159341,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 121,
+    "everDrawnGameCount": 53,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Too Evil to Stay Dead",
+    "mtgaId": 105013,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.682397,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 211,
+    "everDrawnGameCount": 84,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Unliving Legionnaire",
+    "mtgaId": 105014,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Vampire Villain"
+    ],
+    "alsa": 7.360303,
+    "ata": 10.870166,
+    "overallGihwr": 0,
+    "gameCount": 740,
+    "everDrawnGameCount": 316,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Visions of Villainy",
+    "mtgaId": 105015,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 6.6356442,
+    "ata": 9.7317073,
+    "overallGihwr": 0.56896552,
+    "gameCount": 1199,
+    "everDrawnGameCount": 522,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1199,
+        "everDrawnGameCount": 522,
+        "gihwr": 0.56896552
+      },
+      "WB": {
+        "gameCount": 1199,
+        "everDrawnGameCount": 522,
+        "gihwr": 0.56896552
+      },
+      "WR": {
+        "gameCount": 1199,
+        "everDrawnGameCount": 522,
+        "gihwr": 0.56896552
+      },
+      "WG": {
+        "gameCount": 1199,
+        "everDrawnGameCount": 522,
+        "gihwr": 0.56896552
+      },
+      "UB": {
+        "gameCount": 1199,
+        "everDrawnGameCount": 522,
+        "gihwr": 0.56896552
+      },
+      "UR": {
+        "gameCount": 1199,
+        "everDrawnGameCount": 522,
+        "gihwr": 0.56896552
+      },
+      "UG": {
+        "gameCount": 1199,
+        "everDrawnGameCount": 522,
+        "gihwr": 0.56896552
+      },
+      "BR": {
+        "gameCount": 1199,
+        "everDrawnGameCount": 522,
+        "gihwr": 0.56896552
+      },
+      "BG": {
+        "gameCount": 1199,
+        "everDrawnGameCount": 522,
+        "gihwr": 0.56896552
+      },
+      "RG": {
+        "gameCount": 1199,
+        "everDrawnGameCount": 522,
+        "gihwr": 0.56896552
+      }
+    }
+  },
+  {
+    "name": "Whiplash, Vengeful Engineer",
+    "mtgaId": 105016,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Artificer Villain"
+    ],
+    "alsa": 5.9332273,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 613,
+    "everDrawnGameCount": 252,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Widow's Bite",
+    "mtgaId": 105017,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 4.612928,
+    "ata": 6.3084886,
+    "overallGihwr": 0.57263514,
+    "gameCount": 2534,
+    "everDrawnGameCount": 1184,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2534,
+        "everDrawnGameCount": 1184,
+        "gihwr": 0.57263514
+      },
+      "WB": {
+        "gameCount": 2534,
+        "everDrawnGameCount": 1184,
+        "gihwr": 0.57263514
+      },
+      "WR": {
+        "gameCount": 2534,
+        "everDrawnGameCount": 1184,
+        "gihwr": 0.57263514
+      },
+      "WG": {
+        "gameCount": 2534,
+        "everDrawnGameCount": 1184,
+        "gihwr": 0.57263514
+      },
+      "UB": {
+        "gameCount": 2534,
+        "everDrawnGameCount": 1184,
+        "gihwr": 0.57263514
+      },
+      "UR": {
+        "gameCount": 2534,
+        "everDrawnGameCount": 1184,
+        "gihwr": 0.57263514
+      },
+      "UG": {
+        "gameCount": 2534,
+        "everDrawnGameCount": 1184,
+        "gihwr": 0.57263514
+      },
+      "BR": {
+        "gameCount": 2534,
+        "everDrawnGameCount": 1184,
+        "gihwr": 0.57263514
+      },
+      "BG": {
+        "gameCount": 2534,
+        "everDrawnGameCount": 1184,
+        "gihwr": 0.57263514
+      },
+      "RG": {
+        "gameCount": 2534,
+        "everDrawnGameCount": 1184,
+        "gihwr": 0.57263514
+      }
+    }
+  },
+  {
+    "name": "Yellowjacket, Heartless Marauder",
+    "mtgaId": 105018,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Rogue Villain"
+    ],
+    "alsa": 4.583411,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 842,
+    "everDrawnGameCount": 345,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Avengers Disassembled",
+    "mtgaId": 105019,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 3.7107692,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 181,
+    "everDrawnGameCount": 82,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Blazing Crescendo",
+    "mtgaId": 105020,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.6139125,
+    "ata": 11.251989,
+    "overallGihwr": 0,
+    "gameCount": 661,
+    "everDrawnGameCount": 276,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Crimson Operative",
+    "mtgaId": 105021,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Human Villain"
+    ],
+    "alsa": 6.5507956,
+    "ata": 9.3880597,
+    "overallGihwr": 0.5399361,
+    "gameCount": 1574,
+    "everDrawnGameCount": 626,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1574,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.5399361
+      },
+      "WB": {
+        "gameCount": 1574,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.5399361
+      },
+      "WR": {
+        "gameCount": 1574,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.5399361
+      },
+      "WG": {
+        "gameCount": 1574,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.5399361
+      },
+      "UB": {
+        "gameCount": 1574,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.5399361
+      },
+      "UR": {
+        "gameCount": 1574,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.5399361
+      },
+      "UG": {
+        "gameCount": 1574,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.5399361
+      },
+      "BR": {
+        "gameCount": 1574,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.5399361
+      },
+      "BG": {
+        "gameCount": 1574,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.5399361
+      },
+      "RG": {
+        "gameCount": 1574,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.5399361
+      }
+    }
+  },
+  {
+    "name": "Death to Our Enemies",
+    "mtgaId": 105022,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Plan"
+    ],
+    "alsa": 6.8188021,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 206,
+    "everDrawnGameCount": 84,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Evil's Thrall",
+    "mtgaId": 105023,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 7.6424946,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 45,
+    "everDrawnGameCount": 22,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fin Fang Foom",
+    "mtgaId": 105024,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Alien Dragon Villain"
+    ],
+    "alsa": 3.1863799,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 341,
+    "everDrawnGameCount": 149,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hawkeye, Master Marksman",
+    "mtgaId": 105025,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Archer Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 458,
+    "everDrawnGameCount": 202,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hawkeye, Young Avenger",
+    "mtgaId": 105026,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Archer Hero"
+    ],
+    "alsa": 5.0930451,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 573,
+    "everDrawnGameCount": 239,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hawkeye's Bow",
+    "mtgaId": 105027,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": 7.4894387,
+    "ata": 10.983784,
+    "overallGihwr": 0,
+    "gameCount": 637,
+    "everDrawnGameCount": 289,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hex Magic",
+    "mtgaId": 105028,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery - Arcane"
+    ],
+    "alsa": 8.0478502,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 14,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hire a Crew",
+    "mtgaId": 105029,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 8.8102666,
+    "ata": 12.882857,
+    "overallGihwr": 0,
+    "gameCount": 35,
+    "everDrawnGameCount": 19,
+    "archetypeStats": {}
+  },
+  {
+    "name": "HULK SMASH!",
+    "mtgaId": 105030,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 5.0282155,
+    "ata": 7.2886076,
+    "overallGihwr": 0.60424028,
+    "gameCount": 1988,
+    "everDrawnGameCount": 849,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1988,
+        "everDrawnGameCount": 849,
+        "gihwr": 0.60424028
+      },
+      "WB": {
+        "gameCount": 1988,
+        "everDrawnGameCount": 849,
+        "gihwr": 0.60424028
+      },
+      "WR": {
+        "gameCount": 1988,
+        "everDrawnGameCount": 849,
+        "gihwr": 0.60424028
+      },
+      "WG": {
+        "gameCount": 1988,
+        "everDrawnGameCount": 849,
+        "gihwr": 0.60424028
+      },
+      "UB": {
+        "gameCount": 1988,
+        "everDrawnGameCount": 849,
+        "gihwr": 0.60424028
+      },
+      "UR": {
+        "gameCount": 1988,
+        "everDrawnGameCount": 849,
+        "gihwr": 0.60424028
+      },
+      "UG": {
+        "gameCount": 1988,
+        "everDrawnGameCount": 849,
+        "gihwr": 0.60424028
+      },
+      "BR": {
+        "gameCount": 1988,
+        "everDrawnGameCount": 849,
+        "gihwr": 0.60424028
+      },
+      "BG": {
+        "gameCount": 1988,
+        "everDrawnGameCount": 849,
+        "gihwr": 0.60424028
+      },
+      "RG": {
+        "gameCount": 1988,
+        "everDrawnGameCount": 849,
+        "gihwr": 0.60424028
+      }
+    }
+  },
+  {
+    "name": "Human Torch, Johnny Storm",
+    "mtgaId": 105031,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 5.6537842,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 396,
+    "everDrawnGameCount": 186,
+    "archetypeStats": {}
+  },
+  {
+    "name": "HYDRA Assault Robot",
+    "mtgaId": 105032,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Robot Villain"
+    ],
+    "alsa": 6.0044113,
+    "ata": 8.8443114,
+    "overallGihwr": 0.5234657,
+    "gameCount": 1294,
+    "everDrawnGameCount": 554,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 554,
+        "gihwr": 0.5234657
+      },
+      "WB": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 554,
+        "gihwr": 0.5234657
+      },
+      "WR": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 554,
+        "gihwr": 0.5234657
+      },
+      "WG": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 554,
+        "gihwr": 0.5234657
+      },
+      "UB": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 554,
+        "gihwr": 0.5234657
+      },
+      "UR": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 554,
+        "gihwr": 0.5234657
+      },
+      "UG": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 554,
+        "gihwr": 0.5234657
+      },
+      "BR": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 554,
+        "gihwr": 0.5234657
+      },
+      "BG": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 554,
+        "gihwr": 0.5234657
+      },
+      "RG": {
+        "gameCount": 1294,
+        "everDrawnGameCount": 554,
+        "gihwr": 0.5234657
+      }
+    }
+  },
+  {
+    "name": "Iron Fist, Living Weapon",
+    "mtgaId": 105033,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Warrior Hero"
+    ],
+    "alsa": 6.3134921,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 298,
+    "everDrawnGameCount": 148,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Jessica Jones, Private Eye",
+    "mtgaId": 105034,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Detective Hero"
+    ],
+    "alsa": 3.7659864,
+    "ata": 4.5488372,
+    "overallGihwr": 0.56435644,
+    "gameCount": 1169,
+    "everDrawnGameCount": 505,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1169,
+        "everDrawnGameCount": 505,
+        "gihwr": 0.56435644
+      },
+      "WB": {
+        "gameCount": 1169,
+        "everDrawnGameCount": 505,
+        "gihwr": 0.56435644
+      },
+      "WR": {
+        "gameCount": 1169,
+        "everDrawnGameCount": 505,
+        "gihwr": 0.56435644
+      },
+      "WG": {
+        "gameCount": 1169,
+        "everDrawnGameCount": 505,
+        "gihwr": 0.56435644
+      },
+      "UB": {
+        "gameCount": 1169,
+        "everDrawnGameCount": 505,
+        "gihwr": 0.56435644
+      },
+      "UR": {
+        "gameCount": 1169,
+        "everDrawnGameCount": 505,
+        "gihwr": 0.56435644
+      },
+      "UG": {
+        "gameCount": 1169,
+        "everDrawnGameCount": 505,
+        "gihwr": 0.56435644
+      },
+      "BR": {
+        "gameCount": 1169,
+        "everDrawnGameCount": 505,
+        "gihwr": 0.56435644
+      },
+      "BG": {
+        "gameCount": 1169,
+        "everDrawnGameCount": 505,
+        "gihwr": 0.56435644
+      },
+      "RG": {
+        "gameCount": 1169,
+        "everDrawnGameCount": 505,
+        "gihwr": 0.56435644
+      }
+    }
+  },
+  {
+    "name": "K'un-Lun Warrior",
+    "mtgaId": 105035,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Warrior Hero"
+    ],
+    "alsa": 7.6383169,
+    "ata": 11.294294,
+    "overallGihwr": 0,
+    "gameCount": 559,
+    "everDrawnGameCount": 215,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kree Sentinel",
+    "mtgaId": 105036,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Kree Robot Villain"
+    ],
+    "alsa": 5.9335115,
+    "ata": 8.5507901,
+    "overallGihwr": 0.56946039,
+    "gameCount": 1937,
+    "everDrawnGameCount": 871,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1937,
+        "everDrawnGameCount": 871,
+        "gihwr": 0.56946039
+      },
+      "WB": {
+        "gameCount": 1937,
+        "everDrawnGameCount": 871,
+        "gihwr": 0.56946039
+      },
+      "WR": {
+        "gameCount": 1937,
+        "everDrawnGameCount": 871,
+        "gihwr": 0.56946039
+      },
+      "WG": {
+        "gameCount": 1937,
+        "everDrawnGameCount": 871,
+        "gihwr": 0.56946039
+      },
+      "UB": {
+        "gameCount": 1937,
+        "everDrawnGameCount": 871,
+        "gihwr": 0.56946039
+      },
+      "UR": {
+        "gameCount": 1937,
+        "everDrawnGameCount": 871,
+        "gihwr": 0.56946039
+      },
+      "UG": {
+        "gameCount": 1937,
+        "everDrawnGameCount": 871,
+        "gihwr": 0.56946039
+      },
+      "BR": {
+        "gameCount": 1937,
+        "everDrawnGameCount": 871,
+        "gihwr": 0.56946039
+      },
+      "BG": {
+        "gameCount": 1937,
+        "everDrawnGameCount": 871,
+        "gihwr": 0.56946039
+      },
+      "RG": {
+        "gameCount": 1937,
+        "everDrawnGameCount": 871,
+        "gihwr": 0.56946039
+      }
+    }
+  },
+  {
+    "name": "Lightning Strike",
+    "mtgaId": 105037,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 3.6798246,
+    "ata": 5.0050761,
+    "overallGihwr": 0.56290672,
+    "gameCount": 2210,
+    "everDrawnGameCount": 922,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2210,
+        "everDrawnGameCount": 922,
+        "gihwr": 0.56290672
+      },
+      "WB": {
+        "gameCount": 2210,
+        "everDrawnGameCount": 922,
+        "gihwr": 0.56290672
+      },
+      "WR": {
+        "gameCount": 2210,
+        "everDrawnGameCount": 922,
+        "gihwr": 0.56290672
+      },
+      "WG": {
+        "gameCount": 2210,
+        "everDrawnGameCount": 922,
+        "gihwr": 0.56290672
+      },
+      "UB": {
+        "gameCount": 2210,
+        "everDrawnGameCount": 922,
+        "gihwr": 0.56290672
+      },
+      "UR": {
+        "gameCount": 2210,
+        "everDrawnGameCount": 922,
+        "gihwr": 0.56290672
+      },
+      "UG": {
+        "gameCount": 2210,
+        "everDrawnGameCount": 922,
+        "gihwr": 0.56290672
+      },
+      "BR": {
+        "gameCount": 2210,
+        "everDrawnGameCount": 922,
+        "gihwr": 0.56290672
+      },
+      "BG": {
+        "gameCount": 2210,
+        "everDrawnGameCount": 922,
+        "gihwr": 0.56290672
+      },
+      "RG": {
+        "gameCount": 2210,
+        "everDrawnGameCount": 922,
+        "gihwr": 0.56290672
+      }
+    }
+  },
+  {
+    "name": "Loki Laufeyson",
+    "mtgaId": 105038,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - God Sorcerer Villain"
+    ],
+    "alsa": 4.3395062,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 740,
+    "everDrawnGameCount": 283,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Machinesmith Automaton",
+    "mtgaId": 105039,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Robot Villain"
+    ],
+    "alsa": 7.240975,
+    "ata": 10.879747,
+    "overallGihwr": 0,
+    "gameCount": 630,
+    "everDrawnGameCount": 282,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Misty Knight, Hero for Hire",
+    "mtgaId": 105040,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Detective Hero"
+    ],
+    "alsa": 6.2809558,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 592,
+    "everDrawnGameCount": 242,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mjölnir, Hammer of Thor",
+    "mtgaId": 105041,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 136,
+    "everDrawnGameCount": 58,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Photon Blast Barrage",
+    "mtgaId": 105042,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 4.360689,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 846,
+    "everDrawnGameCount": 356,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Quicksilver, Brash Blur",
+    "mtgaId": 105043,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Mutant Hero"
+    ],
+    "alsa": 5.1600832,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 54,
+    "everDrawnGameCount": 20,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Red Hulk",
+    "mtgaId": 105044,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Gamma Berserker Villain"
+    ],
+    "alsa": 5.1044634,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 387,
+    "everDrawnGameCount": 159,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Repulsor Blast",
+    "mtgaId": 105045,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 5.2114265,
+    "ata": 7.5213675,
+    "overallGihwr": 0.56335878,
+    "gameCount": 1594,
+    "everDrawnGameCount": 655,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1594,
+        "everDrawnGameCount": 655,
+        "gihwr": 0.56335878
+      },
+      "WB": {
+        "gameCount": 1594,
+        "everDrawnGameCount": 655,
+        "gihwr": 0.56335878
+      },
+      "WR": {
+        "gameCount": 1594,
+        "everDrawnGameCount": 655,
+        "gihwr": 0.56335878
+      },
+      "WG": {
+        "gameCount": 1594,
+        "everDrawnGameCount": 655,
+        "gihwr": 0.56335878
+      },
+      "UB": {
+        "gameCount": 1594,
+        "everDrawnGameCount": 655,
+        "gihwr": 0.56335878
+      },
+      "UR": {
+        "gameCount": 1594,
+        "everDrawnGameCount": 655,
+        "gihwr": 0.56335878
+      },
+      "UG": {
+        "gameCount": 1594,
+        "everDrawnGameCount": 655,
+        "gihwr": 0.56335878
+      },
+      "BR": {
+        "gameCount": 1594,
+        "everDrawnGameCount": 655,
+        "gihwr": 0.56335878
+      },
+      "BG": {
+        "gameCount": 1594,
+        "everDrawnGameCount": 655,
+        "gihwr": 0.56335878
+      },
+      "RG": {
+        "gameCount": 1594,
+        "everDrawnGameCount": 655,
+        "gihwr": 0.56335878
+      }
+    }
+  },
+  {
+    "name": "The Scarlet Witch",
+    "mtgaId": 105046,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Mutant Warlock Hero"
+    ],
+    "alsa": 5.7411546,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 31,
+    "everDrawnGameCount": 14,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Speed, Young Avenger",
+    "mtgaId": 105047,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Mutant Hero"
+    ],
+    "alsa": 6.8946598,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 258,
+    "everDrawnGameCount": 87,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Stark Industries Executive",
+    "mtgaId": 105048,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Advisor"
+    ],
+    "alsa": 6.8111821,
+    "ata": 9.9369628,
+    "overallGihwr": 0,
+    "gameCount": 944,
+    "everDrawnGameCount": 397,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Super Speed",
+    "mtgaId": 105049,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": 8.6374892,
+    "ata": 12.732308,
+    "overallGihwr": 0,
+    "gameCount": 74,
+    "everDrawnGameCount": 39,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Team Tactics",
+    "mtgaId": 105050,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 6.947839,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 194,
+    "everDrawnGameCount": 83,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thor, God of Thunder",
+    "mtgaId": 105051,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - God Warrior Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 286,
+    "everDrawnGameCount": 132,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Truck Toss",
+    "mtgaId": 105052,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 5.1128298,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 535,
+    "everDrawnGameCount": 225,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vision of Love",
+    "mtgaId": 105053,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 8.1243339,
+    "ata": 11.991979,
+    "overallGihwr": 0,
+    "gameCount": 262,
+    "everDrawnGameCount": 111,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Volcanic Villain",
+    "mtgaId": 105054,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Elemental Villain"
+    ],
+    "alsa": 8.2823864,
+    "ata": 12.341935,
+    "overallGihwr": 0,
+    "gameCount": 135,
+    "everDrawnGameCount": 47,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wonder Man, Hollywood Hero",
+    "mtgaId": 105055,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Performer Hero"
+    ],
+    "alsa": 6.2225755,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 203,
+    "everDrawnGameCount": 71,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ant-Man's Army",
+    "mtgaId": 105056,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Insect"
+    ],
+    "alsa": 5.475971,
+    "ata": 7.3485401,
+    "overallGihwr": 0.59834025,
+    "gameCount": 2786,
+    "everDrawnGameCount": 1205,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2786,
+        "everDrawnGameCount": 1205,
+        "gihwr": 0.59834025
+      },
+      "WB": {
+        "gameCount": 2786,
+        "everDrawnGameCount": 1205,
+        "gihwr": 0.59834025
+      },
+      "WR": {
+        "gameCount": 2786,
+        "everDrawnGameCount": 1205,
+        "gihwr": 0.59834025
+      },
+      "WG": {
+        "gameCount": 2786,
+        "everDrawnGameCount": 1205,
+        "gihwr": 0.59834025
+      },
+      "UB": {
+        "gameCount": 2786,
+        "everDrawnGameCount": 1205,
+        "gihwr": 0.59834025
+      },
+      "UR": {
+        "gameCount": 2786,
+        "everDrawnGameCount": 1205,
+        "gihwr": 0.59834025
+      },
+      "UG": {
+        "gameCount": 2786,
+        "everDrawnGameCount": 1205,
+        "gihwr": 0.59834025
+      },
+      "BR": {
+        "gameCount": 2786,
+        "everDrawnGameCount": 1205,
+        "gihwr": 0.59834025
+      },
+      "BG": {
+        "gameCount": 2786,
+        "everDrawnGameCount": 1205,
+        "gihwr": 0.59834025
+      },
+      "RG": {
+        "gameCount": 2786,
+        "everDrawnGameCount": 1205,
+        "gihwr": 0.59834025
+      }
+    }
+  },
+  {
+    "name": "Call Damage Control",
+    "mtgaId": 105057,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 8.2201426,
+    "ata": 11.685644,
+    "overallGihwr": 0,
+    "gameCount": 395,
+    "everDrawnGameCount": 160,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Claim the Kingdom",
+    "mtgaId": 105058,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Plan"
+    ],
+    "alsa": 5.4969854,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 260,
+    "everDrawnGameCount": 104,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Doc Samson, Super Psychiatrist",
+    "mtgaId": 105059,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Gamma Doctor Hero"
+    ],
+    "alsa": 5.3054054,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 401,
+    "everDrawnGameCount": 160,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Earth's Mightiest Heroes",
+    "mtgaId": 105060,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 210,
+    "everDrawnGameCount": 91,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Epic Fight",
+    "mtgaId": 105061,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 2.4063927,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 487,
+    "everDrawnGameCount": 233,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Giant Growth",
+    "mtgaId": 105062,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.547993,
+    "ata": 11.39433,
+    "overallGihwr": 0,
+    "gameCount": 599,
+    "everDrawnGameCount": 265,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Go Nuts!",
+    "mtgaId": 105063,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 4.0041077,
+    "ata": 5.1895911,
+    "overallGihwr": 0.59069131,
+    "gameCount": 3370,
+    "everDrawnGameCount": 1461,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3370,
+        "everDrawnGameCount": 1461,
+        "gihwr": 0.59069131
+      },
+      "WB": {
+        "gameCount": 3370,
+        "everDrawnGameCount": 1461,
+        "gihwr": 0.59069131
+      },
+      "WR": {
+        "gameCount": 3370,
+        "everDrawnGameCount": 1461,
+        "gihwr": 0.59069131
+      },
+      "WG": {
+        "gameCount": 3370,
+        "everDrawnGameCount": 1461,
+        "gihwr": 0.59069131
+      },
+      "UB": {
+        "gameCount": 3370,
+        "everDrawnGameCount": 1461,
+        "gihwr": 0.59069131
+      },
+      "UR": {
+        "gameCount": 3370,
+        "everDrawnGameCount": 1461,
+        "gihwr": 0.59069131
+      },
+      "UG": {
+        "gameCount": 3370,
+        "everDrawnGameCount": 1461,
+        "gihwr": 0.59069131
+      },
+      "BR": {
+        "gameCount": 3370,
+        "everDrawnGameCount": 1461,
+        "gihwr": 0.59069131
+      },
+      "BG": {
+        "gameCount": 3370,
+        "everDrawnGameCount": 1461,
+        "gihwr": 0.59069131
+      },
+      "RG": {
+        "gameCount": 3370,
+        "everDrawnGameCount": 1461,
+        "gihwr": 0.59069131
+      }
+    }
+  },
+  {
+    "name": "Guerrilla Gorilla",
+    "mtgaId": 105064,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Ape Soldier Hero"
+    ],
+    "alsa": 5.7585639,
+    "ata": 8.3943355,
+    "overallGihwr": 0.55201699,
+    "gameCount": 2182,
+    "everDrawnGameCount": 942,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2182,
+        "everDrawnGameCount": 942,
+        "gihwr": 0.55201699
+      },
+      "WB": {
+        "gameCount": 2182,
+        "everDrawnGameCount": 942,
+        "gihwr": 0.55201699
+      },
+      "WR": {
+        "gameCount": 2182,
+        "everDrawnGameCount": 942,
+        "gihwr": 0.55201699
+      },
+      "WG": {
+        "gameCount": 2182,
+        "everDrawnGameCount": 942,
+        "gihwr": 0.55201699
+      },
+      "UB": {
+        "gameCount": 2182,
+        "everDrawnGameCount": 942,
+        "gihwr": 0.55201699
+      },
+      "UR": {
+        "gameCount": 2182,
+        "everDrawnGameCount": 942,
+        "gihwr": 0.55201699
+      },
+      "UG": {
+        "gameCount": 2182,
+        "everDrawnGameCount": 942,
+        "gihwr": 0.55201699
+      },
+      "BR": {
+        "gameCount": 2182,
+        "everDrawnGameCount": 942,
+        "gihwr": 0.55201699
+      },
+      "BG": {
+        "gameCount": 2182,
+        "everDrawnGameCount": 942,
+        "gihwr": 0.55201699
+      },
+      "RG": {
+        "gameCount": 2182,
+        "everDrawnGameCount": 942,
+        "gihwr": 0.55201699
+      }
+    }
+  },
+  {
+    "name": "Hellcat, Undying Vigilante",
+    "mtgaId": 105065,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 5.365942,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 657,
+    "everDrawnGameCount": 287,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hercules, Prince of Power",
+    "mtgaId": 105066,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Demigod Warrior Hero"
+    ],
+    "alsa": 5.3809917,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 575,
+    "everDrawnGameCount": 247,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Heroic Feast",
+    "mtgaId": 105067,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 4.8291457,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 139,
+    "everDrawnGameCount": 64,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hulkling, Burgeoning Bruiser",
+    "mtgaId": 105068,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Kree Skrull Hero"
+    ],
+    "alsa": 5.3240034,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 450,
+    "everDrawnGameCount": 178,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ka-Zar of the Savage Land",
+    "mtgaId": 105069,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Barbarian Hero"
+    ],
+    "alsa": 2.5498084,
+    "ata": 2.8675214,
+    "overallGihwr": 0.60324484,
+    "gameCount": 1571,
+    "everDrawnGameCount": 678,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1571,
+        "everDrawnGameCount": 678,
+        "gihwr": 0.60324484
+      },
+      "WB": {
+        "gameCount": 1571,
+        "everDrawnGameCount": 678,
+        "gihwr": 0.60324484
+      },
+      "WR": {
+        "gameCount": 1571,
+        "everDrawnGameCount": 678,
+        "gihwr": 0.60324484
+      },
+      "WG": {
+        "gameCount": 1571,
+        "everDrawnGameCount": 678,
+        "gihwr": 0.60324484
+      },
+      "UB": {
+        "gameCount": 1571,
+        "everDrawnGameCount": 678,
+        "gihwr": 0.60324484
+      },
+      "UR": {
+        "gameCount": 1571,
+        "everDrawnGameCount": 678,
+        "gihwr": 0.60324484
+      },
+      "UG": {
+        "gameCount": 1571,
+        "everDrawnGameCount": 678,
+        "gihwr": 0.60324484
+      },
+      "BR": {
+        "gameCount": 1571,
+        "everDrawnGameCount": 678,
+        "gihwr": 0.60324484
+      },
+      "BG": {
+        "gameCount": 1571,
+        "everDrawnGameCount": 678,
+        "gihwr": 0.60324484
+      },
+      "RG": {
+        "gameCount": 1571,
+        "everDrawnGameCount": 678,
+        "gihwr": 0.60324484
+      }
+    }
+  },
+  {
+    "name": "Knight of Wundagore",
+    "mtgaId": 105070,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Cat Knight Villain"
+    ],
+    "alsa": 6.1214863,
+    "ata": 8.9972603,
+    "overallGihwr": 0.48697068,
+    "gameCount": 1350,
+    "everDrawnGameCount": 614,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1350,
+        "everDrawnGameCount": 614,
+        "gihwr": 0.48697068
+      },
+      "WB": {
+        "gameCount": 1350,
+        "everDrawnGameCount": 614,
+        "gihwr": 0.48697068
+      },
+      "WR": {
+        "gameCount": 1350,
+        "everDrawnGameCount": 614,
+        "gihwr": 0.48697068
+      },
+      "WG": {
+        "gameCount": 1350,
+        "everDrawnGameCount": 614,
+        "gihwr": 0.48697068
+      },
+      "UB": {
+        "gameCount": 1350,
+        "everDrawnGameCount": 614,
+        "gihwr": 0.48697068
+      },
+      "UR": {
+        "gameCount": 1350,
+        "everDrawnGameCount": 614,
+        "gihwr": 0.48697068
+      },
+      "UG": {
+        "gameCount": 1350,
+        "everDrawnGameCount": 614,
+        "gihwr": 0.48697068
+      },
+      "BR": {
+        "gameCount": 1350,
+        "everDrawnGameCount": 614,
+        "gihwr": 0.48697068
+      },
+      "BG": {
+        "gameCount": 1350,
+        "everDrawnGameCount": 614,
+        "gihwr": 0.48697068
+      },
+      "RG": {
+        "gameCount": 1350,
+        "everDrawnGameCount": 614,
+        "gihwr": 0.48697068
+      }
+    }
+  },
+  {
+    "name": "Mister Hyde, Monster Within",
+    "mtgaId": 105071,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 3.8827238,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 729,
+    "everDrawnGameCount": 331,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mole Man, Moloid Master",
+    "mtgaId": 105072,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 3.8905325,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 257,
+    "everDrawnGameCount": 101,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pet Avengers",
+    "mtgaId": 105073,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Dragon Cat Dog Bird Frog Hero"
+    ],
+    "alsa": 5.4702521,
+    "ata": 7.5440613,
+    "overallGihwr": 0.59179688,
+    "gameCount": 2506,
+    "everDrawnGameCount": 1024,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2506,
+        "everDrawnGameCount": 1024,
+        "gihwr": 0.59179688
+      },
+      "WB": {
+        "gameCount": 2506,
+        "everDrawnGameCount": 1024,
+        "gihwr": 0.59179688
+      },
+      "WR": {
+        "gameCount": 2506,
+        "everDrawnGameCount": 1024,
+        "gihwr": 0.59179688
+      },
+      "WG": {
+        "gameCount": 2506,
+        "everDrawnGameCount": 1024,
+        "gihwr": 0.59179688
+      },
+      "UB": {
+        "gameCount": 2506,
+        "everDrawnGameCount": 1024,
+        "gihwr": 0.59179688
+      },
+      "UR": {
+        "gameCount": 2506,
+        "everDrawnGameCount": 1024,
+        "gihwr": 0.59179688
+      },
+      "UG": {
+        "gameCount": 2506,
+        "everDrawnGameCount": 1024,
+        "gihwr": 0.59179688
+      },
+      "BR": {
+        "gameCount": 2506,
+        "everDrawnGameCount": 1024,
+        "gihwr": 0.59179688
+      },
+      "BG": {
+        "gameCount": 2506,
+        "everDrawnGameCount": 1024,
+        "gihwr": 0.59179688
+      },
+      "RG": {
+        "gameCount": 2506,
+        "everDrawnGameCount": 1024,
+        "gihwr": 0.59179688
+      }
+    }
+  },
+  {
+    "name": "Powerful Broker",
+    "mtgaId": 105074,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Villain"
+    ],
+    "alsa": 7.8478767,
+    "ata": 11.505435,
+    "overallGihwr": 0,
+    "gameCount": 290,
+    "everDrawnGameCount": 123,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Punishing Punch",
+    "mtgaId": 105075,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 2.8597015,
+    "ata": 3.2595745,
+    "overallGihwr": 0.61942675,
+    "gameCount": 1474,
+    "everDrawnGameCount": 628,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1474,
+        "everDrawnGameCount": 628,
+        "gihwr": 0.61942675
+      },
+      "WB": {
+        "gameCount": 1474,
+        "everDrawnGameCount": 628,
+        "gihwr": 0.61942675
+      },
+      "WR": {
+        "gameCount": 1474,
+        "everDrawnGameCount": 628,
+        "gihwr": 0.61942675
+      },
+      "WG": {
+        "gameCount": 1474,
+        "everDrawnGameCount": 628,
+        "gihwr": 0.61942675
+      },
+      "UB": {
+        "gameCount": 1474,
+        "everDrawnGameCount": 628,
+        "gihwr": 0.61942675
+      },
+      "UR": {
+        "gameCount": 1474,
+        "everDrawnGameCount": 628,
+        "gihwr": 0.61942675
+      },
+      "UG": {
+        "gameCount": 1474,
+        "everDrawnGameCount": 628,
+        "gihwr": 0.61942675
+      },
+      "BR": {
+        "gameCount": 1474,
+        "everDrawnGameCount": 628,
+        "gihwr": 0.61942675
+      },
+      "BG": {
+        "gameCount": 1474,
+        "everDrawnGameCount": 628,
+        "gihwr": 0.61942675
+      },
+      "RG": {
+        "gameCount": 1474,
+        "everDrawnGameCount": 628,
+        "gihwr": 0.61942675
+      }
+    }
+  },
+  {
+    "name": "Rapid Rescue",
+    "mtgaId": 105076,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": 7.7171245,
+    "ata": 10.89375,
+    "overallGihwr": 0,
+    "gameCount": 1044,
+    "everDrawnGameCount": 431,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Reptil, Dinomorpher",
+    "mtgaId": 105077,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 5.761578,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 510,
+    "everDrawnGameCount": 211,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Restorative Technique",
+    "mtgaId": 105078,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 7.0751445,
+    "ata": 10.828746,
+    "overallGihwr": 0,
+    "gameCount": 483,
+    "everDrawnGameCount": 190,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rick Jones, Destined Sidekick",
+    "mtgaId": 105079,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Advisor"
+    ],
+    "alsa": 7.8039914,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 87,
+    "everDrawnGameCount": 41,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Savage Land Dinosaur",
+    "mtgaId": 105080,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Dinosaur"
+    ],
+    "alsa": 5.4528614,
+    "ata": 8.0568421,
+    "overallGihwr": 0.55380059,
+    "gameCount": 2287,
+    "everDrawnGameCount": 1013,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2287,
+        "everDrawnGameCount": 1013,
+        "gihwr": 0.55380059
+      },
+      "WB": {
+        "gameCount": 2287,
+        "everDrawnGameCount": 1013,
+        "gihwr": 0.55380059
+      },
+      "WR": {
+        "gameCount": 2287,
+        "everDrawnGameCount": 1013,
+        "gihwr": 0.55380059
+      },
+      "WG": {
+        "gameCount": 2287,
+        "everDrawnGameCount": 1013,
+        "gihwr": 0.55380059
+      },
+      "UB": {
+        "gameCount": 2287,
+        "everDrawnGameCount": 1013,
+        "gihwr": 0.55380059
+      },
+      "UR": {
+        "gameCount": 2287,
+        "everDrawnGameCount": 1013,
+        "gihwr": 0.55380059
+      },
+      "UG": {
+        "gameCount": 2287,
+        "everDrawnGameCount": 1013,
+        "gihwr": 0.55380059
+      },
+      "BR": {
+        "gameCount": 2287,
+        "everDrawnGameCount": 1013,
+        "gihwr": 0.55380059
+      },
+      "BG": {
+        "gameCount": 2287,
+        "everDrawnGameCount": 1013,
+        "gihwr": 0.55380059
+      },
+      "RG": {
+        "gameCount": 2287,
+        "everDrawnGameCount": 1013,
+        "gihwr": 0.55380059
+      }
+    }
+  },
+  {
+    "name": "Serpent Specialist",
+    "mtgaId": 105081,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Snake Villain"
+    ],
+    "alsa": 5.5377456,
+    "ata": 8.1166253,
+    "overallGihwr": 0.59101655,
+    "gameCount": 2051,
+    "everDrawnGameCount": 846,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2051,
+        "everDrawnGameCount": 846,
+        "gihwr": 0.59101655
+      },
+      "WB": {
+        "gameCount": 2051,
+        "everDrawnGameCount": 846,
+        "gihwr": 0.59101655
+      },
+      "WR": {
+        "gameCount": 2051,
+        "everDrawnGameCount": 846,
+        "gihwr": 0.59101655
+      },
+      "WG": {
+        "gameCount": 2051,
+        "everDrawnGameCount": 846,
+        "gihwr": 0.59101655
+      },
+      "UB": {
+        "gameCount": 2051,
+        "everDrawnGameCount": 846,
+        "gihwr": 0.59101655
+      },
+      "UR": {
+        "gameCount": 2051,
+        "everDrawnGameCount": 846,
+        "gihwr": 0.59101655
+      },
+      "UG": {
+        "gameCount": 2051,
+        "everDrawnGameCount": 846,
+        "gihwr": 0.59101655
+      },
+      "BR": {
+        "gameCount": 2051,
+        "everDrawnGameCount": 846,
+        "gihwr": 0.59101655
+      },
+      "BG": {
+        "gameCount": 2051,
+        "everDrawnGameCount": 846,
+        "gihwr": 0.59101655
+      },
+      "RG": {
+        "gameCount": 2051,
+        "everDrawnGameCount": 846,
+        "gihwr": 0.59101655
+      }
+    }
+  },
+  {
+    "name": "Shang-Chi, Master of Kung Fu",
+    "mtgaId": 105082,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Warrior Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 136,
+    "everDrawnGameCount": 58,
+    "archetypeStats": {}
+  },
+  {
+    "name": "She-Hulk, Jade Defender",
+    "mtgaId": 105083,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Gamma Hero"
+    ],
+    "alsa": 3.1398003,
+    "ata": 3.7346939,
+    "overallGihwr": 0.62604341,
+    "gameCount": 1379,
+    "everDrawnGameCount": 599,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1379,
+        "everDrawnGameCount": 599,
+        "gihwr": 0.62604341
+      },
+      "WB": {
+        "gameCount": 1379,
+        "everDrawnGameCount": 599,
+        "gihwr": 0.62604341
+      },
+      "WR": {
+        "gameCount": 1379,
+        "everDrawnGameCount": 599,
+        "gihwr": 0.62604341
+      },
+      "WG": {
+        "gameCount": 1379,
+        "everDrawnGameCount": 599,
+        "gihwr": 0.62604341
+      },
+      "UB": {
+        "gameCount": 1379,
+        "everDrawnGameCount": 599,
+        "gihwr": 0.62604341
+      },
+      "UR": {
+        "gameCount": 1379,
+        "everDrawnGameCount": 599,
+        "gihwr": 0.62604341
+      },
+      "UG": {
+        "gameCount": 1379,
+        "everDrawnGameCount": 599,
+        "gihwr": 0.62604341
+      },
+      "BR": {
+        "gameCount": 1379,
+        "everDrawnGameCount": 599,
+        "gihwr": 0.62604341
+      },
+      "BG": {
+        "gameCount": 1379,
+        "everDrawnGameCount": 599,
+        "gihwr": 0.62604341
+      },
+      "RG": {
+        "gameCount": 1379,
+        "everDrawnGameCount": 599,
+        "gihwr": 0.62604341
+      }
+    }
+  },
+  {
+    "name": "Super Strength",
+    "mtgaId": 105084,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": 8.4163832,
+    "ata": 12.317808,
+    "overallGihwr": 0,
+    "gameCount": 98,
+    "everDrawnGameCount": 45,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Thing, Ben Grimm",
+    "mtgaId": 105085,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 5.3048676,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 466,
+    "everDrawnGameCount": 198,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tigra, Feline Fury",
+    "mtgaId": 105086,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Cat Human Hero"
+    ],
+    "alsa": 6.1519293,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 454,
+    "everDrawnGameCount": 184,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Training Regimen",
+    "mtgaId": 105087,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 5.0048591,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 380,
+    "everDrawnGameCount": 163,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Unbeatable Squirrel Girl",
+    "mtgaId": 105088,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Squirrel Human Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 540,
+    "everDrawnGameCount": 242,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Undercover Skrull",
+    "mtgaId": 105089,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Skrull Shapeshifter Villain"
+    ],
+    "alsa": 3.2996516,
+    "ata": 3.9216418,
+    "overallGihwr": 0.61251758,
+    "gameCount": 3261,
+    "everDrawnGameCount": 1422,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3261,
+        "everDrawnGameCount": 1422,
+        "gihwr": 0.61251758
+      },
+      "WB": {
+        "gameCount": 3261,
+        "everDrawnGameCount": 1422,
+        "gihwr": 0.61251758
+      },
+      "WR": {
+        "gameCount": 3261,
+        "everDrawnGameCount": 1422,
+        "gihwr": 0.61251758
+      },
+      "WG": {
+        "gameCount": 3261,
+        "everDrawnGameCount": 1422,
+        "gihwr": 0.61251758
+      },
+      "UB": {
+        "gameCount": 3261,
+        "everDrawnGameCount": 1422,
+        "gihwr": 0.61251758
+      },
+      "UR": {
+        "gameCount": 3261,
+        "everDrawnGameCount": 1422,
+        "gihwr": 0.61251758
+      },
+      "UG": {
+        "gameCount": 3261,
+        "everDrawnGameCount": 1422,
+        "gihwr": 0.61251758
+      },
+      "BR": {
+        "gameCount": 3261,
+        "everDrawnGameCount": 1422,
+        "gihwr": 0.61251758
+      },
+      "BG": {
+        "gameCount": 3261,
+        "everDrawnGameCount": 1422,
+        "gihwr": 0.61251758
+      },
+      "RG": {
+        "gameCount": 3261,
+        "everDrawnGameCount": 1422,
+        "gihwr": 0.61251758
+      }
+    }
+  },
+  {
+    "name": "Wakandan Royal Guard",
+    "mtgaId": 105090,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Human Soldier Hero"
+    ],
+    "alsa": 6.6186675,
+    "ata": 9.9352518,
+    "overallGihwr": 0.60299003,
+    "gameCount": 1438,
+    "everDrawnGameCount": 602,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1438,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.60299003
+      },
+      "WB": {
+        "gameCount": 1438,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.60299003
+      },
+      "WR": {
+        "gameCount": 1438,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.60299003
+      },
+      "WG": {
+        "gameCount": 1438,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.60299003
+      },
+      "UB": {
+        "gameCount": 1438,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.60299003
+      },
+      "UR": {
+        "gameCount": 1438,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.60299003
+      },
+      "UG": {
+        "gameCount": 1438,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.60299003
+      },
+      "BR": {
+        "gameCount": 1438,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.60299003
+      },
+      "BG": {
+        "gameCount": 1438,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.60299003
+      },
+      "RG": {
+        "gameCount": 1438,
+        "everDrawnGameCount": 602,
+        "gihwr": 0.60299003
+      }
+    }
+  },
+  {
+    "name": "White Tiger, Ava Ayala",
+    "mtgaId": 105091,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 3.9770241,
+    "ata": 4.7924528,
+    "overallGihwr": 0.56377079,
+    "gameCount": 1220,
+    "everDrawnGameCount": 541,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1220,
+        "everDrawnGameCount": 541,
+        "gihwr": 0.56377079
+      },
+      "WB": {
+        "gameCount": 1220,
+        "everDrawnGameCount": 541,
+        "gihwr": 0.56377079
+      },
+      "WR": {
+        "gameCount": 1220,
+        "everDrawnGameCount": 541,
+        "gihwr": 0.56377079
+      },
+      "WG": {
+        "gameCount": 1220,
+        "everDrawnGameCount": 541,
+        "gihwr": 0.56377079
+      },
+      "UB": {
+        "gameCount": 1220,
+        "everDrawnGameCount": 541,
+        "gihwr": 0.56377079
+      },
+      "UR": {
+        "gameCount": 1220,
+        "everDrawnGameCount": 541,
+        "gihwr": 0.56377079
+      },
+      "UG": {
+        "gameCount": 1220,
+        "everDrawnGameCount": 541,
+        "gihwr": 0.56377079
+      },
+      "BR": {
+        "gameCount": 1220,
+        "everDrawnGameCount": 541,
+        "gihwr": 0.56377079
+      },
+      "BG": {
+        "gameCount": 1220,
+        "everDrawnGameCount": 541,
+        "gihwr": 0.56377079
+      },
+      "RG": {
+        "gameCount": 1220,
+        "everDrawnGameCount": 541,
+        "gihwr": 0.56377079
+      }
+    }
+  },
+  {
+    "name": "World War Hulk",
+    "mtgaId": 105092,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Enchantment - Saga"
+    ],
+    "alsa": 3.1768707,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 197,
+    "everDrawnGameCount": 71,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Abomination, Terrifying Titan",
+    "mtgaId": 105093,
+    "color": "RG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Gamma Villain"
+    ],
+    "alsa": 3.6552538,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 953,
+    "everDrawnGameCount": 408,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Absorbing Man",
+    "mtgaId": 105094,
+    "color": "UG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 3.2261146,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 526,
+    "everDrawnGameCount": 213,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Alien Invasion",
+    "mtgaId": 105095,
+    "color": "RG",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": 3.7156863,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 218,
+    "everDrawnGameCount": 87,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ant-Man, Colony Commander",
+    "mtgaId": 105096,
+    "color": "UG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Rogue Hero"
+    ],
+    "alsa": 5.3903743,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 596,
+    "everDrawnGameCount": 247,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ares, God of War",
+    "mtgaId": 105097,
+    "color": "BR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - God Warrior Villain"
+    ],
+    "alsa": 3.8557692,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 408,
+    "everDrawnGameCount": 189,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Armor Wars",
+    "mtgaId": 105098,
+    "color": "UR",
+    "rarity": "rare",
+    "types": [
+      "Enchantment - Saga"
+    ],
+    "alsa": 5.6924528,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 98,
+    "everDrawnGameCount": 43,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Astonishing Ant-Man",
+    "mtgaId": 105099,
+    "color": "UG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Scientist Hero"
+    ],
+    "alsa": 3.3694779,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 365,
+    "everDrawnGameCount": 169,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Avengers: Under Siege",
+    "mtgaId": 105100,
+    "color": "BR",
+    "rarity": "rare",
+    "types": [
+      "Enchantment - Saga"
+    ],
+    "alsa": 2.5953488,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 448,
+    "everDrawnGameCount": 198,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Beast, Erudite Aerialist",
+    "mtgaId": 105101,
+    "color": "UG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Mutant Scientist Hero"
+    ],
+    "alsa": 5.3708999,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 260,
+    "everDrawnGameCount": 119,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Black Panther, Vanguard",
+    "mtgaId": 105102,
+    "color": "WG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Warrior Hero"
+    ],
+    "alsa": 3.9204694,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 663,
+    "everDrawnGameCount": 301,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Black Widow, Double Agent",
+    "mtgaId": 105103,
+    "color": "WB",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero Villain"
+    ],
+    "alsa": 4.5208748,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 686,
+    "everDrawnGameCount": 307,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bullseye, Death Dealer",
+    "mtgaId": 105104,
+    "color": "BR",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Assassin Villain"
+    ],
+    "alsa": 4.5255474,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 753,
+    "everDrawnGameCount": 351,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Captain America, Living Legend",
+    "mtgaId": 105105,
+    "color": "WU",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Soldier Hero"
+    ],
+    "alsa": 3.4160982,
+    "ata": 4.364532,
+    "overallGihwr": 0.5648855,
+    "gameCount": 1062,
+    "everDrawnGameCount": 524,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1062,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.5648855
+      },
+      "WB": {
+        "gameCount": 1062,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.5648855
+      },
+      "WR": {
+        "gameCount": 1062,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.5648855
+      },
+      "WG": {
+        "gameCount": 1062,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.5648855
+      },
+      "UB": {
+        "gameCount": 1062,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.5648855
+      },
+      "UR": {
+        "gameCount": 1062,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.5648855
+      },
+      "UG": {
+        "gameCount": 1062,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.5648855
+      },
+      "BR": {
+        "gameCount": 1062,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.5648855
+      },
+      "BG": {
+        "gameCount": 1062,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.5648855
+      },
+      "RG": {
+        "gameCount": 1062,
+        "everDrawnGameCount": 524,
+        "gihwr": 0.5648855
+      }
+    }
+  },
+  {
+    "name": "Cloak and Dagger, Entwined",
+    "mtgaId": 105106,
+    "color": "WB",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 2.7887324,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 536,
+    "everDrawnGameCount": 260,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Coming of Galactus",
+    "mtgaId": 105107,
+    "color": "BG",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment - Saga"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 260,
+    "everDrawnGameCount": 122,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Daredevil, Man Without Fear",
+    "mtgaId": 105108,
+    "color": "WR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 466,
+    "everDrawnGameCount": 212,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ghost, Spectral Saboteur",
+    "mtgaId": 105109,
+    "color": "UB",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Rogue Villain"
+    ],
+    "alsa": 5.7622549,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 308,
+    "everDrawnGameCount": 145,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hulk, Gamma Goliath",
+    "mtgaId": 105110,
+    "color": "RG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Gamma Berserker Hero"
+    ],
+    "alsa": 4.8431568,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 549,
+    "everDrawnGameCount": 223,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Iron Man, Master of Machines",
+    "mtgaId": 105111,
+    "color": "UR",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Artifact Creature - Human Hero"
+    ],
+    "alsa": 5.473223,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 667,
+    "everDrawnGameCount": 306,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kang, Temporal Tyrant",
+    "mtgaId": 105112,
+    "color": "UB",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 5.2255859,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 553,
+    "everDrawnGameCount": 247,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Killmonger, Scourge of Wakanda",
+    "mtgaId": 105113,
+    "color": "BG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Mercenary Villain"
+    ],
+    "alsa": 3.7798408,
+    "ata": 4.1814159,
+    "overallGihwr": 0.57614679,
+    "gameCount": 1227,
+    "everDrawnGameCount": 545,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 545,
+        "gihwr": 0.57614679
+      },
+      "WB": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 545,
+        "gihwr": 0.57614679
+      },
+      "WR": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 545,
+        "gihwr": 0.57614679
+      },
+      "WG": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 545,
+        "gihwr": 0.57614679
+      },
+      "UB": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 545,
+        "gihwr": 0.57614679
+      },
+      "UR": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 545,
+        "gihwr": 0.57614679
+      },
+      "UG": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 545,
+        "gihwr": 0.57614679
+      },
+      "BR": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 545,
+        "gihwr": 0.57614679
+      },
+      "BG": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 545,
+        "gihwr": 0.57614679
+      },
+      "RG": {
+        "gameCount": 1227,
+        "everDrawnGameCount": 545,
+        "gihwr": 0.57614679
+      }
+    }
+  },
+  {
+    "name": "King T'Challa",
+    "mtgaId": 105114,
+    "color": "WU",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Noble Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 264,
+    "everDrawnGameCount": 117,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Kingpin of Crime",
+    "mtgaId": 105116,
+    "color": "WB",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 3.5268456,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 264,
+    "everDrawnGameCount": 126,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Madame Hydra",
+    "mtgaId": 105117,
+    "color": "BR",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 5.4198113,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 478,
+    "everDrawnGameCount": 205,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Mighty Thor, Jane Foster",
+    "mtgaId": 105118,
+    "color": "WU",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human God Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 576,
+    "everDrawnGameCount": 271,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Moon Girl and Devil Dinosaur",
+    "mtgaId": 105119,
+    "color": "UG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Dinosaur Hero"
+    ],
+    "alsa": 3.6977492,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 276,
+    "everDrawnGameCount": 128,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Ruinous Wrecking Crew",
+    "mtgaId": 105120,
+    "color": "BR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 2.7184874,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 607,
+    "everDrawnGameCount": 256,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Scientist Supreme of A.I.M.",
+    "mtgaId": 105121,
+    "color": "UB",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Scientist Villain"
+    ],
+    "alsa": 5.8927875,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 110,
+    "everDrawnGameCount": 52,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Serpent Society",
+    "mtgaId": 105122,
+    "color": "BG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Snake Villain"
+    ],
+    "alsa": 4.1397849,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 256,
+    "everDrawnGameCount": 111,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Speedball, New Warrior",
+    "mtgaId": 105123,
+    "color": "UR",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Hero"
+    ],
+    "alsa": 6,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 355,
+    "everDrawnGameCount": 154,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Spider-Man, To the Rescue",
+    "mtgaId": 105124,
+    "color": "WG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Spider Human Hero"
+    ],
+    "alsa": 3.4782067,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 914,
+    "everDrawnGameCount": 383,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Spider-Woman, Secret Agent",
+    "mtgaId": 105125,
+    "color": "WU",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Spider Human Spy Hero"
+    ],
+    "alsa": 2.5332168,
+    "ata": 2.8820961,
+    "overallGihwr": 0.56891026,
+    "gameCount": 1428,
+    "everDrawnGameCount": 624,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1428,
+        "everDrawnGameCount": 624,
+        "gihwr": 0.56891026
+      },
+      "WB": {
+        "gameCount": 1428,
+        "everDrawnGameCount": 624,
+        "gihwr": 0.56891026
+      },
+      "WR": {
+        "gameCount": 1428,
+        "everDrawnGameCount": 624,
+        "gihwr": 0.56891026
+      },
+      "WG": {
+        "gameCount": 1428,
+        "everDrawnGameCount": 624,
+        "gihwr": 0.56891026
+      },
+      "UB": {
+        "gameCount": 1428,
+        "everDrawnGameCount": 624,
+        "gihwr": 0.56891026
+      },
+      "UR": {
+        "gameCount": 1428,
+        "everDrawnGameCount": 624,
+        "gihwr": 0.56891026
+      },
+      "UG": {
+        "gameCount": 1428,
+        "everDrawnGameCount": 624,
+        "gihwr": 0.56891026
+      },
+      "BR": {
+        "gameCount": 1428,
+        "everDrawnGameCount": 624,
+        "gihwr": 0.56891026
+      },
+      "BG": {
+        "gameCount": 1428,
+        "everDrawnGameCount": 624,
+        "gihwr": 0.56891026
+      },
+      "RG": {
+        "gameCount": 1428,
+        "everDrawnGameCount": 624,
+        "gihwr": 0.56891026
+      }
+    }
+  },
+  {
+    "name": "Storm, Windrider",
+    "mtgaId": 105126,
+    "color": "WG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Mutant Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 507,
+    "everDrawnGameCount": 242,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Super Hero Civil War",
+    "mtgaId": 105127,
+    "color": "WR",
+    "rarity": "rare",
+    "types": [
+      "Enchantment - Saga"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 726,
+    "everDrawnGameCount": 308,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Taskmaster, Mercenary Mimic",
+    "mtgaId": 105128,
+    "color": "UB",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Mercenary Villain"
+    ],
+    "alsa": 4.0310559,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 192,
+    "everDrawnGameCount": 94,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thanos, the Mad Titan",
+    "mtgaId": 105129,
+    "color": "WBR",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Eternal Villain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 136,
+    "everDrawnGameCount": 64,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thor Odinson",
+    "mtgaId": 105130,
+    "color": "WR",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - God Warrior Hero"
+    ],
+    "alsa": 4.8456105,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 411,
+    "everDrawnGameCount": 169,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Titania, Rugged Rumbler",
+    "mtgaId": 105131,
+    "color": "BG",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Villain"
+    ],
+    "alsa": 3.8599562,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 781,
+    "everDrawnGameCount": 338,
+    "archetypeStats": {}
+  },
+  {
+    "name": "U.S.Agent, John Walker",
+    "mtgaId": 105132,
+    "color": "WB",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Creature - Human Soldier Hero"
+    ],
+    "alsa": 3.1967005,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 1117,
+    "everDrawnGameCount": 481,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vision Quest",
+    "mtgaId": 105133,
+    "color": "UR",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 3.2287823,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 646,
+    "everDrawnGameCount": 295,
+    "archetypeStats": {}
+  },
+  {
+    "name": "War Machine, Legacy of Iron",
+    "mtgaId": 105134,
+    "color": "WR",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Artifact Creature - Human Hero"
+    ],
+    "alsa": 4.2117163,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 599,
+    "everDrawnGameCount": 246,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Winter Soldier, Icy Assassin",
+    "mtgaId": 105135,
+    "color": "WB",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Human Assassin Villain"
+    ],
+    "alsa": 4.2196532,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 245,
+    "everDrawnGameCount": 120,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wolverine, Fierce Fighter",
+    "mtgaId": 105136,
+    "color": "RG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Mutant Berserker Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 663,
+    "everDrawnGameCount": 277,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Worlds Within Worlds",
+    "mtgaId": 105137,
+    "color": "UG",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": 6.7528271,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 5,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "A.I.M. Synthoids",
+    "mtgaId": 105138,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Robot Villain"
+    ],
+    "alsa": 6.7740061,
+    "ata": 9.8830275,
+    "overallGihwr": 0,
+    "gameCount": 1068,
+    "everDrawnGameCount": 454,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Arc Reactor",
+    "mtgaId": 105139,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": 5.9124767,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 11,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Captain America's Shield",
+    "mtgaId": 105140,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Legendary Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 501,
+    "everDrawnGameCount": 235,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Cosmic Cube",
+    "mtgaId": 105141,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 274,
+    "everDrawnGameCount": 117,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dependable Quinjet",
+    "mtgaId": 105142,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact - Vehicle"
+    ],
+    "alsa": 6.6070461,
+    "ata": 9.5635492,
+    "overallGihwr": 0,
+    "gameCount": 1026,
+    "everDrawnGameCount": 451,
+    "archetypeStats": {}
+  },
+  {
+    "name": "H.E.R.B.I.E. Scout Unit",
+    "mtgaId": 105143,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Robot Scout"
+    ],
+    "alsa": 4.2791837,
+    "ata": 5.9389831,
+    "overallGihwr": 0.57849197,
+    "gameCount": 3683,
+    "everDrawnGameCount": 1618,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 3683,
+        "everDrawnGameCount": 1618,
+        "gihwr": 0.57849197
+      },
+      "WB": {
+        "gameCount": 3683,
+        "everDrawnGameCount": 1618,
+        "gihwr": 0.57849197
+      },
+      "WR": {
+        "gameCount": 3683,
+        "everDrawnGameCount": 1618,
+        "gihwr": 0.57849197
+      },
+      "WG": {
+        "gameCount": 3683,
+        "everDrawnGameCount": 1618,
+        "gihwr": 0.57849197
+      },
+      "UB": {
+        "gameCount": 3683,
+        "everDrawnGameCount": 1618,
+        "gihwr": 0.57849197
+      },
+      "UR": {
+        "gameCount": 3683,
+        "everDrawnGameCount": 1618,
+        "gihwr": 0.57849197
+      },
+      "UG": {
+        "gameCount": 3683,
+        "everDrawnGameCount": 1618,
+        "gihwr": 0.57849197
+      },
+      "BR": {
+        "gameCount": 3683,
+        "everDrawnGameCount": 1618,
+        "gihwr": 0.57849197
+      },
+      "BG": {
+        "gameCount": 3683,
+        "everDrawnGameCount": 1618,
+        "gihwr": 0.57849197
+      },
+      "RG": {
+        "gameCount": 3683,
+        "everDrawnGameCount": 1618,
+        "gihwr": 0.57849197
+      }
+    }
+  },
+  {
+    "name": "Iron Man Armor",
+    "mtgaId": 105144,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 365,
+    "everDrawnGameCount": 173,
+    "archetypeStats": {}
+  },
+  {
+    "name": "S.H.I.E.L.D. Helicarrier",
+    "mtgaId": 105145,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact - Vehicle"
+    ],
+    "alsa": 6.8768657,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 328,
+    "everDrawnGameCount": 143,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Super-Adaptoid",
+    "mtgaId": 105146,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Legendary Artifact Creature - Robot Villain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 410,
+    "everDrawnGameCount": 200,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Ten Rings",
+    "mtgaId": 105147,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Artifact"
+    ],
+    "alsa": 5.3030303,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 10,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ultron, Artificial Malevolence",
+    "mtgaId": 105148,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Artifact Creature - Robot Villain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 190,
+    "everDrawnGameCount": 79,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ultron Drone",
+    "mtgaId": 105149,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Robot Villain"
+    ],
+    "alsa": 6.7513385,
+    "ata": 10.200514,
+    "overallGihwr": 0,
+    "gameCount": 890,
+    "everDrawnGameCount": 394,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vibranium Energy Daggers",
+    "mtgaId": 105150,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": 7.571935,
+    "ata": 11.634868,
+    "overallGihwr": 0,
+    "gameCount": 199,
+    "everDrawnGameCount": 82,
+    "archetypeStats": {}
+  },
+  {
+    "name": "The Vision",
+    "mtgaId": 105151,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Legendary Artifact Creature - Robot Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 625,
+    "everDrawnGameCount": 276,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Viv Vision, Teen Synthezoid",
+    "mtgaId": 105152,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Legendary Artifact Creature - Robot Hero"
+    ],
+    "alsa": 4.5623836,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 491,
+    "everDrawnGameCount": 219,
+    "archetypeStats": {}
+  },
+  {
+    "name": "A.I.M. Labs",
+    "mtgaId": 105153,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 6.1661631,
+    "ata": 8.8853047,
+    "overallGihwr": 0,
+    "gameCount": 1104,
+    "everDrawnGameCount": 493,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Asgardian Citadel",
+    "mtgaId": 105154,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 5.9303514,
+    "ata": 8.3625954,
+    "overallGihwr": 0,
+    "gameCount": 1109,
+    "everDrawnGameCount": 481,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Avengers Hangar",
+    "mtgaId": 105155,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 5.342545,
+    "ata": 7.7532051,
+    "overallGihwr": 0.5726257,
+    "gameCount": 1628,
+    "everDrawnGameCount": 716,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1628,
+        "everDrawnGameCount": 716,
+        "gihwr": 0.5726257
+      },
+      "WB": {
+        "gameCount": 1628,
+        "everDrawnGameCount": 716,
+        "gihwr": 0.5726257
+      },
+      "WR": {
+        "gameCount": 1628,
+        "everDrawnGameCount": 716,
+        "gihwr": 0.5726257
+      },
+      "WG": {
+        "gameCount": 1628,
+        "everDrawnGameCount": 716,
+        "gihwr": 0.5726257
+      },
+      "UB": {
+        "gameCount": 1628,
+        "everDrawnGameCount": 716,
+        "gihwr": 0.5726257
+      },
+      "UR": {
+        "gameCount": 1628,
+        "everDrawnGameCount": 716,
+        "gihwr": 0.5726257
+      },
+      "UG": {
+        "gameCount": 1628,
+        "everDrawnGameCount": 716,
+        "gihwr": 0.5726257
+      },
+      "BR": {
+        "gameCount": 1628,
+        "everDrawnGameCount": 716,
+        "gihwr": 0.5726257
+      },
+      "BG": {
+        "gameCount": 1628,
+        "everDrawnGameCount": 716,
+        "gihwr": 0.5726257
+      },
+      "RG": {
+        "gameCount": 1628,
+        "everDrawnGameCount": 716,
+        "gihwr": 0.5726257
+      }
+    }
+  },
+  {
+    "name": "Avengers Tower",
+    "mtgaId": 105156,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Land"
+    ],
+    "alsa": 4.2362525,
+    "ata": 5.3416667,
+    "overallGihwr": 0.58626198,
+    "gameCount": 1445,
+    "everDrawnGameCount": 626,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1445,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.58626198
+      },
+      "WB": {
+        "gameCount": 1445,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.58626198
+      },
+      "WR": {
+        "gameCount": 1445,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.58626198
+      },
+      "WG": {
+        "gameCount": 1445,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.58626198
+      },
+      "UB": {
+        "gameCount": 1445,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.58626198
+      },
+      "UR": {
+        "gameCount": 1445,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.58626198
+      },
+      "UG": {
+        "gameCount": 1445,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.58626198
+      },
+      "BR": {
+        "gameCount": 1445,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.58626198
+      },
+      "BG": {
+        "gameCount": 1445,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.58626198
+      },
+      "RG": {
+        "gameCount": 1445,
+        "everDrawnGameCount": 626,
+        "gihwr": 0.58626198
+      }
+    }
+  },
+  {
+    "name": "Baxter Building",
+    "mtgaId": 105157,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Land"
+    ],
+    "alsa": 4.2266546,
+    "ata": 5.5518519,
+    "overallGihwr": 0.56115108,
+    "gameCount": 1643,
+    "everDrawnGameCount": 695,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1643,
+        "everDrawnGameCount": 695,
+        "gihwr": 0.56115108
+      },
+      "WB": {
+        "gameCount": 1643,
+        "everDrawnGameCount": 695,
+        "gihwr": 0.56115108
+      },
+      "WR": {
+        "gameCount": 1643,
+        "everDrawnGameCount": 695,
+        "gihwr": 0.56115108
+      },
+      "WG": {
+        "gameCount": 1643,
+        "everDrawnGameCount": 695,
+        "gihwr": 0.56115108
+      },
+      "UB": {
+        "gameCount": 1643,
+        "everDrawnGameCount": 695,
+        "gihwr": 0.56115108
+      },
+      "UR": {
+        "gameCount": 1643,
+        "everDrawnGameCount": 695,
+        "gihwr": 0.56115108
+      },
+      "UG": {
+        "gameCount": 1643,
+        "everDrawnGameCount": 695,
+        "gihwr": 0.56115108
+      },
+      "BR": {
+        "gameCount": 1643,
+        "everDrawnGameCount": 695,
+        "gihwr": 0.56115108
+      },
+      "BG": {
+        "gameCount": 1643,
+        "everDrawnGameCount": 695,
+        "gihwr": 0.56115108
+      },
+      "RG": {
+        "gameCount": 1643,
+        "everDrawnGameCount": 695,
+        "gihwr": 0.56115108
+      }
+    }
+  },
+  {
+    "name": "Birnin Zana Plaza",
+    "mtgaId": 105158,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 5.6741855,
+    "ata": 8.0880282,
+    "overallGihwr": 0.58419244,
+    "gameCount": 1369,
+    "everDrawnGameCount": 582,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1369,
+        "everDrawnGameCount": 582,
+        "gihwr": 0.58419244
+      },
+      "WB": {
+        "gameCount": 1369,
+        "everDrawnGameCount": 582,
+        "gihwr": 0.58419244
+      },
+      "WR": {
+        "gameCount": 1369,
+        "everDrawnGameCount": 582,
+        "gihwr": 0.58419244
+      },
+      "WG": {
+        "gameCount": 1369,
+        "everDrawnGameCount": 582,
+        "gihwr": 0.58419244
+      },
+      "UB": {
+        "gameCount": 1369,
+        "everDrawnGameCount": 582,
+        "gihwr": 0.58419244
+      },
+      "UR": {
+        "gameCount": 1369,
+        "everDrawnGameCount": 582,
+        "gihwr": 0.58419244
+      },
+      "UG": {
+        "gameCount": 1369,
+        "everDrawnGameCount": 582,
+        "gihwr": 0.58419244
+      },
+      "BR": {
+        "gameCount": 1369,
+        "everDrawnGameCount": 582,
+        "gihwr": 0.58419244
+      },
+      "BG": {
+        "gameCount": 1369,
+        "everDrawnGameCount": 582,
+        "gihwr": 0.58419244
+      },
+      "RG": {
+        "gameCount": 1369,
+        "everDrawnGameCount": 582,
+        "gihwr": 0.58419244
+      }
+    }
+  },
+  {
+    "name": "Castle Doom",
+    "mtgaId": 105159,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": 4.9405941,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 224,
+    "everDrawnGameCount": 99,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dark Fortress",
+    "mtgaId": 105160,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": 4.6853707,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 307,
+    "everDrawnGameCount": 129,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fisk Tower",
+    "mtgaId": 105161,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 5.9697157,
+    "ata": 8.8296296,
+    "overallGihwr": 0,
+    "gameCount": 1038,
+    "everDrawnGameCount": 440,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gathering Place",
+    "mtgaId": 105162,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": 4.2930649,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 368,
+    "everDrawnGameCount": 145,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gleaming Bastion",
+    "mtgaId": 105163,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": 3.8123667,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 493,
+    "everDrawnGameCount": 208,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hell's Kitchen",
+    "mtgaId": 105164,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 6.3121951,
+    "ata": 8.8740458,
+    "overallGihwr": 0,
+    "gameCount": 1096,
+    "everDrawnGameCount": 457,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hidden Lair",
+    "mtgaId": 105165,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": 4.4765784,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 338,
+    "everDrawnGameCount": 160,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Los Diablos Missile Base",
+    "mtgaId": 105166,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 6.1593341,
+    "ata": 9.0487805,
+    "overallGihwr": 0,
+    "gameCount": 1020,
+    "everDrawnGameCount": 424,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pym Technologies",
+    "mtgaId": 105167,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 5.9346914,
+    "ata": 8.5945946,
+    "overallGihwr": 0.57920792,
+    "gameCount": 1417,
+    "everDrawnGameCount": 606,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 1417,
+        "everDrawnGameCount": 606,
+        "gihwr": 0.57920792
+      },
+      "WB": {
+        "gameCount": 1417,
+        "everDrawnGameCount": 606,
+        "gihwr": 0.57920792
+      },
+      "WR": {
+        "gameCount": 1417,
+        "everDrawnGameCount": 606,
+        "gihwr": 0.57920792
+      },
+      "WG": {
+        "gameCount": 1417,
+        "everDrawnGameCount": 606,
+        "gihwr": 0.57920792
+      },
+      "UB": {
+        "gameCount": 1417,
+        "everDrawnGameCount": 606,
+        "gihwr": 0.57920792
+      },
+      "UR": {
+        "gameCount": 1417,
+        "everDrawnGameCount": 606,
+        "gihwr": 0.57920792
+      },
+      "UG": {
+        "gameCount": 1417,
+        "everDrawnGameCount": 606,
+        "gihwr": 0.57920792
+      },
+      "BR": {
+        "gameCount": 1417,
+        "everDrawnGameCount": 606,
+        "gihwr": 0.57920792
+      },
+      "BG": {
+        "gameCount": 1417,
+        "everDrawnGameCount": 606,
+        "gihwr": 0.57920792
+      },
+      "RG": {
+        "gameCount": 1417,
+        "everDrawnGameCount": 606,
+        "gihwr": 0.57920792
+      }
+    }
+  },
+  {
+    "name": "Stark Industries",
+    "mtgaId": 105168,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 5.9360759,
+    "ata": 8.6814815,
+    "overallGihwr": 0,
+    "gameCount": 1148,
+    "everDrawnGameCount": 497,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Subterranean Cavern",
+    "mtgaId": 105169,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 6.0114114,
+    "ata": 8.6064257,
+    "overallGihwr": 0,
+    "gameCount": 1047,
+    "everDrawnGameCount": 447,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Surveillance Room",
+    "mtgaId": 105170,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": 5.5338658,
+    "ata": 8.3036053,
+    "overallGihwr": 0.5874613,
+    "gameCount": 2934,
+    "everDrawnGameCount": 1292,
+    "archetypeStats": {
+      "WU": {
+        "gameCount": 2934,
+        "everDrawnGameCount": 1292,
+        "gihwr": 0.5874613
+      },
+      "WB": {
+        "gameCount": 2934,
+        "everDrawnGameCount": 1292,
+        "gihwr": 0.5874613
+      },
+      "WR": {
+        "gameCount": 2934,
+        "everDrawnGameCount": 1292,
+        "gihwr": 0.5874613
+      },
+      "WG": {
+        "gameCount": 2934,
+        "everDrawnGameCount": 1292,
+        "gihwr": 0.5874613
+      },
+      "UB": {
+        "gameCount": 2934,
+        "everDrawnGameCount": 1292,
+        "gihwr": 0.5874613
+      },
+      "UR": {
+        "gameCount": 2934,
+        "everDrawnGameCount": 1292,
+        "gihwr": 0.5874613
+      },
+      "UG": {
+        "gameCount": 2934,
+        "everDrawnGameCount": 1292,
+        "gihwr": 0.5874613
+      },
+      "BR": {
+        "gameCount": 2934,
+        "everDrawnGameCount": 1292,
+        "gihwr": 0.5874613
+      },
+      "BG": {
+        "gameCount": 2934,
+        "everDrawnGameCount": 1292,
+        "gihwr": 0.5874613
+      },
+      "RG": {
+        "gameCount": 2934,
+        "everDrawnGameCount": 1292,
+        "gihwr": 0.5874613
+      }
+    }
+  },
+  {
+    "name": "Training Compound",
+    "mtgaId": 105171,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land"
+    ],
+    "alsa": 4.6129032,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 394,
+    "everDrawnGameCount": 153,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Villainous Hideout",
+    "mtgaId": 105172,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Land"
+    ],
+    "alsa": 5.0514334,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 1066,
+    "everDrawnGameCount": 472,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Archangel of Thune",
+    "mtgaId": 105205,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Angel"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 32,
+    "everDrawnGameCount": 13,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Concerted Effort",
+    "mtgaId": 105206,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Don't Move",
+    "mtgaId": 105207,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 10,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ephemerate",
+    "mtgaId": 105208,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 12,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Final Showdown",
+    "mtgaId": 105209,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 25,
+    "everDrawnGameCount": 9,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Light of Promise",
+    "mtgaId": 105210,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Path to Exile",
+    "mtgaId": 105211,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 26,
+    "everDrawnGameCount": 10,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Return to the Ranks",
+    "mtgaId": 105212,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Righteous Fury",
+    "mtgaId": 105213,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 8,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Steelshaper's Gift",
+    "mtgaId": 105214,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Teferi's Protection",
+    "mtgaId": 105215,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 12,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Counterspell",
+    "mtgaId": 105216,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 19,
+    "everDrawnGameCount": 9,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Cyberdrive Awakener",
+    "mtgaId": 105217,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Artifact Creature - Construct"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 5,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dig Through Time",
+    "mtgaId": 105218,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 39,
+    "everDrawnGameCount": 23,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Harbinger of the Seas",
+    "mtgaId": 105219,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Merfolk Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lord of Atlantis",
+    "mtgaId": 105220,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Merfolk"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mechanized Production",
+    "mtgaId": 105221,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 9,
+    "everDrawnGameCount": 5,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Narset's Reversal",
+    "mtgaId": 105222,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Reconnaissance Mission",
+    "mtgaId": 105223,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 6,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Show and Tell",
+    "mtgaId": 105224,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Simulacrum Synthesizer",
+    "mtgaId": 105225,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 4,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Three Steps Ahead",
+    "mtgaId": 105226,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 13,
+    "everDrawnGameCount": 6,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dauthi Voidwalker",
+    "mtgaId": 105227,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Dauthi Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 7,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Deadly Dispute",
+    "mtgaId": 105228,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 19,
+    "everDrawnGameCount": 5,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Extinction Event",
+    "mtgaId": 105229,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 32,
+    "everDrawnGameCount": 14,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Final Act",
+    "mtgaId": 105230,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 9,
+    "everDrawnGameCount": 5,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Massacre Girl",
+    "mtgaId": 105231,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Assassin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 40,
+    "everDrawnGameCount": 13,
+    "archetypeStats": {}
+  },
+  {
+    "name": "No Mercy",
+    "mtgaId": 105232,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 19,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Chaos Warp",
+    "mtgaId": 105233,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 6,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fiery Emancipation",
+    "mtgaId": 105234,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fury of the Horde",
+    "mtgaId": 105235,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 4,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Monstrous Rage",
+    "mtgaId": 105236,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 8,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Seize the Day",
+    "mtgaId": 105237,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bedlam",
+    "mtgaId": 105238,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Beast Within",
+    "mtgaId": 105239,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 1,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Defense of the Heart",
+    "mtgaId": 105240,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 10,
+    "everDrawnGameCount": 5,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Force of Vigor",
+    "mtgaId": 105241,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 5,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Heroic Intervention",
+    "mtgaId": 105242,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Primal Vigor",
+    "mtgaId": 105245,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 1,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rancor",
+    "mtgaId": 105246,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 21,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Steely Resolve",
+    "mtgaId": 105247,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 8,
+    "everDrawnGameCount": 4,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Unnatural Growth",
+    "mtgaId": 105248,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 8,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Anthem of Champions",
+    "mtgaId": 105249,
+    "color": "WG",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 17,
+    "everDrawnGameCount": 10,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Aurelia, the Warleader",
+    "mtgaId": 105250,
+    "color": "WR",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Angel"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 2,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Black Panther, Wakandan King",
+    "mtgaId": 105251,
+    "color": "WG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Noble Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 18,
+    "everDrawnGameCount": 7,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Captain America, First Avenger",
+    "mtgaId": 105252,
+    "color": "WUR",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Human Soldier Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Escape to the Wilds",
+    "mtgaId": 105253,
+    "color": "RG",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 12,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Fight to the Death",
+    "mtgaId": 105254,
+    "color": "WR",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Iron Man, Titan of Innovation",
+    "mtgaId": 105255,
+    "color": "UR",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Artifact Creature - Human Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 3,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Privileged Position",
+    "mtgaId": 105256,
+    "color": "WG",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 4,
+    "everDrawnGameCount": 2,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ravenous Tyrannosaurus",
+    "mtgaId": 105257,
+    "color": "RG",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Dinosaur"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 3,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Storm, Force of Nature",
+    "mtgaId": 105258,
+    "color": "URG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Mutant Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 6,
+    "everDrawnGameCount": 3,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sundering Growth",
+    "mtgaId": 105259,
+    "color": "WG",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Warleader's Call",
+    "mtgaId": 105260,
+    "color": "WR",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 30,
+    "everDrawnGameCount": 16,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wolverine, Best There Is",
+    "mtgaId": 105261,
+    "color": "RG",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Mutant Berserker Hero"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 16,
+    "everDrawnGameCount": 8,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Horn of Greed",
+    "mtgaId": 105262,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 2,
+    "everDrawnGameCount": 1,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Roaming Throne",
+    "mtgaId": 105263,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact Creature - Golem"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 26,
+    "everDrawnGameCount": 11,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sword of Fire and Ice",
+    "mtgaId": 105264,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 26,
+    "everDrawnGameCount": 8,
+    "archetypeStats": {}
+  }
+]

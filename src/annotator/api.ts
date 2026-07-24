@@ -6,11 +6,12 @@ const BASE = import.meta.env.PROD ? '' : 'http://localhost:3001';
 export async function createReview(
   draftId: string,
   draftLog: RawDraftPick[],
+  expansion: string | null,
 ): Promise<{ id: string; editToken: string }> {
   const res = await fetch(`${BASE}/reviews`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ draftId, draftLog }),
+    body: JSON.stringify({ draftId, draftLog, expansion }),
   });
   if (!res.ok) throw new Error(`Create review failed: ${res.status}`);
   return res.json();

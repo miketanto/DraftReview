@@ -13,6 +13,7 @@
     "preview": "vite preview",
     "build-cache": "tsx scripts/build-cache.ts",
     "build-signal-map": "tsx scripts/build-signal-map.ts",
+    "build-set": "tsx scripts/build-set.ts",
     "proxy": "tsx server/proxy.ts",
     "start": "node dist-server/proxy.js",
     "build:server": "tsc -p tsconfig.server.json",

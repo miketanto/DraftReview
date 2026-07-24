@@ -7,6 +7,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.728198859005705,
+    "ata": 1.6606012658227849,
     "overallGihwr": 0.543704638687283,
     "archetypeGihwr": {
       "silverquill": 0.5,
@@ -25,6 +26,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 7.471421942070459,
+    "ata": 10.64495465668634,
     "overallGihwr": 0.5516777319217656,
     "archetypeGihwr": {
       "silverquill": 0.5,
@@ -44,6 +46,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.041857960664286,
+    "ata": 6.319876879365455,
     "overallGihwr": 0.589401564300006,
     "archetypeGihwr": {
       "silverquill": 0.4827586206896552,
@@ -62,6 +65,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.402431962941517,
+    "ata": 2.3567502986857827,
     "overallGihwr": 0.6623351805847506,
     "archetypeGihwr": {
       "silverquill": 0.5747126436781609,
@@ -80,6 +84,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.6474807010223245,
+    "ata": 7.51625266146203,
     "overallGihwr": 0.5765731251795805,
     "archetypeGihwr": {
       "silverquill": 0.43137254901960786,
@@ -98,6 +103,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.150732993927498,
+    "ata": 6.922244712780065,
     "overallGihwr": 0.5883031681666832,
     "archetypeGihwr": {
       "silverquill": 0.583265306122449,
@@ -113,6 +119,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.0704943094954986,
+    "ata": 2.0555227406969876,
     "overallGihwr": 0.6535730645900137,
     "archetypeGihwr": {
       "silverquill": 0.6584327086882453,
@@ -128,6 +135,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.485012738386052,
+    "ata": 9.098279917671274,
     "overallGihwr": 0.5643590280687055,
     "archetypeGihwr": {
       "silverquill": 0.5558060879368658,
@@ -143,6 +151,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.0087862796833775,
+    "ata": 8.68857622847543,
     "overallGihwr": 0.49467802022352314,
     "archetypeGihwr": {
       "silverquill": 0.5237815619495009,
@@ -158,6 +167,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.826885595140967,
+    "ata": 7.901820500106255,
     "overallGihwr": 0.5655652750715144,
     "archetypeGihwr": {
       "silverquill": 0.5785956416464891,
@@ -173,6 +183,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.248204885295669,
+    "ata": 8.502939211756846,
     "overallGihwr": 0.5693071407357122,
     "archetypeGihwr": {
       "silverquill": 0.570130263556498,
@@ -188,6 +199,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.699736105343532,
+    "ata": 5.606512526152031,
     "overallGihwr": 0.6033131418398141,
     "archetypeGihwr": {
       "silverquill": 0.6094272575250836,
@@ -203,6 +215,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.7685185185185186,
+    "ata": 1.768790264853257,
     "overallGihwr": 0.5981416957026713,
     "archetypeGihwr": {
       "silverquill": 0.6134723336006416,
@@ -218,6 +231,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.84546635819098,
+    "ata": 6.487925696594427,
     "overallGihwr": 0.506187624750499,
     "archetypeGihwr": {
       "silverquill": 0.5027124773960217,
@@ -233,6 +247,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.480163437458811,
+    "ata": 2.691462383770076,
     "overallGihwr": 0.5720402084884587,
     "archetypeGihwr": {
       "silverquill": 0.5846238938053098,
@@ -248,6 +263,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.214454240655656,
+    "ata": 7.066363636363636,
     "overallGihwr": 0.5217625899280576,
     "archetypeGihwr": {
       "silverquill": 0.541015625,
@@ -263,6 +279,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.420575854520963,
+    "ata": 5.273345784418357,
     "overallGihwr": 0.5759610243003981,
     "archetypeGihwr": {
       "silverquill": 0.5627563576702215,
@@ -278,6 +295,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.809804786588728,
+    "ata": 9.030711825487945,
     "overallGihwr": 0.5029873039581777,
     "archetypeGihwr": {
       "silverquill": 0.5210819411296739,
@@ -293,6 +311,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.427571521936205,
+    "ata": 9.238056148415696,
     "overallGihwr": 0.5408751334044823,
     "archetypeGihwr": {
       "silverquill": 0.5559850374064838,
@@ -308,6 +327,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.8699885452462772,
+    "ata": 1.8586606567933033,
     "overallGihwr": 0.6279098411134376,
     "archetypeGihwr": {
       "silverquill": 0.6525605642440969,
@@ -323,6 +343,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.519030562715495,
+    "ata": 5.594229486324216,
     "overallGihwr": 0.5796413926187988,
     "archetypeGihwr": {
       "silverquill": 0.5871433482296322,
@@ -338,6 +359,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.3015682023846225,
+    "ata": 10.456993505464913,
     "overallGihwr": 0.5658772131524489,
     "archetypeGihwr": {
       "silverquill": 0.576613694329998,
@@ -353,6 +375,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.9797092435668198,
+    "ata": 4.893530499075785,
     "overallGihwr": 0.5655949741315595,
     "archetypeGihwr": {
       "silverquill": 0.5780609922621757,
@@ -368,6 +391,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.281231237670469,
+    "ata": 8.748025738520035,
     "overallGihwr": 0.5637305699481865,
     "archetypeGihwr": {
       "silverquill": 0.5543760831889082,
@@ -383,6 +407,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.9449197860962566,
+    "ata": 1.9106569343065694,
     "overallGihwr": 0.6569881322733033,
     "archetypeGihwr": {
       "silverquill": 0.6858345021037868,
@@ -398,6 +423,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.624663028469985,
+    "ata": 5.7729857819905215,
     "overallGihwr": 0.5572706542711805,
     "archetypeGihwr": {
       "silverquill": 0.5283259070655634,
@@ -413,6 +439,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.669876483016415,
+    "ata": 4.382845515730161,
     "overallGihwr": 0.5741389568321544,
     "archetypeGihwr": {
       "silverquill": 0.5788345612860013,
@@ -428,6 +455,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.059362949017703,
+    "ata": 10.101221230624706,
     "overallGihwr": 0.5467807819490371,
     "archetypeGihwr": {
       "silverquill": 0.56340263450246,
@@ -443,6 +471,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.696332276787552,
+    "ata": 9.462440617577197,
     "overallGihwr": 0.547798268724125,
     "archetypeGihwr": {
       "silverquill": 0.5642496558054153,
@@ -458,6 +487,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.14991652754591,
+    "ata": 2.0948217888365837,
     "overallGihwr": 0.5844790711885121,
     "archetypeGihwr": {
       "silverquill": 0.5350877192982456,
@@ -473,6 +503,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.999521354132672,
+    "ata": 8.319641954811232,
     "overallGihwr": 0.5636611908801258,
     "archetypeGihwr": {
       "silverquill": 0.5764245080667724,
@@ -488,6 +519,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.464448556135598,
+    "ata": 5.668490732568403,
     "overallGihwr": 0.5505126912086065,
     "archetypeGihwr": {
       "silverquill": 0.5469632768361582,
@@ -503,6 +535,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.1502360286279885,
+    "ata": 6.997265625,
     "overallGihwr": 0.5266118563392471,
     "archetypeGihwr": {
       "silverquill": 0.537771129394166,
@@ -518,6 +551,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.17847759710289,
+    "ata": 5.145469125902165,
     "overallGihwr": 0.580450380052568,
     "archetypeGihwr": {
       "silverquill": 0.5875919290967377,
@@ -533,6 +567,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.6426550598476606,
+    "ata": 1.6105878531990907,
     "overallGihwr": 0.6391850272447287,
     "archetypeGihwr": {
       "silverquill": 0.6626865671641791,
@@ -548,6 +583,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.850582147477361,
+    "ata": 7.6649521965387875,
     "overallGihwr": 0.5768928934747857,
     "archetypeGihwr": {
       "silverquill": 0.5716606707670883,
@@ -563,6 +599,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.815470203671109,
+    "ata": 6.334242837653479,
     "overallGihwr": 0.5473674453096032,
     "archetypeGihwr": {
       "silverquill": 0.5474452554744526,
@@ -578,6 +615,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.375256711356384,
+    "ata": 9.030669008929879,
     "overallGihwr": 0.5533057654831504,
     "archetypeGihwr": {
       "prismari": 0.5532835820895522,
@@ -593,6 +631,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.9950446243254465,
+    "ata": 8.026909317156633,
     "overallGihwr": 0.5804017538492913,
     "archetypeGihwr": {
       "prismari": 0.5675153077666774,
@@ -608,6 +647,7 @@
     "isConvergeSignal": false,
     "isFixing": true,
     "alsa": 4.280045351473923,
+    "ata": 5.528717681762971,
     "overallGihwr": 0.5523727079562446,
     "archetypeGihwr": {
       "prismari": 0.5553052027857436,
@@ -623,6 +663,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 8.001197753971752,
+    "ata": 11.46179925885043,
     "overallGihwr": 0.5473577578929596,
     "archetypeGihwr": {
       "prismari": 0.5429133858267716,
@@ -638,6 +679,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.291227734150546,
+    "ata": 9.101325994495872,
     "overallGihwr": 0.5301138785701236,
     "archetypeGihwr": {
       "prismari": 0.5354364125053048,
@@ -653,6 +695,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.802577527184857,
+    "ata": 7.297562304235326,
     "overallGihwr": 0.5872781065088757,
     "archetypeGihwr": {
       "prismari": 0.5826287471176018,
@@ -668,6 +711,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.7992,
+    "ata": 1.7537072856221791,
     "overallGihwr": 0.5913731495661052,
     "archetypeGihwr": {
       "prismari": 0.6071428571428571,
@@ -683,6 +727,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.387227572225038,
+    "ata": 1.372093023255814,
     "overallGihwr": 0.6537979443469542,
     "archetypeGihwr": {
       "prismari": 0.6726094003241491,
@@ -698,6 +743,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.930654469548133,
+    "ata": 6.59476861167002,
     "overallGihwr": 0.5122832369942196,
     "archetypeGihwr": {
       "prismari": 0.5323170731707317,
@@ -713,6 +759,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.380565400541773,
+    "ata": 7.008395960544857,
     "overallGihwr": 0.5727254077341266,
     "archetypeGihwr": {
       "prismari": 0.5666322314049587,
@@ -728,6 +775,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.755126953125,
+    "ata": 2.789810860280659,
     "overallGihwr": 0.6138777436865707,
     "archetypeGihwr": {
       "prismari": 0.6239057239057239,
@@ -743,6 +791,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.867563238088142,
+    "ata": 4.720655926352129,
     "overallGihwr": 0.5748258467451357,
     "archetypeGihwr": {
       "prismari": 0.583732057416268,
@@ -758,6 +807,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.949557080770418,
+    "ata": 10.093415311384371,
     "overallGihwr": 0.4778761061946903,
     "archetypeGihwr": {
       "prismari": 0.4939759036144578,
@@ -773,6 +823,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.688387554078166,
+    "ata": 9.570453252417979,
     "overallGihwr": 0.5239048811013767,
     "archetypeGihwr": {
       "prismari": 0.5,
@@ -788,6 +839,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.049548581255374,
+    "ata": 3.4279725609756095,
     "overallGihwr": 0.5419047619047619,
     "archetypeGihwr": {
       "prismari": 0.5546605293440736,
@@ -803,6 +855,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.115024717514125,
+    "ata": 6.660815047021943,
     "overallGihwr": 0.561858113446042,
     "archetypeGihwr": {
       "prismari": 0.5629240534033706,
@@ -818,6 +871,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 5.856428794573125,
+    "ata": 8.073444011751041,
     "overallGihwr": 0.5465959446757084,
     "archetypeGihwr": {
       "prismari": 0.5269253613145912,
@@ -834,6 +888,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.9426504323275102,
+    "ata": 1.9612121212121212,
     "overallGihwr": 0.5952353942144073,
     "archetypeGihwr": {
       "prismari": 0.5885608856088561,
@@ -849,6 +904,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.068949186838735,
+    "ata": 8.642906468196118,
     "overallGihwr": 0.5331848349849987,
     "archetypeGihwr": {
       "prismari": 0.5432698453278794,
@@ -864,6 +920,7 @@
     "isConvergeSignal": false,
     "isFixing": true,
     "alsa": 3.694657137995576,
+    "ata": 4.377272727272727,
     "overallGihwr": 0.5724045992334611,
     "archetypeGihwr": {
       "prismari": 0.5864022662889519,
@@ -879,6 +936,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.7979582146248814,
+    "ata": 2.909426987060998,
     "overallGihwr": 0.6068135245901639,
     "archetypeGihwr": {
       "prismari": 0.5962962962962963,
@@ -894,6 +952,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.709654713956126,
+    "ata": 4.404955427372837,
     "overallGihwr": 0.5887683014231596,
     "archetypeGihwr": {
       "prismari": 0.5881036733171732,
@@ -909,6 +968,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.50673339699055,
+    "ata": 5.708881051619109,
     "overallGihwr": 0.5361450352726997,
     "archetypeGihwr": {
       "prismari": 0.541885290392618,
@@ -924,6 +984,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.113649736220119,
+    "ata": 10.024094593589648,
     "overallGihwr": 0.5340259378050481,
     "archetypeGihwr": {
       "prismari": 0.5384726432799192,
@@ -939,6 +1000,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.823790841660026,
+    "ata": 6.455370101596516,
     "overallGihwr": 0.5345263157894737,
     "archetypeGihwr": {
       "prismari": 0.5262704565030146,
@@ -954,6 +1016,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.123767258382643,
+    "ata": 2.121812080536913,
     "overallGihwr": 0.588342204335973,
     "archetypeGihwr": {
       "prismari": 0.5953469048608226,
@@ -969,6 +1032,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.854240872091233,
+    "ata": 9.887471928136028,
     "overallGihwr": 0.5275807152164471,
     "archetypeGihwr": {
       "prismari": 0.5395881006864989,
@@ -984,6 +1048,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.3885080708847966,
+    "ata": 9.054606490115628,
     "overallGihwr": 0.5518063730464786,
     "archetypeGihwr": {
       "prismari": 0.5473908413205538,
@@ -999,6 +1064,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.177347641136358,
+    "ata": 8.309991512064993,
     "overallGihwr": 0.5771583956492182,
     "archetypeGihwr": {
       "prismari": 0.5682439537329127,
@@ -1014,6 +1080,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.2737316470417213,
+    "ata": 2.3400783289817233,
     "overallGihwr": 0.579093066174532,
     "archetypeGihwr": {
       "prismari": 0.5755064456721916,
@@ -1029,6 +1096,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.454144214035603,
+    "ata": 9.48655818889282,
     "overallGihwr": 0.5154206362021637,
     "archetypeGihwr": {
       "prismari": 0.5126014523707817,
@@ -1044,6 +1112,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.580506558118499,
+    "ata": 5.993666432090078,
     "overallGihwr": 0.5479837999647825,
     "archetypeGihwr": {
       "prismari": 0.5593922651933702,
@@ -1059,6 +1128,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.247434960611005,
+    "ata": 10.581605351170568,
     "overallGihwr": 0.5219894082431499,
     "archetypeGihwr": {
       "prismari": 0.5094152626362736,
@@ -1074,6 +1144,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.650237149083451,
+    "ata": 5.730392156862745,
     "overallGihwr": 0.5840108401084011,
     "archetypeGihwr": {
       "prismari": 0.5708409506398537,
@@ -1089,6 +1160,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.493965833104332,
+    "ata": 7.8569387390605465,
     "overallGihwr": 0.5450501655710968,
     "archetypeGihwr": {
       "silverquill": 0.571753986332574,
@@ -1104,6 +1176,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 6.894415420215177,
+    "ata": 8.597958642629905,
     "overallGihwr": 0.6149406149406149,
     "archetypeGihwr": {
       "silverquill": 0.5689655172413793,
@@ -1120,6 +1193,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.440185355548741,
+    "ata": 6.060217654171705,
     "overallGihwr": 0.514320536258379,
     "archetypeGihwr": {
       "silverquill": 0.5428156748911466,
@@ -1135,6 +1209,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.756649233382504,
+    "ata": 8.350732356857524,
     "overallGihwr": 0.5445162002539051,
     "archetypeGihwr": {
       "silverquill": 0.5658213535777742,
@@ -1150,6 +1225,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.012734540529914,
+    "ata": 8.763801226775714,
     "overallGihwr": 0.5216967015808991,
     "archetypeGihwr": {
       "silverquill": 0.5135198135198136,
@@ -1165,6 +1241,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.270998804338543,
+    "ata": 8.706852298358871,
     "overallGihwr": 0.5741120919729008,
     "archetypeGihwr": {
       "silverquill": 0.5935377271892786,
@@ -1180,6 +1257,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.0305025996533796,
+    "ata": 2.0404669260700388,
     "overallGihwr": 0.5560711523588554,
     "archetypeGihwr": {
       "silverquill": 0.5378973105134475,
@@ -1195,6 +1273,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.2845873992723815,
+    "ata": 5.567443637753152,
     "overallGihwr": 0.5708692247454973,
     "archetypeGihwr": {
       "silverquill": 0.6048928339467418,
@@ -1210,6 +1289,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.427972027972028,
+    "ata": 1.404356705241661,
     "overallGihwr": 0.6016877637130802,
     "archetypeGihwr": {
       "silverquill": 0.6142578125,
@@ -1225,6 +1305,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.4507226777110978,
+    "ata": 4.140102192187243,
     "overallGihwr": 0.5976620616365569,
     "archetypeGihwr": {
       "silverquill": 0.6144377216774463,
@@ -1240,6 +1321,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.539843197737935,
+    "ata": 5.871458981496644,
     "overallGihwr": 0.5519032615174998,
     "archetypeGihwr": {
       "silverquill": 0.5655068728522337,
@@ -1255,6 +1337,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.766540893872562,
+    "ata": 3.2169312169312168,
     "overallGihwr": 0.5908887896382313,
     "archetypeGihwr": {
       "silverquill": 0.61228264890862,
@@ -1270,6 +1353,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.957893938244443,
+    "ata": 4.996214385335724,
     "overallGihwr": 0.5165165165165165,
     "archetypeGihwr": {
       "silverquill": 0.5432160804020101,
@@ -1285,6 +1369,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.8722050536266133,
+    "ata": 1.8914823914823915,
     "overallGihwr": 0.5498358956641907,
     "archetypeGihwr": {
       "silverquill": 0.5845986984815619,
@@ -1300,6 +1385,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.833309531743387,
+    "ata": 4.851160158460668,
     "overallGihwr": 0.5804543581896298,
     "archetypeGihwr": {
       "silverquill": 0.6046830905346655,
@@ -1315,6 +1401,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.011689971432867,
+    "ata": 4.958309964479342,
     "overallGihwr": 0.5773676193889437,
     "archetypeGihwr": {
       "silverquill": 0.6018721128130319,
@@ -1330,6 +1417,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.468455257457091,
+    "ata": 5.998872858431019,
     "overallGihwr": 0.5214913910566085,
     "archetypeGihwr": {
       "silverquill": 0.5282433271260087,
@@ -1345,6 +1433,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.190966884527269,
+    "ata": 10.570736611222811,
     "overallGihwr": 0.5534927207159076,
     "archetypeGihwr": {
       "silverquill": 0.5796344647519582,
@@ -1360,6 +1449,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.37793725164581,
+    "ata": 7.41823208912743,
     "overallGihwr": 0.5617811501597444,
     "archetypeGihwr": {
       "silverquill": 0.5909059402509185,
@@ -1375,6 +1465,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.8875363372093024,
+    "ata": 1.8918234442836468,
     "overallGihwr": 0.6126126126126126,
     "archetypeGihwr": {
       "silverquill": 0.6332992849846782,
@@ -1390,6 +1481,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.007571024293433,
+    "ata": 5.019710906701708,
     "overallGihwr": 0.5572300648607402,
     "archetypeGihwr": {
       "silverquill": 0.5318291700241741,
@@ -1405,6 +1497,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.3312481815536805,
+    "ata": 2.4323802163833075,
     "overallGihwr": 0.6136052090472927,
     "archetypeGihwr": {
       "silverquill": 0.6366782006920415,
@@ -1420,6 +1513,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.249004975124378,
+    "ata": 9.800999545661064,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -1432,6 +1526,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.870419602333033,
+    "ata": 10.042211141678129,
     "overallGihwr": 0.5272985589608281,
     "archetypeGihwr": {
       "silverquill": 0.5356125356125356,
@@ -1447,6 +1542,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.303727764102824,
+    "ata": 9.150779510022272,
     "overallGihwr": 0.5034502587694077,
     "archetypeGihwr": {
       "silverquill": 0.5293103448275862,
@@ -1462,6 +1558,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.5480176211453744,
+    "ata": 1.5173333333333334,
     "overallGihwr": 0.5437445319335084,
     "archetypeGihwr": {
       "silverquill": 0.5880361173814899,
@@ -1477,6 +1574,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.7014581492235825,
+    "ata": 6.471212836243511,
     "overallGihwr": 0.5200392376681614,
     "archetypeGihwr": {
       "silverquill": 0.5410076157000586,
@@ -1492,6 +1590,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.8044266361381416,
+    "ata": 1.809014514896868,
     "overallGihwr": 0.6005674653215637,
     "archetypeGihwr": {
       "silverquill": 0.6126373626373627,
@@ -1507,6 +1606,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.586491884570353,
+    "ata": 7.684383819379116,
     "overallGihwr": 0.557078865209719,
     "archetypeGihwr": {
       "silverquill": 0.5546875,
@@ -1522,6 +1622,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.506077451204082,
+    "ata": 9.551154529307283,
     "overallGihwr": 0.5358189276296513,
     "archetypeGihwr": {
       "silverquill": 0.5545299975710469,
@@ -1537,6 +1638,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.571466917192323,
+    "ata": 2.693576388888889,
     "overallGihwr": 0.5598006644518272,
     "archetypeGihwr": {
       "silverquill": 0.5866108786610879,
@@ -1552,6 +1654,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.510110249161148,
+    "ata": 11.17551336691205,
     "overallGihwr": 0.4908247205230964,
     "archetypeGihwr": {
       "silverquill": 0.5102389078498294,
@@ -1567,6 +1670,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.8728468768998145,
+    "ata": 5.146114398422091,
     "overallGihwr": 0.5594661022735031,
     "archetypeGihwr": {
       "silverquill": 0.5843043521561597,
@@ -1582,6 +1686,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.3544525547445256,
+    "ata": 2.4522292993630574,
     "overallGihwr": 0.5410010649627263,
     "archetypeGihwr": {
       "silverquill": 0.4869281045751634,
@@ -1597,6 +1702,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.826234278571986,
+    "ata": 10.863129079806274,
     "overallGihwr": 0.5407894736842105,
     "archetypeGihwr": {
       "lorehold": 0.5478345184227538,
@@ -1612,6 +1718,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.834798430927737,
+    "ata": 8.932826199071686,
     "overallGihwr": 0.5836820083682008,
     "archetypeGihwr": {
       "lorehold": 0.5765765765765766,
@@ -1627,6 +1734,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.007686113754484,
+    "ata": 4.882868864054322,
     "overallGihwr": 0.5835634142043118,
     "archetypeGihwr": {
       "lorehold": 0.5989785992217899,
@@ -1642,6 +1750,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.347505047591578,
+    "ata": 7.312115384615384,
     "overallGihwr": 0.5010155721056195,
     "archetypeGihwr": {
       "lorehold": 0.49748427672955975,
@@ -1657,6 +1766,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.59919296365184,
+    "ata": 5.771531431736361,
     "overallGihwr": 0.5792635774195467,
     "archetypeGihwr": {
       "lorehold": 0.5964870067372473,
@@ -1672,6 +1782,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.469905728788977,
+    "ata": 8.264803410705827,
     "overallGihwr": 0.4328767123287671,
     "archetypeGihwr": {
       "lorehold": 0.4732142857142857,
@@ -1687,6 +1798,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.370956898483604,
+    "ata": 8.853889627659575,
     "overallGihwr": 0.5612077453232688,
     "archetypeGihwr": {
       "lorehold": 0.5788556491431891,
@@ -1702,6 +1814,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.012459950160199,
+    "ata": 2.045038705137227,
     "overallGihwr": 0.5597326649958229,
     "archetypeGihwr": {
       "lorehold": 0.5874509803921568,
@@ -1717,6 +1830,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.3474001426913285,
+    "ata": 8.691121743753323,
     "overallGihwr": 0.5619234223201894,
     "archetypeGihwr": {
       "lorehold": 0.5787018525922965,
@@ -1732,6 +1846,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.257995735607676,
+    "ata": 5.715149073327962,
     "overallGihwr": 0.5579000251193168,
     "archetypeGihwr": {
       "lorehold": 0.5296981499513145,
@@ -1747,6 +1862,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.622573735376504,
+    "ata": 5.5631972885185705,
     "overallGihwr": 0.5774352246638242,
     "archetypeGihwr": {
       "lorehold": 0.5900983207169581,
@@ -1762,6 +1878,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.381663087568599,
+    "ata": 7.310017666688477,
     "overallGihwr": 0.545243019648397,
     "archetypeGihwr": {
       "lorehold": 0.5498200941046222,
@@ -1777,6 +1894,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.874215020655894,
+    "ata": 8.052014698428788,
     "overallGihwr": 0.5711953080742443,
     "archetypeGihwr": {
       "lorehold": 0.5863272428659413,
@@ -1792,6 +1910,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.16025581178228,
+    "ata": 3.5808957397742445,
     "overallGihwr": 0.6021227256510882,
     "archetypeGihwr": {
       "lorehold": 0.6185691318327974,
@@ -1807,6 +1926,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.8752759381898454,
+    "ata": 1.8513750731421885,
     "overallGihwr": 0.6396708531831962,
     "archetypeGihwr": {
       "lorehold": 0.647887323943662,
@@ -1822,6 +1942,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.726469948918596,
+    "ata": 7.078236322086302,
     "overallGihwr": 0.5779665857489648,
     "archetypeGihwr": {
       "lorehold": 0.5903732809430255,
@@ -1837,6 +1958,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.435610943990833,
+    "ata": 6.18475073313783,
     "overallGihwr": 0.5114768297964487,
     "archetypeGihwr": {
       "lorehold": 0.5249764373232799,
@@ -1852,6 +1974,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.488497038159526,
+    "ata": 2.560465810689758,
     "overallGihwr": 0.577397910731244,
     "archetypeGihwr": {
       "lorehold": 0.5971650663008687,
@@ -1867,6 +1990,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.968268662089537,
+    "ata": 8.480125138019876,
     "overallGihwr": 0.5444660194174757,
     "archetypeGihwr": {
       "lorehold": 0.5635910224438903,
@@ -1882,6 +2006,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.940499380201877,
+    "ata": 1.9604945717732207,
     "overallGihwr": 0.6094182825484764,
     "archetypeGihwr": {
       "lorehold": 0.6199354607386159,
@@ -1897,6 +2022,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.1883541295306,
+    "ata": 5.388159017232554,
     "overallGihwr": 0.5249979937404703,
     "archetypeGihwr": {
       "lorehold": 0.5315860215053764,
@@ -1912,6 +2038,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 8.007913593154981,
+    "ata": 11.552420316350052,
     "overallGihwr": 0.508130081300813,
     "archetypeGihwr": {
       "lorehold": 0.5130628126737076,
@@ -1927,6 +2054,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.687588029193682,
+    "ata": 7.216508424345536,
     "overallGihwr": 0.5937642354608493,
     "archetypeGihwr": {
       "lorehold": 0.6171921070537537,
@@ -1942,6 +2070,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.731393872368313,
+    "ata": 9.495137106578413,
     "overallGihwr": 0.5494045703250724,
     "archetypeGihwr": {
       "lorehold": 0.5339922132374962,
@@ -1957,6 +2086,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.273788894748738,
+    "ata": 5.517919580419581,
     "overallGihwr": 0.5249124697010503,
     "archetypeGihwr": {
       "lorehold": 0.5023696682464455,
@@ -1972,6 +2102,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.122180825629583,
+    "ata": 10.275463690663313,
     "overallGihwr": 0.5183735802233463,
     "archetypeGihwr": {
       "lorehold": 0.5279353993889131,
@@ -1987,6 +2118,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.781136449066533,
+    "ata": 5.936471922858764,
     "overallGihwr": 0.5755238649592549,
     "archetypeGihwr": {
       "lorehold": 0.5799800465580313,
@@ -2002,6 +2134,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.63458935373186,
+    "ata": 9.54926738506861,
     "overallGihwr": 0.5380941148720368,
     "archetypeGihwr": {
       "lorehold": 0.5568048723354415,
@@ -2017,6 +2150,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.55908006925615,
+    "ata": 5.899292691141799,
     "overallGihwr": 0.5633780951641698,
     "archetypeGihwr": {
       "lorehold": 0.5540491022352511,
@@ -2032,6 +2166,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.722201704170733,
+    "ata": 5.926727909011373,
     "overallGihwr": 0.5857689364957919,
     "archetypeGihwr": {
       "lorehold": 0.5995099886920467,
@@ -2047,6 +2182,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.091374014616211,
+    "ata": 5.0948523206751055,
     "overallGihwr": 0.585888789922382,
     "archetypeGihwr": {
       "lorehold": 0.6057384311320112,
@@ -2062,6 +2198,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.125531135168329,
+    "ata": 10.003646070707727,
     "overallGihwr": 0.5488502585542964,
     "archetypeGihwr": {
       "lorehold": 0.5504395144411888,
@@ -2077,6 +2214,7 @@
     "isConvergeSignal": false,
     "isFixing": true,
     "alsa": 5.725687188554895,
+    "ata": 8.425897035881436,
     "overallGihwr": 0.514548802946593,
     "archetypeGihwr": {
       "quandrix": 0.5302768166089965,
@@ -2092,6 +2230,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.7057314988195067,
+    "ata": 4.466928060006819,
     "overallGihwr": 0.5878834355828221,
     "archetypeGihwr": {
       "quandrix": 0.5872881355932204,
@@ -2107,6 +2246,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.0996261986023077,
+    "ata": 2.133109243697479,
     "overallGihwr": 0.6147871116225546,
     "archetypeGihwr": {
       "quandrix": 0.6624775583482945,
@@ -2122,6 +2262,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.433668898528857,
+    "ata": 7.320583683395976,
     "overallGihwr": 0.563199511058482,
     "archetypeGihwr": {
       "quandrix": 0.561704834605598,
@@ -2137,6 +2278,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.88946566462643,
+    "ata": 8.460307692307692,
     "overallGihwr": 0.5034990130988696,
     "archetypeGihwr": {
       "quandrix": 0.5037593984962406,
@@ -2152,6 +2294,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.10796766743649,
+    "ata": 5.501865671641791,
     "overallGihwr": 0.4513422818791946,
     "archetypeGihwr": {
       "witherbloom": 0.46434634974533107
@@ -2166,6 +2309,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.81073129185862,
+    "ata": 11.676042189854344,
     "overallGihwr": 0.4721774193548387,
     "archetypeGihwr": {
       "quandrix": 0.4331983805668016,
@@ -2181,6 +2325,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.5937777777777777,
+    "ata": 1.569464544138929,
     "overallGihwr": 0.5941227814954902,
     "archetypeGihwr": {
       "quandrix": 0.5498652291105122,
@@ -2196,6 +2341,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 4.169790478905359,
+    "ata": 5.422933438052229,
     "overallGihwr": 0.5391051291378683,
     "archetypeGihwr": {
       "quandrix": 0.504079254079254,
@@ -2212,6 +2358,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.9053070241502232,
+    "ata": 3.2193668035501393,
     "overallGihwr": 0.620409247940473,
     "archetypeGihwr": {
       "quandrix": 0.6070844686648501,
@@ -2227,6 +2374,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.073655306089485,
+    "ata": 10.19759330310429,
     "overallGihwr": 0.5231417925083349,
     "archetypeGihwr": {
       "quandrix": 0.5285714285714286,
@@ -2242,6 +2390,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.5751748251748252,
+    "ata": 1.5573770491803278,
     "overallGihwr": 0.6003981797497155,
     "archetypeGihwr": {
       "quandrix": 0.5871559633027523,
@@ -2257,6 +2406,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.9506975849129224,
+    "ata": 11.8860560894293,
     "overallGihwr": 0.5034550839091807,
     "archetypeGihwr": {
       "quandrix": 0.5191740412979351,
@@ -2272,6 +2422,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.436507545851012,
+    "ata": 11.120174165457184,
     "overallGihwr": 0.5038993264799716,
     "archetypeGihwr": {
       "quandrix": 0.4966691339748335,
@@ -2287,6 +2438,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.626105519975602,
+    "ata": 6.228937398520657,
     "overallGihwr": 0.5551278761440425,
     "archetypeGihwr": {
       "quandrix": 0.5843537414965987,
@@ -2302,6 +2454,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.867799877744863,
+    "ata": 10.101626875132052,
     "overallGihwr": 0.5200583515681984,
     "archetypeGihwr": {
       "quandrix": 0.45918367346938777,
@@ -2317,6 +2470,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.2451564589462425,
+    "ata": 8.973522377861292,
     "overallGihwr": 0.5342180734409268,
     "archetypeGihwr": {
       "quandrix": 0.5330012453300125,
@@ -2332,6 +2486,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.412573511140562,
+    "ata": 5.878278785957683,
     "overallGihwr": 0.5605185384202042,
     "archetypeGihwr": {
       "quandrix": 0.5769911504424778,
@@ -2347,6 +2502,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.4403568327149285,
+    "ata": 11.140143226576487,
     "overallGihwr": 0.4911890187349286,
     "archetypeGihwr": {
       "quandrix": 0.45384615384615384,
@@ -2362,6 +2518,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.6748801383321545,
+    "ata": 4.538251804330393,
     "overallGihwr": 0.5987018201284796,
     "archetypeGihwr": {
       "quandrix": 0.5738899933730948,
@@ -2377,6 +2534,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 4.275846568774348,
+    "ata": 5.734001910219675,
     "overallGihwr": 0.5553038882597207,
     "archetypeGihwr": {
       "quandrix": 0.5071942446043165,
@@ -2393,6 +2551,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.416071504939486,
+    "ata": 9.51513100647781,
     "overallGihwr": 0.5369612149184844,
     "archetypeGihwr": {
       "quandrix": 0.5409326424870466,
@@ -2408,6 +2567,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.153615408904326,
+    "ata": 2.162431318681319,
     "overallGihwr": 0.6003644519203812,
     "archetypeGihwr": {
       "quandrix": 0.590513068731849,
@@ -2423,6 +2583,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 5.119754564501646,
+    "ata": 5.811640444493343,
     "overallGihwr": 0.6234600125287116,
     "archetypeGihwr": {
       "quandrix": 0.5846153846153846,
@@ -2439,6 +2600,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 3.9095704832063927,
+    "ata": 4.934487898360423,
     "overallGihwr": 0.5749449488703207,
     "archetypeGihwr": {
       "quandrix": 0.5489580359691693,
@@ -2455,6 +2617,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.890557614810476,
+    "ata": 10.08791405550582,
     "overallGihwr": 0.5206550965534099,
     "archetypeGihwr": {
       "quandrix": 0.5123893805309735,
@@ -2470,6 +2633,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.790982336535482,
+    "ata": 6.453676614004291,
     "overallGihwr": 0.558071888634947,
     "archetypeGihwr": {
       "quandrix": 0.5330812854442344,
@@ -2485,6 +2649,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.183080852254837,
+    "ata": 5.449851042701092,
     "overallGihwr": 0.5502790561049643,
     "archetypeGihwr": {
       "quandrix": 0.5735551663747811,
@@ -2500,6 +2665,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.976547680634592,
+    "ata": 1.995919881305638,
     "overallGihwr": 0.5793280823018807,
     "archetypeGihwr": {
       "quandrix": 0.5991332611050921,
@@ -2515,6 +2681,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.783699897225077,
+    "ata": 10.083949461862424,
     "overallGihwr": 0.5247636395177379,
     "archetypeGihwr": {
       "quandrix": 0.5236417033773862,
@@ -2530,6 +2697,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.8582255083179298,
+    "ata": 1.8662310866574965,
     "overallGihwr": 0.5703342618384402,
     "archetypeGihwr": {
       "silverquill": 0.5769230769230769,
@@ -2547,6 +2715,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 5.722088482319585,
+    "ata": 8.132358751481627,
     "overallGihwr": 0.539373274882286,
     "archetypeGihwr": {
       "quandrix": 0.49066390041493774,
@@ -2563,6 +2732,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.7580631991508127,
+    "ata": 4.622428398547801,
     "overallGihwr": 0.549154180763654,
     "archetypeGihwr": {
       "silverquill": 0.5627490039840638
@@ -2577,6 +2747,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.90297452649433,
+    "ata": 6.430571320469164,
     "overallGihwr": 0.5171634121274409,
     "archetypeGihwr": {
       "prismari": 0.5236924085915724
@@ -2591,6 +2762,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.4207770735739875,
+    "ata": 2.4927714549369426,
     "overallGihwr": 0.5920217588395286,
     "archetypeGihwr": {
       "quandrix": 0.6152291105121294
@@ -2605,6 +2777,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.4015129473377947,
+    "ata": 2.3279153766769864,
     "overallGihwr": 0.6509199403281949,
     "archetypeGihwr": {
       "lorehold": 0.6884256719692814
@@ -2619,6 +2792,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.482742537313433,
+    "ata": 3.8712252690038182,
     "overallGihwr": 0.5424031422960186,
     "archetypeGihwr": {
       "lorehold": 0.5635467980295567
@@ -2633,6 +2807,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.250812316261798,
+    "ata": 2.294034592304977,
     "overallGihwr": 0.5553743513713862,
     "archetypeGihwr": {
       "quandrix": 0.546555639666919
@@ -2647,6 +2822,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.3756559766763847,
+    "ata": 2.3585641825985175,
     "overallGihwr": 0.601928895612708,
     "archetypeGihwr": {
       "witherbloom": 0.6252821670428894
@@ -2661,6 +2837,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.656596595756584,
+    "ata": 6.140058429283382,
     "overallGihwr": 0.5577398667057887,
     "archetypeGihwr": {
       "witherbloom": 0.5731272294887039
@@ -2675,6 +2852,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.718768328445748,
+    "ata": 11.328079392877992,
     "overallGihwr": 0.4804560260586319,
     "archetypeGihwr": {
       "lorehold": 0.5021459227467812
@@ -2689,6 +2867,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.4213872015821445,
+    "ata": 2.4600082884376295,
     "overallGihwr": 0.5670014960461637,
     "archetypeGihwr": {
       "witherbloom": 0.5976027397260274
@@ -2703,6 +2882,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.159450391436332,
+    "ata": 2.134684147794994,
     "overallGihwr": 0.6296878508870425,
     "archetypeGihwr": {
       "prismari": 0.6398104265402843
@@ -2717,6 +2897,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.271899649049654,
+    "ata": 4.996829268292683,
     "overallGihwr": 0.6005191502887112,
     "archetypeGihwr": {
       "lorehold": 0.6093014999556227
@@ -2731,6 +2912,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.726921093347086,
+    "ata": 2.7164233576642336,
     "overallGihwr": 0.5909797822706065,
     "archetypeGihwr": {
       "silverquill": 0.6077576814120723
@@ -2745,6 +2927,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.177792770399829,
+    "ata": 5.371137703161279,
     "overallGihwr": 0.5707251940248685,
     "archetypeGihwr": {
       "quandrix": 0.5652870493991989
@@ -2759,6 +2942,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.022714366837024,
+    "ata": 7.818960593946317,
     "overallGihwr": 0.4584070796460177,
     "archetypeGihwr": {
       "witherbloom": 0.45084745762711864
@@ -2773,6 +2957,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.093570132807776,
+    "ata": 8.384032339565437,
     "overallGihwr": 0.557548817272583,
     "archetypeGihwr": {
       "prismari": 0.5575322234156821
@@ -2787,6 +2972,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 6.317101629236336,
+    "ata": 8.732396335920566,
     "overallGihwr": 0.5634716718198841,
     "archetypeGihwr": {
       "quandrix": 0.5380131779016726,
@@ -2802,6 +2988,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.4261541131551545,
+    "ata": 4.10712272129299,
     "overallGihwr": 0.5906885692399353,
     "archetypeGihwr": {
       "witherbloom": 0.6154435422092845
@@ -2816,6 +3003,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.651202367739549,
+    "ata": 6.586356253383865,
     "overallGihwr": 0.4520654715510522,
     "archetypeGihwr": {
       "silverquill": 0.4710947109471095
@@ -2830,6 +3018,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.650541682352449,
+    "ata": 9.504098680615192,
     "overallGihwr": 0.5501050360529155,
     "archetypeGihwr": {
       "quandrix": 0.5506756756756757
@@ -2844,6 +3033,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.445134925191665,
+    "ata": 5.88115291034999,
     "overallGihwr": 0.5410411386235133,
     "archetypeGihwr": {
       "quandrix": 0.5487281136438719
@@ -2858,6 +3048,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.229695136141494,
+    "ata": 5.27907967618236,
     "overallGihwr": 0.5455628350208458,
     "archetypeGihwr": {
       "quandrix": 0.5451070336391437
@@ -2872,6 +3063,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.025160930923496,
+    "ata": 5.264845319405383,
     "overallGihwr": 0.5762185437475735,
     "archetypeGihwr": {
       "witherbloom": 0.5763187922408497
@@ -2886,6 +3078,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.844470756555416,
+    "ata": 10.309976798143852,
     "overallGihwr": 0.47198480531813863,
     "archetypeGihwr": {
       "quandrix": 0.49044056525353286
@@ -2900,6 +3093,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.675738724727838,
+    "ata": 2.6808049535603713,
     "overallGihwr": 0.6222049890138297,
     "archetypeGihwr": {
       "lorehold": 0.6413989290495314
@@ -2914,6 +3108,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.704784044768897,
+    "ata": 9.20344299923489,
     "overallGihwr": 0.5790588356836613,
     "archetypeGihwr": {
       "silverquill": 0.5877911441003327
@@ -2928,6 +3123,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.282574015600761,
+    "ata": 8.375898489071439,
     "overallGihwr": 0.5669659795118249,
     "archetypeGihwr": {
       "silverquill": 0.5753417944822855
@@ -2942,6 +3138,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.398897897581692,
+    "ata": 5.446967009577865,
     "overallGihwr": 0.5748173450991555,
     "archetypeGihwr": {
       "silverquill": 0.5900346516907635
@@ -2956,6 +3153,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.566969315395321,
+    "ata": 5.613676731793961,
     "overallGihwr": 0.5700821327588529,
     "archetypeGihwr": {
       "lorehold": 0.5771500843170321
@@ -2970,6 +3168,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.520835087128546,
+    "ata": 4.37520325203252,
     "overallGihwr": 0.5708751365848813,
     "archetypeGihwr": {
       "witherbloom": 0.5885319387373926
@@ -2984,6 +3183,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.739001415659371,
+    "ata": 7.794420963651733,
     "overallGihwr": 0.5526414387411015,
     "archetypeGihwr": {
       "lorehold": 0.5632095734888003
@@ -2998,6 +3198,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.500936329588015,
+    "ata": 1.4615384615384615,
     "overallGihwr": 0.5829896907216495,
     "archetypeGihwr": {
       "lorehold": 0.6293348493462194
@@ -3012,6 +3213,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.601317122593718,
+    "ata": 2.6631033365727244,
     "overallGihwr": 0.5781936764497377,
     "archetypeGihwr": {
       "quandrix": 0.5553784860557769
@@ -3026,6 +3228,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.824545595774429,
+    "ata": 6.438627450980392,
     "overallGihwr": 0.5354808035183645,
     "archetypeGihwr": {
       "witherbloom": 0.5253829978972665
@@ -3040,6 +3243,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.451954235830963,
+    "ata": 5.276719445818902,
     "overallGihwr": 0.6064222174007377,
     "archetypeGihwr": {
       "lorehold": 0.6053905893101873
@@ -3054,6 +3258,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.638113695090439,
+    "ata": 2.6016508712931827,
     "overallGihwr": 0.6471782379212343,
     "archetypeGihwr": {
       "silverquill": 0.6572171651495449
@@ -3068,6 +3273,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.7401688987460546,
+    "ata": 4.623162583518931,
     "overallGihwr": 0.513413506012951,
     "archetypeGihwr": {
       "silverquill": 0.5377798507462687
@@ -3082,6 +3288,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.403724597294909,
+    "ata": 5.974780701754386,
     "overallGihwr": 0.546674182638106,
     "archetypeGihwr": {
       "witherbloom": 0.562569009937431
@@ -3096,6 +3303,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.322565223330146,
+    "ata": 5.354301708898055,
     "overallGihwr": 0.5895345779647646,
     "archetypeGihwr": {
       "quandrix": 0.5987558320373251
@@ -3110,6 +3318,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.075909344183696,
+    "ata": 7.036258992805755,
     "overallGihwr": 0.5385485854858548,
     "archetypeGihwr": {
       "witherbloom": 0.5529953917050692
@@ -3124,6 +3333,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.079122001020929,
+    "ata": 4.714728874550192,
     "overallGihwr": 0.6072702828481307,
     "archetypeGihwr": {
       "lorehold": 0.6157742402315485
@@ -3138,6 +3348,7 @@
     "isConvergeSignal": false,
     "isFixing": true,
     "alsa": 4.513803035696948,
+    "ata": 5.754802601724399,
     "overallGihwr": 0.5769536951041528,
     "archetypeGihwr": {
       "prismari": 0.5747272265922355
@@ -3152,6 +3363,7 @@
     "isConvergeSignal": true,
     "isFixing": true,
     "alsa": 2.0772385509227616,
+    "ata": 2.116627265563436,
     "overallGihwr": 0.553982883475971,
     "archetypeGihwr": {
       "prismari": 0.5380710659898477,
@@ -3167,6 +3379,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.3461832950497685,
+    "ata": 5.358043721973094,
     "overallGihwr": 0.5823478689332348,
     "archetypeGihwr": {
       "quandrix": 0.5631031922791389
@@ -3181,6 +3394,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.3166580711707065,
+    "ata": 1.2858156028368795,
     "overallGihwr": 0.6338398597311514,
     "archetypeGihwr": {
       "witherbloom": 0.6391050583657587
@@ -3195,6 +3409,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.865321424135322,
+    "ata": 8.324667188723572,
     "overallGihwr": 0.539112796542905,
     "archetypeGihwr": {
       "quandrix": 0.543703007518797
@@ -3209,6 +3424,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.7148696876952565,
+    "ata": 8.501180173092054,
     "overallGihwr": 0.6082055315244462,
     "archetypeGihwr": {
       "lorehold": 0.6128613342311577
@@ -3223,6 +3439,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.901158019513085,
+    "ata": 6.542720437457279,
     "overallGihwr": 0.5809821428571429,
     "archetypeGihwr": {
       "quandrix": 0.5798425196850394
@@ -3237,6 +3454,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 1.4460325283390834,
+    "ata": 1.4155027932960893,
     "overallGihwr": 0.6177241740954379,
     "archetypeGihwr": {
       "quandrix": 0.5893536121673004,
@@ -3252,6 +3470,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.531525957590416,
+    "ata": 7.447532894736842,
     "overallGihwr": 0.5436336076223474,
     "archetypeGihwr": {
       "prismari": 0.5499620060790273
@@ -3266,6 +3485,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.188102551625559,
+    "ata": 9.663515285349527,
     "overallGihwr": 0.5796359148410984,
     "archetypeGihwr": {
       "silverquill": 0.5927046953822274
@@ -3280,6 +3500,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.9518126548074757,
+    "ata": 3.1289707750952984,
     "overallGihwr": 0.5595635040921492,
     "archetypeGihwr": {
       "prismari": 0.5511201629327902
@@ -3294,6 +3515,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.831691362968896,
+    "ata": 8.45904590459046,
     "overallGihwr": 0.5284288194444444,
     "archetypeGihwr": {
       "witherbloom": 0.5450421257290992
@@ -3308,6 +3530,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.7758715022666873,
+    "ata": 4.521002420617969,
     "overallGihwr": 0.5872327964860907,
     "archetypeGihwr": {
       "prismari": 0.5896668401874023
@@ -3322,6 +3545,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.7559769835480994,
+    "ata": 4.416184971098266,
     "overallGihwr": 0.6074303405572755,
     "archetypeGihwr": {
       "silverquill": 0.6223749882286468
@@ -3336,6 +3560,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.181104026490999,
+    "ata": 5.149007736293306,
     "overallGihwr": 0.5998258391386954,
     "archetypeGihwr": {
       "silverquill": 0.6134999508019285
@@ -3350,6 +3575,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.6914805624483045,
+    "ata": 1.6664133738601823,
     "overallGihwr": 0.554520358868185,
     "archetypeGihwr": {
       "silverquill": 0.5946822308690013
@@ -3364,6 +3590,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.09657783386534,
+    "ata": 5.030802681645225,
     "overallGihwr": 0.5655356527729934,
     "archetypeGihwr": {
       "silverquill": 0.5790890492085711
@@ -3378,6 +3605,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.61090810330354,
+    "ata": 9.863667503996346,
     "overallGihwr": 0.5095959595959596,
     "archetypeGihwr": {
       "silverquill": 0.5187362233651727
@@ -3392,6 +3620,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.291167505493727,
+    "ata": 5.4791852778274075,
     "overallGihwr": 0.5249466950959488,
     "archetypeGihwr": {
       "prismari": 0.5284875183553598
@@ -3406,6 +3635,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.1254579897228805,
+    "ata": 7.9117813029030035,
     "overallGihwr": 0.56765818696361,
     "archetypeGihwr": {
       "lorehold": 0.5764626664671555
@@ -3420,6 +3650,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.506465223900912,
+    "ata": 2.519729093050648,
     "overallGihwr": 0.609308885754584,
     "archetypeGihwr": {
       "prismari": 0.6063196063196064
@@ -3434,6 +3665,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.881689651294738,
+    "ata": 9.620645978467385,
     "overallGihwr": 0.5482849320951205,
     "archetypeGihwr": {
       "prismari": 0.551391196013289
@@ -3448,6 +3680,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.107990650792491,
+    "ata": 4.879755820556502,
     "overallGihwr": 0.5883898709985667,
     "archetypeGihwr": {
       "lorehold": 0.5994823681656422
@@ -3462,6 +3695,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.578614279121894,
+    "ata": 5.614228146311222,
     "overallGihwr": 0.5912350597609561,
     "archetypeGihwr": {
       "silverquill": 0.6033390903857225
@@ -3476,6 +3710,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.565946748000989,
+    "ata": 4.091871501581894,
     "overallGihwr": 0.6098371245328289,
     "archetypeGihwr": {
       "prismari": 0.6112270934817907
@@ -3490,6 +3725,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.9414754098360656,
+    "ata": 4.535978679301155,
     "overallGihwr": 0.5817633760361718,
     "archetypeGihwr": {
       "lorehold": 0.5939323220536756
@@ -3504,6 +3740,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.874556805919531,
+    "ata": 4.978562921794363,
     "overallGihwr": 0.5319624081138923,
     "archetypeGihwr": {
       "quandrix": 0.5388930441286462
@@ -3518,6 +3755,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.8788053505535056,
+    "ata": 4.901649358582773,
     "overallGihwr": 0.5471491228070176,
     "archetypeGihwr": {
       "witherbloom": 0.5667058231246853
@@ -3532,6 +3770,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.1986164488854727,
+    "ata": 2.2178274577242765,
     "overallGihwr": 0.6086244541484717,
     "archetypeGihwr": {
       "prismari": 0.5939982347749339
@@ -3546,6 +3785,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.598741837872273,
+    "ata": 4.3092012418854075,
     "overallGihwr": 0.5916265532295981,
     "archetypeGihwr": {
       "prismari": 0.5964088721980988
@@ -3560,6 +3800,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.64758726899384,
+    "ata": 2.78232988956181,
     "overallGihwr": 0.5908289241622575,
     "archetypeGihwr": {
       "witherbloom": 0.5731772219265566
@@ -3574,6 +3815,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.759013390029856,
+    "ata": 7.849631053512742,
     "overallGihwr": 0.5642264590307088,
     "archetypeGihwr": {
       "prismari": 0.5624865098208505
@@ -3588,6 +3830,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.725707754121831,
+    "ata": 7.344407041553998,
     "overallGihwr": 0.582716117621048,
     "archetypeGihwr": {
       "lorehold": 0.5957999748501488
@@ -3602,6 +3845,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.501336324941433,
+    "ata": 6.14974293059126,
     "overallGihwr": 0.5393549842129003,
     "archetypeGihwr": {
       "witherbloom": 0.5378709275783358
@@ -3616,6 +3860,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.7411230388109,
+    "ata": 1.7652705061082024,
     "overallGihwr": 0.5063938618925832,
     "archetypeGihwr": {
       "witherbloom": 0.525
@@ -3630,6 +3875,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 4.090497737556561,
+    "ata": 5.465472027972028,
     "overallGihwr": 0.5243065911124366,
     "archetypeGihwr": {
       "prismari": 0.4959016393442623,
@@ -3645,6 +3891,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 8.319113898141085,
+    "ata": 12.110654639635616,
     "overallGihwr": 0.4415204678362573,
     "archetypeGihwr": {
       "silverquill": 0.48863636363636365,
@@ -3662,6 +3909,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.656455820440633,
+    "ata": 7.793207294629413,
     "overallGihwr": 0.5198476805908147,
     "archetypeGihwr": {
       "silverquill": 0.5182291666666666,
@@ -3680,6 +3928,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.334184981950856,
+    "ata": 10.53693911466989,
     "overallGihwr": 0.5306206329634197,
     "archetypeGihwr": {
       "silverquill": 0.5480043149946062,
@@ -3698,6 +3947,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.81724243117517,
+    "ata": 11.104222821203953,
     "overallGihwr": 0.5303496503496503,
     "archetypeGihwr": {
       "silverquill": 0.5350553505535055,
@@ -3716,6 +3966,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 5.763569173916391,
+    "ata": 7.596859552195405,
     "overallGihwr": 0.5800577595379237,
     "archetypeGihwr": {
       "silverquill": 0.5432098765432098,
@@ -3735,6 +3986,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.556661795152844,
+    "ata": 5.518649695628113,
     "overallGihwr": 0.6011193843386138,
     "archetypeGihwr": {
       "silverquill": 0.6053580628541989,
@@ -3753,6 +4005,7 @@
     "isConvergeSignal": true,
     "isFixing": false,
     "alsa": 3.661942699555692,
+    "ata": 4.983210483210483,
     "overallGihwr": 0.5602386451116244,
     "archetypeGihwr": {
       "quandrix": 0.4915254237288136,
@@ -3769,6 +4022,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.6494657876790177,
+    "ata": 4.8188533239535705,
     "overallGihwr": 0.5742926434923201,
     "archetypeGihwr": {
       "prismari": 0.5777777777777777,
@@ -3785,6 +4039,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.056962488563586,
+    "ata": 8.310220852593734,
     "overallGihwr": 0.5822146537806577,
     "archetypeGihwr": {
       "silverquill": 0.5169491525423728,
@@ -3801,6 +4056,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.8362079329701935,
+    "ata": 8.284673144876326,
     "overallGihwr": 0.5624406739439962,
     "archetypeGihwr": {
       "silverquill": 0.5739815661718145,
@@ -3817,6 +4073,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.829077367381061,
+    "ata": 4.84714237402773,
     "overallGihwr": 0.5770458502611724,
     "archetypeGihwr": {
       "silverquill": 0.5704697986577181,
@@ -3835,6 +4092,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.531686832467258,
+    "ata": 7.607769619330313,
     "overallGihwr": 0.563724799097702,
     "archetypeGihwr": {
       "prismari": 0.5918367346938775,
@@ -3851,6 +4109,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.3445561456752655,
+    "ata": 9.720098643649814,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -3863,6 +4122,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.8438858996093463,
+    "ata": 5.277539898793305,
     "overallGihwr": 0.5775477060495331,
     "archetypeGihwr": {
       "silverquill": 0.5886319845857418,
@@ -3879,6 +4139,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 7.043110367126052,
+    "ata": 10.571647677475898,
     "overallGihwr": 0.5090543259557344,
     "archetypeGihwr": {
       "silverquill": 0.5325542570951586,
@@ -3897,6 +4158,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.586517391512368,
+    "ata": 7.634710664293617,
     "overallGihwr": 0.5709000981033355,
     "archetypeGihwr": {
       "lorehold": 0.5755395683453237,
@@ -3913,6 +4175,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.693706080048885,
+    "ata": 4.883459887751734,
     "overallGihwr": 0.5825269560409179,
     "archetypeGihwr": {
       "prismari": 0.5776872134488028,
@@ -3928,6 +4191,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.8961927848281763,
+    "ata": 5.187479832203937,
     "overallGihwr": 0.5772968197879859,
     "archetypeGihwr": {
       "lorehold": 0.5911094783247612,
@@ -3943,6 +4207,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.6819730158922575,
+    "ata": 6.4512414733969985,
     "overallGihwr": 0.5697992034863112,
     "archetypeGihwr": {
       "silverquill": 0.5711434274308526,
@@ -3961,6 +4226,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.563924309807917,
+    "ata": 7.861109490754243,
     "overallGihwr": 0.5578388049990511,
     "archetypeGihwr": {
       "silverquill": 0.5504587155963303,
@@ -3977,6 +4243,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.128205128205128,
+    "ata": 0,
     "overallGihwr": 0.5970319634703196,
     "archetypeGihwr": {
       "silverquill": 0.6052631578947368,
@@ -3992,6 +4259,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.663822525597269,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -4004,6 +4272,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.5335413416536663,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "silverquill": 0.5564516129032258,
@@ -4019,6 +4288,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.284794872473978,
+    "ata": 9.428808732795444,
     "overallGihwr": 0.5318275154004107,
     "archetypeGihwr": {
       "silverquill": 0.5435356200527705,
@@ -4034,6 +4304,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.339812058600362,
+    "ata": 7.600972160848431,
     "overallGihwr": 0.5401193633952255,
     "archetypeGihwr": {
       "silverquill": 0.5590318772136954,
@@ -4049,6 +4320,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.2184390042228985,
+    "ata": 6.721676925636333,
     "overallGihwr": 0.5649175132817598,
     "archetypeGihwr": {
       "silverquill": 0.5605885747259088,
@@ -4064,6 +4336,7 @@
     "isConvergeSignal": false,
     "isFixing": true,
     "alsa": 4.348031496062992,
+    "ata": 5.7001414427157,
     "overallGihwr": 0.577939835916135,
     "archetypeGihwr": {
       "silverquill": 0.48598130841121495,
@@ -4079,6 +4352,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.7085298585018784,
+    "ata": 4.380859080633007,
     "overallGihwr": 0.6003353828954723,
     "archetypeGihwr": {
       "silverquill": 0.6029126213592233,
@@ -4094,6 +4368,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.687991422444603,
+    "ata": 4.1974193548387095,
     "overallGihwr": 0.610691458454387,
     "archetypeGihwr": {
       "silverquill": 0.59375,
@@ -4109,6 +4384,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.917586805077512,
+    "ata": 8.942608250064053,
     "overallGihwr": 0.517560787340795,
     "archetypeGihwr": {
       "silverquill": 0.516728624535316,
@@ -4124,6 +4400,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.973863636363636,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "silverquill": 0.44954128440366975,
@@ -4139,6 +4416,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.3024453024453027,
+    "ata": 0,
     "overallGihwr": 0.6187192118226601,
     "archetypeGihwr": {
       "silverquill": 0.6219081272084805,
@@ -4154,6 +4432,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.906005221932115,
+    "ata": 6.589437819420784,
     "overallGihwr": 0.5654520917678812,
     "archetypeGihwr": {
       "prismari": 0.5766871165644172
@@ -4168,6 +4447,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.9367283950617284,
+    "ata": 0,
     "overallGihwr": 0.5764439411098528,
     "archetypeGihwr": {
       "prismari": 0.597457627118644,
@@ -4183,6 +4463,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.397609311104121,
+    "ata": 5.6855123674911665,
     "overallGihwr": 0.5854922279792746,
     "archetypeGihwr": {
       "prismari": 0.5768115942028985,
@@ -4198,6 +4479,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.17550949210687,
+    "ata": 6.9890397513495826,
     "overallGihwr": 0.5724749735492797,
     "archetypeGihwr": {
       "prismari": 0.5688159437280188,
@@ -4213,6 +4495,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.216046681254559,
+    "ata": 7.02331308487933,
     "overallGihwr": 0.5688508232163646,
     "archetypeGihwr": {
       "prismari": 0.5560451666207656,
@@ -4228,6 +4511,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.765861875350926,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "prismari": 0.5
@@ -4242,6 +4526,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.5353982300884956,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "prismari": 0.47928994082840237,
@@ -4257,6 +4542,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.194774961200207,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "prismari": 0.5679012345679012,
@@ -4272,6 +4558,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.727075027183762,
+    "ata": 4.827814569536423,
     "overallGihwr": 0.5570809248554913,
     "archetypeGihwr": {
       "prismari": 0.584942084942085,
@@ -4287,6 +4574,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.350904932659457,
+    "ata": 7.472017673048601,
     "overallGihwr": 0.5597280334728033,
     "archetypeGihwr": {
       "prismari": 0.5582082205267044,
@@ -4302,6 +4590,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.423380605596014,
+    "ata": 9.463790446841294,
     "overallGihwr": 0.5376766091051806,
     "archetypeGihwr": {
       "prismari": 0.5342667649226235,
@@ -4317,6 +4606,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.9077700568540745,
+    "ata": 3.3132043968276053,
     "overallGihwr": 0.5998534261634298,
     "archetypeGihwr": {
       "prismari": 0.6046128500823723,
@@ -4332,6 +4622,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.94195688225539,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -4344,6 +4635,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.868773038441285,
+    "ata": 3.354617414248021,
     "overallGihwr": 0.582498045070022,
     "archetypeGihwr": {
       "silverquill": 0.5981832238113645,
@@ -4359,6 +4651,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.494912601095748,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -4371,6 +4664,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 1.7846153846153847,
+    "ata": 1.8888888888888888,
     "overallGihwr": 0.603448275862069,
     "archetypeGihwr": {
       "silverquill": 0.6513761467889908,
@@ -4387,6 +4681,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.5700713592028035,
+    "ata": 4.565855704697986,
     "overallGihwr": 0.5533713025904832,
     "archetypeGihwr": {
       "silverquill": 0.5802064971040041,
@@ -4402,6 +4697,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.835450346420323,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -4414,6 +4710,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.208352292835836,
+    "ata": 9.124285085789705,
     "overallGihwr": 0.5233968804159446,
     "archetypeGihwr": {
       "silverquill": 0.5591951333645298,
@@ -4429,6 +4726,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.1042791857083505,
+    "ata": 0,
     "overallGihwr": 0.5408415841584159,
     "archetypeGihwr": {
       "silverquill": 0.5173745173745173,
@@ -4444,6 +4742,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.760263929618769,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -4456,6 +4755,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.708524132526875,
+    "ata": 9.844677842860028,
     "overallGihwr": 0.556508875739645,
     "archetypeGihwr": {
       "silverquill": 0.5800227014755959,
@@ -4471,6 +4771,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.1684110371075165,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "witherbloom": 0.45714285714285713
@@ -4485,6 +4786,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.96749342352499,
+    "ata": 9.24485825458588,
     "overallGihwr": 0.4701102727800348,
     "archetypeGihwr": {
       "silverquill": 0.503957783641161,
@@ -4500,6 +4802,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.120090314690249,
+    "ata": 3.6773149451168026,
     "overallGihwr": 0.5906460437710438,
     "archetypeGihwr": {
       "lorehold": 0.597302833731649,
@@ -4515,6 +4818,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.969893944577489,
+    "ata": 5.0183333333333335,
     "overallGihwr": 0.5542813455657493,
     "archetypeGihwr": {
       "lorehold": 0.5502645502645502,
@@ -4530,6 +4834,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.413890004014452,
+    "ata": 3.9984152139461173,
     "overallGihwr": 0.6058823529411764,
     "archetypeGihwr": {
       "lorehold": 0.572972972972973,
@@ -4545,6 +4850,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.7942769139053105,
+    "ata": 10.261135988687249,
     "overallGihwr": 0.5011049723756906,
     "archetypeGihwr": {
       "lorehold": 0.49885057471264366,
@@ -4560,6 +4866,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.060768369284706,
+    "ata": 3.501760793009,
     "overallGihwr": 0.5921801412872841,
     "archetypeGihwr": {
       "lorehold": 0.6064395123476086,
@@ -4575,6 +4882,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.6048192771084335,
+    "ata": 0,
     "overallGihwr": 0.6265164644714039,
     "archetypeGihwr": {
       "lorehold": 0.6394849785407726,
@@ -4590,6 +4898,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.037949015063731,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "lorehold": 0.56,
@@ -4605,6 +4914,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.830953740719589,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -4617,6 +4927,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.310406209875102,
+    "ata": 7.135515663498768,
     "overallGihwr": 0.5740544361965358,
     "archetypeGihwr": {
       "lorehold": 0.5900670082774931,
@@ -4632,6 +4943,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.821559520899536,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "prismari": 0.4716981132075472
@@ -4646,6 +4958,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.618423720223011,
+    "ata": 9.919499105545617,
     "overallGihwr": 0.5121765601217656,
     "archetypeGihwr": {
       "lorehold": 0.5122302158273381,
@@ -4661,6 +4974,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.2336065573770494,
+    "ata": 0,
     "overallGihwr": 0.6153846153846154,
     "archetypeGihwr": {
       "lorehold": 0.6143790849673203,
@@ -4676,6 +4990,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.7348008385744236,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "quandrix": 0.5,
@@ -4687,10 +5002,11 @@
     "cardName": "Berserk",
     "primaryArchetype": null,
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.383333333333334,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -4703,6 +5019,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.152198170051328,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -4715,6 +5032,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.522031808654913,
+    "ata": 9.92867165575304,
     "overallGihwr": 0.5194369973190348,
     "archetypeGihwr": {
       "quandrix": 0.5352112676056338,
@@ -4730,6 +5048,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.787842383469486,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -4742,6 +5061,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.930849265672539,
+    "ata": 5.043591170469301,
     "overallGihwr": 0.5760916004443305,
     "archetypeGihwr": {
       "quandrix": 0.5935334872979214,
@@ -4757,6 +5077,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 6.959007393309421,
+    "ata": 10.896090265022304,
     "overallGihwr": 0.46433378196500674,
     "archetypeGihwr": {
       "quandrix": 0.5154639175257731,
@@ -4772,6 +5093,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.199504836480885,
+    "ata": 7.255257572834266,
     "overallGihwr": 0.5570493336450784,
     "archetypeGihwr": {
       "quandrix": 0.5809806835066865,
@@ -4787,6 +5109,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.2418152350081035,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "quandrix": 0.5443037974683544,
@@ -4802,6 +5125,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.310102458299822,
+    "ata": 5.521181001283697,
     "overallGihwr": 0.556610533858832,
     "archetypeGihwr": {
       "quandrix": 0.5377268385864374,
@@ -4817,6 +5141,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.968797564687976,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "witherbloom": 0.5084745762711864
@@ -4831,18 +5156,20 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.936039650696247,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
   },
   "Bring to Light": {
     "cardName": "Bring to Light",
-    "primaryArchetype": null,
+    "primaryArchetype": "quandrix",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.055349576271187,
+    "ata": 7.111776447105789,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -4855,6 +5182,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.617528646639826,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "witherbloom": 0.4945054945054945
@@ -4869,6 +5197,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.121931908155186,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "lorehold": 0.5609756097560976
@@ -4883,6 +5212,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.3230579531442666,
+    "ata": 3.950213371266003,
     "overallGihwr": 0.582552693208431,
     "archetypeGihwr": {
       "prismari": 0.5714285714285714
@@ -4897,6 +5227,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.569056404849762,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "silverquill": 0.3218390804597701
@@ -4911,6 +5242,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.184226015303119,
+    "ata": 0,
     "overallGihwr": 0.5291828793774319,
     "archetypeGihwr": {
       "prismari": 0.5182481751824818,
@@ -4926,6 +5258,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.6383526383526386,
+    "ata": 0,
     "overallGihwr": 0.526080476900149,
     "archetypeGihwr": {
       "prismari": 0.5546558704453441,
@@ -4941,6 +5274,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.893347412882788,
+    "ata": 0,
     "overallGihwr": 0.5799373040752351,
     "archetypeGihwr": {
       "prismari": 0.6035502958579881,
@@ -4956,6 +5290,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.39375,
+    "ata": 0,
     "overallGihwr": 0.5518590998043053,
     "archetypeGihwr": {
       "silverquill": 0.539906103286385,
@@ -4971,6 +5306,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.093816631130064,
+    "ata": 0,
     "overallGihwr": 0.53584229390681,
     "archetypeGihwr": {
       "lorehold": 0.546448087431694,
@@ -4986,6 +5322,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 4.265162200282087,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "quandrix": 0.5238095238095238,
@@ -5001,6 +5338,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.932530120481928,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {
       "witherbloom": 0.5217391304347826
@@ -5009,12 +5347,13 @@
   },
   "Adrix and Nev, Twincasters": {
     "cardName": "Adrix and Nev, Twincasters",
-    "primaryArchetype": null,
+    "primaryArchetype": "quandrix",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "staple",
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 3.377049180327869,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -5027,6 +5366,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 5.070852534562212,
+    "ata": 0,
     "overallGihwr": null,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -5039,6 +5379,7 @@
     "isConvergeSignal": false,
     "isFixing": false,
     "alsa": 2.560483870967742,
+    "ata": 0,
     "overallGihwr": 0.5990621336459554,
     "archetypeGihwr": {
       "silverquill": 0.6774193548387096,

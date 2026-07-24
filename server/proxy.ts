@@ -20,7 +20,7 @@ app.use(express.json({ limit: '1mb' }));
 // --- Review CRUD ---
 
 app.post('/reviews', (req, res) => {
-  const { draftId, draftLog } = req.body;
+  const { draftId, draftLog, expansion } = req.body;
   if (!draftId || !draftLog) {
     res.status(400).json({ error: 'draftId and draftLog are required' });
     return;
@@ -30,15 +30,15 @@ app.post('/reviews', (req, res) => {
   const editToken = uuidv4();
 
   db.prepare(
-    `INSERT INTO reviews (id, edit_token, draft_id, draft_log) VALUES (?, ?, ?, ?)`
-  ).run(id, editToken, draftId, JSON.stringify(draftLog));
+    `INSERT INTO reviews (id, edit_token, draft_id, draft_log, expansion) VALUES (?, ?, ?, ?, ?)`
+  ).run(id, editToken, draftId, JSON.stringify(draftLog), expansion ?? null);
 
   res.status(201).json({ id, editToken });
 });
 
 app.get('/reviews/:id', (req, res) => {
   const row = db.prepare(
-    `SELECT id, draft_id, draft_log, annotations, timelines, summary, created_at, updated_at FROM reviews WHERE id = ?`
+    `SELECT id, draft_id, draft_log, annotations, timelines, summary, expansion, created_at, updated_at FROM reviews WHERE id = ?`
   ).get(req.params.id) as Record<string, string> | undefined;
 
   if (!row) {
@@ -49,6 +49,7 @@ app.get('/reviews/:id', (req, res) => {
   res.json({
     id: row.id,
     draftId: row.draft_id,
+    expansion: row.expansion ?? null,
     draftLog: JSON.parse(row.draft_log),
     annotations: JSON.parse(row.annotations),
     timelines: JSON.parse(row.timelines),

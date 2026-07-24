@@ -1,0 +1,4322 @@
+[
+  {
+    "name": "Changeling Wayfinder",
+    "mtgaId": 98316,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rooftop Percher",
+    "mtgaId": 98317,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Adept Watershaper",
+    "mtgaId": 98318,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Creature - Merfolk Cleric"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ajani, Outland Chaperone",
+    "mtgaId": 98319,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Planeswalker - Ajani"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Appeal to Eirdu",
+    "mtgaId": 98320,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bark of Doran",
+    "mtgaId": 98321,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Brigid, Clachan's Heart",
+    "mtgaId": 98322,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Kithkin Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Burdened Stoneback",
+    "mtgaId": 98324,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Giant Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Champion of the Clachan",
+    "mtgaId": 98325,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Creature - Kithkin Knight"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Clachan Festival",
+    "mtgaId": 98326,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Kindred Enchantment - Kithkin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Crib Swap",
+    "mtgaId": 98327,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Kindred Instant - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Curious Colossus",
+    "mtgaId": 98328,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Giant Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Eirdu, Carrier of Dawn",
+    "mtgaId": 98329,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Creature - Elemental God"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Encumbered Reejerey",
+    "mtgaId": 98331,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Merfolk Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Evershrike's Gift",
+    "mtgaId": 98332,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Flock Impostor",
+    "mtgaId": 98333,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gallant Fowlknight",
+    "mtgaId": 98334,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Kithkin Knight"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Goldmeadow Nomad",
+    "mtgaId": 98335,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Kithkin Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Keep Out",
+    "mtgaId": 98336,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kinbinding",
+    "mtgaId": 98337,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kinsbaile Aspirant",
+    "mtgaId": 98338,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Kithkin Citizen"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kinscaer Sentry",
+    "mtgaId": 98339,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Creature - Kithkin Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kithkeeper",
+    "mtgaId": 98340,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Liminal Hold",
+    "mtgaId": 98341,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Meanders Guide",
+    "mtgaId": 98342,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Merfolk Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Moonlit Lamenter",
+    "mtgaId": 98343,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Treefolk Cleric"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Morningtide's Light",
+    "mtgaId": 98344,
+    "color": "W",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Personify",
+    "mtgaId": 98345,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Protective Response",
+    "mtgaId": 98346,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pyrrhic Strike",
+    "mtgaId": 98347,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Reluctant Dounguard",
+    "mtgaId": 98348,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Kithkin Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rhys, the Evermore",
+    "mtgaId": 98349,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Elf Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Riverguard's Reflexes",
+    "mtgaId": 98350,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Shore Lurker",
+    "mtgaId": 98351,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Merfolk Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Slumbering Walker",
+    "mtgaId": 98352,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Creature - Giant Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Spiral into Solitude",
+    "mtgaId": 98353,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sun-Dappled Celebrant",
+    "mtgaId": 98354,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Treefolk Cleric"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thoughtweft Imbuer",
+    "mtgaId": 98355,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Kithkin Advisor"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Timid Shieldbearer",
+    "mtgaId": 98356,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Kithkin Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tributary Vaulter",
+    "mtgaId": 98357,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Merfolk Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wanderbrine Preacher",
+    "mtgaId": 98358,
+    "color": "W",
+    "rarity": "common",
+    "types": [
+      "Creature - Merfolk Cleric"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wanderbrine Trapper",
+    "mtgaId": 98359,
+    "color": "W",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Merfolk Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Winnowing",
+    "mtgaId": 98360,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Aquitect's Defenses",
+    "mtgaId": 98361,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Blossombind",
+    "mtgaId": 98362,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Champions of the Shoal",
+    "mtgaId": 98363,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Creature - Merfolk Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Disruptor of Currents",
+    "mtgaId": 98364,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Creature - Merfolk Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Flitterwing Nuisance",
+    "mtgaId": 98365,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Creature - Faerie Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Glamer Gifter",
+    "mtgaId": 98366,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Faerie Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Glamermite",
+    "mtgaId": 98367,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Faerie Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Glen Elendra Guardian",
+    "mtgaId": 98368,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Creature - Faerie Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Glen Elendra's Answer",
+    "mtgaId": 98369,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gravelgill Scoundrel",
+    "mtgaId": 98370,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Merfolk Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Harmonized Crescendo",
+    "mtgaId": 98371,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Illusion Spinners",
+    "mtgaId": 98372,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Faerie Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kulrath Mystic",
+    "mtgaId": 98373,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Elemental Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Loch Mare",
+    "mtgaId": 98374,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Horse Serpent"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lofty Dreams",
+    "mtgaId": 98375,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mirrorform",
+    "mtgaId": 98376,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Noggle the Mind",
+    "mtgaId": 98377,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Oko, Lorwyn Liege",
+    "mtgaId": 98378,
+    "color": "U",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Planeswalker - Oko"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Omni-Changeling",
+    "mtgaId": 98380,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pestered Wellguard",
+    "mtgaId": 98381,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Merfolk Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rime Chill",
+    "mtgaId": 98382,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rimefire Torque",
+    "mtgaId": 98383,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Rimekin Recluse",
+    "mtgaId": 98384,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Run Away Together",
+    "mtgaId": 98385,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Shinestriker",
+    "mtgaId": 98386,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Silvergill Mentor",
+    "mtgaId": 98387,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Merfolk Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Silvergill Peddler",
+    "mtgaId": 98388,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Merfolk Citizen"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Spell Snare",
+    "mtgaId": 98389,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Stratosoarer",
+    "mtgaId": 98390,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Summit Sentinel",
+    "mtgaId": 98391,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Elemental Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sunderflock",
+    "mtgaId": 98392,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Swat Away",
+    "mtgaId": 98393,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sygg, Wanderwine Wisdom",
+    "mtgaId": 98394,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Merfolk Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tanufel Rimespeaker",
+    "mtgaId": 98396,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Temporal Cleansing",
+    "mtgaId": 98397,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thirst for Identity",
+    "mtgaId": 98398,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Unexpected Assistance",
+    "mtgaId": 98399,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Unwelcome Sprite",
+    "mtgaId": 98400,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Faerie Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wanderwine Distracter",
+    "mtgaId": 98401,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Creature - Merfolk Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wanderwine Farewell",
+    "mtgaId": 98402,
+    "color": "U",
+    "rarity": "uncommon",
+    "types": [
+      "Kindred Sorcery - Merfolk"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wild Unraveling",
+    "mtgaId": 98403,
+    "color": "U",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Auntie's Sentence",
+    "mtgaId": 98404,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Barbed Bloodletter",
+    "mtgaId": 98405,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bile-Vial Boggart",
+    "mtgaId": 98406,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Goblin Assassin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bitterbloom Bearer",
+    "mtgaId": 98407,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Faerie Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Blight Rot",
+    "mtgaId": 98408,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Blighted Blackthorn",
+    "mtgaId": 98409,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Treefolk Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bloodline Bidding",
+    "mtgaId": 98410,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Boggart Mischief",
+    "mtgaId": 98411,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Kindred Enchantment - Goblin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Boggart Prankster",
+    "mtgaId": 98412,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Goblin Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bogslither's Embrace",
+    "mtgaId": 98413,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Champion of the Weird",
+    "mtgaId": 98414,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Creature - Goblin Berserker"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Creakwood Safewright",
+    "mtgaId": 98415,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elf Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Darkness Descends",
+    "mtgaId": 98416,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dawnhand Dissident",
+    "mtgaId": 98417,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elf Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dawnhand Eulogist",
+    "mtgaId": 98418,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Elf Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dose of Dawnglow",
+    "mtgaId": 98419,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dream Seizer",
+    "mtgaId": 98420,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Faerie Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gloom Ripper",
+    "mtgaId": 98421,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elf Assassin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gnarlbark Elm",
+    "mtgaId": 98422,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Treefolk Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Graveshifter",
+    "mtgaId": 98423,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Grub, Storied Matriarch",
+    "mtgaId": 98424,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Goblin Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gutsplitter Gang",
+    "mtgaId": 98426,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Goblin Berserker"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Heirloom Auntie",
+    "mtgaId": 98427,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Goblin Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Iron-Shield Elf",
+    "mtgaId": 98428,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elf Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Moonglove Extractor",
+    "mtgaId": 98429,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Elf Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Moonshadow",
+    "mtgaId": 98430,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mornsong Aria",
+    "mtgaId": 98431,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Legendary Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mudbutton Cursetosser",
+    "mtgaId": 98432,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Goblin Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Nameless Inversion",
+    "mtgaId": 98433,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Kindred Instant - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Nightmare Sower",
+    "mtgaId": 98434,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Faerie Assassin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Perfect Intimidation",
+    "mtgaId": 98435,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Requiting Hex",
+    "mtgaId": 98436,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Retched Wretch",
+    "mtgaId": 98437,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Goblin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Scarblade Scout",
+    "mtgaId": 98438,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Elf Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Scarblade's Malice",
+    "mtgaId": 98439,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Shimmercreep",
+    "mtgaId": 98440,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Taster of Wares",
+    "mtgaId": 98441,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Creature - Goblin Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Twilight Diviner",
+    "mtgaId": 98442,
+    "color": "B",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elf Cleric"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Unbury",
+    "mtgaId": 98443,
+    "color": "B",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ashling, Rekindled",
+    "mtgaId": 98444,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Elemental Sorcerer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Boldwyr Aggressor",
+    "mtgaId": 98446,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Giant Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Boneclub Berserker",
+    "mtgaId": 98447,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Goblin Berserker"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Boulder Dash",
+    "mtgaId": 98448,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Brambleback Brute",
+    "mtgaId": 98449,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Giant Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Burning Curiosity",
+    "mtgaId": 98450,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Champion of the Path",
+    "mtgaId": 98451,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elemental Sorcerer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Cinder Strike",
+    "mtgaId": 98452,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Collective Inferno",
+    "mtgaId": 98453,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Elder Auntie",
+    "mtgaId": 98454,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Goblin Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "End-Blaze Epiphany",
+    "mtgaId": 98455,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Enraged Flamecaster",
+    "mtgaId": 98456,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Elemental Sorcerer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Explosive Prodigy",
+    "mtgaId": 98457,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental Sorcerer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Feed the Flames",
+    "mtgaId": 98458,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Flame-Chain Mauler",
+    "mtgaId": 98459,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Elemental Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Flamebraider",
+    "mtgaId": 98460,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental Bard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Flamekin Gildweaver",
+    "mtgaId": 98461,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Elemental Sorcerer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Giantfall",
+    "mtgaId": 98462,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Goatnap",
+    "mtgaId": 98463,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Goliath Daydreamer",
+    "mtgaId": 98464,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Creature - Giant Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gristle Glutton",
+    "mtgaId": 98465,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Goblin Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hexing Squelcher",
+    "mtgaId": 98466,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Creature - Goblin Sorcerer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Impolite Entrance",
+    "mtgaId": 98467,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kindle the Inner Flame",
+    "mtgaId": 98468,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Kindred Sorcery - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kulrath Zealot",
+    "mtgaId": 98469,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Creature - Elemental Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lasting Tarfire",
+    "mtgaId": 98470,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lavaleaper",
+    "mtgaId": 98471,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Meek Attack",
+    "mtgaId": 98472,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Reckless Ransacking",
+    "mtgaId": 98473,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Scuzzback Scrounger",
+    "mtgaId": 98474,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Creature - Goblin Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sear",
+    "mtgaId": 98475,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sizzling Changeling",
+    "mtgaId": 98476,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Soul Immolation",
+    "mtgaId": 98477,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Soulbright Seeker",
+    "mtgaId": 98478,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental Sorcerer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sourbread Auntie",
+    "mtgaId": 98479,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Goblin Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Spinerock Tyrant",
+    "mtgaId": 98480,
+    "color": "R",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Dragon"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Squawkroaster",
+    "mtgaId": 98481,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sting-Slinger",
+    "mtgaId": 98482,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Goblin Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tweeze",
+    "mtgaId": 98483,
+    "color": "R",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Warren Torchmaster",
+    "mtgaId": 98484,
+    "color": "R",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Goblin Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Assert Perfection",
+    "mtgaId": 98485,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Aurora Awakener",
+    "mtgaId": 98486,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Giant Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bloom Tender",
+    "mtgaId": 98487,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Elf Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Blossoming Defense",
+    "mtgaId": 98488,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bristlebane Battler",
+    "mtgaId": 98489,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Kithkin Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bristlebane Outrider",
+    "mtgaId": 98490,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Kithkin Knight"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Celestial Reunion",
+    "mtgaId": 98491,
+    "color": "G",
+    "rarity": "mythic",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Champions of the Perfect",
+    "mtgaId": 98492,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elf Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Chomping Changeling",
+    "mtgaId": 98493,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Crossroads Watcher",
+    "mtgaId": 98494,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Kithkin Ranger"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dawn's Light Archer",
+    "mtgaId": 98495,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Elf Archer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dundoolin Weaver",
+    "mtgaId": 98496,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Kithkin Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Formidable Speaker",
+    "mtgaId": 98497,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elf Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gilt-Leaf's Embrace",
+    "mtgaId": 98498,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Great Forest Druid",
+    "mtgaId": 98499,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Treefolk Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Luminollusk",
+    "mtgaId": 98500,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lys Alana Dignitary",
+    "mtgaId": 98501,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elf Advisor"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lys Alana Informant",
+    "mtgaId": 98502,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Elf Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Midnight Tilling",
+    "mtgaId": 98503,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mistmeadow Council",
+    "mtgaId": 98504,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Kithkin Advisor"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Moon-Vigil Adherents",
+    "mtgaId": 98505,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elf Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Morcant's Eyes",
+    "mtgaId": 98506,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Kindred Enchantment - Elf"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mutable Explorer",
+    "mtgaId": 98507,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pitiless Fists",
+    "mtgaId": 98508,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Prismabasher",
+    "mtgaId": 98509,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Prismatic Undercurrents",
+    "mtgaId": 98510,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Pummeler for Hire",
+    "mtgaId": 98511,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Giant Mercenary"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Safewright Cavalry",
+    "mtgaId": 98512,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Elf Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sapling Nursery",
+    "mtgaId": 98513,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Selfless Safewright",
+    "mtgaId": 98514,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elf Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Shimmerwilds Growth",
+    "mtgaId": 98515,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Enchantment - Aura"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Spry and Mighty",
+    "mtgaId": 98516,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Surly Farrier",
+    "mtgaId": 98517,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Kithkin Citizen"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tend the Sprigs",
+    "mtgaId": 98518,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thoughtweft Charge",
+    "mtgaId": 98519,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Trystan, Callous Cultivator",
+    "mtgaId": 98520,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Elf Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Unforgiving Aim",
+    "mtgaId": 98522,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vinebred Brawler",
+    "mtgaId": 98523,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elf Berserker"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Virulent Emissary",
+    "mtgaId": 98524,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elf Assassin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wildvine Pummeler",
+    "mtgaId": 98525,
+    "color": "G",
+    "rarity": "common",
+    "types": [
+      "Creature - Giant Berserker"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Abigale, Eloquent First-Year",
+    "mtgaId": 98526,
+    "color": "WB",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Bird Bard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Ashling's Command",
+    "mtgaId": 98527,
+    "color": "UR",
+    "rarity": "rare",
+    "types": [
+      "Kindred Instant - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Boggart Cursecrafter",
+    "mtgaId": 98528,
+    "color": "BR",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Goblin Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bre of Clan Stoutarm",
+    "mtgaId": 98529,
+    "color": "WR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Giant Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Brigid's Command",
+    "mtgaId": 98530,
+    "color": "WG",
+    "rarity": "rare",
+    "types": [
+      "Kindred Sorcery - Kithkin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Catharsis",
+    "mtgaId": 98531,
+    "color": "WR",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Elemental Incarnation"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Chaos Spewer",
+    "mtgaId": 98532,
+    "color": "BR",
+    "rarity": "common",
+    "types": [
+      "Creature - Goblin Warlock"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Chitinous Graspling",
+    "mtgaId": 98533,
+    "color": "UG",
+    "rarity": "common",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Deceit",
+    "mtgaId": 98534,
+    "color": "UB",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Elemental Incarnation"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Deepchannel Duelist",
+    "mtgaId": 98535,
+    "color": "WU",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Merfolk Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Deepway Navigator",
+    "mtgaId": 98536,
+    "color": "WU",
+    "rarity": "rare",
+    "types": [
+      "Creature - Merfolk Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Doran, Besieged by Time",
+    "mtgaId": 98537,
+    "color": "WBG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Treefolk Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dream Harvest",
+    "mtgaId": 98538,
+    "color": "UB",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Eclipsed Boggart",
+    "mtgaId": 98539,
+    "color": "BR",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Goblin Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Eclipsed Elf",
+    "mtgaId": 98540,
+    "color": "BG",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elf Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Eclipsed Flamekin",
+    "mtgaId": 98541,
+    "color": "UR",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Eclipsed Kithkin",
+    "mtgaId": 98542,
+    "color": "WG",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Kithkin Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Eclipsed Merrow",
+    "mtgaId": 98543,
+    "color": "WU",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Merfolk Scout"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Emptiness",
+    "mtgaId": 98544,
+    "color": "WB",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Elemental Incarnation"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Feisty Spikeling",
+    "mtgaId": 98545,
+    "color": "WR",
+    "rarity": "common",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Figure of Fable",
+    "mtgaId": 98546,
+    "color": "WG",
+    "rarity": "rare",
+    "types": [
+      "Creature - Kithkin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Flaring Cinder",
+    "mtgaId": 98547,
+    "color": "UR",
+    "rarity": "common",
+    "types": [
+      "Creature - Elemental Sorcerer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gangly Stompling",
+    "mtgaId": 98548,
+    "color": "RG",
+    "rarity": "common",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Glister Bairn",
+    "mtgaId": 98549,
+    "color": "UG",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Ouphe"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Grub's Command",
+    "mtgaId": 98550,
+    "color": "BR",
+    "rarity": "rare",
+    "types": [
+      "Kindred Sorcery - Goblin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "High Perfect Morcant",
+    "mtgaId": 98551,
+    "color": "BG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Elf Noble"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hovel Hurler",
+    "mtgaId": 98552,
+    "color": "WR",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Giant Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kirol, Attentive First-Year",
+    "mtgaId": 98553,
+    "color": "WR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Vampire Cleric"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Lluwen, Imperfect Naturalist",
+    "mtgaId": 98554,
+    "color": "BG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Elf Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Maralen, Fae Ascendant",
+    "mtgaId": 98555,
+    "color": "UBG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Elf Faerie Noble"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Merrow Skyswimmer",
+    "mtgaId": 98556,
+    "color": "WU",
+    "rarity": "common",
+    "types": [
+      "Creature - Merfolk Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mischievous Sneakling",
+    "mtgaId": 98557,
+    "color": "UB",
+    "rarity": "common",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Morcant's Loyalist",
+    "mtgaId": 98558,
+    "color": "BG",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elf Warrior"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Noggle Robber",
+    "mtgaId": 98559,
+    "color": "RG",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Noggle Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Prideful Feastling",
+    "mtgaId": 98560,
+    "color": "WB",
+    "rarity": "common",
+    "types": [
+      "Creature - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Raiding Schemes",
+    "mtgaId": 98561,
+    "color": "RG",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Reaping Willow",
+    "mtgaId": 98562,
+    "color": "WB",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Treefolk Cleric"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sanar, Innovative First-Year",
+    "mtgaId": 98563,
+    "color": "UR",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Goblin Sorcerer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Shadow Urchin",
+    "mtgaId": 98564,
+    "color": "BR",
+    "rarity": "rare",
+    "types": [
+      "Creature - Ouphe"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Stoic Grove-Guide",
+    "mtgaId": 98565,
+    "color": "BG",
+    "rarity": "common",
+    "types": [
+      "Creature - Elf Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Sygg's Command",
+    "mtgaId": 98566,
+    "color": "WU",
+    "rarity": "rare",
+    "types": [
+      "Kindred Sorcery - Merfolk"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Tam, Mindful First-Year",
+    "mtgaId": 98567,
+    "color": "UG",
+    "rarity": "rare",
+    "types": [
+      "Legendary Creature - Gorgon Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thoughtweft Lieutenant",
+    "mtgaId": 98568,
+    "color": "WG",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Kithkin Soldier"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Trystan's Command",
+    "mtgaId": 98569,
+    "color": "BG",
+    "rarity": "rare",
+    "types": [
+      "Kindred Sorcery - Elf"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Twinflame Travelers",
+    "mtgaId": 98570,
+    "color": "UR",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental Sorcerer"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Vibrance",
+    "mtgaId": 98571,
+    "color": "RG",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Elemental Incarnation"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Voracious Tome-Skimmer",
+    "mtgaId": 98572,
+    "color": "UB",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Faerie Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wary Farmer",
+    "mtgaId": 98573,
+    "color": "WG",
+    "rarity": "common",
+    "types": [
+      "Creature - Kithkin Citizen"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wistfulness",
+    "mtgaId": 98574,
+    "color": "UG",
+    "rarity": "mythic",
+    "types": [
+      "Creature - Elemental Incarnation"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Chronicle of Victory",
+    "mtgaId": 98575,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Legendary Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dawn-Blessed Pennant",
+    "mtgaId": 98576,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Firdoch Core",
+    "mtgaId": 98577,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Kindred Artifact - Shapeshifter"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Foraging Wickermaw",
+    "mtgaId": 98578,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact Creature - Scarecrow"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Gathering Stone",
+    "mtgaId": 98579,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mirrormind Crown",
+    "mtgaId": 98580,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Puca's Eye",
+    "mtgaId": 98581,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Springleaf Drum",
+    "mtgaId": 98582,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Stalactite Dagger",
+    "mtgaId": 98583,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Artifact - Equipment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Blood Crypt",
+    "mtgaId": 98584,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land - Swamp Mountain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Eclipsed Realms",
+    "mtgaId": 98585,
+    "color": "",
+    "rarity": "uncommon",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Evolving Wilds",
+    "mtgaId": 98586,
+    "color": "",
+    "rarity": "common",
+    "types": [
+      "Land"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Hallowed Fountain",
+    "mtgaId": 98587,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land - Plains Island"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Overgrown Tomb",
+    "mtgaId": 98588,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land - Swamp Forest"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Steam Vents",
+    "mtgaId": 98589,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land - Island Mountain"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Temple Garden",
+    "mtgaId": 98590,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Land - Forest Plains"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Idyllic Tutor",
+    "mtgaId": 98870,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Kinsbaile Cavalier",
+    "mtgaId": 98871,
+    "color": "W",
+    "rarity": "rare",
+    "types": [
+      "Creature - Kithkin Knight"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Mistbind Clique",
+    "mtgaId": 98872,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Creature - Faerie Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Wanderwine Prophets",
+    "mtgaId": 98873,
+    "color": "U",
+    "rarity": "rare",
+    "types": [
+      "Creature - Merfolk Wizard"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Bitterblossom",
+    "mtgaId": 98874,
+    "color": "B",
+    "rarity": "mythic",
+    "types": [
+      "Kindred Enchantment - Faerie"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Faerie Macabre",
+    "mtgaId": 98875,
+    "color": "B",
+    "rarity": "common",
+    "types": [
+      "Creature - Faerie Rogue"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Goblin Chieftain",
+    "mtgaId": 98876,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Creature - Goblin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Goblin Sharpshooter",
+    "mtgaId": 98877,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Creature - Goblin"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Heat Shimmer",
+    "mtgaId": 98878,
+    "color": "R",
+    "rarity": "rare",
+    "types": [
+      "Sorcery"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Devoted Druid",
+    "mtgaId": 98879,
+    "color": "G",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elf Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Helix Pinnacle",
+    "mtgaId": 98880,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Enchantment"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Leaf-Crowned Visionary",
+    "mtgaId": 98881,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elf Druid"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Regal Force",
+    "mtgaId": 98882,
+    "color": "G",
+    "rarity": "rare",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Manamorphose",
+    "mtgaId": 98883,
+    "color": "RG",
+    "rarity": "uncommon",
+    "types": [
+      "Instant"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Risen Reef",
+    "mtgaId": 98884,
+    "color": "UG",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Elemental"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Slippery Bogle",
+    "mtgaId": 98885,
+    "color": "UG",
+    "rarity": "uncommon",
+    "types": [
+      "Creature - Beast"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Dolmen Gate",
+    "mtgaId": 98886,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Door of Destinies",
+    "mtgaId": 98887,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Painter's Servant",
+    "mtgaId": 98888,
+    "color": "",
+    "rarity": "mythic",
+    "types": [
+      "Artifact Creature - Scarecrow"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  },
+  {
+    "name": "Thousand-Year Elixir",
+    "mtgaId": 98889,
+    "color": "",
+    "rarity": "rare",
+    "types": [
+      "Artifact"
+    ],
+    "alsa": null,
+    "ata": null,
+    "overallGihwr": 0,
+    "gameCount": 0,
+    "everDrawnGameCount": 0,
+    "archetypeStats": {}
+  }
+]

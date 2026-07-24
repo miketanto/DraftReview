@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { extractDraftId, fetchDraftLog } from '../../data/fetcher';
 import { createReview } from '../api';
 
@@ -22,8 +22,12 @@ export function CreateReview() {
     setError(null);
 
     try {
-      const draftLog = await fetchDraftLog(draftId);
-      const { id, editToken } = await createReview(draftId, draftLog);
+      const log = await fetchDraftLog(draftId);
+      const { id, editToken } = await createReview(
+        draftId,
+        log.picks,
+        log.expansion
+      );
       localStorage.setItem(`review:${id}`, editToken);
       navigate(`/review/${id}`);
     } catch (err) {
@@ -111,6 +115,18 @@ export function CreateReview() {
             {error}
           </div>
         )}
+        <div style={{ marginTop: 10, fontSize: 11 }}>
+          <span style={{ color: '#666' }}>
+            Signals (stats, archetype openness, hover data) light up
+            automatically for supported sets: SOS, MSH, DSK, OTJ, ECL.
+            Other sets work as a plain annotator.
+          </span>
+        </div>
+      </div>
+      <div style={{ fontSize: 11 }}>
+        <Link to="/signal-review" style={{ color: '#888' }}>
+          solo signal scan (no annotations) →
+        </Link>
       </div>
     </>
   );

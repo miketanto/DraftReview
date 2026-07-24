@@ -14,25 +14,23 @@ import {
   ARCHETYPES,
   ARCHETYPE_TIER_WEIGHT,
   WHEEL_PICK_THRESHOLD,
-  COLOR_TO_ARCHETYPE,
 } from '../shared/constants';
-
-const ALL_ARCHETYPE_IDS: ArchetypeId[] = [
-  'silverquill',
-  'lorehold',
-  'prismari',
-  'quandrix',
-  'witherbloom',
-  'converge',
-];
+import type { SetConfig } from '../shared/sets';
+import { SOS_CONFIG } from '../shared/sets';
 
 function computeSignalStrength(
   entry: CardSignalEntry,
   pickNumber: number,
   archetype: ArchetypeId
 ): number {
-  const lateness = Math.max(0, pickNumber - entry.alsa);
-  const gihwr = entry.archetypeGihwr[archetype] ?? entry.overallGihwr;
+  // ALSA <= 0 means 17Lands never sampled this card — no lateness signal
+  const lateness =
+    entry.alsa > 0 ? Math.max(0, pickNumber - entry.alsa) : 0;
+  // 17Lands sample-hides winrates in low-volume queues; a neutral 0.5 keeps
+  // the lateness component of the signal alive for those cards
+  const gihwr =
+    entry.archetypeGihwr[archetype] ??
+    (entry.overallGihwr > 0 ? entry.overallGihwr : 0.5);
   const tier = ARCHETYPES[archetype].tier;
   const weight = ARCHETYPE_TIER_WEIGHT[tier] ?? 1.0;
   return lateness * gihwr * weight;
@@ -103,17 +101,18 @@ function buildExplanation(
   isWheel: boolean
 ): string {
   const parts: string[] = [];
-  const lateness = pickNumber - entry.alsa;
+  const hasAlsa = entry.alsa != null && entry.alsa > 0;
+  const lateness = hasAlsa ? pickNumber - entry.alsa : 0;
 
   if (isWheel) {
     parts.push('WHEELED');
   }
 
-  if (lateness > 2) {
+  if (hasAlsa && lateness > 2) {
     parts.push(
       `ALSA ${entry.alsa.toFixed(1)} still here at pick ${pickNumber} (very late)`
     );
-  } else if (lateness > 0) {
+  } else if (hasAlsa && lateness > 0) {
     parts.push(`ALSA ${entry.alsa.toFixed(1)} still here at pick ${pickNumber} (late)`);
   }
 
@@ -141,7 +140,8 @@ function normalizeScores(scores: ArchetypeScore[]): ArchetypeScore[] {
 
 function inferUserArchetype(
   picks: DraftPick[],
-  _signalMap: SignalMap
+  _signalMap: SignalMap,
+  config: SetConfig
 ): ArchetypeId {
   const colorFreq: Record<string, number> = {};
   for (const pick of picks) {
@@ -156,34 +156,28 @@ function inferUserArchetype(
 
   if (sorted.length >= 2) {
     const pair = sorted.slice(0, 2).sort().join('');
-    const arch = COLOR_TO_ARCHETYPE[pair];
+    const arch = config.colorToArchetype[pair];
     if (arch) return arch;
   }
 
-  if (sorted.length >= 3) return 'converge';
-  return 'lorehold';
+  if (sorted.length >= 3 && config.multicolorArchetype) {
+    return config.multicolorArchetype;
+  }
+  return config.archetypes[0].id;
 }
 
 export function analyzeDraft(
   draft: Draft,
-  signalMap: SignalMap
+  signalMap: SignalMap,
+  config: SetConfig = SOS_CONFIG
 ): DraftAnalysis {
-  const runningSignals: Record<ArchetypeId, number> = {
-    silverquill: 0,
-    lorehold: 0,
-    prismari: 0,
-    quandrix: 0,
-    witherbloom: 0,
-    converge: 0,
-  };
-  const runningCounts: Record<ArchetypeId, number> = {
-    silverquill: 0,
-    lorehold: 0,
-    prismari: 0,
-    quandrix: 0,
-    witherbloom: 0,
-    converge: 0,
-  };
+  const archetypeIds = config.archetypes.map((a) => a.id);
+  const runningSignals: Record<ArchetypeId, number> = {};
+  const runningCounts: Record<ArchetypeId, number> = {};
+  for (const id of archetypeIds) {
+    runningSignals[id] = 0;
+    runningCounts[id] = 0;
+  }
 
   let fixingSeenLate = 0;
   let convergePayoffs = 0;
@@ -202,6 +196,8 @@ export function analyzeDraft(
     );
 
     for (const signal of cardSignals) {
+      // Guard against a signal map built for a different set's archetypes
+      if (runningSignals[signal.archetype] === undefined) continue;
       runningSignals[signal.archetype] += signal.signalStrength;
       runningCounts[signal.archetype]++;
     }
@@ -219,7 +215,7 @@ export function analyzeDraft(
     );
 
     const scores: ArchetypeScore[] = normalizeScores(
-      ALL_ARCHETYPE_IDS.map((id) => ({
+      archetypeIds.map((id) => ({
         archetypeId: id,
         cumulativeSignal: runningSignals[id],
         normalizedScore: 0,
@@ -241,19 +237,21 @@ export function analyzeDraft(
     });
   }
 
-  const summary = computeSummary(pickAnalyses, draft, signalMap);
+  const summary = computeSummary(pickAnalyses, draft, signalMap, config);
   return { picks: pickAnalyses, summary };
 }
 
 function computeSummary(
   pickAnalyses: PickAnalysis[],
   draft: Draft,
-  signalMap: SignalMap
+  signalMap: SignalMap,
+  config: SetConfig
 ): DraftSummary {
+  const archetypeIds = config.archetypes.map((a) => a.id);
   const finalScores =
     pickAnalyses.length > 0
       ? pickAnalyses[pickAnalyses.length - 1].archetypeScores
-      : ALL_ARCHETYPE_IDS.map((id) => ({
+      : archetypeIds.map((id) => ({
           archetypeId: id,
           cumulativeSignal: 0,
           normalizedScore: 0,
@@ -264,16 +262,10 @@ function computeSummary(
     (a, b) => b.cumulativeSignal - a.cumulativeSignal
   )[0].archetypeId;
 
-  const userArchetype = inferUserArchetype(draft.picks, signalMap);
+  const userArchetype = inferUserArchetype(draft.picks, signalMap, config);
 
-  const signalTimeline: Record<ArchetypeId, number[]> = {
-    silverquill: [],
-    lorehold: [],
-    prismari: [],
-    quandrix: [],
-    witherbloom: [],
-    converge: [],
-  };
+  const signalTimeline: Record<ArchetypeId, number[]> = {};
+  for (const id of archetypeIds) signalTimeline[id] = [];
 
   for (const pa of pickAnalyses) {
     for (const score of pa.archetypeScores) {

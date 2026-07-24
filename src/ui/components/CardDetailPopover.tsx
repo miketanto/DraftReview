@@ -63,7 +63,9 @@ export function CardDetailPopover({
                 <div style={{ marginBottom: 4 }}>
                   <span style={{ color: '#888' }}>ALSA: </span>
                   <span style={{ color: '#fff' }}>
-                    {signalEntry.alsa.toFixed(1)}
+                    {signalEntry.alsa != null && signalEntry.alsa > 0
+                      ? signalEntry.alsa.toFixed(1)
+                      : '—'}
                   </span>
                 </div>
                 <div style={{ marginBottom: 4 }}>

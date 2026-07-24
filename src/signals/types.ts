@@ -10,6 +10,8 @@ export interface CardSignalEntry {
   isConvergeSignal: boolean;
   isFixing: boolean;
   alsa: number;
+  /** Average taken at — absent in maps built before multi-set support */
+  ata?: number;
   overallGihwr: number;
   archetypeGihwr: Partial<Record<ArchetypeId, number>>;
   gihwrDelta: number;

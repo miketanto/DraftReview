@@ -11,7 +11,7 @@ interface SignalBadgeProps {
 const DOTS: Record<SignalTier, string> = {
   staple: '●●●',
   strong: '●●',
-  moderate: '��',
+  moderate: '●',
   weak: '',
   fixing: '◆',
 };

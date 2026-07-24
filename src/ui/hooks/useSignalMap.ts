@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import type { SignalMap } from '../../signals/types';
+import { signalMapUrl } from '../../shared/sets';
 
-export function useSignalMap(): {
+export function useSignalMap(setCode: string = 'SOS'): {
   signalMap: SignalMap | null;
   loading: boolean;
   error: string | null;
@@ -11,7 +12,9 @@ export function useSignalMap(): {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('/data/sos_signal_map.json')
+    setLoading(true);
+    setError(null);
+    fetch(signalMapUrl(setCode))
       .then((res) => {
         if (!res.ok) throw new Error(`Failed to load signal map: ${res.status}`);
         return res.json();
@@ -24,7 +27,7 @@ export function useSignalMap(): {
         setError(err.message);
         setLoading(false);
       });
-  }, []);
+  }, [setCode]);
 
   return { signalMap, loading, error };
 }

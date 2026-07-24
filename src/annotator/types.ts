@@ -4,6 +4,8 @@ export interface DraftReview {
   id: string;
   editToken?: string;
   draftId: string;
+  /** 17Lands expansion code; null for reviews created before multi-set support */
+  expansion?: string | null;
   draftLog: RawDraftPick[];
   annotations: PickAnnotation[];
   timelines: Timeline[];

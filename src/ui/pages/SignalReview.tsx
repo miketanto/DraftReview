@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useSignalMap } from '../hooks/useSignalMap';
 import { useDraftData } from '../hooks/useDraftData';
 import { useSignalEngine } from '../hooks/useSignalEngine';
@@ -25,9 +26,24 @@ export function SignalReview() {
 
   return (
     <>
-      <h1 style={{ color: '#fff', fontSize: 18, margin: '0 0 8px' }}>
-        DraftRewind — Signal Review
-      </h1>
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'baseline',
+          justifyContent: 'space-between',
+          margin: '0 0 8px',
+        }}
+      >
+        <h1 style={{ color: '#fff', fontSize: 18, margin: 0 }}>
+          DraftRewind — Signal Review
+        </h1>
+        <Link
+          to="/"
+          style={{ color: '#888', fontSize: 11, fontFamily: 'monospace' }}
+        >
+          ← annotated reviews
+        </Link>
+      </div>
 
       {mapLoading && (
         <div style={{ color: '#888', padding: 12 }}>Loading signal map...</div>

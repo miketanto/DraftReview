@@ -30,6 +30,14 @@ try {
   // column already exists
 }
 
+try {
+  // 17Lands expansion code (e.g. 'SOS'); NULL for reviews created before
+  // multi-set support — the client falls back to re-fetching the draft log.
+  db.exec(`ALTER TABLE reviews ADD COLUMN expansion TEXT`);
+} catch {
+  // column already exists
+}
+
 db.exec(`
   CREATE TABLE IF NOT EXISTS annotation_layers (
     id TEXT PRIMARY KEY,

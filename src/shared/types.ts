@@ -1,13 +1,9 @@
 export type Color = 'W' | 'U' | 'B' | 'R' | 'G';
 export type ColorCombo = string;
 
-export type ArchetypeId =
-  | 'silverquill'
-  | 'lorehold'
-  | 'prismari'
-  | 'quandrix'
-  | 'witherbloom'
-  | 'converge';
+// Archetype ids are open strings so the engine can serve any set.
+// SOS uses named college archetypes; generic sets use the 10 guild ids.
+export type ArchetypeId = string;
 
 export interface Archetype {
   id: ArchetypeId;
