@@ -3,13 +3,18 @@
  *
  * Usage: npm run build-set -- MSH [DSK OTJ ...]   (or: tsx scripts/build-set.ts MSH)
  *
- * Unlike build-cache.ts (which does one card_based_performance call per card,
- * ~300 requests), this fetches per-archetype GIHWR via the card_ratings
- * `colors` filter: 1 overall call + 1 call per two-color pair (~11 requests
- * per set). Outputs data/{code}_card_data.json and
- * public/data/{code}_signal_map.json.
+ * Uses 17Lands' current /api/card_data endpoint (the one the website
+ * itself calls) with time_period=ALL_TIME — the legacy /card_ratings/data
+ * endpoint serves a dead database with near-zero game counts. The `colors`
+ * filter genuinely works here: 1 overall call + 1 call per two-color pair
+ * (~11 requests per set) gives real per-archetype GIHWR. Outputs
+ * data/{code}_card_data.json and public/data/{code}_signal_map.json.
+ *
+ * 3+-color combos return no winrates on this endpoint, so for sets with a
+ * multicolor archetype (SOS converge) the previous cache's 3+-color combo
+ * stats are preserved by merging them into the fresh data.
  */
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
 import { resolve } from 'path';
 import type { CachedCardData } from '../src/data/types';
 import { buildSignalMap } from '../src/signals/signal-map';
@@ -47,23 +52,21 @@ function lenientParse(raw: string): unknown {
 async function fetchRatings(
   expansion: string,
   eventType: string,
-  startDate: string,
-  endDate: string,
   colors?: string
 ): Promise<RatingRow[]> {
   const params = new URLSearchParams({
     expansion,
     event_type: eventType,
-    start_date: startDate,
-    end_date: endDate,
+    time_period: 'ALL_TIME',
   });
   if (colors) params.set('colors', colors);
 
-  const url = `${BASE}/card_ratings/data?${params}`;
+  const url = `${BASE}/api/card_data?${params}`;
   for (let attempt = 1; attempt <= 3; attempt++) {
     const res = await fetch(url, { headers: { Accept: 'application/json' } });
     if (res.ok) {
-      const data = lenientParse(await res.text());
+      const payload = lenientParse(await res.text()) as { data?: unknown };
+      const data = Array.isArray(payload) ? payload : payload.data;
       if (!Array.isArray(data)) throw new Error(`Unexpected payload for ${url}`);
       return data as RatingRow[];
     }
@@ -71,6 +74,28 @@ async function fetchRatings(
     await sleep(RETRY_DELAY_MS * attempt);
   }
   throw new Error(`Failed after retries: ${url}`);
+}
+
+/**
+ * The /api/card_data endpoint has no winrates for 3+-color combos, so keep
+ * the previous cache's multicolor combo stats (SOS converge detection
+ * feeds on keys like 'WUB' / 'BG+').
+ */
+function harvestMulticolorStats(
+  cachePath: string
+): Map<number, CachedCardData['archetypeStats']> {
+  const out = new Map<number, CachedCardData['archetypeStats']>();
+  if (!existsSync(cachePath)) return out;
+  const old: CachedCardData[] = JSON.parse(readFileSync(cachePath, 'utf-8'));
+  for (const card of old) {
+    const multi: CachedCardData['archetypeStats'] = {};
+    for (const [key, stats] of Object.entries(card.archetypeStats)) {
+      const letters = key.replace(/[^A-Z]/g, '');
+      if (letters.length >= 3 || key.includes('+')) multi[key] = stats;
+    }
+    if (Object.keys(multi).length > 0) out.set(card.mtgaId, multi);
+  }
+  return out;
 }
 
 async function buildSet(code: string): Promise<void> {
@@ -81,16 +106,19 @@ async function buildSet(code: string): Promise<void> {
     );
   }
 
+  const lower = code.toLowerCase();
+  const cachePath = resolve(process.cwd(), `data/${lower}_card_data.json`);
+
+  // Preserve multicolor combo stats from the previous cache before overwrite
+  const multicolorStats = config.multicolorArchetype
+    ? harvestMulticolorStats(cachePath)
+    : new Map<number, CachedCardData['archetypeStats']>();
+
   console.log(
-    `\n=== ${code} (${config.name}) ${config.eventType} ${config.dataStartDate}..${config.dataEndDate} ===`
+    `\n=== ${code} (${config.name}) ${config.eventType} ALL_TIME ===`
   );
   console.log('Fetching overall ratings...');
-  const overall = await fetchRatings(
-    code,
-    config.eventType,
-    config.dataStartDate,
-    config.dataEndDate
-  );
+  const overall = await fetchRatings(code, config.eventType);
   console.log(`  ${overall.length} cards`);
 
   const byId = new Map<number, CachedCardData>();
@@ -106,20 +134,14 @@ async function buildSet(code: string): Promise<void> {
       overallGihwr: r.ever_drawn_win_rate ?? 0,
       gameCount: r.game_count,
       everDrawnGameCount: r.ever_drawn_game_count,
-      archetypeStats: {},
+      archetypeStats: { ...(multicolorStats.get(r.mtga_id) ?? {}) },
     });
   }
 
   for (const pair of config.twoColorKeys) {
     await sleep(DELAY_MS);
     console.log(`Fetching ${pair} deck ratings...`);
-    const rows = await fetchRatings(
-      code,
-      config.eventType,
-      config.dataStartDate,
-      config.dataEndDate,
-      pair
-    );
+    const rows = await fetchRatings(code, config.eventType, pair);
     let joined = 0;
     for (const r of rows) {
       const card = byId.get(r.mtga_id);
@@ -135,8 +157,6 @@ async function buildSet(code: string): Promise<void> {
   }
 
   const cards = [...byId.values()];
-  const lower = code.toLowerCase();
-  const cachePath = resolve(process.cwd(), `data/${lower}_card_data.json`);
   const mapPath = resolve(process.cwd(), `public/data/${lower}_signal_map.json`);
   mkdirSync(resolve(process.cwd(), 'data'), { recursive: true });
   mkdirSync(resolve(process.cwd(), 'public/data'), { recursive: true });

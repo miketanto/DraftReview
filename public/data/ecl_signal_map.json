@@ -1,835 +1,1139 @@
 {
   "Changeling Wayfinder": {
     "cardName": "Changeling Wayfinder",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.5906617,
+    "ata": 6.3035356,
+    "overallGihwr": 0.53552643,
+    "archetypeGihwr": {
+      "azorius": 0.54692801,
+      "orzhov": 0.53510324,
+      "boros": 0.52827918,
+      "selesnya": 0.53553528,
+      "dimir": 0.5325094,
+      "izzet": 0.55341826,
+      "simic": 0.53428571,
+      "rakdos": 0.51756079,
+      "golgari": 0.54462534,
+      "gruul": 0.48826119
+    },
+    "gihwrDelta": 0.017891830000000053
   },
   "Rooftop Percher": {
     "cardName": "Rooftop Percher",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.2427022,
+    "ata": 8.7412639,
+    "overallGihwr": 0.5504711,
+    "archetypeGihwr": {
+      "azorius": 0.54131828,
+      "orzhov": 0.50391061,
+      "boros": 0.5352657,
+      "selesnya": 0.55618112,
+      "dimir": 0.53818828,
+      "izzet": 0.56019262,
+      "rakdos": 0.5286438,
+      "golgari": 0.56451928,
+      "gruul": 0.48042414
+    },
+    "gihwrDelta": 0.014048179999999966
   },
   "Adept Watershaper": {
     "cardName": "Adept Watershaper",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.1344788,
+    "ata": 2.3079059,
+    "overallGihwr": 0.57850006,
+    "archetypeGihwr": {
+      "azorius": 0.58851373,
+      "boros": 0.55426918,
+      "selesnya": 0.58735713
+    },
+    "gihwrDelta": 0.010013669999999975
   },
   "Ajani, Outland Chaperone": {
     "cardName": "Ajani, Outland Chaperone",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "boros",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.4929102,
+    "ata": 1.5376266,
+    "overallGihwr": 0.60857115,
+    "archetypeGihwr": {
+      "azorius": 0.60851064,
+      "boros": 0.6299639,
+      "selesnya": 0.6317653
+    },
+    "gihwrDelta": 0.023194150000000024
   },
   "Appeal to Eirdu": {
     "cardName": "Appeal to Eirdu",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "selesnya",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.7386084,
+    "ata": 11.268605,
+    "overallGihwr": 0.49983952,
+    "archetypeGihwr": {
+      "azorius": 0.50782779,
+      "selesnya": 0.50162942
+    },
+    "gihwrDelta": 0.00798827000000002
   },
   "Bark of Doran": {
     "cardName": "Bark of Doran",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.1865445,
+    "ata": 10.462539,
+    "overallGihwr": 0.49367574,
+    "archetypeGihwr": {
+      "azorius": 0.52554148,
+      "orzhov": 0.46880907,
+      "selesnya": 0.46470588
+    },
+    "gihwrDelta": 0.03186574000000003
   },
   "Brigid, Clachan's Heart": {
     "cardName": "Brigid, Clachan's Heart",
-    "primaryArchetype": null,
+    "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.201233,
+    "ata": 2.3367404,
+    "overallGihwr": 0.60940719,
+    "archetypeGihwr": {
+      "azorius": 0.6014556,
+      "boros": 0.55253623,
+      "selesnya": 0.62920248
+    },
+    "gihwrDelta": 0.01979529000000002
   },
   "Burdened Stoneback": {
     "cardName": "Burdened Stoneback",
-    "primaryArchetype": null,
+    "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.5417037,
+    "ata": 5.9600087,
+    "overallGihwr": 0.53003652,
+    "archetypeGihwr": {
+      "azorius": 0.52828921,
+      "orzhov": 0.52838875,
+      "boros": 0.50915081,
+      "selesnya": 0.55
+    },
+    "gihwrDelta": 0.019963480000000033
   },
   "Champion of the Clachan": {
     "cardName": "Champion of the Clachan",
-    "primaryArchetype": null,
+    "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.8416628,
+    "ata": 3.2330975,
+    "overallGihwr": 0.55664436,
+    "archetypeGihwr": {
+      "azorius": 0.49872449,
+      "selesnya": 0.56989574
+    },
+    "gihwrDelta": 0.013251380000000035
   },
   "Clachan Festival": {
     "cardName": "Clachan Festival",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.8426621,
+    "ata": 4.6580677,
+    "overallGihwr": 0.56549985,
+    "archetypeGihwr": {
+      "azorius": 0.56481959,
+      "orzhov": 0.53128205,
+      "boros": 0.52777778,
+      "selesnya": 0.57585184
+    },
+    "gihwrDelta": 0.010351989999999978
   },
   "Crib Swap": {
     "cardName": "Crib Swap",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.4251062,
+    "ata": 8.365081,
+    "overallGihwr": 0.50221164,
+    "archetypeGihwr": {
+      "azorius": 0.51020408,
+      "boros": 0.4787234,
+      "selesnya": 0.5126778
+    },
+    "gihwrDelta": 0.010466160000000002
   },
   "Curious Colossus": {
     "cardName": "Curious Colossus",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.7839205,
+    "ata": 1.8172684,
+    "overallGihwr": 0.62852343,
+    "archetypeGihwr": {
+      "azorius": 0.63933562,
+      "boros": 0.63551402,
+      "selesnya": 0.63660655
+    },
+    "gihwrDelta": 0.01081219
   },
   "Eirdu, Carrier of Dawn": {
     "cardName": "Eirdu, Carrier of Dawn",
-    "primaryArchetype": null,
+    "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.4769196,
+    "ata": 1.494953,
+    "overallGihwr": 0.61130468,
+    "archetypeGihwr": {
+      "azorius": 0.6119403,
+      "orzhov": 0.58482143,
+      "selesnya": 0.65061192
+    },
+    "gihwrDelta": 0.039307239999999966
   },
   "Encumbered Reejerey": {
     "cardName": "Encumbered Reejerey",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.590856,
+    "ata": 4.2316799,
+    "overallGihwr": 0.5637685,
+    "archetypeGihwr": {
+      "azorius": 0.57521415,
+      "orzhov": 0.54393939,
+      "boros": 0.52279825,
+      "selesnya": 0.55180476
+    },
+    "gihwrDelta": 0.011445649999999974
   },
   "Evershrike's Gift": {
     "cardName": "Evershrike's Gift",
-    "primaryArchetype": null,
+    "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.7920389,
+    "ata": 8.2234731,
+    "overallGihwr": 0.53214263,
+    "archetypeGihwr": {
+      "azorius": 0.52246294,
+      "orzhov": 0.47225502,
+      "boros": 0.4907909,
+      "selesnya": 0.55171984
+    },
+    "gihwrDelta": 0.01957721000000001
   },
   "Flock Impostor": {
     "cardName": "Flock Impostor",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.8903242,
+    "ata": 4.8640758,
+    "overallGihwr": 0.55187089,
+    "archetypeGihwr": {
+      "azorius": 0.56058188,
+      "orzhov": 0.49666913,
+      "boros": 0.51825254,
+      "selesnya": 0.5625
+    },
+    "gihwrDelta": 0.010629109999999997
   },
   "Gallant Fowlknight": {
     "cardName": "Gallant Fowlknight",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "azorius",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.4550336,
+    "ata": 9.1736816,
+    "overallGihwr": 0.54160334,
+    "archetypeGihwr": {
+      "azorius": 0.52905117,
+      "orzhov": 0.49930844,
+      "boros": 0.49602544,
+      "selesnya": 0.54777531
+    },
+    "gihwrDelta": 0.006171970000000027
   },
   "Goldmeadow Nomad": {
     "cardName": "Goldmeadow Nomad",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "selesnya",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.6393763,
+    "ata": 9.5613571,
+    "overallGihwr": 0.52551204,
+    "archetypeGihwr": {
+      "azorius": 0.53257748,
+      "orzhov": 0.50045249,
+      "boros": 0.50284091,
+      "selesnya": 0.53026674
+    },
+    "gihwrDelta": 0.007065440000000089
   },
   "Keep Out": {
     "cardName": "Keep Out",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.3006903,
+    "ata": 7.7186394,
+    "overallGihwr": 0.52556095,
+    "archetypeGihwr": {
+      "azorius": 0.53745261,
+      "orzhov": 0.51432236,
+      "boros": 0.48691549,
+      "selesnya": 0.52412562
+    },
+    "gihwrDelta": 0.01189165999999997
   },
   "Kinbinding": {
     "cardName": "Kinbinding",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.7957725,
+    "ata": 1.8297072,
+    "overallGihwr": 0.64253913,
+    "archetypeGihwr": {
+      "azorius": 0.67190519,
+      "orzhov": 0.62373372,
+      "boros": 0.62521295,
+      "selesnya": 0.64689781
+    },
+    "gihwrDelta": 0.029366060000000083
   },
   "Kinsbaile Aspirant": {
     "cardName": "Kinsbaile Aspirant",
-    "primaryArchetype": null,
+    "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.4166148,
+    "ata": 5.3044123,
+    "overallGihwr": 0.5814264,
+    "archetypeGihwr": {
+      "azorius": 0.52527255,
+      "boros": 0.51909308,
+      "selesnya": 0.59303546
+    },
+    "gihwrDelta": 0.011609059999999949
   },
   "Kinscaer Sentry": {
     "cardName": "Kinscaer Sentry",
-    "primaryArchetype": null,
+    "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.2322561,
+    "ata": 2.412537,
+    "overallGihwr": 0.58991443,
+    "archetypeGihwr": {
+      "azorius": 0.58650921,
+      "orzhov": 0.55841584,
+      "boros": 0.55408389,
+      "selesnya": 0.61020327
+    },
+    "gihwrDelta": 0.020288839999999975
   },
   "Kithkeeper": {
     "cardName": "Kithkeeper",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.2759779,
+    "ata": 7.0696305,
+    "overallGihwr": 0.53731852,
+    "archetypeGihwr": {
+      "azorius": 0.51618625,
+      "boros": 0.51095618,
+      "selesnya": 0.52209178,
+      "izzet": 0.58286778,
+      "gruul": 0.52849741
+    },
+    "gihwrDelta": 0.045549259999999925
   },
   "Liminal Hold": {
     "cardName": "Liminal Hold",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.750543,
+    "ata": 4.6970186,
+    "overallGihwr": 0.55846497,
+    "archetypeGihwr": {
+      "azorius": 0.56536614,
+      "orzhov": 0.55763871,
+      "boros": 0.55060729,
+      "selesnya": 0.56423549,
+      "izzet": 0.57340083,
+      "golgari": 0.53320861
+    },
+    "gihwrDelta": 0.014935860000000023
   },
   "Meanders Guide": {
     "cardName": "Meanders Guide",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.5560289,
+    "ata": 5.886837,
+    "overallGihwr": 0.54120204,
+    "archetypeGihwr": {
+      "azorius": 0.54888584,
+      "selesnya": 0.52287582
+    },
+    "gihwrDelta": 0.007683799999999907
   },
   "Moonlit Lamenter": {
     "cardName": "Moonlit Lamenter",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "boros",
+    "secondaryArchetype": "orzhov",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.9247717,
+    "ata": 4.8160471,
+    "overallGihwr": 0.55323071,
+    "archetypeGihwr": {
+      "azorius": 0.55621727,
+      "orzhov": 0.55679832,
+      "boros": 0.56487736,
+      "selesnya": 0.55539472
+    },
+    "gihwrDelta": 0.01164664999999998
   },
   "Morningtide's Light": {
     "cardName": "Morningtide's Light",
-    "primaryArchetype": null,
+    "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.3702003,
+    "ata": 3.992756,
+    "overallGihwr": 0.54029964,
+    "archetypeGihwr": {
+      "azorius": 0.54594017,
+      "selesnya": 0.57605178
+    },
+    "gihwrDelta": 0.03575214000000004
   },
   "Personify": {
     "cardName": "Personify",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "azorius",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.992289,
+    "ata": 6.7476793,
+    "overallGihwr": 0.54986915,
+    "archetypeGihwr": {
+      "azorius": 0.55644699,
+      "orzhov": 0.52240143,
+      "boros": 0.49729144,
+      "selesnya": 0.55848118
+    },
+    "gihwrDelta": 0.008612029999999993
   },
   "Protective Response": {
     "cardName": "Protective Response",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "selesnya",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.3041226,
+    "ata": 3.8599276,
+    "overallGihwr": 0.57228641,
+    "archetypeGihwr": {
+      "azorius": 0.58023605,
+      "orzhov": 0.54058079,
+      "boros": 0.54171495,
+      "selesnya": 0.57916371
+    },
+    "gihwrDelta": 0.00794963999999998
   },
   "Pyrrhic Strike": {
     "cardName": "Pyrrhic Strike",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "selesnya",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.2132141,
+    "ata": 3.6721747,
+    "overallGihwr": 0.58317,
+    "archetypeGihwr": {
+      "azorius": 0.58745525,
+      "orzhov": 0.57090909,
+      "boros": 0.56630824,
+      "selesnya": 0.5903707,
+      "izzet": 0.59186536
+    },
+    "gihwrDelta": 0.00869536000000004
   },
   "Reluctant Dounguard": {
     "cardName": "Reluctant Dounguard",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "boros",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.2177623,
+    "ata": 9.1439505,
+    "overallGihwr": 0.51561948,
+    "archetypeGihwr": {
+      "azorius": 0.49744507,
+      "orzhov": 0.46198217,
+      "boros": 0.51060359,
+      "selesnya": 0.52766029
+    },
+    "gihwrDelta": 0.012040810000000013
   },
   "Rhys, the Evermore": {
     "cardName": "Rhys, the Evermore",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.6273292,
+    "ata": 2.9045787,
+    "overallGihwr": 0.5269297,
+    "archetypeGihwr": {
+      "azorius": 0.53703289,
+      "orzhov": 0.51341463,
+      "boros": 0.5083426,
+      "selesnya": 0.54689433
+    },
+    "gihwrDelta": 0.01996463000000004
   },
   "Riverguard's Reflexes": {
     "cardName": "Riverguard's Reflexes",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.306272,
+    "ata": 10.70784,
+    "overallGihwr": 0.52733686,
+    "archetypeGihwr": {
+      "azorius": 0.52892472,
+      "boros": 0.44969697,
+      "selesnya": 0.54109458
+    },
+    "gihwrDelta": 0.013757719999999973
   },
   "Shore Lurker": {
     "cardName": "Shore Lurker",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "orzhov",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.4542005,
+    "ata": 9.264841,
+    "overallGihwr": 0.53736994,
+    "archetypeGihwr": {
+      "azorius": 0.54405972,
+      "orzhov": 0.52984389,
+      "boros": 0.48636763,
+      "selesnya": 0.52560199
+    },
+    "gihwrDelta": 0.0066897799999999785
   },
   "Slumbering Walker": {
     "cardName": "Slumbering Walker",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.0534499,
+    "ata": 2.1720503,
+    "overallGihwr": 0.5939228,
+    "archetypeGihwr": {
+      "azorius": 0.62448475,
+      "orzhov": 0.58216971,
+      "boros": 0.58116064,
+      "selesnya": 0.59094089
+    },
+    "gihwrDelta": 0.03056195000000006
   },
   "Spiral into Solitude": {
     "cardName": "Spiral into Solitude",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.1651433,
+    "ata": 5.4226955,
+    "overallGihwr": 0.54334449,
+    "archetypeGihwr": {
+      "azorius": 0.54622394,
+      "orzhov": 0.53354053,
+      "boros": 0.53110872,
+      "selesnya": 0.55440264
+    },
+    "gihwrDelta": 0.011058149999999989
   },
   "Sun-Dappled Celebrant": {
     "cardName": "Sun-Dappled Celebrant",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "boros",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.9276253,
+    "ata": 8.5256637,
+    "overallGihwr": 0.52916847,
+    "archetypeGihwr": {
+      "azorius": 0.5362693,
+      "orzhov": 0.49783362,
+      "boros": 0.53584906,
+      "selesnya": 0.53339793
+    },
+    "gihwrDelta": 0.007100829999999947
   },
   "Thoughtweft Imbuer": {
     "cardName": "Thoughtweft Imbuer",
-    "primaryArchetype": null,
+    "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.1166078,
+    "ata": 4.7825299,
+    "overallGihwr": 0.58298609,
+    "archetypeGihwr": {
+      "azorius": 0.54789916,
+      "orzhov": 0.5577957,
+      "boros": 0.52402235,
+      "selesnya": 0.59507337
+    },
+    "gihwrDelta": 0.012087280000000034
   },
   "Timid Shieldbearer": {
     "cardName": "Timid Shieldbearer",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "selesnya",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.6350601,
+    "ata": 7.6780789,
+    "overallGihwr": 0.55102143,
+    "archetypeGihwr": {
+      "azorius": 0.56018217,
+      "orzhov": 0.5243309,
+      "boros": 0.52033396,
+      "selesnya": 0.55655041
+    },
+    "gihwrDelta": 0.00916074
   },
   "Tributary Vaulter": {
     "cardName": "Tributary Vaulter",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.3451948,
+    "ata": 8.6798936,
+    "overallGihwr": 0.55435657,
+    "archetypeGihwr": {
+      "azorius": 0.55849265,
+      "selesnya": 0.48938053
+    },
+    "gihwrDelta": 0.0041360799999999864
   },
   "Wanderbrine Preacher": {
     "cardName": "Wanderbrine Preacher",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.550228,
+    "ata": 7.4254918,
+    "overallGihwr": 0.55597902,
+    "archetypeGihwr": {
+      "azorius": 0.56696922,
+      "orzhov": 0.47675479,
+      "boros": 0.52049329,
+      "selesnya": 0.53313829
+    },
+    "gihwrDelta": 0.010990200000000061
   },
   "Wanderbrine Trapper": {
     "cardName": "Wanderbrine Trapper",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "selesnya",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.7912371,
+    "ata": 4.3651537,
+    "overallGihwr": 0.59494618,
+    "archetypeGihwr": {
+      "azorius": 0.60281475,
+      "orzhov": 0.55643739,
+      "boros": 0.54258887,
+      "selesnya": 0.59561316
+    },
+    "gihwrDelta": 0.007868569999999964
   },
   "Winnowing": {
     "cardName": "Winnowing",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.9816831,
+    "ata": 5.0700829,
+    "overallGihwr": 0.52809415,
+    "archetypeGihwr": {
+      "azorius": 0.54931129,
+      "selesnya": 0.53168354
+    },
+    "gihwrDelta": 0.021217139999999968
   },
   "Aquitect's Defenses": {
     "cardName": "Aquitect's Defenses",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.1982121,
+    "ata": 10.454838,
+    "overallGihwr": 0.53000396,
+    "archetypeGihwr": {
+      "azorius": 0.54540673,
+      "dimir": 0.51297257,
+      "izzet": 0.52010093
+    },
+    "gihwrDelta": 0.015402769999999899
   },
   "Blossombind": {
     "cardName": "Blossombind",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.5865572,
+    "ata": 5.9929558,
+    "overallGihwr": 0.55087055,
+    "archetypeGihwr": {
+      "azorius": 0.55907633,
+      "dimir": 0.500292,
+      "izzet": 0.55985126,
+      "simic": 0.53268293
+    },
+    "gihwrDelta": 0.008980710000000003
   },
   "Champions of the Shoal": {
     "cardName": "Champions of the Shoal",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.56899,
+    "ata": 2.7893526,
+    "overallGihwr": 0.62354156,
+    "archetypeGihwr": {
+      "azorius": 0.63898087,
+      "izzet": 0.59015487
+    },
+    "gihwrDelta": 0.015439309999999984
   },
   "Disruptor of Currents": {
     "cardName": "Disruptor of Currents",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.3336617,
+    "ata": 2.5172662,
+    "overallGihwr": 0.61153007,
+    "archetypeGihwr": {
+      "azorius": 0.62326516,
+      "dimir": 0.54416244,
+      "izzet": 0.62578616,
+      "simic": 0.5509839
+    },
+    "gihwrDelta": 0.014256089999999944
   },
   "Flitterwing Nuisance": {
     "cardName": "Flitterwing Nuisance",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.3692131,
+    "ata": 2.5388379,
+    "overallGihwr": 0.60039283,
+    "archetypeGihwr": {
+      "azorius": 0.61754257,
+      "dimir": 0.58783784,
+      "izzet": 0.60798319,
+      "simic": 0.58426966
+    },
+    "gihwrDelta": 0.017149740000000024
   },
   "Glamer Gifter": {
     "cardName": "Glamer Gifter",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.9941193,
+    "ata": 4.8119324,
+    "overallGihwr": 0.56586704,
+    "archetypeGihwr": {
+      "azorius": 0.58059437,
+      "dimir": 0.53426463,
+      "izzet": 0.56854294,
+      "simic": 0.53130755
+    },
+    "gihwrDelta": 0.014727330000000038
   },
   "Glamermite": {
     "cardName": "Glamermite",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "dimir",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.5858392,
+    "ata": 9.4895409,
+    "overallGihwr": 0.53223713,
+    "archetypeGihwr": {
+      "azorius": 0.54598826,
+      "dimir": 0.526309,
+      "izzet": 0.52465717,
+      "simic": 0.51448041
+    },
+    "gihwrDelta": 0.013751130000000056
   },
   "Glen Elendra Guardian": {
     "cardName": "Glen Elendra Guardian",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.3995021,
+    "ata": 2.5935845,
+    "overallGihwr": 0.56614275,
+    "archetypeGihwr": {
+      "azorius": 0.58082386,
+      "dimir": 0.55405405,
+      "izzet": 0.57367096,
+      "simic": 0.52723735
+    },
+    "gihwrDelta": 0.014681109999999942
   },
   "Glen Elendra's Answer": {
     "cardName": "Glen Elendra's Answer",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.884441,
+    "ata": 4.5765429,
+    "overallGihwr": 0.5931389,
+    "archetypeGihwr": {
+      "azorius": 0.59246575,
+      "dimir": 0.56231003,
+      "izzet": 0.60945908
+    },
+    "gihwrDelta": 0.016320180000000017
   },
   "Gravelgill Scoundrel": {
     "cardName": "Gravelgill Scoundrel",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.3087809,
+    "ata": 8.4375487,
+    "overallGihwr": 0.55777021,
+    "archetypeGihwr": {
+      "azorius": 0.56354737,
+      "dimir": 0.509562,
+      "izzet": 0.52254902,
+      "simic": 0.49230769
+    },
+    "gihwrDelta": 0.005777159999999948
   },
   "Harmonized Crescendo": {
     "cardName": "Harmonized Crescendo",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.8662561,
+    "ata": 4.8262754,
+    "overallGihwr": 0.53167441,
+    "archetypeGihwr": {
+      "azorius": 0.55598895,
+      "izzet": 0.52567976
+    },
+    "gihwrDelta": 0.024314539999999996
   },
   "Illusion Spinners": {
     "cardName": "Illusion Spinners",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "dimir",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.9695453,
+    "ata": 8.5991299,
+    "overallGihwr": 0.51215445,
+    "archetypeGihwr": {
+      "azorius": 0.50915751,
+      "dimir": 0.52490533,
+      "izzet": 0.5051083
+    },
+    "gihwrDelta": 0.012750879999999909
   },
   "Kulrath Mystic": {
     "cardName": "Kulrath Mystic",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.0729274,
+    "ata": 10.002092,
+    "overallGihwr": 0.53944842,
+    "archetypeGihwr": {
+      "azorius": 0.50973508,
+      "dimir": 0.48029331,
+      "izzet": 0.54990179,
+      "simic": 0.5125
+    },
+    "gihwrDelta": 0.010453369999999906
   },
   "Loch Mare": {
     "cardName": "Loch Mare",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.7181547,
+    "ata": 1.7847141,
+    "overallGihwr": 0.62097612,
+    "archetypeGihwr": {
+      "azorius": 0.62494172,
+      "dimir": 0.57189015,
+      "izzet": 0.64466196
+    },
+    "gihwrDelta": 0.023685839999999958
   },
   "Lofty Dreams": {
     "cardName": "Lofty Dreams",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.1491326,
+    "ata": 6.755538,
+    "overallGihwr": 0.55311647,
+    "archetypeGihwr": {
+      "azorius": 0.56636949,
+      "dimir": 0.50446429,
+      "izzet": 0.5488174,
+      "simic": 0.50566038
+    },
+    "gihwrDelta": 0.01325302000000006
   },
   "Mirrorform": {
     "cardName": "Mirrorform",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.1742696,
+    "ata": 3.5116089,
+    "overallGihwr": 0.55541498,
+    "archetypeGihwr": {
+      "azorius": 0.58510967,
+      "izzet": 0.54561977
+    },
+    "gihwrDelta": 0.029694690000000024
   },
   "Noggle the Mind": {
     "cardName": "Noggle the Mind",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "simic",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.4194912,
+    "ata": 5.7143589,
+    "overallGihwr": 0.55189412,
+    "archetypeGihwr": {
+      "azorius": 0.54869226,
+      "dimir": 0.54202483,
+      "izzet": 0.5661388,
+      "simic": 0.54885655
+    },
+    "gihwrDelta": 0.01424468000000001
   },
   "Oko, Lorwyn Liege": {
     "cardName": "Oko, Lorwyn Liege",
-    "primaryArchetype": null,
+    "primaryArchetype": "simic",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.8046333,
+    "ata": 1.8377431,
+    "overallGihwr": 0.56421732,
+    "archetypeGihwr": {
+      "azorius": 0.53966271,
+      "izzet": 0.57443885,
+      "simic": 0.61160714,
+      "golgari": 0.56227106
+    },
+    "gihwrDelta": 0.04738982000000003
   },
   "Omni-Changeling": {
     "cardName": "Omni-Changeling",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.6116511,
+    "ata": 4.2007631,
+    "overallGihwr": 0.56012498,
+    "archetypeGihwr": {
+      "azorius": 0.56631037,
+      "dimir": 0.5254491,
+      "izzet": 0.56758162,
+      "simic": 0.558799
+    },
+    "gihwrDelta": 0.007456640000000014
   },
   "Pestered Wellguard": {
     "cardName": "Pestered Wellguard",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.0585141,
+    "ata": 5.008116,
+    "overallGihwr": 0.54507501,
+    "archetypeGihwr": {
+      "azorius": 0.55659324,
+      "dimir": 0.47089167,
+      "izzet": 0.53914796,
+      "simic": 0.52906977
+    },
+    "gihwrDelta": 0.011518229999999963
   },
   "Rime Chill": {
     "cardName": "Rime Chill",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.9542406,
+    "ata": 8.3166358,
+    "overallGihwr": 0.52356085,
+    "archetypeGihwr": {
+      "azorius": 0.5266766,
+      "dimir": 0.50646766,
+      "izzet": 0.54092209,
+      "simic": 0.52292576
+    },
+    "gihwrDelta": 0.017361240000000056
   },
   "Rimefire Torque": {
     "cardName": "Rimefire Torque",
@@ -838,596 +1142,803 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
+    "alsa": 5.8842602,
+    "ata": 9.050042,
+    "overallGihwr": 0.40084388,
     "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "gihwrDelta": -0.40084388
   },
   "Rimekin Recluse": {
     "cardName": "Rimekin Recluse",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.0766342,
+    "ata": 3.4470282,
+    "overallGihwr": 0.60163646,
+    "archetypeGihwr": {
+      "azorius": 0.61251064,
+      "dimir": 0.56511156,
+      "izzet": 0.6102429,
+      "simic": 0.58092105
+    },
+    "gihwrDelta": 0.010874179999999956
   },
   "Run Away Together": {
     "cardName": "Run Away Together",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.2470374,
+    "ata": 10.486134,
+    "overallGihwr": 0.51201561,
+    "archetypeGihwr": {
+      "azorius": 0.51248751,
+      "dimir": 0.48344805,
+      "izzet": 0.52974472,
+      "simic": 0.49033392
+    },
+    "gihwrDelta": 0.017729109999999992
   },
   "Shinestriker": {
     "cardName": "Shinestriker",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "gruul",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.8672163,
+    "ata": 4.4064135,
+    "overallGihwr": 0.58512892,
+    "archetypeGihwr": {
+      "azorius": 0.57922535,
+      "dimir": 0.55845123,
+      "izzet": 0.59619714,
+      "simic": 0.58092643,
+      "gruul": 0.5974026
+    },
+    "gihwrDelta": 0.012273679999999954
   },
   "Silvergill Mentor": {
     "cardName": "Silvergill Mentor",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.2016927,
+    "ata": 4.9051423,
+    "overallGihwr": 0.60110026,
+    "archetypeGihwr": {
+      "azorius": 0.60860137,
+      "dimir": 0.53714982,
+      "izzet": 0.56357237
+    },
+    "gihwrDelta": 0.0075011099999999775
   },
   "Silvergill Peddler": {
     "cardName": "Silvergill Peddler",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.5894516,
+    "ata": 9.1044802,
+    "overallGihwr": 0.54983376,
+    "archetypeGihwr": {
+      "azorius": 0.55671788,
+      "dimir": 0.50567045,
+      "izzet": 0.52903652,
+      "simic": 0.48967552
+    },
+    "gihwrDelta": 0.006884120000000049
   },
   "Spell Snare": {
     "cardName": "Spell Snare",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.8112683,
+    "ata": 10.152995,
+    "overallGihwr": 0.48694758,
+    "archetypeGihwr": {
+      "azorius": 0.48902821,
+      "dimir": 0.45757576,
+      "izzet": 0.51627907
+    },
+    "gihwrDelta": 0.02933148999999996
   },
   "Stratosoarer": {
     "cardName": "Stratosoarer",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.0781041,
+    "ata": 8.6117704,
+    "overallGihwr": 0.54682223,
+    "archetypeGihwr": {
+      "azorius": 0.53063967,
+      "dimir": 0.50851683,
+      "izzet": 0.56389689,
+      "simic": 0.51628182
+    },
+    "gihwrDelta": 0.01707466000000002
   },
   "Summit Sentinel": {
     "cardName": "Summit Sentinel",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.4944261,
+    "ata": 9.1326621,
+    "overallGihwr": 0.53692141,
+    "archetypeGihwr": {
+      "azorius": 0.51571429,
+      "dimir": 0.50242424,
+      "izzet": 0.55052733,
+      "simic": 0.51347518
+    },
+    "gihwrDelta": 0.013605919999999938
   },
   "Sunderflock": {
     "cardName": "Sunderflock",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.4305361,
+    "ata": 2.5699106,
+    "overallGihwr": 0.64109643,
+    "archetypeGihwr": {
+      "azorius": 0.55161495,
+      "izzet": 0.66721617
+    },
+    "gihwrDelta": 0.026119739999999947
   },
   "Swat Away": {
     "cardName": "Swat Away",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.9454694,
+    "ata": 6.4109702,
+    "overallGihwr": 0.54656097,
+    "archetypeGihwr": {
+      "azorius": 0.54210957,
+      "dimir": 0.52371844,
+      "izzet": 0.56435206,
+      "simic": 0.50771056
+    },
+    "gihwrDelta": 0.01779109000000001
   },
   "Sygg, Wanderwine Wisdom": {
     "cardName": "Sygg, Wanderwine Wisdom",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.2347052,
+    "ata": 2.3893761,
+    "overallGihwr": 0.60622925,
+    "archetypeGihwr": {
+      "azorius": 0.62521448,
+      "dimir": 0.54320988,
+      "izzet": 0.59270145
+    },
+    "gihwrDelta": 0.018985229999999964
   },
   "Tanufel Rimespeaker": {
     "cardName": "Tanufel Rimespeaker",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.9934531,
+    "ata": 4.6854744,
+    "overallGihwr": 0.5634658,
+    "archetypeGihwr": {
+      "azorius": 0.55572573,
+      "dimir": 0.52706553,
+      "izzet": 0.57493734,
+      "simic": 0.54183927
+    },
+    "gihwrDelta": 0.011471539999999947
   },
   "Temporal Cleansing": {
     "cardName": "Temporal Cleansing",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.0533867,
+    "ata": 8.1706102,
+    "overallGihwr": 0.56057338,
+    "archetypeGihwr": {
+      "azorius": 0.5655713,
+      "dimir": 0.5,
+      "izzet": 0.57282779,
+      "simic": 0.52025783
+    },
+    "gihwrDelta": 0.012254409999999938
   },
   "Thirst for Identity": {
     "cardName": "Thirst for Identity",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.6456339,
+    "ata": 7.9748213,
+    "overallGihwr": 0.53186085,
+    "archetypeGihwr": {
+      "azorius": 0.53330228,
+      "dimir": 0.5240263,
+      "izzet": 0.54275713,
+      "simic": 0.50988142
+    },
+    "gihwrDelta": 0.01089627999999998
   },
   "Unexpected Assistance": {
     "cardName": "Unexpected Assistance",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.4686585,
+    "ata": 7.2012694,
+    "overallGihwr": 0.55803042,
+    "archetypeGihwr": {
+      "azorius": 0.57043247,
+      "dimir": 0.51795174,
+      "izzet": 0.55820255,
+      "simic": 0.49607073
+    },
+    "gihwrDelta": 0.012402049999999942
   },
   "Unwelcome Sprite": {
     "cardName": "Unwelcome Sprite",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.5326608,
+    "ata": 5.5790982,
+    "overallGihwr": 0.562571,
+    "archetypeGihwr": {
+      "azorius": 0.5672858,
+      "dimir": 0.54636767,
+      "izzet": 0.57086867,
+      "simic": 0.55984174
+    },
+    "gihwrDelta": 0.008297669999999924
   },
   "Wanderwine Distracter": {
     "cardName": "Wanderwine Distracter",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.5326075,
+    "ata": 10.943341,
+    "overallGihwr": 0.50931024,
+    "archetypeGihwr": {
+      "azorius": 0.51629936,
+      "dimir": 0.48638132,
+      "izzet": 0.46619576
+    },
+    "gihwrDelta": 0.00698911999999996
   },
   "Wanderwine Farewell": {
     "cardName": "Wanderwine Farewell",
-    "primaryArchetype": null,
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.9338137,
+    "ata": 6.1820372,
+    "overallGihwr": 0.56796419,
+    "archetypeGihwr": {
+      "azorius": 0.58006114,
+      "dimir": 0.49249249,
+      "izzet": 0.52284083
+    },
+    "gihwrDelta": 0.012096949999999995
   },
   "Wild Unraveling": {
     "cardName": "Wild Unraveling",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "simic",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.1871411,
+    "ata": 10.293714,
+    "overallGihwr": 0.53373975,
+    "archetypeGihwr": {
+      "azorius": 0.53415362,
+      "dimir": 0.5299569,
+      "izzet": 0.53869079,
+      "simic": 0.54519774
+    },
+    "gihwrDelta": 0.011457990000000029
   },
   "Auntie's Sentence": {
     "cardName": "Auntie's Sentence",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.9043401,
+    "ata": 8.4903739,
+    "overallGihwr": 0.53419287,
+    "archetypeGihwr": {
+      "orzhov": 0.5125385,
+      "dimir": 0.49868074,
+      "rakdos": 0.51370076,
+      "golgari": 0.55669802
+    },
+    "gihwrDelta": 0.022505149999999974
   },
   "Barbed Bloodletter": {
     "cardName": "Barbed Bloodletter",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "orzhov",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.3640906,
+    "ata": 10.765144,
+    "overallGihwr": 0.53384009,
+    "archetypeGihwr": {
+      "orzhov": 0.55778894,
+      "dimir": 0.53141928,
+      "rakdos": 0.51271785,
+      "golgari": 0.54979036
+    },
+    "gihwrDelta": 0.02394885000000002
   },
   "Bile-Vial Boggart": {
     "cardName": "Bile-Vial Boggart",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.5732492,
+    "ata": 9.4837714,
+    "overallGihwr": 0.51895639,
+    "archetypeGihwr": {
+      "orzhov": 0.49847716,
+      "dimir": 0.47983015,
+      "rakdos": 0.52638613,
+      "golgari": 0.49959514
+    },
+    "gihwrDelta": 0.0074297399999999625
   },
   "Bitterbloom Bearer": {
     "cardName": "Bitterbloom Bearer",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.8541741,
+    "ata": 1.9133717,
+    "overallGihwr": 0.5792613,
+    "archetypeGihwr": {
+      "dimir": 0.57502028,
+      "rakdos": 0.57698888,
+      "golgari": 0.59733037
+    },
+    "gihwrDelta": 0.01806907000000002
   },
   "Blight Rot": {
     "cardName": "Blight Rot",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.7667366,
+    "ata": 4.7183988,
+    "overallGihwr": 0.55447841,
+    "archetypeGihwr": {
+      "orzhov": 0.54267794,
+      "dimir": 0.53680879,
+      "izzet": 0.57063197,
+      "rakdos": 0.53468589,
+      "golgari": 0.57535366
+    },
+    "gihwrDelta": 0.020875250000000012
   },
   "Blighted Blackthorn": {
     "cardName": "Blighted Blackthorn",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "orzhov",
+    "secondaryArchetype": "rakdos",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.7767862,
+    "ata": 9.875086,
+    "overallGihwr": 0.50790836,
+    "archetypeGihwr": {
+      "orzhov": 0.52591793,
+      "dimir": 0.47351525,
+      "rakdos": 0.50944,
+      "golgari": 0.50261354
+    },
+    "gihwrDelta": 0.01800957000000003
   },
   "Bloodline Bidding": {
     "cardName": "Bloodline Bidding",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.0850872,
+    "ata": 3.3816032,
+    "overallGihwr": 0.58558671,
+    "archetypeGihwr": {
+      "rakdos": 0.54391009,
+      "golgari": 0.61590909
+    },
+    "gihwrDelta": 0.030322380000000093
   },
   "Boggart Mischief": {
     "cardName": "Boggart Mischief",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.2476287,
+    "ata": 5.0658441,
+    "overallGihwr": 0.57048508,
+    "archetypeGihwr": {
+      "orzhov": 0.52888087,
+      "rakdos": 0.57763798,
+      "golgari": 0.4772344
+    },
+    "gihwrDelta": 0.007152900000000018
   },
   "Boggart Prankster": {
     "cardName": "Boggart Prankster",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.9423225,
+    "ata": 9.8101256,
+    "overallGihwr": 0.52544853,
+    "archetypeGihwr": {
+      "orzhov": 0.50752508,
+      "rakdos": 0.529477,
+      "golgari": 0.48145506
+    },
+    "gihwrDelta": 0.004028469999999951
   },
   "Bogslither's Embrace": {
     "cardName": "Bogslither's Embrace",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.8172251,
+    "ata": 4.7670915,
+    "overallGihwr": 0.56120188,
+    "archetypeGihwr": {
+      "orzhov": 0.54545455,
+      "dimir": 0.534516,
+      "izzet": 0.55491329,
+      "rakdos": 0.55319444,
+      "golgari": 0.58005111
+    },
+    "gihwrDelta": 0.01884922999999994
   },
   "Champion of the Weird": {
     "cardName": "Champion of the Weird",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.9474272,
+    "ata": 3.3259912,
+    "overallGihwr": 0.59503766,
+    "archetypeGihwr": {
+      "rakdos": 0.61331236,
+      "golgari": 0.54757785
+    },
+    "gihwrDelta": 0.018274699999999977
   },
   "Creakwood Safewright": {
     "cardName": "Creakwood Safewright",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.7003171,
+    "ata": 4.3515506,
+    "overallGihwr": 0.57214414,
+    "archetypeGihwr": {
+      "orzhov": 0.52091768,
+      "dimir": 0.53026316,
+      "rakdos": 0.52361226,
+      "golgari": 0.58200953
+    },
+    "gihwrDelta": 0.009865389999999974
   },
   "Darkness Descends": {
     "cardName": "Darkness Descends",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "orzhov",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.3635124,
+    "ata": 9.5513411,
+    "overallGihwr": 0.49072239,
+    "archetypeGihwr": {
+      "orzhov": 0.50497512,
+      "rakdos": 0.46990573,
+      "golgari": 0.51116071
+    },
+    "gihwrDelta": 0.020438319999999954
   },
   "Dawnhand Dissident": {
     "cardName": "Dawnhand Dissident",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "rakdos",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.347939,
+    "ata": 2.5274759,
+    "overallGihwr": 0.58919986,
+    "archetypeGihwr": {
+      "orzhov": 0.55634638,
+      "dimir": 0.56911582,
+      "rakdos": 0.58951433,
+      "golgari": 0.60428869
+    },
+    "gihwrDelta": 0.015088829999999942
   },
   "Dawnhand Eulogist": {
     "cardName": "Dawnhand Eulogist",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.5623993,
+    "ata": 7.0729829,
+    "overallGihwr": 0.57917029,
+    "archetypeGihwr": {
+      "orzhov": 0.52164009,
+      "dimir": 0.52278177,
+      "rakdos": 0.51652575,
+      "golgari": 0.58570771
+    },
+    "gihwrDelta": 0.006537420000000016
   },
   "Dose of Dawnglow": {
     "cardName": "Dose of Dawnglow",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.7503861,
+    "ata": 8.3219178,
+    "overallGihwr": 0.50938338,
+    "archetypeGihwr": {
+      "orzhov": 0.47342398,
+      "dimir": 0.47783251,
+      "rakdos": 0.48699502,
+      "golgari": 0.52494729
+    },
+    "gihwrDelta": 0.015563909999999903
   },
   "Dream Seizer": {
     "cardName": "Dream Seizer",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "orzhov",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.821908,
+    "ata": 9.8988383,
+    "overallGihwr": 0.51306816,
+    "archetypeGihwr": {
+      "orzhov": 0.52382539,
+      "dimir": 0.48270248,
+      "rakdos": 0.52172815,
+      "golgari": 0.52220249
+    },
+    "gihwrDelta": 0.010757229999999951
   },
   "Gloom Ripper": {
     "cardName": "Gloom Ripper",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.3665242,
+    "ata": 2.5160539,
+    "overallGihwr": 0.66207176,
+    "archetypeGihwr": {
+      "rakdos": 0.60740145,
+      "golgari": 0.68251295
+    },
+    "gihwrDelta": 0.020441189999999998
   },
   "Gnarlbark Elm": {
     "cardName": "Gnarlbark Elm",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "orzhov",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.0718339,
+    "ata": 5.1254753,
+    "overallGihwr": 0.53995856,
+    "archetypeGihwr": {
+      "orzhov": 0.54662379,
+      "dimir": 0.51324503,
+      "rakdos": 0.53949244,
+      "golgari": 0.55258161
+    },
+    "gihwrDelta": 0.012623049999999969
   },
   "Graveshifter": {
     "cardName": "Graveshifter",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.3699341,
+    "ata": 4.0151805,
+    "overallGihwr": 0.54022047,
+    "archetypeGihwr": {
+      "orzhov": 0.51125176,
+      "dimir": 0.52510684,
+      "izzet": 0.55856967,
+      "rakdos": 0.53067113,
+      "golgari": 0.55759643
+    },
+    "gihwrDelta": 0.018349200000000065
   },
   "Grub, Storied Matriarch": {
     "cardName": "Grub, Storied Matriarch",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.1827061,
+    "ata": 3.6947711,
+    "overallGihwr": 0.57804584,
+    "archetypeGihwr": {
+      "rakdos": 0.58840636,
+      "golgari": 0.55673759
+    },
+    "gihwrDelta": 0.010360519999999984
   },
   "Gutsplitter Gang": {
     "cardName": "Gutsplitter Gang",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "orzhov",
+    "secondaryArchetype": "rakdos",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.4170872,
+    "ata": 7.4096611,
+    "overallGihwr": 0.51882408,
+    "archetypeGihwr": {
+      "orzhov": 0.52665076,
+      "rakdos": 0.52387357,
+      "golgari": 0.50796058
+    },
+    "gihwrDelta": 0.007826679999999975
   },
   "Heirloom Auntie": {
     "cardName": "Heirloom Auntie",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.84444,
+    "ata": 9.9542852,
+    "overallGihwr": 0.48527804,
+    "archetypeGihwr": {
+      "orzhov": 0.4642623,
+      "dimir": 0.44,
+      "rakdos": 0.49300025,
+      "golgari": 0.47043113
+    },
+    "gihwrDelta": 0.007722209999999952
   },
   "Iron-Shield Elf": {
     "cardName": "Iron-Shield Elf",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.0223898,
+    "ata": 4.8012831,
+    "overallGihwr": 0.57763327,
+    "archetypeGihwr": {
+      "orzhov": 0.55178268,
+      "dimir": 0.55871627,
+      "rakdos": 0.54637239,
+      "golgari": 0.58869023
+    },
+    "gihwrDelta": 0.011056960000000005
   },
   "Moonglove Extractor": {
     "cardName": "Moonglove Extractor",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.450713,
+    "ata": 9.3423815,
+    "overallGihwr": 0.52095964,
+    "archetypeGihwr": {
+      "orzhov": 0.48930481,
+      "dimir": 0.45805844,
+      "rakdos": 0.48351648,
+      "golgari": 0.53029733
+    },
+    "gihwrDelta": 0.009337690000000065
   },
   "Moonshadow": {
     "cardName": "Moonshadow",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.0307458,
+    "ata": 2.1587302,
+    "overallGihwr": 0.57146303,
+    "archetypeGihwr": {
+      "rakdos": 0.54938272,
+      "golgari": 0.59915612
+    },
+    "gihwrDelta": 0.027693089999999976
   },
   "Mornsong Aria": {
     "cardName": "Mornsong Aria",
@@ -1436,518 +1947,690 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 5.9642604,
+    "ata": 9.1859305,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
   },
   "Mudbutton Cursetosser": {
     "cardName": "Mudbutton Cursetosser",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.9482027,
+    "ata": 6.2957622,
+    "overallGihwr": 0.57462141,
+    "archetypeGihwr": {
+      "orzhov": 0.52559301,
+      "rakdos": 0.58332282,
+      "golgari": 0.49464286
+    },
+    "gihwrDelta": 0.00870141000000002
   },
   "Nameless Inversion": {
     "cardName": "Nameless Inversion",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.061401,
+    "ata": 3.552457,
+    "overallGihwr": 0.56359674,
+    "archetypeGihwr": {
+      "orzhov": 0.53144876,
+      "dimir": 0.53596838,
+      "rakdos": 0.54398382,
+      "golgari": 0.59150926
+    },
+    "gihwrDelta": 0.027912519999999996
   },
   "Nightmare Sower": {
     "cardName": "Nightmare Sower",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "dimir",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.1937412,
+    "ata": 7.1869624,
+    "overallGihwr": 0.51297017,
+    "archetypeGihwr": {
+      "orzhov": 0.51727542,
+      "dimir": 0.53131481,
+      "rakdos": 0.48291478,
+      "golgari": 0.52278177
+    },
+    "gihwrDelta": 0.018344640000000023
   },
   "Perfect Intimidation": {
     "cardName": "Perfect Intimidation",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.7069748,
+    "ata": 10.219964,
+    "overallGihwr": 0.47445039,
+    "archetypeGihwr": {
+      "rakdos": 0.46067416,
+      "golgari": 0.48970252
+    },
+    "gihwrDelta": 0.015252129999999975
   },
   "Requiting Hex": {
     "cardName": "Requiting Hex",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "orzhov",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.7144767,
+    "ata": 6.3682472,
+    "overallGihwr": 0.5270038,
+    "archetypeGihwr": {
+      "orzhov": 0.54954955,
+      "dimir": 0.51646628,
+      "rakdos": 0.50195631,
+      "golgari": 0.55265628
+    },
+    "gihwrDelta": 0.025652479999999978
   },
   "Retched Wretch": {
     "cardName": "Retched Wretch",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.4723566,
+    "ata": 7.5290314,
+    "overallGihwr": 0.53261961,
+    "archetypeGihwr": {
+      "orzhov": 0.50897227,
+      "dimir": 0.48956357,
+      "rakdos": 0.54139259,
+      "golgari": 0.46897663
+    },
+    "gihwrDelta": 0.00877297999999993
   },
   "Scarblade Scout": {
     "cardName": "Scarblade Scout",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.1819455,
+    "ata": 6.6382769,
+    "overallGihwr": 0.57431573,
+    "archetypeGihwr": {
+      "orzhov": 0.53510802,
+      "dimir": 0.54135954,
+      "rakdos": 0.50835149,
+      "golgari": 0.58458863
+    },
+    "gihwrDelta": 0.01027290000000003
   },
   "Scarblade's Malice": {
     "cardName": "Scarblade's Malice",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.5273164,
+    "ata": 9.5631619,
+    "overallGihwr": 0.54136774,
+    "archetypeGihwr": {
+      "orzhov": 0.52358037,
+      "dimir": 0.49870968,
+      "rakdos": 0.51835102,
+      "golgari": 0.55578408
+    },
+    "gihwrDelta": 0.014416340000000027
   },
   "Shimmercreep": {
     "cardName": "Shimmercreep",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.0841181,
+    "ata": 6.8388322,
+    "overallGihwr": 0.54394986,
+    "archetypeGihwr": {
+      "orzhov": 0.49852941,
+      "dimir": 0.53372093,
+      "izzet": 0.57752256,
+      "rakdos": 0.5206044,
+      "golgari": 0.53804551,
+      "gruul": 0.55175781
+    },
+    "gihwrDelta": 0.03357270000000001
   },
   "Taster of Wares": {
     "cardName": "Taster of Wares",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "rakdos",
+    "secondaryArchetype": "orzhov",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.7884604,
+    "ata": 3.0247328,
+    "overallGihwr": 0.60631068,
+    "archetypeGihwr": {
+      "orzhov": 0.60894661,
+      "dimir": 0.59766764,
+      "rakdos": 0.62174245,
+      "golgari": 0.60525335
+    },
+    "gihwrDelta": 0.015431769999999956
   },
   "Twilight Diviner": {
     "cardName": "Twilight Diviner",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "rakdos",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.0629586,
+    "ata": 3.5944406,
+    "overallGihwr": 0.56100533,
+    "archetypeGihwr": {
+      "orzhov": 0.51919561,
+      "rakdos": 0.55477855,
+      "golgari": 0.5741699
+    },
+    "gihwrDelta": 0.013164570000000042
   },
   "Unbury": {
     "cardName": "Unbury",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.9693594,
+    "ata": 4.9468287,
+    "overallGihwr": 0.55045235,
+    "archetypeGihwr": {
+      "orzhov": 0.53492823,
+      "dimir": 0.50951777,
+      "rakdos": 0.5370628,
+      "golgari": 0.57105497
+    },
+    "gihwrDelta": 0.020602620000000016
   },
   "Ashling, Rekindled": {
     "cardName": "Ashling, Rekindled",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.7649638,
+    "ata": 3.0193966,
+    "overallGihwr": 0.60452564,
+    "archetypeGihwr": {
+      "izzet": 0.62163999,
+      "rakdos": 0.54755784,
+      "gruul": 0.55527319
+    },
+    "gihwrDelta": 0.017114350000000056
   },
   "Boldwyr Aggressor": {
     "cardName": "Boldwyr Aggressor",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "gruul",
+    "secondaryArchetype": "boros",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.3142839,
+    "ata": 9.1445217,
+    "overallGihwr": 0.51440834,
+    "archetypeGihwr": {
+      "boros": 0.52465234,
+      "izzet": 0.5189243,
+      "rakdos": 0.47932331,
+      "gruul": 0.53458738
+    },
+    "gihwrDelta": 0.020179039999999926
   },
   "Boneclub Berserker": {
     "cardName": "Boneclub Berserker",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.382038,
+    "ata": 10.731436,
+    "overallGihwr": 0.50459001,
+    "archetypeGihwr": {
+      "rakdos": 0.50830837
+    },
+    "gihwrDelta": 0.0037183599999999206
   },
   "Boulder Dash": {
     "cardName": "Boulder Dash",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.9866717,
+    "ata": 4.8464907,
+    "overallGihwr": 0.5539165,
+    "archetypeGihwr": {
+      "boros": 0.54055367,
+      "izzet": 0.57275734,
+      "rakdos": 0.54127187,
+      "gruul": 0.54395338
+    },
+    "gihwrDelta": 0.01884083999999997
   },
   "Brambleback Brute": {
     "cardName": "Brambleback Brute",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "gruul",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.9787813,
+    "ata": 10.055355,
+    "overallGihwr": 0.52142608,
+    "archetypeGihwr": {
+      "boros": 0.51526252,
+      "izzet": 0.53141534,
+      "rakdos": 0.52216441,
+      "gruul": 0.54665599
+    },
+    "gihwrDelta": 0.025229909999999967
   },
   "Burning Curiosity": {
     "cardName": "Burning Curiosity",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "rakdos",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.2794833,
+    "ata": 10.211812,
+    "overallGihwr": 0.51633135,
+    "archetypeGihwr": {
+      "boros": 0.49942018,
+      "izzet": 0.52693099,
+      "rakdos": 0.51791235,
+      "gruul": 0.51240561
+    },
+    "gihwrDelta": 0.010599640000000021
   },
   "Champion of the Path": {
     "cardName": "Champion of the Path",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.1350827,
+    "ata": 3.5901048,
+    "overallGihwr": 0.54372624,
+    "archetypeGihwr": {
+      "izzet": 0.56084939,
+      "gruul": 0.49126214
+    },
+    "gihwrDelta": 0.017123149999999976
   },
   "Cinder Strike": {
     "cardName": "Cinder Strike",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.094123,
+    "ata": 4.9738289,
+    "overallGihwr": 0.5565505,
+    "archetypeGihwr": {
+      "boros": 0.54553991,
+      "izzet": 0.57538462,
+      "rakdos": 0.54952434,
+      "gruul": 0.52828958
+    },
+    "gihwrDelta": 0.018834120000000065
   },
   "Collective Inferno": {
     "cardName": "Collective Inferno",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "rakdos",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.473371,
+    "ata": 6.2272075,
+    "overallGihwr": 0.48591423,
+    "archetypeGihwr": {
+      "izzet": 0.48371263,
+      "rakdos": 0.49751244
+    },
+    "gihwrDelta": 0.011598209999999998
   },
   "Elder Auntie": {
     "cardName": "Elder Auntie",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.6671218,
+    "ata": 9.4119903,
+    "overallGihwr": 0.51871118,
+    "archetypeGihwr": {
+      "boros": 0.50383509,
+      "izzet": 0.53816156,
+      "rakdos": 0.51811965,
+      "gruul": 0.51376147
+    },
+    "gihwrDelta": 0.01945037999999999
   },
   "End-Blaze Epiphany": {
     "cardName": "End-Blaze Epiphany",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.5842901,
+    "ata": 2.7615973,
+    "overallGihwr": 0.6023261,
+    "archetypeGihwr": {
+      "boros": 0.58945191,
+      "izzet": 0.6153108,
+      "rakdos": 0.59206234,
+      "golgari": 0.64423077,
+      "gruul": 0.58760891
+    },
+    "gihwrDelta": 0.04190466999999998
   },
   "Enraged Flamecaster": {
     "cardName": "Enraged Flamecaster",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.6384342,
+    "ata": 9.5769773,
+    "overallGihwr": 0.52812686,
+    "archetypeGihwr": {
+      "boros": 0.48777079,
+      "izzet": 0.54059753,
+      "rakdos": 0.45168892,
+      "gruul": 0.50212508
+    },
+    "gihwrDelta": 0.012470670000000017
   },
   "Explosive Prodigy": {
     "cardName": "Explosive Prodigy",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.5938954,
+    "ata": 4.1231546,
+    "overallGihwr": 0.58018841,
+    "archetypeGihwr": {
+      "boros": 0.56713427,
+      "izzet": 0.59110535,
+      "rakdos": 0.56674706,
+      "gruul": 0.56340886
+    },
+    "gihwrDelta": 0.010916939999999986
   },
   "Feed the Flames": {
     "cardName": "Feed the Flames",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.8418541,
+    "ata": 6.3630777,
+    "overallGihwr": 0.54430948,
+    "archetypeGihwr": {
+      "boros": 0.52933304,
+      "izzet": 0.5643064,
+      "rakdos": 0.53093628,
+      "gruul": 0.522777
+    },
+    "gihwrDelta": 0.019996919999999974
   },
   "Flame-Chain Mauler": {
     "cardName": "Flame-Chain Mauler",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.6102017,
+    "ata": 9.2156792,
+    "overallGihwr": 0.53164816,
+    "archetypeGihwr": {
+      "boros": 0.49672084,
+      "izzet": 0.54754394,
+      "rakdos": 0.49149869,
+      "gruul": 0.49425713
+    },
+    "gihwrDelta": 0.015895779999999915
   },
   "Flamebraider": {
     "cardName": "Flamebraider",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.9933224,
+    "ata": 4.5622338,
+    "overallGihwr": 0.58723885,
+    "archetypeGihwr": {
+      "boros": 0.53758389,
+      "izzet": 0.60167616,
+      "rakdos": 0.5345805,
+      "gruul": 0.54242424
+    },
+    "gihwrDelta": 0.014437310000000037
   },
   "Flamekin Gildweaver": {
     "cardName": "Flamekin Gildweaver",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.9485528,
+    "ata": 7.7900848,
+    "overallGihwr": 0.56512427,
+    "archetypeGihwr": {
+      "boros": 0.54072339,
+      "izzet": 0.57694047,
+      "rakdos": 0.52711278,
+      "gruul": 0.54495282
+    },
+    "gihwrDelta": 0.011816200000000054
   },
   "Giantfall": {
     "cardName": "Giantfall",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "gruul",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.790906,
+    "ata": 6.3171033,
+    "overallGihwr": 0.53426458,
+    "archetypeGihwr": {
+      "boros": 0.50547328,
+      "izzet": 0.54829236,
+      "rakdos": 0.52233883,
+      "gruul": 0.54601571
+    },
+    "gihwrDelta": 0.014027780000000045
   },
   "Goatnap": {
     "cardName": "Goatnap",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.4449037,
+    "ata": 11.086195,
+    "overallGihwr": 0.48444913,
+    "archetypeGihwr": {
+      "rakdos": 0.50488599
+    },
+    "gihwrDelta": 0.02043686
   },
   "Goliath Daydreamer": {
     "cardName": "Goliath Daydreamer",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.6578385,
+    "ata": 2.9096774,
+    "overallGihwr": 0.55203257,
+    "archetypeGihwr": {
+      "boros": 0.54229323,
+      "izzet": 0.5698665,
+      "rakdos": 0.53877385,
+      "gruul": 0.54643206
+    },
+    "gihwrDelta": 0.01783393000000011
   },
   "Gristle Glutton": {
     "cardName": "Gristle Glutton",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "rakdos",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.4119059,
+    "ata": 8.5899059,
+    "overallGihwr": 0.53793587,
+    "archetypeGihwr": {
+      "boros": 0.53427737,
+      "izzet": 0.54329391,
+      "rakdos": 0.53979086,
+      "gruul": 0.51730419
+    },
+    "gihwrDelta": 0.005358040000000064
   },
   "Hexing Squelcher": {
     "cardName": "Hexing Squelcher",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "boros",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.2070938,
+    "ata": 4.0375525,
+    "overallGihwr": 0.50680883,
+    "archetypeGihwr": {
+      "boros": 0.51308901,
+      "izzet": 0.53250189,
+      "rakdos": 0.50154099
+    },
+    "gihwrDelta": 0.025693060000000045
   },
   "Impolite Entrance": {
     "cardName": "Impolite Entrance",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "rakdos",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.2120394,
+    "ata": 10.659907,
+    "overallGihwr": 0.43610088,
+    "archetypeGihwr": {
+      "izzet": 0.45690673,
+      "rakdos": 0.44051074
+    },
+    "gihwrDelta": 0.02080584999999996
   },
   "Kindle the Inner Flame": {
     "cardName": "Kindle the Inner Flame",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.317837,
+    "ata": 8.5571239,
+    "overallGihwr": 0.55289088,
+    "archetypeGihwr": {
+      "izzet": 0.56221356,
+      "gruul": 0.52664577
+    },
+    "gihwrDelta": 0.009322680000000028
   },
   "Kulrath Zealot": {
     "cardName": "Kulrath Zealot",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.3852312,
+    "ata": 6.9356145,
+    "overallGihwr": 0.56720464,
+    "archetypeGihwr": {
+      "boros": 0.55133976,
+      "izzet": 0.58067603,
+      "rakdos": 0.54195703,
+      "gruul": 0.55654952
+    },
+    "gihwrDelta": 0.013471389999999972
   },
   "Lasting Tarfire": {
     "cardName": "Lasting Tarfire",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.6016777,
+    "ata": 9.2858862,
+    "overallGihwr": 0.46875246,
+    "archetypeGihwr": {
+      "rakdos": 0.47330472
+    },
+    "gihwrDelta": 0.00455226000000003
   },
   "Lavaleaper": {
     "cardName": "Lavaleaper",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.3482728,
+    "ata": 8.2817507,
+    "overallGihwr": 0.48588313,
+    "archetypeGihwr": {
+      "izzet": 0.47704082
+    },
+    "gihwrDelta": -0.00884231000000002
   },
   "Meek Attack": {
     "cardName": "Meek Attack",
@@ -1956,713 +2639,964 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 5.4760119,
+    "ata": 8.4006817,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
   },
   "Reckless Ransacking": {
     "cardName": "Reckless Ransacking",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "boros",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 7.8165816,
+    "ata": 11.453808,
+    "overallGihwr": 0.50148928,
+    "archetypeGihwr": {
+      "boros": 0.52967033,
+      "izzet": 0.50999334,
+      "rakdos": 0.49217748,
+      "gruul": 0.50423729
+    },
+    "gihwrDelta": 0.02818104999999993
   },
   "Scuzzback Scrounger": {
     "cardName": "Scuzzback Scrounger",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.1036959,
+    "ata": 3.5758929,
+    "overallGihwr": 0.55059854,
+    "archetypeGihwr": {
+      "boros": 0.54685777,
+      "izzet": 0.57573239,
+      "rakdos": 0.5427504,
+      "gruul": 0.52993631
+    },
+    "gihwrDelta": 0.025133850000000013
   },
   "Sear": {
     "cardName": "Sear",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.946383,
+    "ata": 3.3901266,
+    "overallGihwr": 0.56658641,
+    "archetypeGihwr": {
+      "boros": 0.54901961,
+      "izzet": 0.58457911,
+      "rakdos": 0.55731255,
+      "gruul": 0.53638922
+    },
+    "gihwrDelta": 0.017992699999999973
   },
   "Sizzling Changeling": {
     "cardName": "Sizzling Changeling",
-    "primaryArchetype": null,
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.2204455,
+    "ata": 5.2471776,
+    "overallGihwr": 0.541159,
+    "archetypeGihwr": {
+      "boros": 0.53172957,
+      "izzet": 0.55517853,
+      "rakdos": 0.53303416,
+      "gruul": 0.52770673
+    },
+    "gihwrDelta": 0.014019530000000002
   },
   "Soul Immolation": {
     "cardName": "Soul Immolation",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "gruul",
+    "secondaryArchetype": "izzet",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.2340782,
+    "ata": 2.3212883,
+    "overallGihwr": 0.63150815,
+    "archetypeGihwr": {
+      "boros": 0.62870515,
+      "izzet": 0.64781584,
+      "rakdos": 0.61638615,
+      "gruul": 0.66705607
+    },
+    "gihwrDelta": 0.035547919999999955
   },
   "Soulbright Seeker": {
     "cardName": "Soulbright Seeker",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Sourbread Auntie": {
-    "cardName": "Sourbread Auntie",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Spinerock Tyrant": {
-    "cardName": "Spinerock Tyrant",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Squawkroaster": {
-    "cardName": "Squawkroaster",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Sting-Slinger": {
-    "cardName": "Sting-Slinger",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Tweeze": {
-    "cardName": "Tweeze",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Warren Torchmaster": {
-    "cardName": "Warren Torchmaster",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Assert Perfection": {
-    "cardName": "Assert Perfection",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Aurora Awakener": {
-    "cardName": "Aurora Awakener",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Bloom Tender": {
-    "cardName": "Bloom Tender",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Blossoming Defense": {
-    "cardName": "Blossoming Defense",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Bristlebane Battler": {
-    "cardName": "Bristlebane Battler",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Bristlebane Outrider": {
-    "cardName": "Bristlebane Outrider",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Celestial Reunion": {
-    "cardName": "Celestial Reunion",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Champions of the Perfect": {
-    "cardName": "Champions of the Perfect",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Chomping Changeling": {
-    "cardName": "Chomping Changeling",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Crossroads Watcher": {
-    "cardName": "Crossroads Watcher",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Dawn's Light Archer": {
-    "cardName": "Dawn's Light Archer",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Dundoolin Weaver": {
-    "cardName": "Dundoolin Weaver",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Formidable Speaker": {
-    "cardName": "Formidable Speaker",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Gilt-Leaf's Embrace": {
-    "cardName": "Gilt-Leaf's Embrace",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Great Forest Druid": {
-    "cardName": "Great Forest Druid",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Luminollusk": {
-    "cardName": "Luminollusk",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Lys Alana Dignitary": {
-    "cardName": "Lys Alana Dignitary",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Lys Alana Informant": {
-    "cardName": "Lys Alana Informant",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Midnight Tilling": {
-    "cardName": "Midnight Tilling",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Mistmeadow Council": {
-    "cardName": "Mistmeadow Council",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Moon-Vigil Adherents": {
-    "cardName": "Moon-Vigil Adherents",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Morcant's Eyes": {
-    "cardName": "Morcant's Eyes",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Mutable Explorer": {
-    "cardName": "Mutable Explorer",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Pitiless Fists": {
-    "cardName": "Pitiless Fists",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Prismabasher": {
-    "cardName": "Prismabasher",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "fixing",
-    "isConvergeSignal": false,
-    "isFixing": true,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Prismatic Undercurrents": {
-    "cardName": "Prismatic Undercurrents",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "fixing",
-    "isConvergeSignal": false,
-    "isFixing": true,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Pummeler for Hire": {
-    "cardName": "Pummeler for Hire",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Safewright Cavalry": {
-    "cardName": "Safewright Cavalry",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Sapling Nursery": {
-    "cardName": "Sapling Nursery",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Selfless Safewright": {
-    "cardName": "Selfless Safewright",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Shimmerwilds Growth": {
-    "cardName": "Shimmerwilds Growth",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Spry and Mighty": {
-    "cardName": "Spry and Mighty",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Surly Farrier": {
-    "cardName": "Surly Farrier",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Tend the Sprigs": {
-    "cardName": "Tend the Sprigs",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Thoughtweft Charge": {
-    "cardName": "Thoughtweft Charge",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Trystan, Callous Cultivator": {
-    "cardName": "Trystan, Callous Cultivator",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Unforgiving Aim": {
-    "cardName": "Unforgiving Aim",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Vinebred Brawler": {
-    "cardName": "Vinebred Brawler",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Virulent Emissary": {
-    "cardName": "Virulent Emissary",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Wildvine Pummeler": {
-    "cardName": "Wildvine Pummeler",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Abigale, Eloquent First-Year": {
-    "cardName": "Abigale, Eloquent First-Year",
-    "primaryArchetype": "orzhov",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
-    "isConvergeSignal": false,
-    "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
-  },
-  "Ashling's Command": {
-    "cardName": "Ashling's Command",
     "primaryArchetype": "izzet",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.3510362,
+    "ata": 6.9770121,
+    "overallGihwr": 0.55096583,
+    "archetypeGihwr": {
+      "boros": 0.5163853,
+      "izzet": 0.56012658,
+      "rakdos": 0.49543379,
+      "gruul": 0.52205221
+    },
+    "gihwrDelta": 0.00916075000000005
+  },
+  "Sourbread Auntie": {
+    "cardName": "Sourbread Auntie",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "gruul",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.9350681,
+    "ata": 6.2659631,
+    "overallGihwr": 0.55296929,
+    "archetypeGihwr": {
+      "boros": 0.5313253,
+      "izzet": 0.56926874,
+      "rakdos": 0.55431455,
+      "gruul": 0.55896607
+    },
+    "gihwrDelta": 0.016299450000000104
+  },
+  "Spinerock Tyrant": {
+    "cardName": "Spinerock Tyrant",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 1.7599042,
+    "ata": 1.8227348,
+    "overallGihwr": 0.61834765,
+    "archetypeGihwr": {
+      "boros": 0.61589404,
+      "izzet": 0.64112186,
+      "rakdos": 0.61533173,
+      "gruul": 0.60826211
+    },
+    "gihwrDelta": 0.022774210000000017
+  },
+  "Squawkroaster": {
+    "cardName": "Squawkroaster",
+    "primaryArchetype": "boros",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.4827157,
+    "ata": 7.6206966,
+    "overallGihwr": 0.51896127,
+    "archetypeGihwr": {
+      "boros": 0.54187817,
+      "izzet": 0.53069426,
+      "rakdos": 0.50152905,
+      "gruul": 0.49505562
+    },
+    "gihwrDelta": 0.022916900000000018
+  },
+  "Sting-Slinger": {
+    "cardName": "Sting-Slinger",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "rakdos",
+    "signalTier": "weak",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.6228314,
+    "ata": 7.6582789,
+    "overallGihwr": 0.52068094,
+    "archetypeGihwr": {
+      "boros": 0.50886408,
+      "izzet": 0.52937788,
+      "rakdos": 0.52264566
+    },
+    "gihwrDelta": 0.008696939999999986
+  },
+  "Tweeze": {
+    "cardName": "Tweeze",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.5234229,
+    "ata": 5.8752659,
+    "overallGihwr": 0.54641936,
+    "archetypeGihwr": {
+      "boros": 0.53024232,
+      "izzet": 0.56566272,
+      "rakdos": 0.53730227,
+      "gruul": 0.52665877
+    },
+    "gihwrDelta": 0.01924335999999993
+  },
+  "Warren Torchmaster": {
+    "cardName": "Warren Torchmaster",
+    "primaryArchetype": "rakdos",
+    "secondaryArchetype": "izzet",
+    "signalTier": "weak",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.9301997,
+    "ata": 8.2187764,
+    "overallGihwr": 0.51053829,
+    "archetypeGihwr": {
+      "boros": 0.50416983,
+      "izzet": 0.51701427,
+      "rakdos": 0.51761879
+    },
+    "gihwrDelta": 0.007080500000000045
+  },
+  "Assert Perfection": {
+    "cardName": "Assert Perfection",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 3.9108854,
+    "ata": 4.8011853,
+    "overallGihwr": 0.57895836,
+    "archetypeGihwr": {
+      "selesnya": 0.57920671,
+      "simic": 0.53249165,
+      "golgari": 0.59643133,
+      "gruul": 0.5421074
+    },
+    "gihwrDelta": 0.017472970000000032
+  },
+  "Aurora Awakener": {
+    "cardName": "Aurora Awakener",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "gruul",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 1.7100266,
+    "ata": 1.7216913,
+    "overallGihwr": 0.60591299,
+    "archetypeGihwr": {
+      "selesnya": 0.60760234,
+      "izzet": 0.62023562,
+      "golgari": 0.58916555,
+      "gruul": 0.6125
+    },
+    "gihwrDelta": 0.014322630000000003
+  },
+  "Bloom Tender": {
+    "cardName": "Bloom Tender",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 2.1986781,
+    "ata": 2.3704206,
+    "overallGihwr": 0.54337477,
+    "archetypeGihwr": {
+      "selesnya": 0.54280822,
+      "golgari": 0.56561546,
+      "gruul": 0.51968504
+    },
+    "gihwrDelta": 0.022240689999999952
+  },
+  "Blossoming Defense": {
+    "cardName": "Blossoming Defense",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.6193708,
+    "ata": 6.0659391,
+    "overallGihwr": 0.55573637,
+    "archetypeGihwr": {
+      "selesnya": 0.55432828,
+      "simic": 0.51454824,
+      "golgari": 0.56833176,
+      "gruul": 0.55220228
+    },
+    "gihwrDelta": 0.012595389999999984
+  },
+  "Bristlebane Battler": {
+    "cardName": "Bristlebane Battler",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 1.96937,
+    "ata": 2.0899103,
+    "overallGihwr": 0.59751316,
+    "archetypeGihwr": {
+      "selesnya": 0.61115613,
+      "golgari": 0.60516066,
+      "gruul": 0.58668076
+    },
+    "gihwrDelta": 0.013642970000000032
+  },
+  "Bristlebane Outrider": {
+    "cardName": "Bristlebane Outrider",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.3814031,
+    "ata": 5.5420835,
+    "overallGihwr": 0.56061221,
+    "archetypeGihwr": {
+      "selesnya": 0.57471264,
+      "simic": 0.52773109,
+      "golgari": 0.54156138,
+      "gruul": 0.54913295
+    },
+    "gihwrDelta": 0.014100429999999942
+  },
+  "Celestial Reunion": {
+    "cardName": "Celestial Reunion",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 3.7229161,
+    "ata": 4.8208689,
+    "overallGihwr": 0.53661173,
+    "archetypeGihwr": {
+      "selesnya": 0.53636364,
+      "golgari": 0.55177743
+    },
+    "gihwrDelta": 0.01516570000000006
+  },
+  "Champions of the Perfect": {
+    "cardName": "Champions of the Perfect",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 2.0259622,
+    "ata": 2.1240553,
+    "overallGihwr": 0.60952226,
+    "archetypeGihwr": {
+      "selesnya": 0.5910031,
+      "golgari": 0.62500981,
+      "gruul": 0.56692913
+    },
+    "gihwrDelta": 0.015487550000000017
+  },
+  "Chomping Changeling": {
+    "cardName": "Chomping Changeling",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.8429661,
+    "ata": 6.8879962,
+    "overallGihwr": 0.49281545,
+    "archetypeGihwr": {
+      "selesnya": 0.48994283,
+      "golgari": 0.50860757,
+      "gruul": 0.44883041
+    },
+    "gihwrDelta": 0.01579212000000002
+  },
+  "Crossroads Watcher": {
+    "cardName": "Crossroads Watcher",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.8653679,
+    "ata": 8.1558952,
+    "overallGihwr": 0.55268573,
+    "archetypeGihwr": {
+      "selesnya": 0.56542027,
+      "simic": 0.50788288,
+      "golgari": 0.5227936,
+      "gruul": 0.54243323
+    },
+    "gihwrDelta": 0.012734539999999961
+  },
+  "Dawn's Light Archer": {
+    "cardName": "Dawn's Light Archer",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.980224,
+    "ata": 8.4386333,
+    "overallGihwr": 0.54830843,
+    "archetypeGihwr": {
+      "selesnya": 0.51101322,
+      "simic": 0.48837209,
+      "golgari": 0.55876551,
+      "gruul": 0.50747508
+    },
+    "gihwrDelta": 0.010457080000000007
+  },
+  "Dundoolin Weaver": {
+    "cardName": "Dundoolin Weaver",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 3.4965903,
+    "ata": 4.1765523,
+    "overallGihwr": 0.56053852,
+    "archetypeGihwr": {
+      "selesnya": 0.573827,
+      "simic": 0.54492188,
+      "golgari": 0.56465517,
+      "gruul": 0.53813814
+    },
+    "gihwrDelta": 0.013288479999999936
+  },
+  "Formidable Speaker": {
+    "cardName": "Formidable Speaker",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 1.996895,
+    "ata": 2.1259459,
+    "overallGihwr": 0.57601411,
+    "archetypeGihwr": {
+      "selesnya": 0.56878738,
+      "golgari": 0.59003507,
+      "gruul": 0.54403567
+    },
+    "gihwrDelta": 0.014020959999999971
+  },
+  "Gilt-Leaf's Embrace": {
+    "cardName": "Gilt-Leaf's Embrace",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "weak",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 6.7226769,
+    "ata": 9.6499448,
+    "overallGihwr": 0.54855241,
+    "archetypeGihwr": {
+      "selesnya": 0.54878692,
+      "golgari": 0.55790495,
+      "gruul": 0.51901141
+    },
+    "gihwrDelta": 0.009352539999999965
+  },
+  "Great Forest Druid": {
+    "cardName": "Great Forest Druid",
+    "primaryArchetype": "simic",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.8156239,
+    "ata": 6.4806211,
+    "overallGihwr": 0.53999345,
+    "archetypeGihwr": {
+      "selesnya": 0.52723408,
+      "simic": 0.55643973,
+      "golgari": 0.54955522,
+      "gruul": 0.52615008
+    },
+    "gihwrDelta": 0.016446280000000035
+  },
+  "Luminollusk": {
+    "cardName": "Luminollusk",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": null,
+    "signalTier": "strong",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.6277275,
+    "ata": 8.0294917,
+    "overallGihwr": 0.51100582,
+    "archetypeGihwr": {
+      "selesnya": 0.50546117,
+      "izzet": 0.54277286,
+      "simic": 0.49911032,
+      "golgari": 0.49981745,
+      "gruul": 0.51232092
+    },
+    "gihwrDelta": 0.03176703999999997
+  },
+  "Lys Alana Dignitary": {
+    "cardName": "Lys Alana Dignitary",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.0637351,
+    "ata": 4.8723209,
+    "overallGihwr": 0.57638599,
+    "archetypeGihwr": {
+      "selesnya": 0.52109705,
+      "golgari": 0.58738858
+    },
+    "gihwrDelta": 0.011002590000000034
+  },
+  "Lys Alana Informant": {
+    "cardName": "Lys Alana Informant",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.8924321,
+    "ata": 6.390886,
+    "overallGihwr": 0.56903754,
+    "archetypeGihwr": {
+      "selesnya": 0.559898,
+      "simic": 0.5265188,
+      "golgari": 0.58176233,
+      "gruul": 0.532382
+    },
+    "gihwrDelta": 0.012724790000000041
+  },
+  "Midnight Tilling": {
+    "cardName": "Midnight Tilling",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "weak",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 6.6720049,
+    "ata": 9.0305566,
+    "overallGihwr": 0.56328176,
+    "archetypeGihwr": {
+      "selesnya": 0.54633046,
+      "simic": 0.49558824,
+      "golgari": 0.57240307,
+      "gruul": 0.51707892
+    },
+    "gihwrDelta": 0.009121310000000049
+  },
+  "Mistmeadow Council": {
+    "cardName": "Mistmeadow Council",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.1520008,
+    "ata": 6.7803203,
+    "overallGihwr": 0.56575261,
+    "archetypeGihwr": {
+      "selesnya": 0.57996872,
+      "simic": 0.53825137,
+      "golgari": 0.5429216,
+      "gruul": 0.54325613
+    },
+    "gihwrDelta": 0.014216110000000004
+  },
+  "Moon-Vigil Adherents": {
+    "cardName": "Moon-Vigil Adherents",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 3.1693157,
+    "ata": 3.567833,
+    "overallGihwr": 0.58617198,
+    "archetypeGihwr": {
+      "selesnya": 0.5694398,
+      "simic": 0.56210191,
+      "golgari": 0.60065359,
+      "gruul": 0.53505843
+    },
+    "gihwrDelta": 0.014481609999999923
+  },
+  "Morcant's Eyes": {
+    "cardName": "Morcant's Eyes",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.0028371,
+    "ata": 4.4761281,
+    "overallGihwr": 0.60405411,
+    "archetypeGihwr": {
+      "selesnya": 0.50468165,
+      "golgari": 0.61465774
+    },
+    "gihwrDelta": 0.010603629999999975
+  },
+  "Mutable Explorer": {
+    "cardName": "Mutable Explorer",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 2.575568,
+    "ata": 2.8277477,
+    "overallGihwr": 0.54133159,
+    "archetypeGihwr": {
+      "selesnya": 0.54907092,
+      "simic": 0.51439539,
+      "golgari": 0.55717588,
+      "gruul": 0.509299
+    },
+    "gihwrDelta": 0.015844289999999983
+  },
+  "Pitiless Fists": {
+    "cardName": "Pitiless Fists",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 3.6232481,
+    "ata": 4.2361977,
+    "overallGihwr": 0.58465976,
+    "archetypeGihwr": {
+      "selesnya": 0.57722906,
+      "simic": 0.56046931,
+      "golgari": 0.60229413,
+      "gruul": 0.55947854
+    },
+    "gihwrDelta": 0.01763437000000001
+  },
+  "Prismabasher": {
+    "cardName": "Prismabasher",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "golgari",
+    "signalTier": "fixing",
+    "isConvergeSignal": false,
+    "isFixing": true,
+    "alsa": 3.8855868,
+    "ata": 4.669697,
+    "overallGihwr": 0.56547774,
+    "archetypeGihwr": {
+      "selesnya": 0.57269056,
+      "izzet": 0.55581669,
+      "simic": 0.56187291,
+      "golgari": 0.57078853,
+      "gruul": 0.54842848
+    },
+    "gihwrDelta": 0.007212820000000009
+  },
+  "Prismatic Undercurrents": {
+    "cardName": "Prismatic Undercurrents",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "fixing",
+    "isConvergeSignal": false,
+    "isFixing": true,
+    "alsa": 6.3008782,
+    "ata": 9.2176144,
+    "overallGihwr": 0.48903671,
+    "archetypeGihwr": {
+      "selesnya": 0.45928339,
+      "golgari": 0.47612551,
+      "gruul": 0.44836601
+    },
+    "gihwrDelta": -0.012911200000000012
+  },
+  "Pummeler for Hire": {
+    "cardName": "Pummeler for Hire",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.1949612,
+    "ata": 5.2918801,
+    "overallGihwr": 0.55610906,
+    "archetypeGihwr": {
+      "selesnya": 0.56766028,
+      "simic": 0.55329536,
+      "golgari": 0.55969856,
+      "gruul": 0.54874334
+    },
+    "gihwrDelta": 0.011551219999999973
+  },
+  "Safewright Cavalry": {
+    "cardName": "Safewright Cavalry",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.2977098,
+    "ata": 7.0737405,
+    "overallGihwr": 0.5621907,
+    "archetypeGihwr": {
+      "selesnya": 0.53982704,
+      "simic": 0.52999294,
+      "golgari": 0.57262367,
+      "gruul": 0.51416309
+    },
+    "gihwrDelta": 0.010432969999999986
+  },
+  "Sapling Nursery": {
+    "cardName": "Sapling Nursery",
+    "primaryArchetype": "simic",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 2.6772265,
+    "ata": 2.8999276,
+    "overallGihwr": 0.56369404,
+    "archetypeGihwr": {
+      "selesnya": 0.54884393,
+      "simic": 0.57560137,
+      "golgari": 0.57507484,
+      "gruul": 0.53112033
+    },
+    "gihwrDelta": 0.011907329999999994
+  },
+  "Selfless Safewright": {
+    "cardName": "Selfless Safewright",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "weak",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 2.2660935,
+    "ata": 2.4677003,
+    "overallGihwr": 0.56447133,
+    "archetypeGihwr": {
+      "selesnya": 0.56800391,
+      "golgari": 0.57324489,
+      "gruul": 0.52941176
+    },
+    "gihwrDelta": 0.008773559999999958
+  },
+  "Shimmerwilds Growth": {
+    "cardName": "Shimmerwilds Growth",
+    "primaryArchetype": "simic",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.2713509,
+    "ata": 7.14438,
+    "overallGihwr": 0.50158259,
+    "archetypeGihwr": {
+      "selesnya": 0.48380952,
+      "simic": 0.52895149,
+      "golgari": 0.49050855,
+      "gruul": 0.49036201
+    },
+    "gihwrDelta": 0.02736889999999992
+  },
+  "Spry and Mighty": {
+    "cardName": "Spry and Mighty",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "weak",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 2.9969541,
+    "ata": 3.3768651,
+    "overallGihwr": 0.53620435,
+    "archetypeGihwr": {
+      "selesnya": 0.53608491,
+      "golgari": 0.54577995,
+      "gruul": 0.521181
+    },
+    "gihwrDelta": 0.009575600000000017
+  },
+  "Surly Farrier": {
+    "cardName": "Surly Farrier",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "gruul",
+    "signalTier": "weak",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 6.1223742,
+    "ata": 8.6379775,
+    "overallGihwr": 0.53689668,
+    "archetypeGihwr": {
+      "selesnya": 0.54460437,
+      "simic": 0.51728907,
+      "golgari": 0.5269144,
+      "gruul": 0.54271357
+    },
+    "gihwrDelta": 0.007707689999999934
+  },
+  "Tend the Sprigs": {
+    "cardName": "Tend the Sprigs",
+    "primaryArchetype": "simic",
+    "secondaryArchetype": "golgari",
+    "signalTier": "weak",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 6.8188807,
+    "ata": 10.157904,
+    "overallGihwr": 0.49602639,
+    "archetypeGihwr": {
+      "selesnya": 0.49811952,
+      "simic": 0.50251678,
+      "golgari": 0.5011928,
+      "gruul": 0.47567568
+    },
+    "gihwrDelta": 0.0064903900000000125
+  },
+  "Thoughtweft Charge": {
+    "cardName": "Thoughtweft Charge",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.1339181,
+    "ata": 7.1125393,
+    "overallGihwr": 0.54234683,
+    "archetypeGihwr": {
+      "selesnya": 0.54488059,
+      "golgari": 0.553204,
+      "gruul": 0.48355263
+    },
+    "gihwrDelta": 0.010857170000000083
+  },
+  "Trystan, Callous Cultivator": {
+    "cardName": "Trystan, Callous Cultivator",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 2.5464488,
+    "ata": 2.8077867,
+    "overallGihwr": 0.60647396,
+    "archetypeGihwr": {
+      "selesnya": 0.57706311,
+      "golgari": 0.62174008
+    },
+    "gihwrDelta": 0.01526612000000005
+  },
+  "Unforgiving Aim": {
+    "cardName": "Unforgiving Aim",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 7.0080943,
+    "ata": 10.497912,
+    "overallGihwr": 0.51209081,
+    "archetypeGihwr": {
+      "selesnya": 0.50579151,
+      "golgari": 0.52341179
+    },
+    "gihwrDelta": 0.011320980000000036
+  },
+  "Vinebred Brawler": {
+    "cardName": "Vinebred Brawler",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": null,
+    "signalTier": "weak",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 4.5964599,
+    "ata": 5.9082502,
+    "overallGihwr": 0.55889981,
+    "archetypeGihwr": {
+      "selesnya": 0.50830368,
+      "golgari": 0.56853354
+    },
+    "gihwrDelta": 0.009633730000000007
+  },
+  "Virulent Emissary": {
+    "cardName": "Virulent Emissary",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 3.3672767,
+    "ata": 3.9703428,
+    "overallGihwr": 0.58276003,
+    "archetypeGihwr": {
+      "selesnya": 0.57566073,
+      "simic": 0.54240631,
+      "golgari": 0.59496278,
+      "gruul": 0.55846529
+    },
+    "gihwrDelta": 0.01220275000000004
+  },
+  "Wildvine Pummeler": {
+    "cardName": "Wildvine Pummeler",
+    "primaryArchetype": "gruul",
+    "secondaryArchetype": "simic",
+    "signalTier": "weak",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 5.8029441,
+    "ata": 8.4588223,
+    "overallGihwr": 0.51946988,
+    "archetypeGihwr": {
+      "selesnya": 0.52254813,
+      "izzet": 0.51574213,
+      "simic": 0.52564597,
+      "golgari": 0.51950328,
+      "gruul": 0.5256784
+    },
+    "gihwrDelta": 0.00620851999999994
+  },
+  "Abigale, Eloquent First-Year": {
+    "cardName": "Abigale, Eloquent First-Year",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "staple",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 1.6660519,
+    "ata": 1.7245734,
+    "overallGihwr": 0.58437856,
+    "archetypeGihwr": {
+      "azorius": 0.56577234,
+      "orzhov": 0.55681818,
+      "boros": 0.5557656,
+      "selesnya": 0.60880538,
+      "rakdos": 0.56927827,
+      "golgari": 0.62313836
+    },
+    "gihwrDelta": 0.03875980000000001
+  },
+  "Ashling's Command": {
+    "cardName": "Ashling's Command",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": null,
+    "signalTier": "moderate",
+    "isConvergeSignal": false,
+    "isFixing": false,
+    "alsa": 2.382098,
+    "ata": 2.4721951,
+    "overallGihwr": 0.66137523,
+    "archetypeGihwr": {
+      "azorius": 0.61520076,
+      "izzet": 0.68206466,
+      "rakdos": 0.60549717,
+      "gruul": 0.66156463
+    },
+    "gihwrDelta": 0.02068943000000001
   },
   "Boggart Cursecrafter": {
     "cardName": "Boggart Cursecrafter",
@@ -2671,89 +3605,129 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.4129086,
+    "ata": 5.2865144,
+    "overallGihwr": 0.5702129,
+    "archetypeGihwr": {
+      "rakdos": 0.57259666
+    },
+    "gihwrDelta": 0.002383759999999957
   },
   "Bre of Clan Stoutarm": {
     "cardName": "Bre of Clan Stoutarm",
     "primaryArchetype": "boros",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.6737624,
+    "ata": 2.9016421,
+    "overallGihwr": 0.55806313,
+    "archetypeGihwr": {
+      "azorius": 0.5308642,
+      "boros": 0.58152174,
+      "selesnya": 0.57172702,
+      "izzet": 0.55814843,
+      "rakdos": 0.52658487,
+      "gruul": 0.56535948
+    },
+    "gihwrDelta": 0.023458610000000046
   },
   "Brigid's Command": {
     "cardName": "Brigid's Command",
     "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.8386931,
+    "ata": 3.2099044,
+    "overallGihwr": 0.59829121,
+    "archetypeGihwr": {
+      "selesnya": 0.6172284,
+      "golgari": 0.53649635
+    },
+    "gihwrDelta": 0.018937190000000048
   },
   "Catharsis": {
     "cardName": "Catharsis",
     "primaryArchetype": "boros",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "secondaryArchetype": "izzet",
+    "signalTier": "staple",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.0837303,
+    "ata": 2.1856074,
+    "overallGihwr": 0.53110181,
+    "archetypeGihwr": {
+      "azorius": 0.49548193,
+      "boros": 0.56759546,
+      "selesnya": 0.54215976,
+      "izzet": 0.54828463,
+      "rakdos": 0.46666667
+    },
+    "gihwrDelta": 0.036493650000000044
   },
   "Chaos Spewer": {
     "cardName": "Chaos Spewer",
-    "primaryArchetype": "rakdos",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "orzhov",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.533895,
+    "ata": 9.5155441,
+    "overallGihwr": 0.50401095,
+    "archetypeGihwr": {
+      "orzhov": 0.51720183,
+      "boros": 0.49350649,
+      "dimir": 0.50754717,
+      "izzet": 0.51557093,
+      "rakdos": 0.5057257,
+      "golgari": 0.48401254,
+      "gruul": 0.4975923
+    },
+    "gihwrDelta": 0.013190880000000016
   },
   "Chitinous Graspling": {
     "cardName": "Chitinous Graspling",
-    "primaryArchetype": "simic",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.8134879,
+    "ata": 8.6017145,
+    "overallGihwr": 0.50981713,
+    "archetypeGihwr": {
+      "azorius": 0.51063188,
+      "selesnya": 0.5090109,
+      "dimir": 0.50038256,
+      "izzet": 0.52201533,
+      "simic": 0.49933155,
+      "golgari": 0.51303097,
+      "gruul": 0.48495212
+    },
+    "gihwrDelta": 0.012198200000000048
   },
   "Deceit": {
     "cardName": "Deceit",
     "primaryArchetype": "dimir",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "staple",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.7410484,
+    "ata": 1.7852328,
+    "overallGihwr": 0.58933359,
+    "archetypeGihwr": {
+      "azorius": 0.55325444,
+      "dimir": 0.63390929,
+      "izzet": 0.60741829,
+      "rakdos": 0.57568534,
+      "golgari": 0.59696459
+    },
+    "gihwrDelta": 0.044575699999999996
   },
   "Deepchannel Duelist": {
     "cardName": "Deepchannel Duelist",
@@ -2762,11 +3736,13 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.7044395,
+    "ata": 4.1346758,
+    "overallGihwr": 0.63333121,
+    "archetypeGihwr": {
+      "azorius": 0.63829787
+    },
+    "gihwrDelta": 0.004966660000000012
   },
   "Deepway Navigator": {
     "cardName": "Deepway Navigator",
@@ -2775,37 +3751,48 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.356155,
+    "ata": 3.9397532,
+    "overallGihwr": 0.56321999,
+    "archetypeGihwr": {
+      "azorius": 0.56719669
+    },
+    "gihwrDelta": 0.003976699999999944
   },
   "Doran, Besieged by Time": {
     "cardName": "Doran, Besieged by Time",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.2728326,
+    "ata": 3.6993364,
+    "overallGihwr": 0.58528858,
+    "archetypeGihwr": {
+      "selesnya": 0.60201149,
+      "golgari": 0.59607377
+    },
+    "gihwrDelta": 0.016722910000000035
   },
   "Dream Harvest": {
     "cardName": "Dream Harvest",
-    "primaryArchetype": "dimir",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "golgari",
+    "signalTier": "staple",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.1250262,
+    "ata": 5.5336165,
+    "overallGihwr": 0.50273516,
+    "archetypeGihwr": {
+      "azorius": 0.49454545,
+      "dimir": 0.48097412,
+      "izzet": 0.53282345,
+      "rakdos": 0.49221184,
+      "golgari": 0.5242464
+    },
+    "gihwrDelta": 0.030088290000000018
   },
   "Eclipsed Boggart": {
     "cardName": "Eclipsed Boggart",
@@ -2814,50 +3801,66 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.5867276,
+    "ata": 5.5645903,
+    "overallGihwr": 0.58937704,
+    "archetypeGihwr": {
+      "rakdos": 0.59660453
+    },
+    "gihwrDelta": 0.007227490000000003
   },
   "Eclipsed Elf": {
     "cardName": "Eclipsed Elf",
     "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.3535455,
+    "ata": 3.7750812,
+    "overallGihwr": 0.62999633,
+    "archetypeGihwr": {
+      "selesnya": 0.52957746,
+      "golgari": 0.6427711
+    },
+    "gihwrDelta": 0.012774770000000046
   },
   "Eclipsed Flamekin": {
     "cardName": "Eclipsed Flamekin",
     "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.948075,
+    "ata": 4.5386663,
+    "overallGihwr": 0.59868736,
+    "archetypeGihwr": {
+      "azorius": 0.56045265,
+      "boros": 0.54824561,
+      "izzet": 0.61163923,
+      "rakdos": 0.53150057,
+      "gruul": 0.5573081
+    },
+    "gihwrDelta": 0.012951869999999976
   },
   "Eclipsed Kithkin": {
     "cardName": "Eclipsed Kithkin",
     "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.5159274,
+    "ata": 4.0730784,
+    "overallGihwr": 0.62384115,
+    "archetypeGihwr": {
+      "azorius": 0.54909561,
+      "boros": 0.51286765,
+      "selesnya": 0.65118762,
+      "golgari": 0.55602744
+    },
+    "gihwrDelta": 0.02734647000000001
   },
   "Eclipsed Merrow": {
     "cardName": "Eclipsed Merrow",
@@ -2866,50 +3869,73 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.8916598,
+    "ata": 4.4298362,
+    "overallGihwr": 0.6184423,
+    "archetypeGihwr": {
+      "azorius": 0.6276739,
+      "izzet": 0.51658768
+    },
+    "gihwrDelta": 0.009231600000000006
   },
   "Emptiness": {
     "cardName": "Emptiness",
-    "primaryArchetype": "orzhov",
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "staple",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.6487899,
+    "ata": 1.693003,
+    "overallGihwr": 0.56845365,
+    "archetypeGihwr": {
+      "azorius": 0.54977376,
+      "orzhov": 0.57201646,
+      "selesnya": 0.54424358,
+      "rakdos": 0.5465288,
+      "golgari": 0.60863817
+    },
+    "gihwrDelta": 0.040184519999999946
   },
   "Feisty Spikeling": {
     "cardName": "Feisty Spikeling",
-    "primaryArchetype": "boros",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.508601,
+    "ata": 7.9581167,
+    "overallGihwr": 0.5067353,
+    "archetypeGihwr": {
+      "azorius": 0.52709433,
+      "orzhov": 0.46708747,
+      "boros": 0.49463613,
+      "selesnya": 0.51183374,
+      "izzet": 0.5198939,
+      "rakdos": 0.47645461,
+      "gruul": 0.48311688
+    },
+    "gihwrDelta": 0.020359030000000056
   },
   "Figure of Fable": {
     "cardName": "Figure of Fable",
     "primaryArchetype": "selesnya",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.5651341,
+    "ata": 1.6010938,
+    "overallGihwr": 0.63629107,
+    "archetypeGihwr": {
+      "azorius": 0.62508295,
+      "boros": 0.6292517,
+      "selesnya": 0.66265839,
+      "golgari": 0.64141821,
+      "gruul": 0.60491493
+    },
+    "gihwrDelta": 0.026367320000000083
   },
   "Flaring Cinder": {
     "cardName": "Flaring Cinder",
@@ -2918,141 +3944,208 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.143683,
+    "ata": 8.3375461,
+    "overallGihwr": 0.55187824,
+    "archetypeGihwr": {
+      "azorius": 0.52462341,
+      "boros": 0.52504039,
+      "dimir": 0.51402918,
+      "izzet": 0.56081463,
+      "simic": 0.49498328,
+      "rakdos": 0.51965812,
+      "gruul": 0.51313321
+    },
+    "gihwrDelta": 0.008936390000000016
   },
   "Gangly Stompling": {
     "cardName": "Gangly Stompling",
-    "primaryArchetype": "gruul",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.3761086,
+    "ata": 7.7083923,
+    "overallGihwr": 0.53700953,
+    "archetypeGihwr": {
+      "boros": 0.51674877,
+      "selesnya": 0.56095956,
+      "izzet": 0.54757659,
+      "simic": 0.517215,
+      "rakdos": 0.5123926,
+      "golgari": 0.54975124,
+      "gruul": 0.51262762
+    },
+    "gihwrDelta": 0.023950030000000067
   },
   "Glister Bairn": {
     "cardName": "Glister Bairn",
-    "primaryArchetype": "simic",
+    "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "staple",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.0114234,
+    "ata": 7.01204,
+    "overallGihwr": 0.52256659,
+    "archetypeGihwr": {
+      "azorius": 0.55258386,
+      "selesnya": 0.52519481,
+      "izzet": 0.53066119,
+      "simic": 0.50596491,
+      "golgari": 0.52347582,
+      "gruul": 0.5187747
+    },
+    "gihwrDelta": 0.030017269999999985
   },
   "Grub's Command": {
     "cardName": "Grub's Command",
     "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.1234989,
+    "ata": 3.5073691,
+    "overallGihwr": 0.6267293,
+    "archetypeGihwr": {
+      "izzet": 0.58342792,
+      "rakdos": 0.65033724,
+      "golgari": 0.53576248
+    },
+    "gihwrDelta": 0.023607939999999994
   },
   "High Perfect Morcant": {
     "cardName": "High Perfect Morcant",
     "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.2797545,
+    "ata": 2.4897421,
+    "overallGihwr": 0.61766697,
+    "archetypeGihwr": {
+      "golgari": 0.62867574
+    },
+    "gihwrDelta": 0.011008770000000001
   },
   "Hovel Hurler": {
     "cardName": "Hovel Hurler",
-    "primaryArchetype": "boros",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.9281722,
+    "ata": 5.0383489,
+    "overallGihwr": 0.53081056,
+    "archetypeGihwr": {
+      "azorius": 0.53041937,
+      "orzhov": 0.50326087,
+      "boros": 0.52907712,
+      "selesnya": 0.54952919,
+      "izzet": 0.54252603,
+      "rakdos": 0.52839634,
+      "gruul": 0.51981567
+    },
+    "gihwrDelta": 0.01871862999999996
   },
   "Kirol, Attentive First-Year": {
     "cardName": "Kirol, Attentive First-Year",
-    "primaryArchetype": "boros",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "boros",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.9527637,
+    "ata": 3.3355526,
+    "overallGihwr": 0.52701428,
+    "archetypeGihwr": {
+      "azorius": 0.53057554,
+      "boros": 0.54656632,
+      "selesnya": 0.55009191,
+      "izzet": 0.54257007,
+      "rakdos": 0.49348341
+    },
+    "gihwrDelta": 0.02307763000000007
   },
   "Lluwen, Imperfect Naturalist": {
     "cardName": "Lluwen, Imperfect Naturalist",
     "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.3237395,
+    "ata": 2.5186227,
+    "overallGihwr": 0.58846821,
+    "archetypeGihwr": {
+      "selesnya": 0.55950033,
+      "rakdos": 0.51657459,
+      "golgari": 0.61500248
+    },
+    "gihwrDelta": 0.02653426999999997
   },
   "Maralen, Fae Ascendant": {
     "cardName": "Maralen, Fae Ascendant",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.4753416,
+    "ata": 2.6474059,
+    "overallGihwr": 0.60405486,
+    "archetypeGihwr": {
+      "dimir": 0.55281343,
+      "simic": 0.58286778,
+      "golgari": 0.63355584
+    },
+    "gihwrDelta": 0.02950098000000001
   },
   "Merrow Skyswimmer": {
     "cardName": "Merrow Skyswimmer",
     "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.6137269,
+    "ata": 5.8765087,
+    "overallGihwr": 0.57103026,
+    "archetypeGihwr": {
+      "azorius": 0.58505752,
+      "orzhov": 0.50986121,
+      "boros": 0.51263335,
+      "selesnya": 0.55563861,
+      "dimir": 0.527,
+      "izzet": 0.55866118,
+      "simic": 0.5396687
+    },
+    "gihwrDelta": 0.014027259999999986
   },
   "Mischievous Sneakling": {
     "cardName": "Mischievous Sneakling",
-    "primaryArchetype": "dimir",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.8878942,
+    "ata": 6.8597715,
+    "overallGihwr": 0.52435736,
+    "archetypeGihwr": {
+      "azorius": 0.52266097,
+      "orzhov": 0.48777838,
+      "dimir": 0.52327716,
+      "izzet": 0.54731388,
+      "simic": 0.52945159,
+      "rakdos": 0.50807985,
+      "golgari": 0.53286623
+    },
+    "gihwrDelta": 0.022956520000000036
   },
   "Morcant's Loyalist": {
     "cardName": "Morcant's Loyalist",
@@ -3061,37 +4154,55 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.1491434,
+    "ata": 3.5161364,
+    "overallGihwr": 0.61309384,
+    "archetypeGihwr": {
+      "golgari": 0.62214525
+    },
+    "gihwrDelta": 0.009051409999999982
   },
   "Noggle Robber": {
     "cardName": "Noggle Robber",
-    "primaryArchetype": "gruul",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.8970124,
+    "ata": 4.7546235,
+    "overallGihwr": 0.5725641,
+    "archetypeGihwr": {
+      "boros": 0.54946237,
+      "selesnya": 0.56221198,
+      "izzet": 0.58946602,
+      "simic": 0.55888651,
+      "rakdos": 0.53238127,
+      "golgari": 0.57938272,
+      "gruul": 0.56986301
+    },
+    "gihwrDelta": 0.016901920000000015
   },
   "Prideful Feastling": {
     "cardName": "Prideful Feastling",
-    "primaryArchetype": "orzhov",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "selesnya",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.7429293,
+    "ata": 6.7966389,
+    "overallGihwr": 0.52929338,
+    "archetypeGihwr": {
+      "azorius": 0.53246498,
+      "orzhov": 0.51831182,
+      "boros": 0.51803607,
+      "selesnya": 0.5477834,
+      "dimir": 0.49837587,
+      "rakdos": 0.48740535,
+      "golgari": 0.54410339
+    },
+    "gihwrDelta": 0.018490019999999996
   },
   "Raiding Schemes": {
     "cardName": "Raiding Schemes",
@@ -3100,8 +4211,8 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 6.0714121,
+    "ata": 9.1620482,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -3109,80 +4220,114 @@
   "Reaping Willow": {
     "cardName": "Reaping Willow",
     "primaryArchetype": "orzhov",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "secondaryArchetype": "rakdos",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.2789276,
+    "ata": 3.8885464,
+    "overallGihwr": 0.56891271,
+    "archetypeGihwr": {
+      "azorius": 0.56741251,
+      "orzhov": 0.59203257,
+      "boros": 0.56300997,
+      "selesnya": 0.56858281,
+      "dimir": 0.53955136,
+      "rakdos": 0.5770751,
+      "golgari": 0.57282776
+    },
+    "gihwrDelta": 0.023119859999999992
   },
   "Sanar, Innovative First-Year": {
     "cardName": "Sanar, Innovative First-Year",
-    "primaryArchetype": "izzet",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "boros",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.0304831,
+    "ata": 2.1033092,
+    "overallGihwr": 0.6038216,
+    "archetypeGihwr": {
+      "azorius": 0.61403509,
+      "boros": 0.62478485,
+      "izzet": 0.61891286,
+      "rakdos": 0.60261652,
+      "gruul": 0.57714286
+    },
+    "gihwrDelta": 0.02096324999999999
   },
   "Shadow Urchin": {
     "cardName": "Shadow Urchin",
     "primaryArchetype": "rakdos",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.8660695,
+    "ata": 3.238317,
+    "overallGihwr": 0.53683428,
+    "archetypeGihwr": {
+      "boros": 0.50963222,
+      "izzet": 0.53366337,
+      "rakdos": 0.54689732,
+      "golgari": 0.53576073
+    },
+    "gihwrDelta": 0.010063040000000023
   },
   "Stoic Grove-Guide": {
     "cardName": "Stoic Grove-Guide",
     "primaryArchetype": "golgari",
-    "secondaryArchetype": null,
+    "secondaryArchetype": "gruul",
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.6571821,
+    "ata": 8.058497,
+    "overallGihwr": 0.52643878,
+    "archetypeGihwr": {
+      "orzhov": 0.52007299,
+      "selesnya": 0.48894737,
+      "dimir": 0.51090909,
+      "rakdos": 0.48399488,
+      "golgari": 0.53380162,
+      "gruul": 0.53342071
+    },
+    "gihwrDelta": 0.007362839999999982
   },
   "Sygg's Command": {
     "cardName": "Sygg's Command",
     "primaryArchetype": "azorius",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.0648209,
+    "ata": 3.5095299,
+    "overallGihwr": 0.58670691,
+    "archetypeGihwr": {
+      "azorius": 0.59768419
+    },
+    "gihwrDelta": 0.010977279999999978
   },
   "Tam, Mindful First-Year": {
     "cardName": "Tam, Mindful First-Year",
-    "primaryArchetype": "simic",
+    "primaryArchetype": "izzet",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.1076327,
+    "ata": 2.2182776,
+    "overallGihwr": 0.53700341,
+    "archetypeGihwr": {
+      "azorius": 0.54421304,
+      "selesnya": 0.53295002,
+      "izzet": 0.56538895,
+      "simic": 0.49917628,
+      "golgari": 0.53937873
+    },
+    "gihwrDelta": 0.028385540000000042
   },
   "Thoughtweft Lieutenant": {
     "cardName": "Thoughtweft Lieutenant",
@@ -3191,24 +4336,31 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.9436228,
+    "ata": 4.5852034,
+    "overallGihwr": 0.58751943,
+    "archetypeGihwr": {
+      "selesnya": 0.59317393
+    },
+    "gihwrDelta": 0.005654500000000007
   },
   "Trystan's Command": {
     "cardName": "Trystan's Command",
     "primaryArchetype": "golgari",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.1772029,
+    "ata": 2.2928903,
+    "overallGihwr": 0.63678561,
+    "archetypeGihwr": {
+      "selesnya": 0.57207207,
+      "rakdos": 0.58855886,
+      "golgari": 0.65978375,
+      "gruul": 0.58479532
+    },
+    "gihwrDelta": 0.02299814
   },
   "Twinflame Travelers": {
     "cardName": "Twinflame Travelers",
@@ -3217,128 +4369,193 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.0617819,
+    "ata": 4.6687229,
+    "overallGihwr": 0.57198276,
+    "archetypeGihwr": {
+      "izzet": 0.57999406
+    },
+    "gihwrDelta": 0.008011299999999943
   },
   "Vibrance": {
     "cardName": "Vibrance",
-    "primaryArchetype": "gruul",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "gruul",
+    "signalTier": "staple",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.6558442,
+    "ata": 1.7026185,
+    "overallGihwr": 0.61477919,
+    "archetypeGihwr": {
+      "selesnya": 0.59125189,
+      "izzet": 0.64753123,
+      "rakdos": 0.59934426,
+      "golgari": 0.56740088,
+      "gruul": 0.64471404
+    },
+    "gihwrDelta": 0.03275203999999998
   },
   "Voracious Tome-Skimmer": {
     "cardName": "Voracious Tome-Skimmer",
     "primaryArchetype": "dimir",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.5554763,
+    "ata": 7.6684093,
+    "overallGihwr": 0.52890429,
+    "archetypeGihwr": {
+      "azorius": 0.51124859,
+      "dimir": 0.55799722,
+      "izzet": 0.49568679,
+      "golgari": 0.48643761
+    },
+    "gihwrDelta": 0.029092929999999906
   },
   "Wary Farmer": {
     "cardName": "Wary Farmer",
-    "primaryArchetype": "selesnya",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "simic",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.3390306,
+    "ata": 7.390864,
+    "overallGihwr": 0.54769657,
+    "archetypeGihwr": {
+      "azorius": 0.52140236,
+      "orzhov": 0.51036269,
+      "boros": 0.4979564,
+      "selesnya": 0.56340127,
+      "simic": 0.56636156,
+      "golgari": 0.5225881,
+      "gruul": 0.52
+    },
+    "gihwrDelta": 0.018664989999999992
   },
   "Wistfulness": {
     "cardName": "Wistfulness",
-    "primaryArchetype": "simic",
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "simic",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.6203187,
+    "ata": 1.6694342,
+    "overallGihwr": 0.60651348,
+    "archetypeGihwr": {
+      "azorius": 0.60861423,
+      "selesnya": 0.57192575,
+      "izzet": 0.62914131,
+      "simic": 0.61199295,
+      "golgari": 0.59360731
+    },
+    "gihwrDelta": 0.022627829999999904
   },
   "Chronicle of Victory": {
     "cardName": "Chronicle of Victory",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 1.2043405,
+    "ata": 1.2036749,
+    "overallGihwr": 0.62263413,
+    "archetypeGihwr": {
+      "azorius": 0.62926018,
+      "selesnya": 0.63697566,
+      "izzet": 0.63050847,
+      "rakdos": 0.60700132,
+      "golgari": 0.64849146
+    },
+    "gihwrDelta": 0.02585733000000001
   },
   "Dawn-Blessed Pennant": {
     "cardName": "Dawn-Blessed Pennant",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.1134326,
+    "ata": 7.1711254,
+    "overallGihwr": 0.53764964,
+    "archetypeGihwr": {
+      "azorius": 0.52806297,
+      "selesnya": 0.516628,
+      "izzet": 0.54474432,
+      "rakdos": 0.51388889,
+      "golgari": 0.5631509
+    },
+    "gihwrDelta": 0.02550125999999997
   },
   "Firdoch Core": {
     "cardName": "Firdoch Core",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.4893482,
+    "ata": 9.6947074,
+    "overallGihwr": 0.50760013,
+    "archetypeGihwr": {
+      "azorius": 0.5033763,
+      "selesnya": 0.49491323,
+      "dimir": 0.48469388,
+      "izzet": 0.52467532,
+      "simic": 0.52036199,
+      "rakdos": 0.46290144,
+      "golgari": 0.52155833,
+      "gruul": 0.48764259
+    },
+    "gihwrDelta": 0.017075189999999907
   },
   "Foraging Wickermaw": {
     "cardName": "Foraging Wickermaw",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "orzhov",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.9740562,
+    "ata": 8.2323635,
+    "overallGihwr": 0.53648156,
+    "archetypeGihwr": {
+      "azorius": 0.54856703,
+      "orzhov": 0.55483405,
+      "boros": 0.51565378,
+      "selesnya": 0.51745139,
+      "dimir": 0.52173913,
+      "izzet": 0.55293525,
+      "simic": 0.54104926,
+      "rakdos": 0.49273959,
+      "golgari": 0.52257361,
+      "gruul": 0.52681461
+    },
+    "gihwrDelta": 0.018352489999999944
   },
   "Gathering Stone": {
     "cardName": "Gathering Stone",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "golgari",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.8024621,
+    "ata": 4.1280671,
+    "overallGihwr": 0.58259332,
+    "archetypeGihwr": {
+      "azorius": 0.5768638,
+      "selesnya": 0.56428164,
+      "izzet": 0.60579207,
+      "rakdos": 0.58067145,
+      "golgari": 0.59543366
+    },
+    "gihwrDelta": 0.023198750000000046
   },
   "Mirrormind Crown": {
     "cardName": "Mirrormind Crown",
@@ -3347,141 +4564,192 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
+    "alsa": 5.5188015,
+    "ata": 8.6258516,
+    "overallGihwr": 0.3938172,
     "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "gihwrDelta": -0.3938172
   },
   "Puca's Eye": {
     "cardName": "Puca's Eye",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "simic",
+    "secondaryArchetype": "izzet",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.8705641,
+    "ata": 9.6614413,
+    "overallGihwr": 0.54601522,
+    "archetypeGihwr": {
+      "izzet": 0.55872292,
+      "simic": 0.56288917,
+      "golgari": 0.5015015,
+      "gruul": 0.54880137
+    },
+    "gihwrDelta": 0.016873950000000026
   },
   "Springleaf Drum": {
     "cardName": "Springleaf Drum",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "izzet",
+    "signalTier": "strong",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.3281243,
+    "ata": 9.4192019,
+    "overallGihwr": 0.50022604,
+    "archetypeGihwr": {
+      "azorius": 0.53430657,
+      "selesnya": 0.4665392,
+      "izzet": 0.52024922,
+      "golgari": 0.49606299
+    },
+    "gihwrDelta": 0.03408053
   },
   "Stalactite Dagger": {
     "cardName": "Stalactite Dagger",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
-    "signalTier": "weak",
+    "primaryArchetype": "azorius",
+    "secondaryArchetype": "selesnya",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 6.9434544,
+    "ata": 10.183504,
+    "overallGihwr": 0.51315789,
+    "archetypeGihwr": {
+      "azorius": 0.53279214,
+      "boros": 0.49211909,
+      "selesnya": 0.52123633,
+      "dimir": 0.49275362,
+      "izzet": 0.51625344,
+      "rakdos": 0.49121265,
+      "golgari": 0.5152968
+    },
+    "gihwrDelta": 0.019634249999999964
   },
   "Blood Crypt": {
     "cardName": "Blood Crypt",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
     "signalTier": "fixing",
     "isConvergeSignal": false,
     "isFixing": true,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.1833513,
+    "ata": 5.7912558,
+    "overallGihwr": 0.52446689,
+    "archetypeGihwr": {
+      "izzet": 0.5270108,
+      "rakdos": 0.52435168,
+      "golgari": 0.55576208
+    },
+    "gihwrDelta": 0.03129519000000003
   },
   "Eclipsed Realms": {
     "cardName": "Eclipsed Realms",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "izzet",
     "signalTier": "fixing",
     "isConvergeSignal": false,
     "isFixing": true,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 5.3254003,
+    "ata": 7.9562745,
+    "overallGihwr": 0.53740458,
+    "archetypeGihwr": {
+      "azorius": 0.53254627,
+      "selesnya": 0.54676779,
+      "izzet": 0.55714907,
+      "rakdos": 0.50676622,
+      "golgari": 0.55835635
+    },
+    "gihwrDelta": 0.020951769999999925
   },
   "Evolving Wilds": {
     "cardName": "Evolving Wilds",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "izzet",
     "signalTier": "fixing",
     "isConvergeSignal": false,
     "isFixing": true,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.6255242,
+    "ata": 6.3718752,
+    "overallGihwr": 0.54472699,
+    "archetypeGihwr": {
+      "azorius": 0.55708484,
+      "orzhov": 0.51712329,
+      "boros": 0.53018018,
+      "selesnya": 0.5386604,
+      "dimir": 0.52444942,
+      "izzet": 0.55721758,
+      "simic": 0.51374745,
+      "rakdos": 0.53349282,
+      "golgari": 0.56180179,
+      "gruul": 0.51651652
+    },
+    "gihwrDelta": 0.017074799999999946
   },
   "Hallowed Fountain": {
     "cardName": "Hallowed Fountain",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
     "signalTier": "fixing",
     "isConvergeSignal": false,
     "isFixing": true,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.9578171,
+    "ata": 5.3163395,
+    "overallGihwr": 0.52917075,
+    "archetypeGihwr": {
+      "azorius": 0.53945609,
+      "izzet": 0.55605719
+    },
+    "gihwrDelta": 0.026886439999999956
   },
   "Overgrown Tomb": {
     "cardName": "Overgrown Tomb",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
     "signalTier": "fixing",
     "isConvergeSignal": false,
     "isFixing": true,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.7385621,
+    "ata": 4.9325861,
+    "overallGihwr": 0.54197662,
+    "archetypeGihwr": {
+      "selesnya": 0.50751252,
+      "golgari": 0.55827488
+    },
+    "gihwrDelta": 0.01629826000000001
   },
   "Steam Vents": {
     "cardName": "Steam Vents",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "izzet",
+    "secondaryArchetype": "azorius",
     "signalTier": "fixing",
     "isConvergeSignal": false,
     "isFixing": true,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 4.0570128,
+    "ata": 5.4282343,
+    "overallGihwr": 0.53072994,
+    "archetypeGihwr": {
+      "azorius": 0.54152249,
+      "izzet": 0.54573643
+    },
+    "gihwrDelta": 0.015006490000000094
   },
   "Temple Garden": {
     "cardName": "Temple Garden",
-    "primaryArchetype": null,
-    "secondaryArchetype": null,
+    "primaryArchetype": "golgari",
+    "secondaryArchetype": "selesnya",
     "signalTier": "fixing",
     "isConvergeSignal": false,
     "isFixing": true,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.8496922,
+    "ata": 5.1816762,
+    "overallGihwr": 0.52665245,
+    "archetypeGihwr": {
+      "selesnya": 0.54342327,
+      "golgari": 0.55659495
+    },
+    "gihwrDelta": 0.029942499999999983
   },
   "Idyllic Tutor": {
     "cardName": "Idyllic Tutor",
@@ -3490,8 +4758,8 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 5.4272204,
+    "ata": 8.2509091,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -3500,11 +4768,11 @@
     "cardName": "Kinsbaile Cavalier",
     "primaryArchetype": null,
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 3.9643782,
+    "ata": 5.0034965,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -3513,11 +4781,11 @@
     "cardName": "Mistbind Clique",
     "primaryArchetype": null,
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 3.3904382,
+    "ata": 4.0547945,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -3526,11 +4794,11 @@
     "cardName": "Wanderwine Prophets",
     "primaryArchetype": null,
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 3.8861186,
+    "ata": 4.876,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -3539,14 +4807,14 @@
     "cardName": "Bitterblossom",
     "primaryArchetype": null,
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
+    "alsa": 1.6862348,
+    "ata": 1.8120567,
+    "overallGihwr": 0.57222222,
     "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "gihwrDelta": -0.57222222
   },
   "Faerie Macabre": {
     "cardName": "Faerie Macabre",
@@ -3555,37 +4823,41 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 6.4208494,
+    "ata": 9.6587537,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
   },
   "Goblin Chieftain": {
     "cardName": "Goblin Chieftain",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.6077655,
+    "ata": 4.4425087,
+    "overallGihwr": 0.56931608,
+    "archetypeGihwr": {
+      "rakdos": 0.57915058
+    },
+    "gihwrDelta": 0.009834499999999968
   },
   "Goblin Sharpshooter": {
     "cardName": "Goblin Sharpshooter",
-    "primaryArchetype": null,
+    "primaryArchetype": "rakdos",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 3.1176991,
+    "ata": 3.5589744,
+    "overallGihwr": 0.60678643,
+    "archetypeGihwr": {
+      "rakdos": 0.61448141
+    },
+    "gihwrDelta": 0.007694980000000018
   },
   "Heat Shimmer": {
     "cardName": "Heat Shimmer",
@@ -3594,8 +4866,8 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 5.2252131,
+    "ata": 7.9515571,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -3607,11 +4879,11 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
+    "alsa": 3.7484157,
+    "ata": 4.6290801,
+    "overallGihwr": 0.51754386,
     "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "gihwrDelta": -0.51754386
   },
   "Helix Pinnacle": {
     "cardName": "Helix Pinnacle",
@@ -3620,24 +4892,26 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 5.9751412,
+    "ata": 9.390411,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
   },
   "Leaf-Crowned Visionary": {
     "cardName": "Leaf-Crowned Visionary",
-    "primaryArchetype": null,
+    "primaryArchetype": "golgari",
     "secondaryArchetype": null,
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
-    "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "alsa": 2.4610918,
+    "ata": 2.7664474,
+    "overallGihwr": 0.59183673,
+    "archetypeGihwr": {
+      "golgari": 0.59590793
+    },
+    "gihwrDelta": 0.0040711999999999415
   },
   "Regal Force": {
     "cardName": "Regal Force",
@@ -3646,11 +4920,11 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
+    "alsa": 3.4135514,
+    "ata": 4.1722054,
+    "overallGihwr": 0.51541096,
     "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "gihwrDelta": -0.51541096
   },
   "Manamorphose": {
     "cardName": "Manamorphose",
@@ -3659,8 +4933,8 @@
     "signalTier": "fixing",
     "isConvergeSignal": false,
     "isFixing": true,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 4.7333633,
+    "ata": 7.221875,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -3669,14 +4943,14 @@
     "cardName": "Risen Reef",
     "primaryArchetype": "simic",
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "staple",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
+    "alsa": 3.6806543,
+    "ata": 4.1483376,
+    "overallGihwr": 0.62156216,
     "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "gihwrDelta": -0.62156216
   },
   "Slippery Bogle": {
     "cardName": "Slippery Bogle",
@@ -3685,8 +4959,8 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 5.882529,
+    "ata": 8.9380805,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -3695,10 +4969,10 @@
     "cardName": "Dolmen Gate",
     "primaryArchetype": null,
     "secondaryArchetype": null,
-    "signalTier": "weak",
+    "signalTier": "moderate",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
+    "alsa": 3.1917431,
     "ata": 0,
     "overallGihwr": 0,
     "archetypeGihwr": {},
@@ -3711,11 +4985,11 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
-    "overallGihwr": 0,
+    "alsa": 2.0396694,
+    "ata": 2.056391,
+    "overallGihwr": 0.53614458,
     "archetypeGihwr": {},
-    "gihwrDelta": 0
+    "gihwrDelta": -0.53614458
   },
   "Painter's Servant": {
     "cardName": "Painter's Servant",
@@ -3724,8 +4998,8 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 4.4760692,
+    "ata": 6.3754647,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
@@ -3737,8 +5011,8 @@
     "signalTier": "weak",
     "isConvergeSignal": false,
     "isFixing": false,
-    "alsa": 0,
-    "ata": 0,
+    "alsa": 5.3505924,
+    "ata": 8.4568966,
     "overallGihwr": 0,
     "archetypeGihwr": {},
     "gihwrDelta": 0
