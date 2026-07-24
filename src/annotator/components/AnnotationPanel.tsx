@@ -1,6 +1,9 @@
+import { useState, useRef, useEffect, useCallback } from 'react';
 import type { PickAnnotation, AnnotationLayer } from '../types';
-import type { RawDraftPick } from '../../data/types';
+import type { RawDraftPick, RawDraftCard } from '../../data/types';
 import { T, label } from '../../shared/theme';
+import { useSignals } from '../SignalContext';
+import { CardHoverCard } from './CardHoverCard';
 
 interface AnnotationPanelProps {
   pick: RawDraftPick;
@@ -50,6 +53,49 @@ export function AnnotationPanel({
 }: AnnotationPanelProps) {
   const cardNote = selectedCard ? (annotation?.cardNotes[selectedCard] ?? '') : '';
   const cardRank = selectedCard ? (annotation?.cardRanks?.[selectedCard] ?? null) : null;
+
+  const signals = useSignals();
+
+  // Chip hover-stats popover: same timing discipline as the workspace grid —
+  // 150ms open intent, 60ms close grace, instant retarget when already open
+  const [hoverCard, setHoverCard] = useState<{ card: RawDraftCard; rect: DOMRect } | null>(null);
+  const hoverOpenRef = useRef(false);
+  const openTimer = useRef<number | null>(null);
+  const closeTimer = useRef<number | null>(null);
+
+  const handleChipEnter = useCallback((card: RawDraftCard, el: HTMLElement) => {
+    if (closeTimer.current) { window.clearTimeout(closeTimer.current); closeTimer.current = null; }
+    if (openTimer.current) { window.clearTimeout(openTimer.current); openTimer.current = null; }
+    const rect = el.getBoundingClientRect();
+    if (hoverOpenRef.current) {
+      setHoverCard({ card, rect });
+    } else {
+      openTimer.current = window.setTimeout(() => {
+        hoverOpenRef.current = true;
+        setHoverCard({ card, rect });
+      }, 150);
+    }
+  }, []);
+
+  const handleChipLeave = useCallback(() => {
+    if (openTimer.current) { window.clearTimeout(openTimer.current); openTimer.current = null; }
+    closeTimer.current = window.setTimeout(() => {
+      hoverOpenRef.current = false;
+      setHoverCard(null);
+    }, 60);
+  }, []);
+
+  // Dismiss on pick navigation so the popover never anchors to a stale chip
+  useEffect(() => {
+    if (openTimer.current) { window.clearTimeout(openTimer.current); openTimer.current = null; }
+    if (closeTimer.current) { window.clearTimeout(closeTimer.current); closeTimer.current = null; }
+    hoverOpenRef.current = false;
+    setHoverCard(null);
+  }, [pick.pack_number, pick.pick_number]);
+
+  const pa = signals.analysis?.picks.find(
+    (p) => p.packNumber === pick.pack_number && p.pickNumber === pick.pick_number,
+  ) ?? null;
 
   return (
     <div
@@ -149,6 +195,8 @@ export function AnnotationPanel({
               <button
                 key={card.name}
                 onClick={() => onSelectCard(isSelected ? null : card.name)}
+                onMouseEnter={(e) => handleChipEnter(card, e.currentTarget)}
+                onMouseLeave={handleChipLeave}
                 style={{
                   padding: '3px 7px',
                   backgroundColor: isSelected ? T.bg3 : T.bg2,
@@ -253,6 +301,19 @@ export function AnnotationPanel({
             selectedCard={selectedCard}
           />
         </div>
+      )}
+
+      {hoverCard && signals.status === 'ready' && signals.config && (
+        <CardHoverCard
+          card={hoverCard.card}
+          anchorRect={hoverCard.rect}
+          signalEntry={signals.signalMap?.[hoverCard.card.name] ?? null}
+          pickSignal={pa?.cardSignals.find((s) => s.cardName === hoverCard.card.name) ?? null}
+          isWheel={pa?.wheelDetections.includes(hoverCard.card.name) ?? false}
+          config={signals.config}
+          packNumber={pick.pack_number}
+          pickNumber={pick.pick_number}
+        />
       )}
     </div>
   );

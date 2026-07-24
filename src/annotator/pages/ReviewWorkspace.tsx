@@ -11,7 +11,7 @@ import { PoolComparison } from '../components/PoolComparison';
 import { PresenceBar } from '../components/PresenceBar';
 import { LayerToggle } from '../components/LayerToggle';
 import { UserIdentityModal } from '../components/UserIdentityModal';
-import { DraftSummaryPanel } from '../components/DraftSummaryPanel';
+import { SummaryTab } from '../components/SummaryTab';
 import { CardHoverCard } from '../components/CardHoverCard';
 import { PickScrubber } from '../components/PickScrubber';
 import { GlossaryPopover } from '../components/GlossaryPopover';
@@ -287,6 +287,12 @@ function WorkspaceInner({
     dismissHover();
   }, [dismissHover]);
 
+  // Last viewed pick — so the PICKS tab returns where you left off
+  const lastPickIndexRef = useRef(0);
+  useEffect(() => {
+    if (pickIndex < picks.length) lastPickIndexRef.current = pickIndex;
+  }, [pickIndex, picks.length]);
+
   // Keyboard: arrows navigate, Esc backs out, ? opens the glossary
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -470,13 +476,26 @@ function WorkspaceInner({
           onSwitch={setActiveTimelineId}
           onTimelinesChange={setTimelines}
         />
-        <span style={{ marginLeft: 'auto', ...label }}>
-          Pick{' '}
-          <span style={{ color: T.ink0, fontSize: T.fs.t3 }}>
-            {showSummary ? 'Σ' : `P${pick!.pack_number + 1}P${pick!.pick_number + 1}`}
-          </span>{' '}
-          <span style={{ color: T.ink3 }}>· {Math.min(pickIndex + 1, picks.length)} / {picks.length}</span>
-        </span>
+        <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 12 }}>
+          <div style={{ display: 'flex', gap: 3 }}>
+            <button
+              onClick={() => jumpTo(Math.min(lastPickIndexRef.current, Math.max(picks.length - 1, 0)))}
+              style={tabStyle(!showSummary)}
+            >
+              PICKS
+            </button>
+            <button onClick={() => jumpTo(picks.length)} style={tabStyle(showSummary)}>
+              SUMMARY
+            </button>
+          </div>
+          <span style={{ ...label }}>
+            Pick{' '}
+            <span style={{ color: T.ink0, fontSize: T.fs.t3 }}>
+              {showSummary ? 'Σ' : `P${pick!.pack_number + 1}P${pick!.pick_number + 1}`}
+            </span>{' '}
+            <span style={{ color: T.ink3 }}>· {Math.min(pickIndex + 1, picks.length)} / {picks.length}</span>
+          </span>
+        </div>
       </div>
 
       {/* ALT-PICK MODE STRIP — the click-semantics switch made visible */}
@@ -507,7 +526,7 @@ function WorkspaceInner({
 
       {showSummary ? (
         <div style={{ flex: 1, overflow: 'auto', marginTop: 6 }}>
-          <DraftSummaryPanel
+          <SummaryTab
             summary={review!.summary}
             isEditable={canAnnotate}
             onChange={(s) => {
@@ -794,6 +813,24 @@ function NoteDot({ color, title }: { color: string; title: string }) {
       }}
     />
   );
+}
+
+/** PICKS | SUMMARY keycap-tab chip */
+function tabStyle(active: boolean): React.CSSProperties {
+  return {
+    padding: '3px 10px',
+    backgroundColor: active ? T.bg3 : 'transparent',
+    color: active ? T.ink0 : T.ink2,
+    border: `1px solid ${active ? T.line2 : T.line1}`,
+    borderBottom: `2px solid ${active ? T.sel : T.line1}`,
+    borderRadius: T.radius.m,
+    cursor: 'pointer',
+    fontFamily: T.mono,
+    fontSize: T.fs.t1,
+    fontWeight: 700,
+    letterSpacing: '0.08em',
+    textTransform: 'uppercase',
+  };
 }
 
 function btnStyle(accent?: string): React.CSSProperties {

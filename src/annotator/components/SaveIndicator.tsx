@@ -1,10 +1,11 @@
 import type { SaveStatus } from '../hooks/useReview';
+import { T } from '../../shared/theme';
 
 const STATUS_CONFIG: Record<SaveStatus, { text: string; color: string }> = {
   idle: { text: '', color: 'transparent' },
-  saving: { text: 'Saving...', color: '#888' },
-  saved: { text: 'Saved', color: '#4CAF50' },
-  error: { text: 'Save failed', color: '#f44336' },
+  saving: { text: 'Saving...', color: T.ink2 },
+  saved: { text: 'Saved', color: T.picked },
+  error: { text: 'Save failed', color: T.danger },
 };
 
 export function SaveIndicator({ status }: { status: SaveStatus }) {
@@ -12,7 +13,14 @@ export function SaveIndicator({ status }: { status: SaveStatus }) {
   if (!text) return null;
 
   return (
-    <span style={{ color, fontSize: 11, fontFamily: 'monospace' }}>
+    <span
+      style={{
+        color,
+        fontSize: T.fs.t2,
+        fontFamily: T.mono,
+        transition: `color ${T.fast} ${T.ease}`,
+      }}
+    >
       {text}
     </span>
   );

@@ -1,3 +1,4 @@
+import { T, label } from '../../shared/theme';
 import type { DraftSummary } from '../types';
 
 interface DraftSummaryPanelProps {
@@ -11,63 +12,70 @@ export function DraftSummaryPanel({ summary, isEditable, onChange }: DraftSummar
     width: '100%',
     minHeight: 80,
     padding: 8,
-    backgroundColor: '#1a1a1a',
-    color: '#ccc',
-    border: '1px solid #333',
-    borderRadius: 4,
-    fontFamily: 'monospace',
-    fontSize: 13,
+    backgroundColor: T.bg3,
+    color: T.ink1,
+    border: `1px solid ${T.line1}`,
+    borderRadius: T.radius.m,
+    fontFamily: T.mono,
+    fontSize: T.fs.t4,
     resize: 'vertical',
     boxSizing: 'border-box',
   };
 
   return (
-    <div style={{
-      padding: 16,
-      fontFamily: 'monospace',
-      maxWidth: 700,
-      margin: '0 auto',
-    }}>
-      <h2 style={{ color: '#fff', fontSize: 16, marginBottom: 16 }}>
+    <div
+      style={{
+        padding: 12,
+        fontFamily: T.mono,
+        backgroundColor: T.bg1,
+        border: `1px solid ${T.line0}`,
+        borderRadius: T.radius.l,
+      }}
+    >
+      <div style={{ ...label, color: T.ink1, marginBottom: 12 }}>
         Draft Summary
-      </h2>
+      </div>
 
-      <div style={{ marginBottom: 16 }}>
-        <div style={{ color: '#888', fontSize: 11, marginBottom: 8 }}>
+      <div style={{ marginBottom: 14 }}>
+        <div style={{ ...label, marginBottom: 8 }}>
           Rate this draft
         </div>
         <div style={{ display: 'flex', gap: 4 }}>
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
-            <button
-              key={n}
-              onClick={() => isEditable && onChange({ ...summary, rating: summary.rating === n ? null : n })}
-              style={{
-                width: 36,
-                height: 36,
-                padding: 0,
-                backgroundColor: summary.rating === n ? '#64B5F6' : summary.rating && n <= summary.rating ? '#2a4a6a' : '#222',
-                color: summary.rating === n ? '#000' : summary.rating && n <= summary.rating ? '#64B5F6' : '#555',
-                border: `1px solid ${summary.rating && n <= summary.rating! ? '#64B5F6' : '#333'}`,
-                borderRadius: 4,
-                cursor: isEditable ? 'pointer' : 'default',
-                fontFamily: 'monospace',
-                fontSize: 14,
-                fontWeight: 700,
-              }}
-            >
-              {n}
-            </button>
-          ))}
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => {
+            const isCurrent = summary.rating === n;
+            const isFilled = !!summary.rating && n <= summary.rating;
+            return (
+              <button
+                key={n}
+                onClick={() => isEditable && onChange({ ...summary, rating: isCurrent ? null : n })}
+                style={{
+                  width: 36,
+                  height: 36,
+                  padding: 0,
+                  backgroundColor: isCurrent ? T.sel : isFilled ? 'rgba(77,159,255,0.12)' : T.bg2,
+                  color: isCurrent ? T.bg0 : isFilled ? T.sel : T.ink3,
+                  border: `1px solid ${isCurrent ? T.sel : isFilled ? 'rgba(77,159,255,0.45)' : T.line1}`,
+                  borderRadius: T.radius.m,
+                  cursor: isEditable ? 'pointer' : 'default',
+                  fontFamily: T.mono,
+                  fontSize: T.fs.t4,
+                  fontWeight: 700,
+                }}
+              >
+                {n}
+              </button>
+            );
+          })}
           {summary.rating && (
-            <span style={{ color: '#64B5F6', fontSize: 14, fontWeight: 700, alignSelf: 'center', marginLeft: 8 }}>
+            <span style={{ color: T.sel, fontSize: T.fs.t4, fontWeight: 700, alignSelf: 'center', marginLeft: 8 }}>
               {summary.rating}/10
             </span>
           )}
         </div>
       </div>
 
-      <div style={{ marginBottom: 16 }}>
-        <div style={{ color: '#888', fontSize: 11, marginBottom: 4 }}>
+      <div style={{ marginBottom: 14 }}>
+        <div style={{ ...label, marginBottom: 4 }}>
           Closing thoughts
         </div>
         <textarea
@@ -80,7 +88,7 @@ export function DraftSummaryPanel({ summary, isEditable, onChange }: DraftSummar
       </div>
 
       <div>
-        <div style={{ color: '#888', fontSize: 11, marginBottom: 4 }}>
+        <div style={{ ...label, marginBottom: 4 }}>
           Ways to improve
         </div>
         <textarea

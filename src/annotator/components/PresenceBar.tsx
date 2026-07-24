@@ -1,4 +1,5 @@
 import type { CollabUser } from '../types';
+import { T } from '../../shared/theme';
 
 interface PresenceBarProps {
   users: CollabUser[];
@@ -10,12 +11,19 @@ export function PresenceBar({ users, connected }: PresenceBarProps) {
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-      <div style={{
-        width: 6,
-        height: 6,
-        borderRadius: '50%',
-        backgroundColor: connected ? '#4CAF50' : '#f44336',
-      }} />
+      <div
+        title={connected ? 'Connected' : 'Disconnected'}
+        style={{
+          width: 6,
+          height: 6,
+          borderRadius: '50%',
+          backgroundColor: connected ? T.picked : T.danger,
+          boxShadow: connected
+            ? '0 0 5px rgba(63,185,80,0.5)'
+            : '0 0 5px rgba(240,82,74,0.5)',
+          transition: `background-color ${T.fast} ${T.ease}`,
+        }}
+      />
       {users.map((u) => (
         <div
           key={u.id}
@@ -25,11 +33,13 @@ export function PresenceBar({ users, connected }: PresenceBarProps) {
             alignItems: 'center',
             gap: 4,
             padding: '2px 6px',
-            backgroundColor: '#222',
+            backgroundColor: T.bg2,
             border: `1px solid ${u.color}`,
             borderRadius: 10,
-            fontSize: 10,
-            fontFamily: 'monospace',
+            fontSize: T.fs.t1,
+            fontFamily: T.mono,
+            fontWeight: 600,
+            letterSpacing: '0.04em',
             color: u.color,
           }}
         >

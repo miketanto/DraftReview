@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { Timeline } from '../types';
 import { v4 as uuid } from 'uuid';
+import { T } from '../../shared/theme';
 
 interface TimelineSwitcherProps {
   timelines: Timeline[];
@@ -53,13 +54,14 @@ export function TimelineSwitcher({
   const tabStyle = (active: boolean): React.CSSProperties => ({
     padding: '5px 12px',
     border: 'none',
-    borderBottom: active ? '2px solid #64B5F6' : '2px solid transparent',
+    borderBottom: active ? `2px solid ${T.amber}` : '2px solid transparent',
     backgroundColor: 'transparent',
-    color: active ? '#64B5F6' : '#888',
+    color: active ? T.amber : T.ink2,
     cursor: 'pointer',
-    fontFamily: 'monospace',
-    fontSize: 12,
+    fontFamily: T.mono,
+    fontSize: T.fs.t3,
     fontWeight: active ? 700 : 400,
+    transition: `color ${T.fast} ${T.ease}, border-color ${T.fast} ${T.ease}`,
   });
 
   return (
@@ -82,13 +84,15 @@ export function TimelineSwitcher({
               onKeyDown={(e) => { if (e.key === 'Enter') commitRename(); }}
               style={{
                 padding: '4px 8px',
-                backgroundColor: '#222',
-                color: '#fff',
-                border: '1px solid #64B5F6',
-                borderRadius: 3,
-                fontFamily: 'monospace',
-                fontSize: 12,
+                backgroundColor: T.bg3,
+                color: T.ink0,
+                border: `1px solid ${T.amber}`,
+                borderRadius: T.radius.m,
+                fontFamily: T.mono,
+                fontSize: T.fs.t3,
                 width: 120,
+                outline: 'none',
+                boxShadow: T.amberGlow,
               }}
             />
           ) : (
@@ -99,7 +103,7 @@ export function TimelineSwitcher({
             >
               {t.name}
               {activeTimelineId === t.id && t.divergences.length > 0 && (
-                <span style={{ marginLeft: 4, color: '#aaa', fontSize: 10 }}>
+                <span style={{ marginLeft: 4, color: T.ink1, fontSize: T.fs.t1 }}>
                   ({t.divergences.length})
                 </span>
               )}
@@ -112,12 +116,15 @@ export function TimelineSwitcher({
                 marginLeft: 2,
                 padding: '2px 5px',
                 backgroundColor: 'transparent',
-                color: '#666',
+                color: T.ink2,
                 border: 'none',
                 cursor: 'pointer',
                 fontSize: 14,
                 lineHeight: 1,
+                transition: `color ${T.fast} ${T.ease}`,
               }}
+              onMouseEnter={(e) => { e.currentTarget.style.color = T.danger; }}
+              onMouseLeave={(e) => { e.currentTarget.style.color = T.ink2; }}
               title="Delete timeline"
             >
               x
@@ -131,14 +138,24 @@ export function TimelineSwitcher({
           onClick={createTimeline}
           style={{
             padding: '4px 10px',
-            backgroundColor: '#222',
-            color: '#64B5F6',
-            border: '1px solid #333',
-            borderRadius: 4,
+            backgroundColor: T.bg3,
+            color: T.amber,
+            border: `1px solid ${T.line1}`,
+            borderBottom: `1px solid ${T.line2}`,
+            borderRadius: T.radius.m,
             cursor: 'pointer',
-            fontFamily: 'monospace',
-            fontSize: 11,
+            fontFamily: T.mono,
+            fontSize: T.fs.t1,
+            fontWeight: 600,
+            letterSpacing: '0.08em',
+            textTransform: 'uppercase',
             marginLeft: 4,
+            transition: `border-color ${T.fast} ${T.ease}, background-color ${T.fast} ${T.ease}`,
+          }}
+          onMouseEnter={(e) => { e.currentTarget.style.borderColor = T.line2; }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.borderColor = T.line1;
+            e.currentTarget.style.borderBottomColor = T.line2;
           }}
         >
           + Timeline

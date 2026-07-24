@@ -30,6 +30,8 @@ interface CardHoverCardProps {
   /** 0-based, straight from the raw draft log */
   packNumber: number;
   pickNumber: number;
+  /** false for pool cards, which have no pick context (default true) */
+  showPickSignal?: boolean;
 }
 
 /**
@@ -47,6 +49,7 @@ export function CardHoverCard({
   config,
   packNumber,
   pickNumber,
+  showPickSignal = true,
 }: CardHoverCardProps) {
   const vw = window.innerWidth;
   const vh = window.innerHeight;
@@ -247,7 +250,8 @@ export function CardHoverCard({
           </div>
           )}
 
-          {/* Per-pick signal */}
+          {/* Per-pick signal — omitted for pool cards (no pick context) */}
+          {showPickSignal && (
           <div
             style={{
               paddingTop: 6,
@@ -279,6 +283,7 @@ export function CardHoverCard({
                 : 'No signal at this pick — taken around its usual position'}
             </div>
           </div>
+          )}
         </>
       )}
     </div>

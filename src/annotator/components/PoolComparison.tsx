@@ -1,5 +1,8 @@
-import { useState } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import type { RawDraftCard } from '../../data/types';
+import { T, label } from '../../shared/theme';
+import { useSignals } from '../SignalContext';
+import { CardHoverCard } from './CardHoverCard';
 
 interface PoolComparisonProps {
   actualPool: RawDraftCard[];
@@ -8,35 +11,75 @@ interface PoolComparisonProps {
 
 type ViewMode = 'grid' | 'stack';
 
+type CardEnterHandler = (card: RawDraftCard, el: HTMLElement) => void;
+
 export function PoolComparison({ actualPool, alternatePool }: PoolComparisonProps) {
   const [viewMode, setViewMode] = useState<ViewMode>('stack');
   const actualNames = new Set(actualPool.map((c) => c.name));
   const altNames = alternatePool ? new Set(alternatePool.map((c) => c.name)) : null;
 
+  const signals = useSignals();
+
+  // Pool hover-stats popover: same timing discipline as the workspace grid —
+  // 150ms open intent, 60ms close grace, instant retarget when already open
+  const [hoverCard, setHoverCard] = useState<{ card: RawDraftCard; rect: DOMRect } | null>(null);
+  const hoverOpenRef = useRef(false);
+  const openTimer = useRef<number | null>(null);
+  const closeTimer = useRef<number | null>(null);
+
+  const handleCardEnter = useCallback<CardEnterHandler>((card, el) => {
+    if (closeTimer.current) { window.clearTimeout(closeTimer.current); closeTimer.current = null; }
+    if (openTimer.current) { window.clearTimeout(openTimer.current); openTimer.current = null; }
+    const rect = el.getBoundingClientRect();
+    if (hoverOpenRef.current) {
+      setHoverCard({ card, rect });
+    } else {
+      openTimer.current = window.setTimeout(() => {
+        hoverOpenRef.current = true;
+        setHoverCard({ card, rect });
+      }, 150);
+    }
+  }, []);
+
+  const handleCardLeave = useCallback(() => {
+    if (openTimer.current) { window.clearTimeout(openTimer.current); openTimer.current = null; }
+    closeTimer.current = window.setTimeout(() => {
+      hoverOpenRef.current = false;
+      setHoverCard(null);
+    }, 60);
+  }, []);
+
+  const dismissHover = useCallback(() => {
+    if (openTimer.current) { window.clearTimeout(openTimer.current); openTimer.current = null; }
+    if (closeTimer.current) { window.clearTimeout(closeTimer.current); closeTimer.current = null; }
+    hoverOpenRef.current = false;
+    setHoverCard(null);
+  }, []);
+
   const headerStyle: React.CSSProperties = {
-    color: '#aaa',
-    fontSize: 11,
-    fontFamily: 'monospace',
-    textTransform: 'uppercase',
-    letterSpacing: 1,
+    ...label,
     marginBottom: 4,
     padding: '2px 0',
-    borderBottom: '1px solid #333',
+    borderBottom: `1px solid ${T.line0}`,
   };
 
   const toggleStyle = (active: boolean): React.CSSProperties => ({
     padding: '2px 8px',
-    backgroundColor: active ? '#333' : '#222',
-    color: active ? '#64B5F6' : '#666',
-    border: '1px solid #333',
-    borderRadius: 3,
+    backgroundColor: active ? T.bg3 : T.bg2,
+    color: active ? T.sel : T.ink2,
+    border: `1px solid ${active ? T.sel : T.line1}`,
+    borderRadius: T.radius.m,
     cursor: 'pointer',
-    fontFamily: 'monospace',
-    fontSize: 10,
+    fontFamily: T.mono,
+    fontSize: T.fs.t1,
+    fontWeight: 600,
+    letterSpacing: '0.08em',
+    textTransform: 'uppercase',
+    transition: `border-color ${T.fast} ${T.ease}`,
   });
 
   return (
-    <div style={{ padding: '4px 8px' }}>
+    <div style={{ padding: '4px 8px', fontFamily: T.mono }}>
       <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 4, marginBottom: 4 }}>
         <button onClick={() => setViewMode('stack')} style={toggleStyle(viewMode === 'stack')}>
           Stack
@@ -50,30 +93,76 @@ export function PoolComparison({ actualPool, alternatePool }: PoolComparisonProp
         <div style={{ flex: 1, minWidth: 0 }}>
           <div style={headerStyle}>{alternatePool ? 'Actual' : 'Pool'} ({actualPool.length})</div>
           {viewMode === 'grid' ? (
-            <GridView pool={actualPool} diffSet={altNames} />
+            <GridView
+              pool={actualPool}
+              diffSet={altNames}
+              onCardEnter={handleCardEnter}
+              onCardLeave={handleCardLeave}
+            />
           ) : (
-            <StackView pool={actualPool} diffSet={altNames} />
+            <StackView
+              pool={actualPool}
+              diffSet={altNames}
+              onCardEnter={handleCardEnter}
+              onCardLeave={handleCardLeave}
+              onHoverDismiss={dismissHover}
+            />
           )}
         </div>
         {alternatePool && (
           <>
-            <div style={{ width: 1, backgroundColor: '#333', flexShrink: 0 }} />
+            <div style={{ width: 1, backgroundColor: T.line0, flexShrink: 0 }} />
             <div style={{ flex: 1, minWidth: 0 }}>
               <div style={headerStyle}>Alternate ({alternatePool.length})</div>
               {viewMode === 'grid' ? (
-                <GridView pool={alternatePool} diffSet={actualNames} />
+                <GridView
+                  pool={alternatePool}
+                  diffSet={actualNames}
+                  onCardEnter={handleCardEnter}
+                  onCardLeave={handleCardLeave}
+                />
               ) : (
-                <StackView pool={alternatePool} diffSet={actualNames} />
+                <StackView
+                  pool={alternatePool}
+                  diffSet={actualNames}
+                  onCardEnter={handleCardEnter}
+                  onCardLeave={handleCardLeave}
+                  onHoverDismiss={dismissHover}
+                />
               )}
             </div>
           </>
         )}
       </div>
+
+      {hoverCard && signals.status === 'ready' && signals.config && (
+        <CardHoverCard
+          card={hoverCard.card}
+          anchorRect={hoverCard.rect}
+          signalEntry={signals.signalMap?.[hoverCard.card.name] ?? null}
+          pickSignal={null}
+          isWheel={false}
+          config={signals.config}
+          packNumber={0}
+          pickNumber={0}
+          showPickSignal={false}
+        />
+      )}
     </div>
   );
 }
 
-function GridView({ pool, diffSet }: { pool: RawDraftCard[]; diffSet: Set<string> | null }) {
+function GridView({
+  pool,
+  diffSet,
+  onCardEnter,
+  onCardLeave,
+}: {
+  pool: RawDraftCard[];
+  diffSet: Set<string> | null;
+  onCardEnter: CardEnterHandler;
+  onCardLeave: () => void;
+}) {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(8, 1fr)', gap: 2 }}>
       {pool.map((card, i) => (
@@ -81,6 +170,8 @@ function GridView({ pool, diffSet }: { pool: RawDraftCard[]; diffSet: Set<string
           key={`${card.name}-${i}`}
           card={card}
           isDifferent={diffSet ? !diffSet.has(card.name) : false}
+          onCardEnter={onCardEnter}
+          onCardLeave={onCardLeave}
         />
       ))}
     </div>
@@ -100,7 +191,19 @@ function getCmc(card: RawDraftCard): number {
   return cmc;
 }
 
-function StackView({ pool, diffSet }: { pool: RawDraftCard[]; diffSet: Set<string> | null }) {
+function StackView({
+  pool,
+  diffSet,
+  onCardEnter,
+  onCardLeave,
+  onHoverDismiss,
+}: {
+  pool: RawDraftCard[];
+  diffSet: Set<string> | null;
+  onCardEnter: CardEnterHandler;
+  onCardLeave: () => void;
+  onHoverDismiss: () => void;
+}) {
   const [dragState, setDragState] = useState<{ cardIndex: number; startX: number; startY: number; x: number; y: number } | null>(null);
   const [cardOrder, setCardOrder] = useState<number[] | null>(null);
 
@@ -120,6 +223,7 @@ function StackView({ pool, diffSet }: { pool: RawDraftCard[]; diffSet: Set<strin
   const handlePointerDown = (e: React.PointerEvent, cardIndex: number) => {
     e.preventDefault();
     (e.target as HTMLElement).setPointerCapture(e.pointerId);
+    onHoverDismiss();
     setDragState({ cardIndex, startX: e.clientX, startY: e.clientY, x: 0, y: 0 });
   };
 
@@ -168,9 +272,9 @@ function StackView({ pool, diffSet }: { pool: RawDraftCard[]; diffSet: Set<strin
       {columns.map(([cmc, cards]) => (
         <div key={cmc} style={{ flex: 1, minWidth: 0, maxWidth: `${100 / minColumns}%` }}>
           <div style={{
-            color: '#555',
-            fontSize: 9,
-            fontFamily: 'monospace',
+            color: T.ink3,
+            fontSize: T.fs.t1 - 1,
+            fontFamily: T.mono,
             textAlign: 'center',
             marginBottom: 2,
           }}>
@@ -184,6 +288,11 @@ function StackView({ pool, diffSet }: { pool: RawDraftCard[]; diffSet: Set<strin
                 <div
                   key={`${card.name}-${originalIdx}`}
                   onPointerDown={(e) => handlePointerDown(e, originalIdx)}
+                  onMouseEnter={(e) => {
+                    // Suppress hover popover while a drag is in progress
+                    if (!dragState) onCardEnter(card, e.currentTarget);
+                  }}
+                  onMouseLeave={onCardLeave}
                   style={{
                     position: stackIdx === 0 ? 'relative' : 'absolute',
                     top: stackIdx === 0 ? 0 : offset,
@@ -193,11 +302,11 @@ function StackView({ pool, diffSet }: { pool: RawDraftCard[]; diffSet: Set<strin
                     transform: isDragging ? `translate(${dragState.x}px, ${dragState.y}px)` : undefined,
                     transition: isDragging ? 'none' : 'transform 0.15s',
                     cursor: 'grab',
-                    borderRadius: 3,
+                    borderRadius: T.radius.m,
                     overflow: 'hidden',
                     border: (diffSet && !diffSet.has(card.name))
-                      ? '2px solid #ffb74d'
-                      : '1px solid #333',
+                      ? `2px solid ${T.amber}`
+                      : `1px solid ${T.line1}`,
                     boxShadow: isDragging ? '0 4px 12px rgba(0,0,0,0.8)' : '0 1px 2px rgba(0,0,0,0.4)',
                   }}
                 >
@@ -225,13 +334,25 @@ function StackView({ pool, diffSet }: { pool: RawDraftCard[]; diffSet: Set<strin
   );
 }
 
-function CardThumbnail({ card, isDifferent }: { card: RawDraftCard; isDifferent: boolean }) {
+function CardThumbnail({
+  card,
+  isDifferent,
+  onCardEnter,
+  onCardLeave,
+}: {
+  card: RawDraftCard;
+  isDifferent: boolean;
+  onCardEnter: CardEnterHandler;
+  onCardLeave: () => void;
+}) {
   return (
     <div
+      onMouseEnter={(e) => onCardEnter(card, e.currentTarget)}
+      onMouseLeave={onCardLeave}
       style={{
-        borderRadius: 3,
+        borderRadius: T.radius.m,
         overflow: 'hidden',
-        border: isDifferent ? '2px solid #ffb74d' : '1px solid #333',
+        border: isDifferent ? `2px solid ${T.amber}` : `1px solid ${T.line1}`,
         position: 'relative',
       }}
     >
@@ -249,7 +370,7 @@ function CardThumbnail({ card, isDifferent }: { card: RawDraftCard; isDifferent:
           width: 6,
           height: 6,
           borderRadius: '50%',
-          backgroundColor: '#ffb74d',
+          backgroundColor: T.amber,
         }} />
       )}
     </div>
