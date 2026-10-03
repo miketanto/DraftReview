@@ -96,6 +96,7 @@ export function CreateReview() {
             placeholder="https://www.17lands.com/draft/…"
             style={{
               flex: 1,
+              minWidth: 0,
               padding: '9px 12px',
               backgroundColor: T.bg3,
               color: T.ink0,

@@ -54,9 +54,11 @@ button:not(:disabled):active {
     border-color 120ms cubic-bezier(0.2, 0, 0, 1);
 }
 
-.dr-card:hover {
-  transform: translateY(-2px);
-  border-color: #414A54 !important;
+@media (hover: hover) {
+  .dr-card:hover {
+    transform: translateY(-2px);
+    border-color: #414A54 !important;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -65,4 +67,10 @@ button:not(:disabled):active {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+@media (max-width: 767px) {
+  html, body { overflow-x: clip; }
+  input, textarea, select { font-size: 16px !important; }
+  button, summary, input:not([type=checkbox]):not([type=radio]):not([type=range]) { min-height: 40px !important; }
 }

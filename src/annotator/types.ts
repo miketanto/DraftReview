@@ -18,6 +18,17 @@ export interface DraftSummary {
   rating: number | null;
   closingThoughts: string;
   improvements: string;
+  /** Sealed-style deck versions built from the pool; absent on older reviews */
+  decks?: DeckVersion[];
+}
+
+export interface DeckVersion {
+  id: string;
+  name: string;
+  /** Main-deck card names (repeats allowed); everything else in the pool is sideboard */
+  main: string[];
+  /** Basic land counts by color letter */
+  basics: Partial<Record<'W' | 'U' | 'B' | 'R' | 'G', number>>;
 }
 
 export interface PickAnnotation {

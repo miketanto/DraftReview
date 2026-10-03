@@ -1,6 +1,8 @@
 import { useMemo } from 'react';
 import { useSignals } from '../SignalContext';
 import { DraftSummaryPanel } from './DraftSummaryPanel';
+import { DeckBuilder } from './DeckBuilder';
+import { useIsNarrow } from '../../shared/useIsNarrow';
 import { ARCHETYPES, ARCHETYPE_COLORS, ARCHETYPE_ABBREV } from '../../shared/constants';
 import { T, label } from '../../shared/theme';
 import type { ArchetypeId, Archetype } from '../../shared/types';
@@ -11,11 +13,15 @@ import type {
   DraftSummary as SignalSummaryData,
 } from '../../signals/types';
 import type { DraftSummary as ReviewSummary } from '../types';
+import type { RawDraftCard } from '../../data/types';
 
 interface SummaryTabProps {
   summary: ReviewSummary;
   isEditable: boolean;
   onChange: (summary: ReviewSummary) => void;
+  exportText: string;
+  annotatedCount: number;
+  pool: RawDraftCard[];
 }
 
 /**
@@ -23,8 +29,9 @@ interface SummaryTabProps {
  * plus the owner's own rating/notes. Set-aware: without signal data it
  * degrades to the notes editor alone.
  */
-export function SummaryTab({ summary, isEditable, onChange }: SummaryTabProps) {
+export function SummaryTab({ summary, isEditable, onChange, exportText, annotatedCount, pool }: SummaryTabProps) {
   const { status, config, analysis } = useSignals();
+  const narrow = useIsNarrow();
 
   const ready = status === 'ready' && !!analysis && !!config;
 
@@ -41,6 +48,23 @@ export function SummaryTab({ summary, isEditable, onChange }: SummaryTabProps) {
         fontFamily: T.mono,
       }}
     >
+      {narrow && (
+        <button
+          onClick={() => document.getElementById('discord-cta')?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+          style={{
+            ...label,
+            color: T.sel,
+            background: 'none',
+            border: `1px solid ${T.line1}`,
+            borderRadius: T.radius.m,
+            padding: '10px 12px',
+            width: '100%',
+            cursor: 'pointer',
+          }}
+        >
+          Copy review for Discord ↓
+        </button>
+      )}
       {ready ? (
         <SignalSummary analysis={analysis!.summary} picks={analysis!.picks} config={config!} />
       ) : (
@@ -59,7 +83,14 @@ export function SummaryTab({ summary, isEditable, onChange }: SummaryTabProps) {
         </div>
       )}
 
-      <DraftSummaryPanel summary={summary} isEditable={isEditable} onChange={onChange} />
+      <DeckBuilder
+        pool={pool}
+        decks={summary.decks}
+        isEditable={isEditable}
+        onChange={(decks) => onChange({ ...summary, decks })}
+      />
+
+      <DraftSummaryPanel summary={summary} isEditable={isEditable} onChange={onChange} exportText={exportText} annotatedCount={annotatedCount} />
     </div>
   );
 }
@@ -73,6 +104,7 @@ function SignalSummary({
   picks: PickAnalysis[];
   config: SetConfig;
 }) {
+  const narrow = useIsNarrow();
   const differ = analysis.mostOpenArchetype !== analysis.userArchetype;
   const mostOpen = archetypeOf(analysis.mostOpenArchetype, config);
   const drafted = archetypeOf(analysis.userArchetype, config);
@@ -175,9 +207,10 @@ function SignalSummary({
               style={{
                 display: 'flex',
                 alignItems: 'baseline',
-                gap: 8,
+                gap: narrow ? '2px 8px' : 8,
                 marginBottom: i < analysis.pivotPoints.length - 1 ? 6 : 0,
                 fontSize: T.fs.t3,
+                ...(narrow && { flexWrap: 'wrap' }),
               }}
             >
               <span style={{ color: T.gold, fontWeight: 700, flexShrink: 0 }}>
@@ -188,7 +221,7 @@ function SignalSummary({
                 <span style={{ color: T.ink3 }}>→</span>
                 <ArchChip id={p.toArchetype} />
               </span>
-              <span style={{ color: T.ink1 }}>{p.reason}</span>
+              <span style={{ color: T.ink1, ...(narrow && { flexBasis: '100%' }) }}>{p.reason}</span>
             </div>
           ))}
         </Panel>
@@ -203,17 +236,26 @@ function SignalSummary({
               style={{
                 display: 'flex',
                 alignItems: 'baseline',
-                gap: 8,
+                gap: narrow ? '2px 8px' : 8,
                 marginBottom: i < topMissed.length - 1 ? 6 : 0,
                 fontSize: T.fs.t3,
+                ...(narrow && { flexWrap: 'wrap' }),
               }}
             >
               <span style={{ color: T.danger, fontWeight: 700, flexShrink: 0 }}>
                 P{m.packNumber}P{m.pickNumber}
               </span>
-              <span style={{ color: T.ink0, fontWeight: 600, flexShrink: 0 }}>{m.cardName}</span>
+              <span
+                style={{
+                  color: T.ink0,
+                  fontWeight: 600,
+                  ...(narrow ? { minWidth: 0, overflowWrap: 'anywhere' } : { flexShrink: 0 }),
+                }}
+              >
+                {m.cardName}
+              </span>
               <ArchChip id={m.archetype} />
-              <span style={{ color: T.ink2 }}>{m.explanation}</span>
+              <span style={{ color: T.ink2, ...(narrow && { flexBasis: '100%' }) }}>{m.explanation}</span>
             </div>
           ))}
         </Panel>
@@ -326,8 +368,9 @@ function TimelineChart({
   picks: PickAnalysis[];
   pivots: PivotPoint[];
 }) {
+  const narrow = useIsNarrow();
   const n = picks.length;
-  const W = 720;
+  const W = narrow ? 360 : 720;
   const H = 180;
   const padL = 30;
   const padR = 10;
@@ -360,7 +403,7 @@ function TimelineChart({
       .filter((m): m is { x: number; y: number; label: string } => m !== null);
 
     return { x, y, segments, pivotMarks };
-  }, [n, picks, pivots, timeline]);
+  }, [n, W, picks, pivots, timeline]);
 
   if (n === 0) {
     return <div style={{ ...label, color: T.ink3 }}>No picks to chart</div>;

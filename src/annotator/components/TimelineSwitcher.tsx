@@ -32,7 +32,8 @@ export function TimelineSwitcher({
     onSwitch(newTimeline.id);
   };
 
-  const deleteTimeline = (id: string) => {
+  const deleteTimeline = (id: string, name: string) => {
+    if (!window.confirm(`Delete timeline "${name}"?`)) return;
     onTimelinesChange(timelines.filter((t) => t.id !== id));
     if (activeTimelineId === id) onSwitch(null);
   };
@@ -111,7 +112,7 @@ export function TimelineSwitcher({
           )}
           {isEditable && activeTimelineId === t.id && (
             <button
-              onClick={() => deleteTimeline(t.id)}
+              onClick={() => deleteTimeline(t.id, t.name)}
               style={{
                 marginLeft: 2,
                 padding: '2px 5px',

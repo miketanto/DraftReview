@@ -4,6 +4,10 @@ import type { RawDraftPick, RawDraftCard } from '../../data/types';
 import { T, label } from '../../shared/theme';
 import { useSignals } from '../SignalContext';
 import { CardHoverCard } from './CardHoverCard';
+import { useIsNarrow } from '../../shared/useIsNarrow';
+import { ARCHETYPE_ABBREV } from '../../shared/constants';
+import type { CardSignalEntry } from '../../signals/types';
+import type { ArchetypeId } from '../../shared/types';
 
 interface AnnotationPanelProps {
   pick: RawDraftPick;
@@ -55,6 +59,7 @@ export function AnnotationPanel({
   const cardRank = selectedCard ? (annotation?.cardRanks?.[selectedCard] ?? null) : null;
 
   const signals = useSignals();
+  const narrow = useIsNarrow();
 
   // Chip hover-stats popover: same timing discipline as the workspace grid —
   // 150ms open intent, 60ms close grace, instant retarget when already open
@@ -96,6 +101,7 @@ export function AnnotationPanel({
   const pa = signals.analysis?.picks.find(
     (p) => p.packNumber === pick.pack_number && p.pickNumber === pick.pick_number,
   ) ?? null;
+  const selectedCardObj = selectedCard ? pick.available.find((c) => c.name === selectedCard) : undefined;
 
   return (
     <div
@@ -141,9 +147,24 @@ export function AnnotationPanel({
         </div>
       )}
 
-      <div>
-        <div style={{ ...label, marginBottom: 4 }}>
-          {isEditable ? 'Pick note' : 'Your pick note'}
+      <div
+        style={{
+          padding: 10,
+          backgroundColor: 'rgba(77,159,255,0.06)',
+          border: `1px solid rgba(77,159,255,0.35)`,
+          borderLeft: `3px solid ${T.sel}`,
+          borderRadius: T.radius.m,
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, marginBottom: 6 }}>
+          <div style={{ ...label, fontSize: T.fs.t3, color: T.sel }}>
+            {isEditable ? 'Your take on this pick' : 'Your pick note'}
+          </div>
+          {isEditable && (
+            <div style={{ fontSize: T.fs.t1, color: T.ink2, marginLeft: 'auto' }}>
+              goes in your copied review
+            </div>
+          )}
         </div>
         {isEditable || annotation?.note ? (
           <textarea
@@ -151,9 +172,16 @@ export function AnnotationPanel({
             onChange={(e) => onPickNoteChange(e.target.value)}
             readOnly={!isEditable}
             placeholder={
-              isEditable ? 'What were you thinking here?' : '(no note)'
+              isEditable
+                ? `Right pick? What would you take over ${pick.pick.name}, and why?`
+                : '(no note)'
             }
-            style={{ ...inputStyle, minHeight: 72 }}
+            style={{
+              ...inputStyle,
+              minHeight: 96,
+              fontSize: T.fs.t4,
+              border: `1px solid ${annotation?.note ? T.line2 : 'rgba(77,159,255,0.45)'}`,
+            }}
           />
         ) : onRequestJoin ? (
           <button
@@ -195,8 +223,14 @@ export function AnnotationPanel({
               <button
                 key={card.name}
                 onClick={() => onSelectCard(isSelected ? null : card.name)}
-                onMouseEnter={(e) => handleChipEnter(card, e.currentTarget)}
-                onMouseLeave={handleChipLeave}
+                onPointerEnter={(e) => {
+                  if (e.pointerType !== 'mouse') return;
+                  handleChipEnter(card, e.currentTarget);
+                }}
+                onPointerLeave={(e) => {
+                  if (e.pointerType !== 'mouse') return;
+                  handleChipLeave();
+                }}
                 style={{
                   padding: '3px 7px',
                   backgroundColor: isSelected ? T.bg3 : T.bg2,
@@ -223,7 +257,7 @@ export function AnnotationPanel({
           })}
         </div>
 
-        {selectedCard && (
+        {selectedCard && !narrow && (
           <div>
             <div
               style={{
@@ -251,7 +285,7 @@ export function AnnotationPanel({
                       key={r}
                       onClick={() => onCardRankChange(selectedCard, cardRank === r ? null : r)}
                       style={{
-                        width: 22,
+                        width: narrow ? 40 : 22,
                         height: 22,
                         padding: 0,
                         backgroundColor: cardRank === r ? T.sel : T.bg3,
@@ -285,9 +319,87 @@ export function AnnotationPanel({
             />
           </div>
         )}
+        {selectedCard && narrow && (
+          <CardNoteModal title={selectedCard} onClose={() => onSelectCard(null)}>
+            {selectedCardObj && (
+              <div>
+                <img
+                  src={selectedCardObj.image_url}
+                  alt={selectedCardObj.name}
+                  style={{ display: 'block', width: 'min(260px, 100%)', margin: '0 auto', borderRadius: T.radius.l }}
+                />
+                <CompactStats entry={signals.signalMap?.[selectedCardObj.name] ?? null} />
+              </div>
+            )}
+            <div style={{ marginTop: 10 }}>
+              <div
+              style={{
+                color: T.ink1,
+                marginBottom: 6,
+                fontSize: T.fs.t4,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                flexWrap: 'wrap',
+                rowGap: 6,
+              }}
+            >
+              <span style={{ color: T.ink0 }}>
+                {selectedCard}
+                {selectedCard === pick.pick.name && (
+                  <span style={{ color: T.picked, marginLeft: 6, fontSize: T.fs.t1 }}>
+                    PICKED
+                  </span>
+                )}
+              </span>
+              {isEditable && (
+                <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+                  <span style={{ ...label }}>Rank</span>
+                  {[1, 2, 3, 4, 5].map((r) => (
+                    <button
+                      key={r}
+                      onClick={() => onCardRankChange(selectedCard, cardRank === r ? null : r)}
+                      style={{
+                        width: narrow ? 40 : 22,
+                        height: 22,
+                        padding: 0,
+                        backgroundColor: cardRank === r ? T.sel : T.bg3,
+                        color: cardRank === r ? '#00121F' : T.ink2,
+                        border: `1px solid ${cardRank === r ? T.sel : T.line1}`,
+                        borderRadius: T.radius.s,
+                        cursor: 'pointer',
+                        fontFamily: T.mono,
+                        fontSize: T.fs.t2,
+                        fontWeight: 700,
+                        transition: `background-color ${T.fast} ${T.ease}`,
+                      }}
+                    >
+                      {r}
+                    </button>
+                  ))}
+                </span>
+              )}
+              {!isEditable && cardRank != null && (
+                <span style={{ color: T.sel, fontSize: T.fs.t3, fontWeight: 700 }}>
+                  Rank #{cardRank}
+                </span>
+              )}
+            </div>
+            <textarea
+              value={cardNote}
+              onChange={(e) => onCardNoteChange(selectedCard, e.target.value)}
+              readOnly={!isEditable}
+              placeholder={isEditable ? 'Note on this card…' : '(no note)'}
+              style={{ ...inputStyle, minHeight: 64 }}
+            />
+            </div>
+          </CardNoteModal>
+        )}
         {!selectedCard && isEditable && (
           <div style={{ color: T.ink3, fontSize: T.fs.t2, lineHeight: 1.5 }}>
-            Click a card in the pack (or a chip above) to note or rank it.
+            {narrow
+              ? 'Tap a card in the pack (or a chip above) to see its stats, note or rank it.'
+              : 'Click a card in the pack (or a chip above) to note or rank it.'}
           </div>
         )}
       </div>
@@ -303,7 +415,7 @@ export function AnnotationPanel({
         </div>
       )}
 
-      {hoverCard && signals.status === 'ready' && signals.config && (
+      {hoverCard && !narrow && signals.status === 'ready' && signals.config && (
         <CardHoverCard
           card={hoverCard.card}
           anchorRect={hoverCard.rect}
@@ -375,4 +487,94 @@ function RemoteAnnotations({
 
 function truncateName(name: string): string {
   return name.length > 14 ? name.slice(0, 12) + '…' : name;
+}
+
+/** Phone-only: selected card + its note in a centered modal */
+function CardNoteModal({
+  title,
+  onClose,
+  children,
+}: {
+  title: string;
+  onClose: () => void;
+  children: React.ReactNode;
+}) {
+  useEffect(() => {
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = prev; };
+  }, []);
+
+  return (
+    <div
+      onClick={onClose}
+      style={{
+        position: 'fixed', inset: 0, zIndex: 100, backgroundColor: 'rgba(0,0,0,0.75)',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        padding: 'max(12px, env(safe-area-inset-top)) 12px max(12px, env(safe-area-inset-bottom))',
+      }}
+    >
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-label={title}
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          width: '100%', maxWidth: 420, maxHeight: '100%', overflowY: 'auto', backgroundColor: T.bg1,
+          border: `1px solid ${T.line1}`, borderRadius: T.radius.l,
+          padding: '0 12px 12px', fontFamily: T.mono,
+        }}
+      >
+        <div
+          style={{
+            position: 'sticky', top: 0, zIndex: 1, display: 'flex', justifyContent: 'flex-end',
+            padding: '8px 0', backgroundColor: T.bg1,
+          }}
+        >
+          <button
+            onClick={onClose}
+            aria-label="Close"
+            style={{
+              minWidth: 44, minHeight: 40, backgroundColor: T.bg2, color: T.ink0,
+              border: `1px solid ${T.line1}`, borderRadius: T.radius.m, fontFamily: T.mono,
+              fontSize: T.fs.t4, cursor: 'pointer',
+            }}
+          >
+            Done
+          </button>
+        </div>
+        {children}
+      </div>
+    </div>
+  );
+}
+
+/** Phone modal: the few numbers that matter, one wrapping row, no chart */
+function CompactStats({ entry }: { entry: CardSignalEntry | null }) {
+  if (!entry) return <div style={{ color: T.ink3, fontSize: T.fs.t2, textAlign: 'center', marginTop: 8 }}>No 17Lands data</div>;
+  const best = (Object.entries(entry.archetypeGihwr) as [ArchetypeId, number][])
+    .filter(([, wr]) => wr != null)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 2);
+  const pct = (n: number) => `${(n * 100).toFixed(1)}%`;
+  const stat = (k: string, v: string) => (
+    <span key={k} style={{ whiteSpace: 'nowrap' }}>
+      <span style={{ color: T.ink2 }}>{k} </span>
+      <span style={{ color: T.ink0, fontWeight: 700 }}>{v}</span>
+    </span>
+  );
+  return (
+    <div
+      style={{
+        display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '4px 12px',
+        marginTop: 8, fontSize: T.fs.t3,
+      }}
+    >
+      {stat('GIHWR', pct(entry.overallGihwr))}
+      {best.map(([arch, wr]) => stat(ARCHETYPE_ABBREV[arch] ?? arch, pct(wr)))}
+      {stat('ALSA', entry.alsa.toFixed(1))}
+      {entry.ata != null && stat('ATA', entry.ata.toFixed(1))}
+      <span style={{ ...label }}>{entry.signalTier}</span>
+    </div>
+  );
 }

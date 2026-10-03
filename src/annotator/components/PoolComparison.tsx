@@ -3,6 +3,7 @@ import type { RawDraftCard } from '../../data/types';
 import { T, label } from '../../shared/theme';
 import { useSignals } from '../SignalContext';
 import { CardHoverCard } from './CardHoverCard';
+import { useIsNarrow } from '../../shared/useIsNarrow';
 
 interface PoolComparisonProps {
   actualPool: RawDraftCard[];
@@ -14,7 +15,8 @@ type ViewMode = 'grid' | 'stack';
 type CardEnterHandler = (card: RawDraftCard, el: HTMLElement) => void;
 
 export function PoolComparison({ actualPool, alternatePool }: PoolComparisonProps) {
-  const [viewMode, setViewMode] = useState<ViewMode>('stack');
+  const narrow = useIsNarrow();
+  const [viewMode, setViewMode] = useState<ViewMode>(narrow ? 'grid' : 'stack');
   const actualNames = new Set(actualPool.map((c) => c.name));
   const altNames = alternatePool ? new Set(alternatePool.map((c) => c.name)) : null;
 
@@ -163,8 +165,9 @@ function GridView({
   onCardEnter: CardEnterHandler;
   onCardLeave: () => void;
 }) {
+  const narrow = useIsNarrow();
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(8, 1fr)', gap: 2 }}>
+    <div style={{ display: 'grid', gridTemplateColumns: narrow ? 'repeat(4, 1fr)' : 'repeat(8, 1fr)', gap: 2 }}>
       {pool.map((card, i) => (
         <CardThumbnail
           key={`${card.name}-${i}`}
@@ -268,6 +271,7 @@ function StackView({
       style={{ display: 'flex', gap: 2, alignItems: 'flex-start' }}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
+      onPointerCancel={() => setDragState(null)}
     >
       {columns.map(([cmc, cards]) => (
         <div key={cmc} style={{ flex: 1, minWidth: 0, maxWidth: `${100 / minColumns}%` }}>
@@ -288,12 +292,17 @@ function StackView({
                 <div
                   key={`${card.name}-${originalIdx}`}
                   onPointerDown={(e) => handlePointerDown(e, originalIdx)}
-                  onMouseEnter={(e) => {
-                    // Suppress hover popover while a drag is in progress
+                  onPointerEnter={(e) => {
+                    // Mouse only; suppress hover popover while a drag is in progress
+                    if (e.pointerType !== 'mouse') return;
                     if (!dragState) onCardEnter(card, e.currentTarget);
                   }}
-                  onMouseLeave={onCardLeave}
+                  onPointerLeave={(e) => {
+                    if (e.pointerType !== 'mouse') return;
+                    onCardLeave();
+                  }}
                   style={{
+                    touchAction: 'pan-y',
                     position: stackIdx === 0 ? 'relative' : 'absolute',
                     top: stackIdx === 0 ? 0 : offset,
                     left: 0,
@@ -347,8 +356,14 @@ function CardThumbnail({
 }) {
   return (
     <div
-      onMouseEnter={(e) => onCardEnter(card, e.currentTarget)}
-      onMouseLeave={onCardLeave}
+      onPointerEnter={(e) => {
+        if (e.pointerType !== 'mouse') return;
+        onCardEnter(card, e.currentTarget);
+      }}
+      onPointerLeave={(e) => {
+        if (e.pointerType !== 'mouse') return;
+        onCardLeave();
+      }}
       style={{
         borderRadius: T.radius.m,
         overflow: 'hidden',

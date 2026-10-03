@@ -12,6 +12,7 @@ import { PresenceBar } from '../components/PresenceBar';
 import { LayerToggle } from '../components/LayerToggle';
 import { UserIdentityModal } from '../components/UserIdentityModal';
 import { SummaryTab } from '../components/SummaryTab';
+import { formatReviewText } from '../exportSummary';
 import { CardHoverCard } from '../components/CardHoverCard';
 import { PickScrubber } from '../components/PickScrubber';
 import { GlossaryPopover } from '../components/GlossaryPopover';
@@ -21,6 +22,7 @@ import { SignalBadge } from '../../ui/components/SignalBadge';
 import { SignalProvider, useSignals } from '../SignalContext';
 import { ARCHETYPE_COLORS } from '../../shared/constants';
 import { T, label } from '../../shared/theme';
+import { useIsNarrow } from '../../shared/useIsNarrow';
 import type { Divergence, PickAnnotation } from '../types';
 import type { RawDraftCard } from '../../data/types';
 
@@ -65,6 +67,7 @@ function WorkspaceInner({
   } = reviewState;
 
   const signals = useSignals();
+  const narrow = useIsNarrow();
   const { user: collabUser, saveUser } = useCollabUser();
   const {
     remoteLayers,
@@ -377,6 +380,7 @@ function WorkspaceInner({
   }, [picks]);
 
   const showSummary = pickIndex >= picks.length;
+  const exported = showSummary && review ? formatReviewText(review, myAnnotations) : null;
 
   const annotation = pick ? myAnnotations.find(
     (a) => a.packNumber === pick.pack_number && a.pickNumber === pick.pick_number,
@@ -396,7 +400,7 @@ function WorkspaceInner({
   const pa = signals.analysis?.picks[pickIndex] ?? null;
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: 'calc(100vh - 24px)', fontFamily: T.mono }}>
+    <div style={{ display: 'flex', flexDirection: 'column', height: narrow ? 'auto' : 'calc(100vh - 24px)', fontFamily: T.mono }}>
       {joinPrompt && (
         <UserIdentityModal
           onSave={(name, color) => { saveUser(name, color); setJoinPrompt(false); }}
@@ -409,17 +413,18 @@ function WorkspaceInner({
         style={{
           display: 'flex',
           alignItems: 'center',
-          gap: 10,
+          gap: narrow ? '6px 10px' : 10,
           padding: '6px 0',
           borderBottom: `1px solid ${T.line0}`,
           marginBottom: 6,
+          ...(narrow ? { flexWrap: 'wrap' } : {}),
         }}
       >
         <span style={{ color: T.ink0, fontSize: T.fs.t5, fontWeight: 700, letterSpacing: '0.06em' }}>
           DRAFTREWIND_<span className="dr-cursor" />
         </span>
         <SetChip />
-        <span
+        {!narrow && <span
           style={{
             ...label,
             color: isEditable ? T.ink0 : T.ink2,
@@ -429,8 +434,8 @@ function WorkspaceInner({
           }}
         >
           {isEditable ? 'Your review' : collabUser ? `Viewing as ${collabUser.name}` : 'Viewing'}
-        </span>
-        <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 10 }}>
+        </span>}
+        <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: narrow ? '6px 10px' : 10, ...(narrow ? { flexWrap: 'wrap' } : {}) }}>
           <PresenceBar users={presence} connected={connected} />
           <SaveIndicator status={saveStatus} />
           {!canAnnotate && (
@@ -442,7 +447,7 @@ function WorkspaceInner({
             onClick={copyShareLink}
             style={btnStyle(copied ? T.picked : undefined)}
           >
-            {copied ? 'COPIED ✓' : 'COPY SHARE LINK'}
+            {copied ? 'COPIED ✓' : narrow ? 'SHARE' : 'COPY SHARE LINK'}
           </button>
           <button onClick={() => setGlossaryOpen((v) => !v)} title="Glossary (?)" style={btnStyle()}>
             ?
@@ -476,7 +481,7 @@ function WorkspaceInner({
         </div>
       )}
 
-      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 4 }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: narrow ? '4px 12px' : 12, marginBottom: 4, ...(narrow ? { flexWrap: 'wrap' } : {}) }}>
         <TimelineSwitcher
           timelines={review!.timelines}
           activeTimelineId={activeTimelineId}
@@ -526,16 +531,21 @@ function WorkspaceInner({
           }}
         >
           <span>
-            Timeline: {activeTimeline!.name} — click a card to set the alt pick · right-click to note
+            {narrow
+              ? <>Timeline: {activeTimeline!.name} — tap a card to set the alt pick</>
+              : <>Timeline: {activeTimeline!.name} — click a card to set the alt pick · right-click to note</>}
           </span>
-          <span style={{ opacity: 0.7 }}>[ESC exits]</span>
+          {!narrow && <span style={{ opacity: 0.7 }}>[ESC exits]</span>}
         </div>
       )}
 
       {showSummary ? (
-        <div style={{ flex: 1, overflow: 'auto', marginTop: 6 }}>
+        <div style={{ flex: 1, overflow: narrow ? 'visible' : 'auto', marginTop: 6 }}>
           <SummaryTab
+            exportText={exported?.text ?? ''}
+            annotatedCount={exported?.pickCount ?? 0}
             summary={review!.summary}
+            pool={actualPool}
             isEditable={canAnnotate}
             onChange={(s) => {
               if (isEditable) setSummary(s);
@@ -543,13 +553,13 @@ function WorkspaceInner({
           />
         </div>
       ) : (
-      <div style={{ display: 'flex', gap: 10, flex: 1, minHeight: 0, marginTop: 2 }}>
+      <div style={{ display: 'flex', flexDirection: narrow ? 'column' : 'row', gap: 10, ...(narrow ? { flex: 'none' } : { flex: 1, minHeight: 0 }), marginTop: 2 }}>
         {/* Pack cards */}
         <div
           style={{
             flex: 1,
             minWidth: 0,
-            overflow: 'auto',
+            overflow: narrow ? 'visible' : 'auto',
             border: altMode ? `1px solid ${T.amber}` : `1px solid transparent`,
             borderRadius: T.radius.l,
             transition: `border-color ${T.fast} ${T.ease}`,
@@ -558,8 +568,8 @@ function WorkspaceInner({
           <div
             style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(5, 1fr)',
-              gap: 8,
+              gridTemplateColumns: narrow ? 'repeat(3, 1fr)' : 'repeat(5, 1fr)',
+              gap: narrow ? 4 : 8,
               padding: 6,
             }}
           >
@@ -604,6 +614,8 @@ function WorkspaceInner({
                   onClick={() => {
                     if (altMode) {
                       handleAltPick(card.name);
+                      // iOS has no contextmenu — tapping also opens the card note
+                      if (narrow) setSelectedCard(card.name);
                     } else {
                       setSelectedCard(isSelected ? null : card.name);
                     }
@@ -614,8 +626,8 @@ function WorkspaceInner({
                       setSelectedCard(isSelected ? null : card.name);
                     }
                   }}
-                  onMouseEnter={(e) => handleCardEnter(card, e.currentTarget)}
-                  onMouseLeave={handleCardLeave}
+                  onPointerEnter={(e) => { if (e.pointerType !== 'mouse') return; handleCardEnter(card, e.currentTarget); }}
+                  onPointerLeave={(e) => { if (e.pointerType === 'mouse') handleCardLeave(); }}
                   style={{
                     position: 'relative',
                     cursor: 'pointer',
@@ -734,7 +746,7 @@ function WorkspaceInner({
         </div>
 
         {/* Annotation panel */}
-        <div style={{ width: 'clamp(280px, 26vw, 380px)', flexShrink: 0, overflow: 'auto' }}>
+        <div style={{ width: narrow ? '100%' : 'clamp(280px, 26vw, 380px)', flexShrink: 0, overflow: narrow ? 'visible' : 'auto' }}>
           <AnnotationPanel
             pick={pick!}
             annotation={annotation}
@@ -770,7 +782,7 @@ function WorkspaceInner({
         />
       </ResizablePool>
 
-      {hoverCard && pick && signals.status === 'ready' && signals.config && (
+      {hoverCard && !narrow && pick && signals.status === 'ready' && signals.config && (
         <CardHoverCard
           card={hoverCard.card}
           anchorRect={hoverCard.rect}
@@ -791,6 +803,7 @@ function WorkspaceInner({
 /** Header chip reporting the detected set + signal availability */
 function SetChip() {
   const { status, setCode, config } = useSignals();
+  const narrow = useIsNarrow();
   const base: React.CSSProperties = {
     display: 'inline-flex',
     alignItems: 'center',
@@ -807,7 +820,7 @@ function SetChip() {
     return (
       <span style={{ ...base, color: T.ink1 }}>
         <span style={{ width: 6, height: 6, borderRadius: '50%', backgroundColor: T.picked }} />
-        {config.code} · signals on
+        {config.code}{narrow ? '' : ' · signals on'}
       </span>
     );
   }
@@ -895,8 +908,9 @@ function upsertCollab(
 }
 
 function ResizablePool({ children }: { children: React.ReactNode }) {
+  const narrow = useIsNarrow();
   const [height, setHeight] = useState(180);
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(narrow);
   const dragging = useRef(false);
   const startY = useRef(0);
   const startH = useRef(0);
@@ -922,11 +936,12 @@ function ResizablePool({ children }: { children: React.ReactNode }) {
   return (
     <div style={{ flexShrink: 0, borderTop: `1px solid ${T.line0}` }}>
       <div
-        onPointerDown={collapsed ? undefined : onPointerDown}
-        onPointerMove={collapsed ? undefined : onPointerMove}
-        onPointerUp={collapsed ? undefined : onPointerUp}
+        onPointerDown={collapsed || narrow ? undefined : onPointerDown}
+        onPointerMove={collapsed || narrow ? undefined : onPointerMove}
+        onPointerUp={collapsed || narrow ? undefined : onPointerUp}
         style={{
-          height: 14,
+          height: narrow ? 'auto' : 14,
+          touchAction: 'none',
           cursor: collapsed ? 'default' : 'ns-resize',
           display: 'flex',
           alignItems: 'center',
@@ -934,7 +949,7 @@ function ResizablePool({ children }: { children: React.ReactNode }) {
           gap: 6,
         }}
       >
-        {!collapsed && <div style={{ width: 30, height: 3, borderRadius: 2, backgroundColor: T.line2 }} />}
+        {!collapsed && !narrow && <div style={{ width: 30, height: 3, borderRadius: 2, backgroundColor: T.line2 }} />}
         <button
           onClick={() => setCollapsed(!collapsed)}
           onPointerDown={(e) => e.stopPropagation()}
@@ -952,7 +967,7 @@ function ResizablePool({ children }: { children: React.ReactNode }) {
         >
           {collapsed ? 'Pool ^' : 'Pool v'}
         </button>
-        {!collapsed && <div style={{ width: 30, height: 3, borderRadius: 2, backgroundColor: T.line2 }} />}
+        {!collapsed && !narrow && <div style={{ width: 30, height: 3, borderRadius: 2, backgroundColor: T.line2 }} />}
       </div>
       {!collapsed && (
         <div style={{ height, overflow: 'auto' }}>

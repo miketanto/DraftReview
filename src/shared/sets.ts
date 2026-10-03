@@ -105,6 +105,7 @@ export const SET_REGISTRY: Record<string, SetConfig> = {
   DSK: genericSetConfig('DSK', 'Duskmourn: House of Horror', 'PremierDraft', '2025-09-01', '2026-07-24'),
   OTJ: genericSetConfig('OTJ', 'Outlaws of Thunder Junction', 'QuickDraft', '2025-09-01', '2026-07-24'),
   ECL: genericSetConfig('ECL', 'Lorwyn Eclipsed', 'PremierDraft', '2026-01-01', '2026-07-24'),
+  FRA: genericSetConfig('FRA', 'Reality Fracture', 'PremierDraft', '2026-10-02', '2026-10-03'),
 };
 
 export function getSetConfig(code: string | null | undefined): SetConfig | null {

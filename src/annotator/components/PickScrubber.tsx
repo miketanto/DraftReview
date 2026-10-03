@@ -1,4 +1,5 @@
 import { T } from '../../shared/theme';
+import { useIsNarrow } from '../../shared/useIsNarrow';
 
 export interface ScrubberCursor {
   color: string;
@@ -38,6 +39,7 @@ export function PickScrubber({
   cursors,
   packBreaks,
 }: PickScrubberProps) {
+  const narrow = useIsNarrow();
   const cells = [];
   for (let i = 0; i < totalPicks; i++) {
     const color = cellColors[i] ?? null;
@@ -112,6 +114,62 @@ export function PickScrubber({
   }
 
   const summaryActive = currentIndex >= totalPicks;
+
+  // Phones: the 42-cell strip is untappable — sticky Prev / position / Σ / Next bar instead
+  if (narrow) {
+    return (
+      <div
+        style={{
+          position: 'sticky',
+          bottom: 0,
+          zIndex: 50,
+          backgroundColor: T.bg0,
+          borderTop: `1px solid ${T.line0}`,
+          padding: '8px 0 calc(8px + env(safe-area-inset-bottom))',
+          display: 'flex',
+          alignItems: 'center',
+          gap: 8,
+        }}
+      >
+        <button
+          onClick={() => onJump(Math.max(0, currentIndex - 1))}
+          disabled={currentIndex <= 0}
+          style={{ ...keycapStyle(currentIndex <= 0), flexGrow: 1, flexShrink: 1, flexBasis: 0, minHeight: 44, fontSize: T.fs.t3 }}
+        >
+          ← Prev
+        </button>
+        <span style={{ color: T.ink1, fontSize: T.fs.t2, textAlign: 'center', whiteSpace: 'nowrap' }}>
+          {summaryActive ? 'Σ' : `P${Math.floor(currentIndex / 14) + 1}P${(currentIndex % 14) + 1}`}
+          {` · ${Math.min(currentIndex + 1, totalPicks)}/${totalPicks}`}
+        </span>
+        <button
+          onClick={() => onJump(totalPicks)}
+          title="Draft summary"
+          style={{
+            minWidth: 44,
+            minHeight: 44,
+            backgroundColor: T.bg2,
+            border: `1px solid ${summaryActive ? T.ink0 : T.gold}`,
+            borderRadius: T.radius.m,
+            color: T.gold,
+            fontSize: T.fs.t3,
+            fontWeight: 700,
+            cursor: 'pointer',
+            flexShrink: 0,
+          }}
+        >
+          Σ
+        </button>
+        <button
+          onClick={() => onJump(Math.min(totalPicks, currentIndex + 1))}
+          disabled={currentIndex >= totalPicks}
+          style={{ ...keycapStyle(currentIndex >= totalPicks), flexGrow: 1, flexShrink: 1, flexBasis: 0, minHeight: 44, fontSize: T.fs.t3 }}
+        >
+          Next →
+        </button>
+      </div>
+    );
+  }
 
   return (
     <div

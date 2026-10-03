@@ -12,7 +12,7 @@ import type { Card } from '../shared/types';
 
 const ALL_COLORS: Color[] = ['W', 'U', 'B', 'R', 'G'];
 
-function parseCmc(manaCost: string): number {
+export function parseCmc(manaCost: string): number {
   if (!manaCost) return 0;
   let total = 0;
   const tokens = manaCost.match(/\{([^}]+)\}/g) || [];
