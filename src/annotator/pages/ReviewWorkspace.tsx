@@ -13,6 +13,9 @@ import { LayerToggle } from '../components/LayerToggle';
 import { UserIdentityModal } from '../components/UserIdentityModal';
 import { SummaryTab } from '../components/SummaryTab';
 import { formatReviewText } from '../exportSummary';
+import { packInsights } from '../checkpoints';
+import { PackCheckpoint } from '../components/PackCheckpoint';
+import type { PackCheckpointNote } from '../types';
 import { CardHoverCard } from '../components/CardHoverCard';
 import { PickScrubber } from '../components/PickScrubber';
 import { GlossaryPopover } from '../components/GlossaryPopover';
@@ -382,6 +385,33 @@ function WorkspaceInner({
   const showSummary = pickIndex >= picks.length;
   const exported = showSummary && review ? formatReviewText(review, myAnnotations) : null;
 
+  const insights = useMemo(
+    () => (review ? packInsights(review.draftLog) : []),
+    [review?.draftLog], // eslint-disable-line react-hooks/exhaustive-deps
+  );
+  const setCheckpoint = (pack: number, note: PackCheckpointNote) => {
+    if (!isEditable || !review) return;
+    const prev = review.summary.checkpoints ?? [];
+    const checkpoints = Array.from({ length: Math.max(prev.length, pack + 1) }, (_, i) =>
+      i === pack ? note : prev[i] ?? { thinking: '', nextPack: '' });
+    setSummary({ ...review.summary, checkpoints });
+  };
+  const renderCheckpoint = (pack: number) => {
+    const insight = insights.find((i) => i.packNumber === pack);
+    if (!insight || !review) return null;
+    return (
+      <PackCheckpoint
+        key={pack}
+        insight={insight}
+        isLastPack={insight === insights[insights.length - 1]}
+        note={review.summary.checkpoints?.[pack]}
+        isEditable={isEditable}
+        onChange={(note) => setCheckpoint(pack, note)}
+      />
+    );
+  };
+  const isPackEnd = !!pick && picks[pickIndex + 1]?.pack_number !== pick.pack_number;
+
   const annotation = pick ? myAnnotations.find(
     (a) => a.packNumber === pick.pack_number && a.pickNumber === pick.pick_number,
   ) : undefined;
@@ -546,6 +576,7 @@ function WorkspaceInner({
             annotatedCount={exported?.pickCount ?? 0}
             summary={review!.summary}
             pool={actualPool}
+            checkpoints={insights.map((i) => renderCheckpoint(i.packNumber))}
             isEditable={canAnnotate}
             onChange={(s) => {
               if (isEditable) setSummary(s);
@@ -747,6 +778,7 @@ function WorkspaceInner({
 
         {/* Annotation panel */}
         <div style={{ width: narrow ? '100%' : 'clamp(280px, 26vw, 380px)', flexShrink: 0, overflow: narrow ? 'visible' : 'auto' }}>
+          {isPackEnd && <div style={{ marginBottom: 8 }}>{renderCheckpoint(pick!.pack_number)}</div>}
           <AnnotationPanel
             pick={pick!}
             annotation={annotation}

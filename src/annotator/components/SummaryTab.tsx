@@ -22,6 +22,8 @@ interface SummaryTabProps {
   exportText: string;
   annotatedCount: number;
   pool: RawDraftCard[];
+  /** Rendered end-of-pack checkpoint cards */
+  checkpoints: React.ReactNode[];
 }
 
 /**
@@ -29,7 +31,7 @@ interface SummaryTabProps {
  * plus the owner's own rating/notes. Set-aware: without signal data it
  * degrades to the notes editor alone.
  */
-export function SummaryTab({ summary, isEditable, onChange, exportText, annotatedCount, pool }: SummaryTabProps) {
+export function SummaryTab({ summary, isEditable, onChange, exportText, annotatedCount, pool, checkpoints }: SummaryTabProps) {
   const { status, config, analysis } = useSignals();
   const narrow = useIsNarrow();
 
@@ -81,6 +83,10 @@ export function SummaryTab({ summary, isEditable, onChange, exportText, annotate
             ? 'Loading signal analysis…'
             : 'Signal analysis unavailable for this set — annotator summary only'}
         </div>
+      )}
+
+      {checkpoints.length > 0 && (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>{checkpoints}</div>
       )}
 
       <DeckBuilder

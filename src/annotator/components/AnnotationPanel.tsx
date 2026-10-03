@@ -99,7 +99,7 @@ export function AnnotationPanel({
   }, [pick.pack_number, pick.pick_number]);
 
   const pa = signals.analysis?.picks.find(
-    (p) => p.packNumber === pick.pack_number && p.pickNumber === pick.pick_number,
+    (p) => p.packNumber === pick.pack_number + 1 && p.pickNumber === pick.pick_number + 1, // analysis is 1-based
   ) ?? null;
   const selectedCardObj = selectedCard ? pick.available.find((c) => c.name === selectedCard) : undefined;
 

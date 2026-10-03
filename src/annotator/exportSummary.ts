@@ -2,7 +2,8 @@ import type { DraftReview, PickAnnotation } from './types';
 
 /**
  * Plain-text, Discord-pasteable walkthrough: one line per annotated pick
- * (note, card notes, ranks, timeline alt picks), then the closing summary.
+ * (note, card notes, ranks, timeline alt picks), end-of-pack checkpoints,
+ * then the closing summary.
  */
 export function formatReviewText(
   review: DraftReview,
@@ -24,7 +25,7 @@ export function formatReviewText(
   let pickCount = 0;
   const out: string[] = [head, `https://www.17lands.com/draft/${review.draftId}`];
 
-  for (const p of review.draftLog) {
+  for (const [i, p] of review.draftLog.entries()) {
     const k = key(p.pack_number, p.pick_number);
     const a = byPick.get(k);
     const lines: string[] = [];
@@ -35,9 +36,18 @@ export function formatReviewText(
       if (note.trim()) lines.push(`- ${card}: ${note.trim()}`);
     }
     const note = a?.note.trim() ?? '';
-    if (!note && !lines.length) continue;
-    pickCount++;
-    out.push('', `P${p.pack_number + 1}p${p.pick_number + 1} (took ${p.pick.name})${note ? `: ${note}` : ''}`, ...lines);
+    if (note || lines.length) {
+      pickCount++;
+      out.push('', `P${p.pack_number + 1}p${p.pick_number + 1} (took ${p.pick.name})${note ? `: ${note}` : ''}`, ...lines);
+    }
+
+    const cp = review.summary.checkpoints?.[p.pack_number];
+    const packEnd = review.draftLog[i + 1]?.pack_number !== p.pack_number;
+    if (packEnd && cp && (cp.thinking.trim() || cp.nextPack.trim())) {
+      out.push('', `— Pack ${p.pack_number + 1} checkpoint —`);
+      if (cp.thinking.trim()) out.push(`Thinking: ${cp.thinking.trim()}`);
+      if (cp.nextPack.trim()) out.push(`${review.draftLog[i + 1] ? 'Next pack' : 'Takeaway'}: ${cp.nextPack.trim()}`);
+    }
   }
 
   if (closingThoughts.trim()) out.push('', 'Closing thoughts:', closingThoughts.trim());

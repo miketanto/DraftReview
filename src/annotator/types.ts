@@ -20,6 +20,13 @@ export interface DraftSummary {
   improvements: string;
   /** Sealed-style deck versions built from the pool; absent on older reviews */
   decks?: DeckVersion[];
+  /** End-of-pack reflections, indexed by 0-based pack number */
+  checkpoints?: PackCheckpointNote[];
+}
+
+export interface PackCheckpointNote {
+  thinking: string;
+  nextPack: string;
 }
 
 export interface DeckVersion {
