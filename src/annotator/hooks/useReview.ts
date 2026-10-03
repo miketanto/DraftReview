@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import type { DraftReview, PickAnnotation, Timeline, DraftSummary } from '../types';
+import type { DraftReview, PickAnnotation, PickVerdict, Timeline, DraftSummary } from '../types';
 import { fetchReview, updateReview } from '../api';
 
 export type SaveStatus = 'idle' | 'saving' | 'saved' | 'error';
@@ -81,6 +81,15 @@ export function useReview(reviewId: string) {
     ));
   }, [setAnnotations]);
 
+  const updatePickVerdict = useCallback((packNumber: number, pickNumber: number, verdict: PickVerdict | undefined) => {
+    setAnnotations(upsertAnnotation(
+      latestState.current?.annotations ?? [],
+      packNumber,
+      pickNumber,
+      (a) => ({ ...a, verdict }),
+    ));
+  }, [setAnnotations]);
+
   const updateCardNote = useCallback((packNumber: number, pickNumber: number, cardName: string, note: string) => {
     setAnnotations(upsertAnnotation(
       latestState.current?.annotations ?? [],
@@ -123,6 +132,7 @@ export function useReview(reviewId: string) {
     setTimelines,
     setSummary,
     updatePickNote,
+    updatePickVerdict,
     updateCardNote,
     updateCardRank,
   };

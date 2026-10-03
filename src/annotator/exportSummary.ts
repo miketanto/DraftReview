@@ -24,6 +24,11 @@ export function formatReviewText(
   const head = [review.expansion, 'draft review', rating ? `— ${rating}/10` : ''].filter(Boolean).join(' ');
   let pickCount = 0;
   const out: string[] = [head, `https://www.17lands.com/draft/${review.draftId}`];
+  const tally = { good: 0, maybe: 0, no: 0 };
+  for (const a of annotations) if (a.verdict) tally[a.verdict]++;
+  if (tally.good + tally.maybe + tally.no) {
+    out.push(`Picks: ${tally.good} good · ${tally.maybe} maybe · ${tally.no} no`);
+  }
 
   for (const [i, p] of review.draftLog.entries()) {
     const k = key(p.pack_number, p.pick_number);
@@ -36,9 +41,10 @@ export function formatReviewText(
       if (note.trim()) lines.push(`- ${card}: ${note.trim()}`);
     }
     const note = a?.note.trim() ?? '';
-    if (note || lines.length) {
+    const flag = a?.verdict === 'maybe' || a?.verdict === 'no' ? ` [${a.verdict.toUpperCase()}]` : '';
+    if (note || lines.length || flag) {
       pickCount++;
-      out.push('', `P${p.pack_number + 1}p${p.pick_number + 1} (took ${p.pick.name})${note ? `: ${note}` : ''}`, ...lines);
+      out.push('', `P${p.pack_number + 1}p${p.pick_number + 1} (took ${p.pick.name})${flag}${note ? `: ${note}` : ''}`, ...lines);
     }
 
     const cp = review.summary.checkpoints?.[p.pack_number];

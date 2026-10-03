@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useSearchParams } from 'react-router-dom';
 import { useReview } from '../hooks/useReview';
 import { useTimeline } from '../hooks/useTimeline';
 import { useCollabUser } from '../hooks/useCollabUser';
@@ -15,7 +15,8 @@ import { SummaryTab } from '../components/SummaryTab';
 import { formatReviewText } from '../exportSummary';
 import { packInsights } from '../checkpoints';
 import { PackCheckpoint } from '../components/PackCheckpoint';
-import type { PackCheckpointNote } from '../types';
+import { QuickReview } from '../components/QuickReview';
+import type { PackCheckpointNote, PickVerdict } from '../types';
 import { CardHoverCard } from '../components/CardHoverCard';
 import { PickScrubber } from '../components/PickScrubber';
 import { GlossaryPopover } from '../components/GlossaryPopover';
@@ -65,6 +66,7 @@ function WorkspaceInner({
     setTimelines,
     setSummary,
     updatePickNote,
+    updatePickVerdict,
     updateCardNote,
     updateCardRank,
   } = reviewState;
@@ -83,6 +85,9 @@ function WorkspaceInner({
   } = useCollabSocket(id, collabUser);
 
   const [pickIndex, setPickIndex] = useState(0);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const quick = searchParams.get('mode') === 'quick';
+  const setQuick = (on: boolean) => setSearchParams(on ? { mode: 'quick' } : {}, { replace: true });
   const [selectedCard, setSelectedCard] = useState<string | null>(null);
   const [activeTimelineId, setActiveTimelineId] = useState<string | null>(null);
   const [visibleLayerIds, setVisibleLayerIds] = useState<Set<string>>(new Set());
@@ -233,6 +238,18 @@ function WorkspaceInner({
     }
   }, [pick, isEditable, updatePickNote, broadcastMyAnnotations, collabAnnotations, broadcastCollabAnnotations, requireIdentity]);
 
+  const handlePickVerdict = useCallback((verdict: PickVerdict | undefined) => {
+    if (!pick || requireIdentity()) return;
+    if (isEditable) {
+      updatePickVerdict(pick.pack_number, pick.pick_number, verdict);
+      broadcastMyAnnotations();
+    } else {
+      const updated = upsertCollab(collabAnnotations, pick.pack_number, pick.pick_number, (a) => ({ ...a, verdict }));
+      setCollabAnnotations(updated);
+      broadcastCollabAnnotations(updated);
+    }
+  }, [pick, isEditable, updatePickVerdict, broadcastMyAnnotations, collabAnnotations, broadcastCollabAnnotations, requireIdentity]);
+
   const handleCardNoteChange = useCallback((cardName: string, note: string) => {
     if (!pick || requireIdentity()) return;
     if (isEditable) {
@@ -349,7 +366,7 @@ function WorkspaceInner({
       (ticks[idx] ??= []).push(color);
     };
     const hasContent = (a: PickAnnotation) =>
-      !!a.note || Object.keys(a.cardNotes).length > 0;
+      !!a.note || Object.keys(a.cardNotes).length > 0 || a.verdict === 'maybe' || a.verdict === 'no';
 
     for (const a of myAnnotations) if (hasContent(a)) add(a.packNumber, a.pickNumber, T.amber);
     if (!isEditable && review) {
@@ -512,20 +529,34 @@ function WorkspaceInner({
       )}
 
       <div style={{ display: 'flex', alignItems: 'center', gap: narrow ? '4px 12px' : 12, marginBottom: 4, ...(narrow ? { flexWrap: 'wrap' } : {}) }}>
-        <TimelineSwitcher
-          timelines={review!.timelines}
-          activeTimelineId={activeTimelineId}
-          isEditable={isEditable}
-          onSwitch={setActiveTimelineId}
-          onTimelinesChange={setTimelines}
-        />
+        {!quick && (
+          <TimelineSwitcher
+            timelines={review!.timelines}
+            activeTimelineId={activeTimelineId}
+            isEditable={isEditable}
+            onSwitch={setActiveTimelineId}
+            onTimelinesChange={setTimelines}
+          />
+        )}
         <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 12 }}>
           <div style={{ display: 'flex', gap: 3 }}>
             <button
-              onClick={() => jumpTo(Math.min(lastPickIndexRef.current, Math.max(picks.length - 1, 0)))}
-              style={tabStyle(!showSummary)}
+              onClick={() => {
+                setQuick(false);
+                jumpTo(Math.min(lastPickIndexRef.current, Math.max(picks.length - 1, 0)));
+              }}
+              style={tabStyle(!showSummary && !quick)}
             >
               PICKS
+            </button>
+            <button
+              onClick={() => {
+                setQuick(true);
+                if (showSummary) jumpTo(Math.min(lastPickIndexRef.current, Math.max(picks.length - 1, 0)));
+              }}
+              style={tabStyle(!showSummary && quick)}
+            >
+              QUICK
             </button>
             <button onClick={() => jumpTo(picks.length)} style={tabStyle(showSummary)}>
               SUMMARY
@@ -541,6 +572,20 @@ function WorkspaceInner({
         </div>
       </div>
 
+      {quick && !showSummary ? (
+        <QuickReview
+          picks={picks}
+          pickIndex={pickIndex}
+          annotation={annotation}
+          annotations={myAnnotations}
+          canAnnotate={canAnnotate}
+          onVerdict={handlePickVerdict}
+          onComment={handlePickNoteChange}
+          onPrev={() => jumpTo(Math.max(0, pickIndex - 1))}
+          onNext={() => jumpTo(pickIndex + 1)}
+        />
+      ) : (
+      <>
       {/* ALT-PICK MODE STRIP — the click-semantics switch made visible */}
       {altMode && (
         <div
@@ -813,6 +858,8 @@ function WorkspaceInner({
           alternatePool={activeTimeline && activeTimeline.divergences.length > 0 ? alternatePool : null}
         />
       </ResizablePool>
+      </>
+      )}
 
       {hoverCard && !narrow && pick && signals.status === 'ready' && signals.config && (
         <CardHoverCard

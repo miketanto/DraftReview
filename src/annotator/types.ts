@@ -44,7 +44,11 @@ export interface PickAnnotation {
   note: string;
   cardNotes: Record<string, string>;
   cardRanks: Record<string, number>;
+  /** Quick-review verdict on the actual pick; the comment lives in `note` */
+  verdict?: PickVerdict;
 }
+
+export type PickVerdict = 'good' | 'maybe' | 'no';
 
 export interface Timeline {
   id: string;

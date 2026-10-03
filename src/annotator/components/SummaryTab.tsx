@@ -3,9 +3,9 @@ import { useSignals } from '../SignalContext';
 import { DraftSummaryPanel } from './DraftSummaryPanel';
 import { DeckBuilder } from './DeckBuilder';
 import { useIsNarrow } from '../../shared/useIsNarrow';
-import { ARCHETYPES, ARCHETYPE_COLORS, ARCHETYPE_ABBREV } from '../../shared/constants';
+import { ARCHETYPE_COLORS, ARCHETYPE_ABBREV } from '../../shared/constants';
 import { T, label } from '../../shared/theme';
-import type { ArchetypeId, Archetype } from '../../shared/types';
+import type { ArchetypeId } from '../../shared/types';
 import type { SetConfig } from '../../shared/sets';
 import type {
   PickAnalysis,
@@ -111,9 +111,6 @@ function SignalSummary({
   config: SetConfig;
 }) {
   const narrow = useIsNarrow();
-  const differ = analysis.mostOpenArchetype !== analysis.userArchetype;
-  const mostOpen = archetypeOf(analysis.mostOpenArchetype, config);
-  const drafted = archetypeOf(analysis.userArchetype, config);
 
   const topMissed = useMemo(
     () =>
@@ -125,28 +122,6 @@ function SignalSummary({
 
   return (
     <>
-      {/* VERDICT ROW */}
-      <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
-        <VerdictCell heading="MOST OPEN" archetype={mostOpen} />
-        <VerdictCell heading="YOU DRAFTED" archetype={drafted} />
-      </div>
-      {differ && (
-        <div
-          style={{
-            color: T.amber,
-            backgroundColor: 'rgba(224,163,59,0.10)',
-            border: `1px solid ${T.amber}`,
-            borderRadius: T.radius.m,
-            padding: '5px 10px',
-            fontSize: T.fs.t3,
-            fontWeight: 700,
-            letterSpacing: '0.04em',
-          }}
-        >
-          The seat was open in {mostOpen.name} — you were in {drafted.name}
-        </div>
-      )}
-
       {/* SIGNAL TIMELINE */}
       <Panel title="SIGNAL TIMELINE">
         <TimelineChart
@@ -267,53 +242,6 @@ function SignalSummary({
         </Panel>
       )}
     </>
-  );
-}
-
-function archetypeOf(id: ArchetypeId, config: SetConfig): Archetype {
-  return config.archetypes.find((a) => a.id === id) ?? ARCHETYPES[id];
-}
-
-function VerdictCell({ heading, archetype }: { heading: string; archetype: Archetype }) {
-  const color = ARCHETYPE_COLORS[archetype.id] ?? T.ink0;
-  return (
-    <div
-      style={{
-        flex: 1,
-        minWidth: 220,
-        backgroundColor: T.bg1,
-        border: `1px solid ${T.line0}`,
-        borderRadius: T.radius.l,
-        padding: 12,
-      }}
-    >
-      <div style={{ ...label, marginBottom: 6 }}>{heading}</div>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-        <span style={{ color, fontSize: T.fs.t5, fontWeight: 700, letterSpacing: '0.04em' }}>
-          {archetype.name.toUpperCase()}
-        </span>
-        <ArchChip id={archetype.id} />
-        <span style={{ display: 'inline-flex', gap: 3 }}>
-          {archetype.colors.split('').map((c, i) => (
-            <span
-              key={i}
-              title={c}
-              style={{
-                width: 11,
-                height: 11,
-                borderRadius: '50%',
-                backgroundColor: T.mana[c] ?? T.ink2,
-                border: '1px solid rgba(0,0,0,0.55)',
-                display: 'inline-block',
-              }}
-            />
-          ))}
-        </span>
-      </div>
-      <div style={{ color: T.ink2, fontSize: T.fs.t2, marginTop: 5 }}>
-        {archetype.mechanic} · {archetype.playstyle}
-      </div>
-    </div>
   );
 }
 
